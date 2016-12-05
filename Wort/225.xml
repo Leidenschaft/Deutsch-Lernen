@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<Stichwort>Kaufmann</Stichwort>
+<Einheit>4</Einheit>
+<Anteil>Leseverstehen</Anteil>
+<Genus>der</Genus>
+<Pluralform>Kaufmannleute</Pluralform>
+<GenitivSingular/>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K/>
+		<K_/>
+	</KompositaCollection>
+	<abgeleiteteWörter/></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym/>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K/>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>商人</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Er ist Kaufmann,alleinstehend und hat eine feste Stelle.</Satz>
+				<Übersetzung/>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Sein Beruf ist Kaufmann.</Satz>
+				<Übersetzung>他是商人。</Übersetzung>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Entry>

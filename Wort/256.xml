@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Ingenieur</Stichwort>
+  <Einheit>4</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>Ingenieure</Pluralform>
+  <GenitivSingular>Ingenieurs</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <K_>Bauingenieur (建筑工程师)</K_>
+      <K_>Elektroingenieur</K_>
+      <K_>Maschinenbauingenieur (机械制造工程师)</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter>
+      <hierzu category="Substantiv">Ingenieurin</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>工程师</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Mein Vater ist Ingenieur.</Satz>
+          <Übersetzung>我爸是工程师。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

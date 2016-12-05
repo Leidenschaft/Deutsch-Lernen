@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Hemd</Stichwort>
+  <Einheit>3</Einheit>
+  <Anteil>Einführung</Anteil>
+  <Genus>das</Genus>
+  <Pluralform>Hemden</Pluralform>
+  <GenitivSingular>Hemds</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <K_>Freizeithemd</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>衬衫</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Das Hemd ist aus China.</Satz>
+          <Übersetzung>这件衬衫产自中国。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

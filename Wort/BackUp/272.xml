@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet type="text/xsl" href="NounRenderTemplate.xslt"?><Eintrag category="Substantiv">
+<Stichwort>Krankenhaus</Stichwort>
+<Einheit>9</Einheit>
+<Anteil>Text</Anteil>
+<Genus>das</Genus>
+<Pluralform>Krankenhäuser</Pluralform>
+<GenitivSingular/>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K/>
+		<K_/>
+	</KompositaCollection>
+	<abgeleiteteWörter/></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym>Klinik</Sym>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K>ins Krankenhaus liegen</K>
+<K>jemanden ins Krankenhaus bringen</K>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>医院</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Frau Müller liegt im Krankenhaus.</Satz>
+				<Übersetzung>米勒女士住院了。</Übersetzung>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Eintrag>

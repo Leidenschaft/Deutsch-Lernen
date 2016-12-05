@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<Stichwort>Mann1</Stichwort>
+<Einheit>1</Einheit>
+<Anteil>2</Anteil>
+<Genus>der</Genus>
+<Pluralform>Männer</Pluralform>
+<GenitivSingular/>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K/>
+		<K_/>
+	</KompositaCollection>
+	<abgeleiteteWörter/></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym/>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K/>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>男人</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Der Mann ist stark.</Satz>
+				<Übersetzung>这位男士很健壮。</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Unser Team hat Männer und zwei Frauen.</Satz>
+				<Übersetzung>我们组内有多名男生和两名女生。</Übersetzung>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Entry>

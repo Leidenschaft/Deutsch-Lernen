@@ -1,0 +1,52 @@
+\documentclass[12pt]{article}
+\usepackage{makeidx}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage[dvipsnames,svgnames,table]{xcolor}
+\usepackage[dvips]{graphicx}
+\usepackage{ulem}
+\usepackage{hyperref}
+\author{the TBE crew}
+\title{Statement}
+\setlength{\paperwidth}{419pt}
+\setlength{\paperheight}{595pt}
+\setlength{\textheight}{451pt}
+\setlength{\textwidth}{239pt}
+\setlength{\voffset}{-72pt}
+\setlength{\hoffset}{-72pt}
+\setlength{\evensidemargin}{90pt}
+\setlength{\oddsidemargin}{90pt}
+\setlength{\topmargin}{39pt}
+\setlength{\headheight}{13pt}
+\setlength{\headsep}{20pt}
+
+\makeatletter
+	\newenvironment{indentation}[3]%
+	{\par\setlength{\parindent}{#3}
+	\setlength{\leftmargin}{#1} \setlength{\rightmargin}{#2}%
+	\advance\linewidth -\leftmargin \advance\linewidth -\rightmargin%
+	\advance\@totalleftmargin\leftmargin \@setpar{{\@@par}}%
+	\parshape 1\@totalleftmargin \linewidth\ignorespaces}{\par}%
+\makeatother 
+
+% new LaTeX commands
+\newcommand{\styleCaption}[1]{\textit{#1}}
+\newcommand{\styleEndnoteCharacters}[1]{#1}
+\newcommand{\styleFootnoteCharacters}[1]{$^{#1}$}
+\newcommand{\styleHeading}[1]{{\large \textsf{#1}}}
+\newcommand{\styleIndex}[1]{#1}
+\newcommand{\styleStandaardalinealettertypeOne}[1]{#1}
+
+
+\begin{document}
+\section{\textsf{Review}}
+
+{\raggedright
+\begin{indentation}{0pt}{0pt}{0pt}
+{\large \textit{Die Leiden des jungen Werther\footnote{ by Goethe
+}} is an \textit{exceptionally} good example of a book full of
+\textit{Weltschmerz}.}
+\end{indentation}
+}
+
+\end{document}

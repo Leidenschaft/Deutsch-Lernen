@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet type="text/xsl" href="NounRenderTemplate.xslt"?><Eintrag category="Substantiv">
+<Stichwort>Kurs</Stichwort>
+<Einheit>8</Einheit>
+<Anteil>Hörverstehen</Anteil>
+<Genus>der</Genus>
+<Pluralform>Kurse</Pluralform>
+<GenitivSingular/>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K/>
+		<K_/>
+	</KompositaCollection>
+	<abgeleiteteWörter/></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym/>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K/>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>培训班</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Sie besucht gerade einen Fotokurs.</Satz>
+				<Übersetzung/>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Eintrag>

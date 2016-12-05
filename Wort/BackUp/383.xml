@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet type="text/xsl" href="NounRenderTemplate.xslt"?><Eintrag category="Substantiv">
+<Stichwort>Restaurant</Stichwort>
+<Einheit>5</Einheit>
+<Anteil>Text</Anteil>
+<Genus>das</Genus>
+<Pluralform>Restaurants</Pluralform>
+<GenitivSingular/>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K/>
+		<K_/>
+	</KompositaCollection>
+	<abgeleiteteWörter/></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym/>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K/>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>餐馆</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Das ist ein China-Restaurant.</Satz>
+				<Übersetzung/>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Eintrag>

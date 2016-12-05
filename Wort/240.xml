@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Haushalt</Stichwort>
+  <Einheit>7</Einheit>
+  <Anteil>Einführung</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>o.Pl.</Pluralform>
+  <GenitivSingular>Haushalts</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>家务</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Meine Mutter macht bei mir zu Hause den Haushalt.</Satz>
+          <Übersetzung>我的母亲在家帮我做家务。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

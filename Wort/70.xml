@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Einfamilienhaus</Stichwort>
+  <Einheit>6</Einheit>
+  <Anteil>Einführung</Anteil>
+  <Genus>das</Genus>
+  <Pluralform>Einfämilienhäuser</Pluralform>
+  <GenitivSingular/>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe>
+    <Anm>Mehrfamilienhaus</Anm>
+  </Antonymegruppe>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>单户住宅</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Hier sieht man ein Einfamilienhaus.</Satz>
+          <Übersetzung>这儿有间单户住宅。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

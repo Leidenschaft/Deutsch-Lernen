@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Zug</Stichwort>
+  <Einheit>3</Einheit>
+  <Anteil>Intentionen</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>Züge</Pluralform>
+  <GenitivSingular>Zug(e)s</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Zugrestaurant</_K>
+      <_K>Zugpersonal</_K>
+      <K_>Postzug</K_>
+      <K_>U-Bahnzug</K_>
+      <K_>Nachtzug</K_>
+      <K_>Schnellzug</K_>
+      <K_>Vogelzug</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe>
+    <Sym>Druck</Sym>
+  </Synonymegruppe>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>mit dem Zug fahren</K>
+    <K>den Zug fahren</K>
+    <K>den Zug nehmen</K>
+    <K>den Zug erreichen</K>
+    <K>den Zug verpassen</K>
+    <K>der Zug läuft im Bahnhof ein</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>火车</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Sie können den Zug aus Hannover nach Salzburg nehmen.</Satz>
+          <Übersetzung>您可以乘坐汉诺威开往萨尔茨堡的火车。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>吸引，迁移</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Der Apfel fällt wegen des Zugs der Schwerkraft.</Satz>
+          <Übersetzung>苹果由于重力的吸引落下。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

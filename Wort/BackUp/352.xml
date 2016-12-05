@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet type="text/xsl" href="NounRenderTemplate.xslt"?><Eintrag category="Substantiv">
+<Stichwort>Park</Stichwort>
+<Einheit>6</Einheit>
+<Anteil>Hörverstehen</Anteil>
+<Genus>der</Genus>
+<Pluralform>Parks</Pluralform>
+<GenitivSingular/>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K/>
+		<K_/>
+	</KompositaCollection>
+	<abgeleiteteWörter/></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym/>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K/>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>公园</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Der Park ist sehr groß.</Satz>
+				<Übersetzung/>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Eintrag>

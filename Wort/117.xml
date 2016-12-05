@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Gas</Stichwort>
+  <Einheit>1</Einheit>
+  <Anteil>2</Anteil>
+  <Genus>das</Genus>
+  <Pluralform>Gase</Pluralform>
+  <GenitivSingular/>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <K_>Giftgas (有毒气体)</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter>
+      <hierzu category="Adjektiv">gasförmig (气态的)</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>煤气</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Gib mehr Gas!</Satz>
+          <Übersetzung>加点燃气。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

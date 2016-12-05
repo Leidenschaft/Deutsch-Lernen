@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Bein</Stichwort>
+  <Einheit>9</Einheit>
+  <Anteil>Einführung</Anteil>
+  <Genus>das</Genus>
+  <Pluralform>Beine</Pluralform>
+  <GenitivSingular>Beines</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>etwas hat Beine bekommen</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>腿</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Mein Schlüssel bekommt Beine.</Satz>
+          <Übersetzung>我的钥匙丢了。</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Es gibt Stuhn mit drei Beinen.</Satz>
+          <Übersetzung>有的椅子只有三条腿。</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Der Kranke steht gerade mit einem Bein im Grabe.</Satz>
+          <Übersetzung>这位病人已经病入膏肓了。</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Der Kranke war wieder auf den Beinen.</Satz>
+          <Übersetzung>病人已经康复了。</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Er ist ein Mann mit beiden Beinen fest im Leben.</Satz>
+          <Übersetzung>他是一个脚踏实地的人。</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Viele Japanische Studenten stehen auf eigenen Beinen.</Satz>
+          <Übersetzung>许多日本的大学生自食其力。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

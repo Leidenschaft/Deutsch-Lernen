@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet type="text/xsl" href="NounRenderTemplate.xslt"?><Eintrag category="Substantiv">
+<Stichwort>Kanne</Stichwort>
+<Einheit>1</Einheit>
+<Anteil>2</Anteil>
+<Genus>die</Genus>
+<Pluralform>Kannen</Pluralform>
+<GenitivSingular/>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<K_>Teekanne</K_>
+		<K_>Milchkanne</K_>
+		<K_>Kaffeekanne</K_>
+	</KompositaCollection>
+	<abgeleiteteWörter/></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym/>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K/>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>壶</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Ist das eine Teekanne?</Satz>
+				<Übersetzung>这是茶壶吗？</Übersetzung>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Eintrag>

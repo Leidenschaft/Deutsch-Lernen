@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Großeltern</Stichwort>
+  <Einheit>4</Einheit>
+  <Anteil>Einführung</Anteil>
+  <Genus>das</Genus>
+  <Pluralform>Großeltern</Pluralform>
+  <GenitivSingular/>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>祖父母</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Das sind meine Großeltern,Eltern und Geschwister.</Satz>
+          <Übersetzung>这是我的祖父母、父母和兄弟姐妹。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

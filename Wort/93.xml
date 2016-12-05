@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Feldberg</Stichwort>
+  <Einheit>8</Einheit>
+  <Anteil>Leseverstehen</Anteil>
+  <Genus>das</Genus>
+  <Pluralform>o.Pl.</Pluralform>
+  <GenitivSingular/>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>弗尔特贝格山</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Ein Auto hat ihn bis zum Feldberg mitgenommen.</Satz>
+          <Übersetzung>一辆车把他送到了弗尔特贝格山。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

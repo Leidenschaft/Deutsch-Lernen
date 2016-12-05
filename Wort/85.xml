@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Fahrrad</Stichwort>
+  <Einheit>4</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>das</Genus>
+  <Pluralform>Fahrräder</Pluralform>
+  <GenitivSingular/>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <K_>Fahrradfahrer</K_>
+      <K_>Fahrradtour</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>mit dem Fahrrad fahren</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>自行车,轮子</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Fährst du gern Fahrrad?</Satz>
+          <Übersetzung>你喜欢骑自行车吗？</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Am früh morgen von Sammstag fuhren wir mit dem Fahhrad zum Tian an'men Platz, um dort  __ zu sehen.  </Satz>
+          <Übersetzung>这周六清早我们去天安门广场看升旗。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

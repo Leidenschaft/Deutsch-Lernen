@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet type="text/xsl" href="NounRenderTemplate.xslt"?><Eintrag category="Substantiv">
+<Stichwort>Kartoffel</Stichwort>
+<Einheit>5</Einheit>
+<Anteil>Einführung</Anteil>
+<Genus>die</Genus>
+<Pluralform>Kartoffeln</Pluralform>
+<GenitivSingular/>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K/>
+		<K_>Speisekartoffeln(主食马铃薯)</K_>
+	</KompositaCollection>
+	<abgeleiteteWörter/></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym/>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K>Kartoffeln kochen</K>
+<K>Kartoffeln pflanzen</K>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>土豆</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Li Ming isst nicht gern Kartoffeln.</Satz>
+				<Übersetzung>李明不喜欢吃土豆。</Übersetzung>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Eintrag>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet type="text/xsl" href="NounRenderTemplate.xslt"?><Eintrag category="Substantiv">
+<Stichwort>Körper</Stichwort>
+<Einheit>9</Einheit>
+<Anteil>Einführung</Anteil>
+<Genus>der</Genus>
+<Pluralform>Körper</Pluralform>
+<GenitivSingular/>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K/>
+		<K_>Körpertemperatur</K_>
+		<K_>Flugkörper (流体)</K_>
+	</KompositaCollection>
+	<abgeleiteteWörter/></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym/>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K/>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>身体</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Er treibt oft Sport und hat einen gesunden Körper.</Satz>
+				<Übersetzung>他经常运动，因而有好身体。</Übersetzung>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+		<Eintrag>
+		<Chinesisch>物质</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Sauerstoff ist ein gasförmiger Körper.</Satz>
+				<Übersetzung>氧气是一种气态物质。</Übersetzung>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+
+</AllgemeineErläuterungen>
+
+</Eintrag>

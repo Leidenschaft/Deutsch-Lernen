@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Welt</Stichwort>
+  <Einheit>2</Einheit>
+  <Anteil>Leseverstehen</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>Welten</Pluralform>
+  <GenitivSingular>Welt</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Weltmeister</_K>
+      <_K>Weltkarte</_K>
+      <_K>Weltkrieg</_K>
+      <_K>Weltklasse</_K>
+      <_K>Weltkugel</_K>
+      <_K>Weltkulturerbe</_K>
+      <_K>Weltflucht</_K>
+      <_K>weltfremd</_K>
+      <_K>weltbekannt</_K>
+      <_K>weltgewandt</_K>
+      <_K>weltbest</_K>
+      <K_>Gelehrtenwelt</K_>
+      <K_>Tierwelt</K_>
+      <K_>Damenwelt</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter>
+      <hierzu category="Adjektiv">weltlich</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>die Welt kennenlernen</K>
+    <K>um die Welt reisen</K>
+    <K>die Welt verändern</K>
+    <K>die Welt des Kindes</K>
+    <K>die Welt der Antike</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>世界，全世界的人</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Diese Nachricht hat die Welt erschüttert.</Satz>
+          <Übersetzung>这个消息震惊了世界。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>领域，界</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Seine Welt ist die Musik.</Satz>
+          <Übersetzung>音乐就是他的一切。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

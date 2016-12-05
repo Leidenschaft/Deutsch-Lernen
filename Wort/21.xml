@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Bad</Stichwort>
+  <Einheit>6</Einheit>
+  <Anteil>Einführung</Anteil>
+  <Genus>das</Genus>
+  <Pluralform>Bäder</Pluralform>
+  <GenitivSingular>Bades</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <K_>Bademütze</K_>
+      <K_>Badewasser</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe>
+    <Sym>Badezimmer</Sym>
+  </Synonymegruppe>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>ein Bad nehmen</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>浴室</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Das Bad ist klein.</Satz>
+          <Übersetzung>这间浴室比较小。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>洗澡</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Heute Abend nehme ich ein Bad.</Satz>
+          <Übersetzung>今天晚上我洗了个澡。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>洗澡水</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Das Bad ist zu kalt.</Satz>
+          <Übersetzung>洗澡水太凉了。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

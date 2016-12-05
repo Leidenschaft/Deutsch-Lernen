@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Boot</Stichwort>
+  <Einheit>1</Einheit>
+  <Anteil>2</Anteil>
+  <Genus>das</Genus>
+  <Pluralform>Boote</Pluralform>
+  <GenitivSingular/>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Motroboot</_K>
+      <_K>Paddelboot</_K>
+      <K_>Bootsfahrt</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>小船</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Das ist ein Boot.</Satz>
+          <Übersetzung>这是一条船。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

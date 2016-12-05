@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<Stichwort>Lied</Stichwort>
+<Einheit>4</Einheit>
+<Anteil>Hörverstehen</Anteil>
+<Genus>das</Genus>
+<Pluralform>Lieder</Pluralform>
+<GenitivSingular/>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K link="230.xml">Kinderlied</_K>
+		<K_>Liedtext</K_>
+	</KompositaCollection>
+	<abgeleiteteWörter/></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym>Song</Sym>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K/>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>歌曲</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Singen Sie bitte das Lied noch einmal!</Satz>
+				<Übersetzung>请您把这首歌再唱一遍。</Übersetzung>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Entry>

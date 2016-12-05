@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Verzeihung</Stichwort>
+  <Einheit>10</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>nur Sg</Pluralform>
+  <GenitivSingular>Verzeihung</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter>
+      <hierzu category="Adjektiv">verzeihlich</hierzu>
+      <hierzu category="Verben">verzeihen</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe>
+    <Sym>Entschuldigung</Sym>
+  </Synonymegruppe>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>jn. um Verzeihung für etwas bitten</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>道歉，不好意思</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Ich habe es nicht nötig, ihn um Verzeihung zu bitten.</Satz>
+          <Übersetzung>我没有必要请求他原谅。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

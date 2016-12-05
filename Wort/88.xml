@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Familie</Stichwort>
+  <Einheit>4</Einheit>
+  <Anteil>Einführung</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>Familien</Pluralform>
+  <GenitivSingular>Familie</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Großfamilie</_K>
+      <K_>Familieausflug</K_>
+      <K_>Familiefoto</K_>
+      <K_>Familiemitglied</K_>
+      <_K>Kleinfamilie</_K>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>Familie haben</K>
+    <K>eine Familie gründen</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>家庭</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Das ist meine Familie.</Satz>
+          <Übersetzung>这是我的家庭。</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Ich lebe in eine dreiköpfige Familie.</Satz>
+          <Übersetzung>我生活在一三口之家。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>家族</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Im ,,Der Traum der Roten Kammer'' ist alte Frau Liu __ Familie von Jia-Clan.</Satz>
+          <Übersetzung>在《红楼梦》里，刘姥姥是贾府的远亲。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

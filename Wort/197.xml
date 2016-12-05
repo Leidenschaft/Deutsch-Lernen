@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Wohnzimmer</Stichwort>
+  <Einheit>6</Einheit>
+  <Anteil>Einfürung</Anteil>
+  <Genus>das</Genus>
+  <Pluralform>Wohnzimmer</Pluralform>
+  <GenitivSingular>Wohnzimmers</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>起居室，客厅</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Der Hausherr führt seine Gäste ins Wohnzimmer.</Satz>
+          <Übersetzung>主人将客人领进起居室。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

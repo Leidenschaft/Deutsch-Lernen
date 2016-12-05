@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<Stichwort>Lust</Stichwort>
+<Einheit>4</Einheit>
+<Anteil>Intentionen</Anteil>
+<Genus>die</Genus>
+<Pluralform>o.Pl.</Pluralform>
+<GenitivSingular/>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K/>
+		<K_/>
+	</KompositaCollection>
+	<abgeleiteteWörter/></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym/>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K/>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>兴趣</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Hast du Lust dazu?</Satz>
+				<Übersetzung>你对此感兴趣吗?</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Hast du nicht Lust, bei diesem schönen Wetter mit uns Sport zu treiben?</Satz>
+				<Übersetzung>在这样好的天气里你难道没有兴趣和我们一起去运动吗?</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Seitdem er an der Tsinghua studiert, hat er Lust und Begeisterung an die Studieren vorloren.</Satz>
+				<Übersetzung>自从他上了清华，他就失去了学习的兴趣和热情。</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Aber er hat große Lust an Computerspielen und japanischen Cartoon.</Satz>
+				<Übersetzung>但他对电脑游戏和日本动漫有很大的兴趣。</Übersetzung>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Entry>

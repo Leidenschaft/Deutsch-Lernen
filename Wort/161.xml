@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Umzug</Stichwort>
+  <Einheit>6</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>Umzüge</Pluralform>
+  <GenitivSingular>Umzug(e)s</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Umzugskosten</_K>
+      <_K>Umzugstag</_K>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>der Umzug nach Berlin</K>
+    <K>einen Ummzug veranstalten</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>搬家，迁居</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>der Umzug in die neue Wohnung</Satz>
+          <Übersetzung>迁入新居</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>游行，巡游</Chinesisch>
+      <BeispielSammlung/>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

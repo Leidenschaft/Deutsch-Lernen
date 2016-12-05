@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>Enter your title here</title>
+	</head>
+	<script>
+		function GetRequest(){
+		var url_searched=location.search;
+		return url_searched.substr(1);
+	   }
+	</script>
+	<frameset cols="25%,75%">
+	<frame src="SearchWord.html" name="navigation"/>
+	<frame src="" name="right_frame"/>
+	</frameset>
+</html>

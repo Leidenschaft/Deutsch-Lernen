@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Hauptstadt</Stichwort>
+  <Einheit>10</Einheit>
+  <Anteil>Leseverstehen</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>Hauptstädte</Pluralform>
+  <GenitivSingular>Hauptstadt</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>首都</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Die Hauptstadt von Deutschland ist Berlin.</Satz>
+          <Übersetzung>德国的首都是柏林。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Hausaufgabe</Stichwort>
+  <Einheit>3</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>Hausaufgaben</Pluralform>
+  <GenitivSingular>Huasaufgabe</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>jemandem eine Hausaufgabe aufgeben (布置)</K>
+    <K>viele Hausaufgaben aufhaben (要做)</K>
+    <K>die Hausaufgaben machen</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>作业</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Ich mache zuerst meine Hausaufgaben.</Satz>
+          <Übersetzung>我首先要完成 我的家庭作业。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

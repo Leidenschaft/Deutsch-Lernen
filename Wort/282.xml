@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<Stichwort>Landschaft</Stichwort>
+<Einheit>10</Einheit>
+<Anteil>Leseverstehen</Anteil>
+<Genus>die</Genus>
+<Pluralform>Landschaften</Pluralform>
+<GenitivSingular/>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K/>
+		<K_>Landschaftsschutz (风景保护)</K_>
+		<K_ link="453.xml">Landschaftsbild</K_>
+	</KompositaCollection>
+	<abgeleiteteWörter/></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym/>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K/>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>风景</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Die Landschaft um den See ist wunderschön.</Satz>
+				<Übersetzung>湖边的风景很美丽。</Übersetzung>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Entry>

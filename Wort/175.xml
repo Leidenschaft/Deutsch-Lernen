@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Vormittag</Stichwort>
+  <Einheit>3</Einheit>
+  <Anteil>Einfürung</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>Vormittage</Pluralform>
+  <GenitivSingular>Vormittag(e)s</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <K_>Sommervormittag</K_>
+      <K_>Montagvormittag</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe>
+    <Anm>Nachmittag</Anm>
+  </Antonymegruppe>
+  <Kollokationen>
+    <K>am Vormittag</K>
+    <K>heute Vormittag</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>上午</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Er kam Sonntagvormittag.</Satz>
+          <Übersetzung>他周日上午来过。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

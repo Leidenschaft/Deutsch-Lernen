@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Satz</Stichwort>
+  <Einheit>2</Einheit>
+  <Anteil>Intentionen</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>Sätze</Pluralform>
+  <GenitivSingular>Satzes</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <K_>Satzanfang</K_>
+      <K_>Satzgegenstand</K_>
+      <K_>Satzart</K_>
+      <_K>Attributsatz</_K>
+      <_K>Hauptsatz</_K>
+      <_K>Nebensatz</_K>
+      <_K>Anfangssatz</_K>
+      <_K>Schlusssatz</_K>
+      <_K>Werkzeugsatz</_K>
+      <_K>Beitragssatz</_K>
+    </KompositaCollection>
+    <abgeleiteteWörter>
+      <hierzu category="Substantiv">Satzung</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe>
+    <Sym>Lehre</Sym>
+    <Sym>Tarif</Sym>
+    <Sym>Bodensatz</Sym>
+    <Sym>Schriftsatz</Sym>
+  </Synonymegruppe>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>einen Satz bilden</K>
+    <K>einen Satz analysieren</K>
+    <K>in ganzen Sätzen antworten</K>
+    <K>jm. etwas in knappen Sätzen mitteilen</K>
+    <K>mit wenigen Sätzen die Situation schildern</K>
+    <K>eine Sonate in vier Sätzen</K>
+    <K>den ersten Satz gewinnen</K>
+    <K>ein Satz Schraubenschlüssel</K>
+    <K>ein Satz Winterreifen</K>
+    <K>einen Satz festlegen</K>
+    <K>einen Satz vereinbaren</K>
+    <K>ein ermäßigter Satz</K>
+    <K>einen Satz machen</K>
+    <K>das Manuskript ist im Satz</K>
+    <K>das Manuskript geht in den Satz</K>
+    <K>ein unsauberer Satz</K>
+    <K>den Satz korrigieren</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>句子</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Das Baby kann schon ganze Sätze sprechen.</Satz>
+          <Übersetzung>这个婴儿已经会说几个单词了。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>定理</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Pythagoras formulierte den Satz vom rechtwinkligen Dreieck.</Satz>
+          <Übersetzung>毕达哥拉斯提出了直角三角形定理。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>乐章</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Die Sinfonie begann mit einem langsamen Satz.</Satz>
+          <Übersetzung/>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>局，盘，场</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Er gewann das Tennismatch mit 3:1 Sätzen.</Satz>
+          <Übersetzung>他以三比一的盘分取得网球赛胜利。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>套，组</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Von jeder neuen Briefmarkenserie kauft er sich einen ganzen Satz.</Satz>
+          <Übersetzung>每出一种新邮票他都为自己买一套。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>收费标准，费率</Chinesisch>
+      <BeispielSammlung/>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>沉淀物</Chinesisch>
+      <BeispielSammlung/>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>跳跃，纵身一跃</Chinesisch>
+      <BeispielSammlung/>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>排字，排版</Chinesisch>
+      <BeispielSammlung/>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>校样，校稿</Chinesisch>
+      <BeispielSammlung/>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

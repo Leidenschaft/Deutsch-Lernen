@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Heizung</Stichwort>
+  <Einheit>6</Einheit>
+  <Anteil>Hörverstehen</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>Heizungen</Pluralform>
+  <GenitivSingular>Heizung</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>暖气</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Die Heizung funktioniert nicht.</Satz>
+          <Übersetzung>暖气坏了。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

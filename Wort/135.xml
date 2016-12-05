@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Grad</Stichwort>
+  <Einheit>9</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>Grade oder Grad</Pluralform>
+  <GenitivSingular>Grads</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Breitengrad (纬度)</_K>
+      <_K>Längengrad (经度)</_K>
+    </KompositaCollection>
+    <abgeleiteteWörter>
+      <hierzu category="Adjektiv">gradweise (渐渐)</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>zwölf Grad unter Null</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>摄氏度</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Heute früh hatte ich 38 Grad.</Satz>
+          <Übersetzung/>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>角度 (degree)</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Er hat die Wassermelone in 4 Grad eingeteilt.</Satz>
+          <Übersetzung>他把西瓜分成了四份。</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Er hat sich um 180 Grad geändert.</Satz>
+          <Übersetzung>他完全变了一个人。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

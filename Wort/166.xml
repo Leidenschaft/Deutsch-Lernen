@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Vater</Stichwort>
+  <Einheit>4</Einheit>
+  <Anteil>Einfürung</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>Väter</Pluralform>
+  <GenitivSingular>Vaters</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Vaterhaus</_K>
+      <_K>Vaterland</_K>
+      <_K>Vaterstadt</_K>
+      <_K>Vaterschaft</_K>
+      <K_>Heimvater</K_>
+      <K_>Stiefvater</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter>
+      <hierzu category="Adjektiv">väterlich</hierzu>
+      <hierzu category="Adjektiv">väterlicherseits</hierzu>
+      <hierzu category="Adjektiv">vaterlos</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>ein liebevoller Vater</K>
+    <K>js. lieblicher Vater</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>父，父亲，生父，继父，养父</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Er ist Vater von drei Kindern.</Satz>
+          <Übersetzung>他是三个孩子的父亲。</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Sie bekamen einen neuen Vater, als ihre Mutter wieder heiratete.</Satz>
+          <Übersetzung>母亲再婚后，他们有了继父。。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>思想、精神的创始人</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>die Väter des Grundegesetzes</Satz>
+          <Übersetzung>基本法的创立者们</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>神甫（对天主教神职人员的称呼）</Chinesisch>
+      <BeispielSammlung/>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>天父，上帝</Chinesisch>
+      <BeispielSammlung/>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

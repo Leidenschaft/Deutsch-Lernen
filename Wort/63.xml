@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Dienstag</Stichwort>
+  <Einheit>3</Einheit>
+  <Anteil>Hörverstehen</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>Dienstage</Pluralform>
+  <GenitivSingular/>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <K_>Dienstagabend</K_>
+      <K_>Dienstagmittag</K_>
+      <K_>Dienstagmorgen</K_>
+      <K_>Dienstagnachmittag</K_>
+      <K_>Dienstagnacht</K_>
+      <K_>Dienstagvormittag</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter>
+      <hierzu category="Adjektiv">dienstags</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>星期二</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Morgen ist Dienstag.</Satz>
+          <Übersetzung>明天是周二。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

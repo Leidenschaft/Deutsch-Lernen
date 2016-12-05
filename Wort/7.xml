@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Ampel</Stichwort>
+  <Einheit>10</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>Ampeln</Pluralform>
+  <GenitivSingular>Ampel</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Verkehrsampel</_K>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe>
+    <Sym>Verkehrsampel</Sym>
+  </Synonymegruppe>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>交通信号灯</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Die Ampel ist rot,man soll nicht über die Straße gehen.</Satz>
+          <Übersetzung>红灯亮着，不应过马路。</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Es gibt eine Ampel an der Kreuzung.</Satz>
+          <Übersetzung>十字路口有盏红绿灯。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Wurst</Stichwort>
+  <Einheit>5</Einheit>
+  <Anteil>Einführung</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>Würste</Pluralform>
+  <GenitivSingular>Wurst</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Wurstbrot</_K>
+      <_K>Wursthaut</_K>
+      <_K>Wurstplatte</_K>
+      <_K>Wurstsalat</_K>
+      <K_>Schnittwurst</K_>
+      <K_>Streichwurst</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter>
+      <hierzu category="Substantiv">Würstchen</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>eine Scheibe Wurst</K>
+    <K>ein Brot mit Wurst belegen</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>香肠</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Die Wurst hat einen seltsamen Geschmack.</Satz>
+          <Übersetzung>香肠有一股怪味道。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

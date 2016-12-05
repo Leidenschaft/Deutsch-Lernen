@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Vergnügen</Stichwort>
+  <Einheit>7</Einheit>
+  <Anteil>Intentionen</Anteil>
+  <Genus>das</Genus>
+  <Pluralform>nur Sg</Pluralform>
+  <GenitivSingular>Vergnügens</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter>
+      <hierzu category="Adjektiv">vergnüglich</hierzu>
+      <hierzu category="Verben">vergnügen, sich</hierzu>
+      <hierzu category="Adjektiv">vergnügt</hierzu>
+      <hierzu category="Substantiv">Vergnügungen</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe>
+    <Anm>Langweile</Anm>
+  </Antonymegruppe>
+  <Kollokationen>
+    <K>ein seltenes Vergnügen</K>
+    <K>jm. Vergnügen bereiten</K>
+    <K>etwas mit Vergnügen tun</K>
+    <K>etwas aus/zum Vergnügen tun</K>
+    <K>kein Vergnügen an jm./D. haben</K>
+    <K>Vergnügen an D. finden</K>
+    <K>Vergnügen bei etwas empfinden</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>愉快，高兴，快乐，乐趣，消遣2</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Es machte ihm Vergnügen, mit dem Kind zu spielen.</Satz>
+          <Übersetzung>与孩子玩耍使他感到愉快。</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Viel Vergnügen im Urlaub!!</Satz>
+          <Übersetzung>祝你假期愉快！</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Zahn</Stichwort>
+  <Einheit>9</Einheit>
+  <Anteil>Einführung</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>Zähne</Pluralform>
+  <GenitivSingular>Zahn(e)s</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Zahnfleisch</_K>
+      <_K>Zahnpasta</_K>
+      <_K>Zahnrad</_K>
+      <_K>Zahnstocher</_K>
+      <_K>Zahnarzt</_K>
+      <_K>Zahnbürste</_K>
+      <_K>Zahnschmerzen</_K>
+      <K_>Goldzahn</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe>
+    <Sym>Zacke</Sym>
+  </Synonymegruppe>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>falsche Zähne</K>
+    <K>die dritten Zähne</K>
+    <K>die Zähne kommen</K>
+    <K>ein Zahl wackelt</K>
+    <K>ein Zahl tut weh</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>牙，牙齿</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Ein ersachsener Mensch hat meistens 32 Zähne.</Satz>
+          <Übersetzung>成人大多有32颗牙。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>齿，锯齿</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>ein Stern mit fünf Zähne</Satz>
+          <Übersetzung>五角星</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

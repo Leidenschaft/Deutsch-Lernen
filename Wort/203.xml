@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Zeit</Stichwort>
+  <Einheit>3</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>Zeiten</Pluralform>
+  <GenitivSingular>Zeit</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Zeiteinheit</_K>
+      <_K>Zeitabschnitt</_K>
+      <_K>Zeitdauer</_K>
+      <_K>Zeitplan</_K>
+      <_K>Zeitunterschied</_K>
+      <_K>Zeitdokument</_K>
+      <_K>Zeitenwende</_K>
+      <_K>Zeitgeschehen</_K>
+      <_K>Zeitform</_K>
+      <_K>Zeitalter</_K>
+      <_K>Zeitarbeit</_K>
+      <_K>zeitgemäß</_K>
+      <_K>Zeitbombe</_K>
+      <_K>Zeitfrage</_K>
+      <_K>Zeitdruck</_K>
+      <_K>Zeitgeist</_K>
+      <K_>Adventszeit</K_>
+      <K_>Hochzeit</K_>
+      <K_>Arbeitszeit</K_>
+      <K_>Studienzeit</K_>
+      <K_>Besuchszeit</K_>
+      <K_>Fahrzeit</K_>
+      <K_>Renaissancezeit</K_>
+      <K_>Eiszeit</K_>
+      <K_>Sommerzeit</K_>
+      <K_>Abflugzeit</K_>
+      <K_>Frühstückszeit</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter>
+      <hierzu category="Adjektiv">zeitraubend</hierzu>
+      <hierzu category="Adjektiv">zeitsparend</hierzu>
+      <hierzu category="Adjektiv">zeitig</hierzu>
+      <hierzu category="Adjektiv">zeitlich</hierzu>
+      <hierzu category="Adjektiv">zeitlos</hierzu>
+      <hierzu category="Adjektiv">zeitnah</hierzu>
+      <hierzu category="Substantiv">Zeitpunkt</hierzu>
+      <hierzu category="Substantiv">Zeitraum</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe>
+    <Sym>Uhrzeit</Sym>
+    <Sym>Epoche</Sym>
+    <Sym>Frist</Sym>
+    <Sym>Tempus</Sym>
+  </Synonymegruppe>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>die Zeit verstreicht</K>
+    <K>die Zeit scheint stillzustehen</K>
+    <K>für jn./A. keine Zeit haben</K>
+    <K>die Zeit nützen zu inf.</K>
+    <K>in Zeiten der Not</K>
+    <K>eine schöne Zeit verleben</K>
+    <K>vor geraumer Zeit</K>
+    <K>etwas in einer bestimmten Zeit erledigen</K>
+    <K>in Unsere Zeit</K>
+    <K>die mitteleuropäische Zeit</K>
+    <K>feste Zeiten einhalten</K>
+    <K>die Zeit ist noch nicht reif für etwas</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>时间</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Hast du jetzt Zeit für mich?</Satz>
+          <Übersetzung>你现在有时间陪我吗？</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>时光，时期，时段</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Es wird einige Zeit dauern, bis hier wieder Pflanzen wachsen können.</Satz>
+          <Übersetzung>这儿还要过一段时间才能再长植物。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>时代</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>in der Zeit als Bücher noch mit der Hand geschrieben wurden</Satz>
+          <Übersetzung>在书本还要手写的时代</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

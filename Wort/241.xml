@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Haustier</Stichwort>
+  <Einheit>6</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>das</Genus>
+  <Pluralform>Haustiere</Pluralform>
+  <GenitivSingular>Haustiers</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>宠物</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>In einer Mietwohung darf man kein Haustier halten.</Satz>
+          <Übersetzung>房客不许养狗。</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Hunde und Katzen sind Haustiere.</Satz>
+          <Übersetzung>猫和狗是宠物。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

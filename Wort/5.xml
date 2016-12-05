@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Alexanderplatz</Stichwort>
+  <Einheit>8</Einheit>
+  <Anteil>Übungen</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>o.Pl.</Pluralform>
+  <GenitivSingular>Alexnderplatzes</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter>
+      <hierzu category="Substantiv">Platz</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>亚历山大广场</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Auf dem Alexanderplatz ist viel los.</Satz>
+          <Übersetzung>在亚历山大广场上有很多有趣的事情发生。</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Der Alexanderplatz ist ein Platz in Berlin.</Satz>
+          <Übersetzung>亚历山大广场是柏林的一个广场。</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Der Alexanderplatz ist Kreuzungspunkt der drei U-Bahn-Linien.</Satz>
+          <Übersetzung>亚历山大广场是三条地铁线的交汇处。</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Es ist der Plan des Alexanderplatzes.</Satz>
+          <Übersetzung>这是亚历山大广场的规划图。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

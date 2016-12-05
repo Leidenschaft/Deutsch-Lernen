@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Zelt</Stichwort>
+  <Einheit>8</Einheit>
+  <Anteil>Leseverstehen</Anteil>
+  <Genus>das</Genus>
+  <Pluralform>Zelte</Pluralform>
+  <GenitivSingular>Zelt(e)s</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Zeltlager</_K>
+      <_K>Zeltplatz</_K>
+      <K_>Festzelt</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter>
+      <hierzu category="Verben">zelten</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>ein Zelt aufstellen</K>
+    <K>ein Zelt abbrechen</K>
+    <K>die Zelte irgendwo aufschlagen</K>
+    <K>die Zelte abbrechen</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>帐篷</Chinesisch>
+      <BeispielSammlung/>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

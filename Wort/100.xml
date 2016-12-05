@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Fleisch</Stichwort>
+  <Einheit>5</Einheit>
+  <Anteil>Einführung</Anteil>
+  <Genus>das</Genus>
+  <Pluralform>o.Pl.</Pluralform>
+  <GenitivSingular>Fleischs</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <K_>Fleischgericht (荤菜)</K_>
+      <_K>Hühnerfleich (鸡肉)</_K>
+      <_K>Rindfleich (牛肉)</_K>
+      <_K>Schweinefleich (猪肉)</_K>
+      <_K>Fruchtfleich (果肉)</_K>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>肉</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Essen Sie bitte nicht zu viel Fleisch.</Satz>
+          <Übersetzung>请您不要吃太多的肉。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Zahl</Stichwort>
+  <Einheit>3</Einheit>
+  <Anteil>Hörverstehen</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>Zahlen</Pluralform>
+  <GenitivSingular>Zahl</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Zahlenangabe</_K>
+      <K_>Kardinalzahl</K_>
+      <K_>Lottozahl</K_>
+      <K_>Mitgliederzahl</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter>
+      <hierzu category="Verben">zählen</hierzu>
+      <hierzu category="Adjektiv">zählbar</hierzu>
+      <hierzu category="Adjektiv">zahlenmäßig</hierzu>
+      <hierzu category="Substantiv">Zähler</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe>
+    <Sym>Ziffer</Sym>
+    <Sym>Nummer</Sym>
+    <Sym>Anzahl</Sym>
+  </Synonymegruppe>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>eine einstellige Zahl</K>
+    <K>eine zweistellige Zahl</K>
+    <K>eine große Zahl</K>
+    <K>die arabischen Zahlen</K>
+    <K>die römischen Zahlen</K>
+    <K>eine positive Zahl</K>
+    <K>eine negative Zahl</K>
+    <K>eine gerade Zahl</K>
+    <K>eine ungerade Zahl</K>
+    <K>eine natürliche Zahl</K>
+    <K>in den roten Zahlen sein</K>
+    <K>rote Zahlen schreiben</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>数，数目</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Schreiben Sie die Zahlen von 1 bis 100.</Satz>
+          <Übersetzung>请写下从1到100的数。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>数字</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Es gibt 10 arabischen Zahlen.</Satz>
+          <Übersetzung>一共有10个阿拉伯数字。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>数量</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Die Besucher kamen in großer Zahl.</Satz>
+          <Übersetzung>大量游客前来参观。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

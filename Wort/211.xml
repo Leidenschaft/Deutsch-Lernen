@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Zwiebel</Stichwort>
+  <Einheit>5</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>Zwiebeln</Pluralform>
+  <GenitivSingular>Zwiebel</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Zwiebelkuchen</_K>
+      <_K>Zwiebelring</_K>
+      <_K>Zwiebelblume</_K>
+      <K_>Gemüsezwiebel</K_>
+      <K_>Tulpenzwiebel</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter>
+      <hierzu category="Verben">zwiebeln</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>eine scharfe Zwiebel</K>
+    <K>eine milde Zwiebel</K>
+    <K>Zwiebeln hacken</K>
+    <K>Zwiebeln in Ringe schneiden</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>洋葱，球茎</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Tomatensalat mit Zwiebeln</Satz>
+          <Übersetzung>洋葱拌西红柿沙拉</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

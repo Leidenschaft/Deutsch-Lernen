@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Appetit</Stichwort>
+  <Einheit>5</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>o.Pl.</Pluralform>
+  <GenitivSingular/>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter>
+      <hierzu category="Adjektiv">appetitlos</hierzu>
+      <hierzu category="Adjektiv">appetitlich</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe>
+    <Sym>Hunger</Sym>
+  </Synonymegruppe>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>keinen Appetit haben</K>
+    <K>großen Appetit haben</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>胃口</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Guten Appetit!</Satz>
+          <Übersetzung>祝胃口好！</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Sie hat großen Appetit auf Fisch.</Satz>
+          <Übersetzung>她特别爱听鱼。</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Jetzt habe ich keinen Appetit.</Satz>
+          <Übersetzung>现在我没食欲。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>兴趣</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Frau Prof. Dr. Monika Motsch, die deutsche Übersetzerin der WeiCheng, während eines Besuch nach YangJiang, bekommt Appetit auf die Fremdsprachige Notizen von Chien Chungshu.</Satz>
+          <Übersetzung>莫芝宜佳教授是《围城》的译者，她在一次访问杨绛的过程中对钱钟书的外文笔记产生了兴趣。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

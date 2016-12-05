@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Westen</Stichwort>
+  <Einheit>10</Einheit>
+  <Anteil>Übungen</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>nur Sg</Pluralform>
+  <GenitivSingular>Westens</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Westentasche</_K>
+    </KompositaCollection>
+    <abgeleiteteWörter>
+      <hierzu category="Substantiv">West</hierzu>
+      <hierzu category="Adjektiv">westlich</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>im Westen</K>
+    <K>gegen Westen</K>
+    <K>aus Westen</K>
+    <K>von Westen</K>
+    <K>nach Westen</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>西部，西方</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Ich wohne im Westen der Stadt.</Satz>
+          <Übersetzung>我住在城市西区。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

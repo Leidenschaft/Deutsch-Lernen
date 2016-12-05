@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Donnerstag</Stichwort>
+  <Einheit>3</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>Donnerstage</Pluralform>
+  <GenitivSingular/>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <K_>Donnerstagabend</K_>
+      <K_>Donnerstagmittag</K_>
+      <K_>Donnerstagmorgen</K_>
+      <K_>Donnerstagnachmittag</K_>
+      <K_>Donnerstagnacht</K_>
+      <K_>Donnerstagvormittag</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>星期四</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Schreiben wir am Donnerstag eine Prüfung?</Satz>
+          <Übersetzung>我们周四有考试吗?</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

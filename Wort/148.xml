@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>S-Bahn</Stichwort>
+  <Einheit>10</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>S-Bahnen</Pluralform>
+  <GenitivSingular>S-Bahn</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <K_>S-Bahn-Haltestelle</K_>
+      <K_>S-Bahn-Wagen</K_>
+      <K_>S-Bahn-Station</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe>
+    <Sym>Schnellbahn</Sym>
+  </Synonymegruppe>
+  <Antonymegruppe>
+    <Anm>U-Bahn</Anm>
+  </Antonymegruppe>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>市区快速火车，轻轨铁路</Chinesisch>
+      <BeispielSammlung/>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Fahrt</Stichwort>
+  <Einheit>7</Einheit>
+  <Anteil>Intentionen</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>Fahrten</Pluralform>
+  <GenitivSingular>Fahrt</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <K_>Fahrtrichtung</K_>
+      <K_>Fahrtroute</K_>
+      <K_>Fahrtkosten</K_>
+      <_K>Busfahrt</_K>
+      <_K>Zugfahrt</_K>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>行程</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Der Vater wünscht seinem Sohn gute Fahrt.</Satz>
+          <Übersetzung>父亲祝孩子一路顺风。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

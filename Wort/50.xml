@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Bus</Stichwort>
+  <Einheit>6</Einheit>
+  <Anteil>Hörverstehen</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>Busse</Pluralform>
+  <GenitivSingular>Busses</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Schulbus</_K>
+      <_K>Reisebus</_K>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>公共汽车</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Wann kommt denn der Bus?</Satz>
+          <Übersetzung/>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Jeden Tag fahre Ich nach Schule mit dem Bus.</Satz>
+          <Übersetzung>每天我乘公交车去学校。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

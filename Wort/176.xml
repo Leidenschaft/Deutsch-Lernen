@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Vorname</Stichwort>
+  <Einheit>2</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>Vornamen</Pluralform>
+  <GenitivSingular>Vornamens</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>名，名字</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Sein Vorname ist Hans.</Satz>
+          <Übersetzung>他的名字是汉斯。</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Mit Vornamen heißt er Hans.</Satz>
+          <Übersetzung>他名叫汉斯。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Zeitung</Stichwort>
+  <Einheit>1</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>Zeitungen</Pluralform>
+  <GenitivSingular>Zeitung</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Zeitungsannonce</_K>
+      <_K>Zeitungsmeldung</_K>
+      <K_>Morgenzeitung</K_>
+      <K_>Wochenzeitung</K_>
+      <K_>Wirtschaftszeitung</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>eine lokale Zeitung</K>
+    <K>eine Zeitung herausgeben</K>
+    <K>eine Zeitung bestellen</K>
+    <K>etwas aus der Zeitung erfahren</K>
+    <K>etwas steht in der Zeitung</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>报纸</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Du kannst ein Inserat in die Zeitung setzen.</Satz>
+          <Übersetzung>你可以在报纸上登广告。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>报社</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>eine Zeitung gründen</Satz>
+          <Übersetzung>创办一家报社</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>
