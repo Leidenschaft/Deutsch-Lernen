@@ -50,7 +50,7 @@
 	<!--<xsl:value-of select="count(zusammengesetzteWörter/KompositaCollection/_K)"/>-->
 	<xsl:for-each select="zusammengesetzteWörter/KompositaCollection/K_">
 	<xsl:if test="count(@link)">
-	<a><xsl:attribute name="href">D:/ProjectNote/GermaData/DicTest/Wort/<xsl:value-of select="@link"/></xsl:attribute><img src="icon16_search.png"/></a>
+	<a><xsl:attribute name="href"><xsl:value-of select="@link"/></xsl:attribute><img src="icon16_search.png"/></a>
 	</xsl:if>
 	<xsl:value-of select="."/> &#160;&#160;
 	</xsl:for-each>
@@ -58,7 +58,7 @@
 	<font color="maroon">
 	<xsl:for-each select="zusammengesetzteWörter/KompositaCollection/_K">
 	<xsl:if test="count(@link)">
-	<a><xsl:attribute name="href">D:/ProjectNote/GermaData/DicTest/Wort/<xsl:value-of select="@link"/></xsl:attribute><img src="icon16_search.png"/></a>
+	<a><xsl:attribute name="href"><xsl:value-of select="@link"/></xsl:attribute><img src="icon16_search.png"/></a>
 	</xsl:if>
 	<xsl:value-of select="."/> &#160;&#160;
 	</xsl:for-each>	
@@ -72,7 +72,7 @@
 	<font color="saddlebrown">	
 	▪<xsl:value-of select="."/>&#160;</font> 
 	<xsl:if test="count(@link)">
-	<a><xsl:attribute name="href">D:/ProjectNote/GermaData/DicTest/Wort/<xsl:value-of select="@link"/></xsl:attribute><img src="icon16_search.png"/></a>
+	<a><xsl:attribute name="href"><xsl:value-of select="@link"/></xsl:attribute><img src="icon16_search.png"/></a>
 	</xsl:if>
 	<b><font color="#DF0101"><i><xsl:value-of select="@category"/></i></font></b>&#160;&#160;
 	</xsl:for-each>
@@ -84,7 +84,7 @@
 	<font color="saddlebrown">
 		<xsl:for-each select="Synonymegruppe/Sym">
 		<xsl:if test="count(@link)">
-	<a><xsl:attribute name="href">D:/ProjectNote/GermaData/DicTest/Wort/<xsl:value-of select="@link"/></xsl:attribute><img src="icon16_search.png"/></a>
+	<a><xsl:attribute name="href"><xsl:value-of select="@link"/></xsl:attribute><img src="icon16_search.png"/></a>
 	</xsl:if>
 	▪<xsl:value-of select="."/>&#160;</xsl:for-each>
 	</font>

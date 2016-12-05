@@ -8,8 +8,11 @@
 
 <zusammengesetzteWörter>
 	<KompositaCollection>
-		<_K/>
-		<K_/>
+		<_K>Fischmarkt</_K>
+		<_K link="341.xml">Obstmarkt</_K>
+		<K_>Markttag</K_>
+		<K_>Marktplatz</K_>
+		<K_>Weltmarkt</K_>
 	</KompositaCollection>
 	<abgeleiteteWörter/></zusammengesetzteWörter>
 
@@ -21,7 +24,8 @@
 </Antonymegruppe>
 
 <Kollokationen>
-<K/>
+<K>auf den Markt gehen</K>
+<K>der schwarze Markt(非法交易市场)</K>
 </Kollokationen>
 
 <AllgemeineErläuterungen>
@@ -30,7 +34,7 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Gibt es hier in der Nähe einen Markt?</Satz>
-				<Übersetzung/>
+				<Übersetzung>这附近有市场吗？</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>

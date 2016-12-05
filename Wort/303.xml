@@ -8,7 +8,7 @@
 
 <zusammengesetzteWörter>
 	<KompositaCollection>
-		<_K/>
+		<_K>Schulmappe</_K>
 		<K_/>
 	</KompositaCollection>
 	<abgeleiteteWörter/></zusammengesetzteWörter>
@@ -30,7 +30,7 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Das ist eine Mappe.</Satz>
-				<Übersetzung/>
+				<Übersetzung>这是一个书包。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>

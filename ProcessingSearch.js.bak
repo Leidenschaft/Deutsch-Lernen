@@ -39,7 +39,7 @@ document.getElementById("resTree").innerHTML=srcTree.transformNode(xsltTree);
 		}
 		function ChangeContent(){
 		    var newFileName=GetAddress();
-			//alert("Location"+newfileName);
+			alert("Location"+newfileName);
 			if(newFileName)
 			   self.parent.frames["right_frame"].location='Wort/'+newFileName;
 			
