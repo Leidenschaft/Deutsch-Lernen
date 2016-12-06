@@ -8,7 +8,7 @@
 
 <zusammengesetzteWörter>
 	<KompositaCollection>
-		<_K/>
+		<_K>Kilometer</_K>
 		<K_/>
 	</KompositaCollection>
 	<abgeleiteteWörter/></zusammengesetzteWörter>
@@ -30,7 +30,11 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Gehen Sie bitte von hier aus 100 Meter,dann sehen Sie schon die Hauptpost.</Satz>
-				<Übersetzung/>
+				<Übersetzung>从这儿再往前100米，然后您就能看到邮局了。</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Er ist zwei Meter groß.</Satz>
+				<Übersetzung>他两米高。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>
