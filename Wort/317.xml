@@ -8,20 +8,25 @@
 
 <zusammengesetzteWörter>
 	<KompositaCollection>
-		<_K/>
-		<K_/>
+		<_K link="411.xml">Sonntagmittag</_K>
+		<K_>Mittagsschlaf</K_>
+		<K_ link="410.xml">Mittagssonne</K_>
+		<K_ link="203.xml">Mittagszeit</K_>
 	</KompositaCollection>
-	<abgeleiteteWörter/></zusammengesetzteWörter>
+	<abgeleiteteWörter>
+	<hierzu category="Adjektiv">mittäglich</hierzu>
+	</abgeleiteteWörter>
+	</zusammengesetzteWörter>
 
 <Synonymegruppe>
 	<Sym/>
 </Synonymegruppe>
 <Antonymegruppe>
-	<Anm/>
+	<Anm>Mitternacht</Anm>
 </Antonymegruppe>
 
 <Kollokationen>
-<K/>
+<K>zu Mittag essen</K>
 </Kollokationen>
 
 <AllgemeineErläuterungen>
@@ -30,7 +35,7 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Es ist Mittag.</Satz>
-				<Übersetzung/>
+				<Übersetzung>现在是中午。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>

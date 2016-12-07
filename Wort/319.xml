@@ -9,7 +9,7 @@
 <zusammengesetzteWörter>
 	<KompositaCollection>
 		<_K/>
-		<K_/>
+		<K_></K_>
 	</KompositaCollection>
 	<abgeleiteteWörter/></zusammengesetzteWörter>
 
@@ -30,7 +30,7 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Die Möbel sind teuer.</Satz>
-				<Übersetzung/>
+				<Übersetzung>家具很贵。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>

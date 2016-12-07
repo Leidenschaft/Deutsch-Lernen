@@ -8,8 +8,9 @@
 
 <zusammengesetzteWörter>
 	<KompositaCollection>
-		<_K/>
-		<K_/>
+		<_K link="88.xml">Familienmitglied</_K>
+		<_K>Parteimitglied</_K>
+		<_K>Vereinsmitglied (社团成员)</_K>
 	</KompositaCollection>
 	<abgeleiteteWörter/></zusammengesetzteWörter>
 
@@ -30,7 +31,7 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Meine Familie hat vier Mitglieder:Vater,Mutter,Bruder und ich.</Satz>
-				<Übersetzung/>
+				<Übersetzung>我家里有四个成员:爸爸、妈妈、哥哥和我。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>
