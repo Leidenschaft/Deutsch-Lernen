@@ -9,6 +9,7 @@
 <zusammengesetzteWörter>
 	<KompositaCollection>
 		<_K link="196.xml">Wohnungsmiete</_K>
+		<_K link="238.xml">Hausmiete</_K>
 		<K_ link="320.xml">Monatsmiete</K_>
 	</KompositaCollection>
 	<abgeleiteteWörter/></zusammengesetzteWörter>
@@ -35,6 +36,10 @@
 			<Beispiel>
 				<Satz>Im Campus gibt es viele Mieteräder, für Touristen zu mieten.</Satz>
 				<Übersetzung>在校园里有很多游客可以租用的自行车。</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Sie bezahlen monatlich 500 Euro Mieter für ihre Wohnung.</Satz>
+				<Übersetzung>他们每月花500欧元付房租。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>

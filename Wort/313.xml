@@ -8,8 +8,9 @@
 
 <zusammengesetzteWörter>
 	<KompositaCollection>
-		<_K/>
-		<K_/>
+		<_K>Frischmilch</_K>
+		<K_ link="218.xml">Milchkanne</K_>
+		<K_ link="132.xml">Milchmixgetränk</K_>
 	</KompositaCollection>
 	<abgeleiteteWörter/></zusammengesetzteWörter>
 
@@ -21,7 +22,7 @@
 </Antonymegruppe>
 
 <Kollokationen>
-<K/>
+<K>Milch trinken</K>
 </Kollokationen>
 
 <AllgemeineErläuterungen>
@@ -30,7 +31,7 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Trinkst du täglich Milch?</Satz>
-				<Übersetzung/>
+				<Übersetzung>你每天喝牛奶吗?</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>
