@@ -9,15 +9,17 @@
 <zusammengesetzteWörter>
 	<KompositaCollection>
 		<_K/>
-		<K_/>
+		<K_ link="205.xml">Morgenzeitung</K_>
 	</KompositaCollection>
-	<abgeleiteteWörter/></zusammengesetzteWörter>
+	<abgeleiteteWörter>
+		<hierzu category="Adjektiv">morgendlich</hierzu>
+	</abgeleiteteWörter></zusammengesetzteWörter>
 
 <Synonymegruppe>
-	<Sym/>
+	<Sym>Frühe</Sym>
 </Synonymegruppe>
 <Antonymegruppe>
-	<Anm/>
+	<Anm>Abend</Anm>
 </Antonymegruppe>
 
 <Kollokationen>
@@ -29,8 +31,12 @@
 		<Chinesisch>早晨</Chinesisch>
 		<BeispielSammlung>
 			<Beispiel>
-				<Satz>Guten Morgen! Es ist Morgen.</Satz>
-				<Übersetzung/>
+				<Satz>Guten Morgen!</Satz>
+				<Übersetzung>早上好！</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Es ist Morgen.</Satz>
+				<Übersetzung>现在是早上。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>

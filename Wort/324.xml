@@ -30,7 +30,11 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Mit dem Mund spricht man.</Satz>
-				<Übersetzung/>
+				<Übersetzung>人们通过嘴讲话。</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Mit dem Mund isst man.</Satz>
+				<Übersetzung>人们通过嘴吃饭。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>

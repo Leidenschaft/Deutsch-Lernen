@@ -8,10 +8,12 @@
 
 <zusammengesetzteWörter>
 	<KompositaCollection>
-		<_K/>
-		<K_/>
+		<_K>Stiefmutter (继母)</_K>
+		<K_ link="448.xml">Muttertier</K_>
 	</KompositaCollection>
-	<abgeleiteteWörter/></zusammengesetzteWörter>
+	<abgeleiteteWörter>
+		<hierzu category="Adjektiv"></hierzu>
+	</abgeleiteteWörter></zusammengesetzteWörter>
 
 <Synonymegruppe>
 	<Sym/>
@@ -30,7 +32,11 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Meine Mutter heißt Melanie.</Satz>
-				<Übersetzung/>
+				<Übersetzung>我妈妈叫 Melanie.</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Sie ist Mutter von drei Kindern.</Satz>
+				<Übersetzung>她是三个孩子的母亲。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>

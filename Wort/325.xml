@@ -9,7 +9,11 @@
 <zusammengesetzteWörter>
 	<KompositaCollection>
 		<_K/>
-		<K_/>
+		<K_ link="248.xml">Musikhochschule</K_>
+		<K_ link="48.xml">Musikbuch</K_>
+		<K_>Musikinstrument</K_>
+		<_K>Volksmusik</_K>
+		<_K>Popmusik</_K>
 	</KompositaCollection>
 	<abgeleiteteWörter/></zusammengesetzteWörter>
 
@@ -30,7 +34,7 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Die Musik ist schön,nicht?</Satz>
-				<Übersetzung/>
+				<Übersetzung>音乐很好听，不是吗？</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>

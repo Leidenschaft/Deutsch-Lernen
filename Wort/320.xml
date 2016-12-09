@@ -4,12 +4,13 @@
 <Anteil>Text</Anteil>
 <Genus>der</Genus>
 <Pluralform>Monate</Pluralform>
-<GenitivSingular/>
+<GenitivSingular>Monats</GenitivSingular>
 
 <zusammengesetzteWörter>
 	<KompositaCollection>
-		<_K/>
-		<K_/>
+		<_K>Frühlingsmonat(孟春)</_K>
+		<K_>Monatsbeginn</K_>
+		<K_>Monatsende</K_>
 	</KompositaCollection>
 	<abgeleiteteWörter/></zusammengesetzteWörter>
 
@@ -30,7 +31,11 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Ein Jahr hat zwölf Monate.</Satz>
-				<Übersetzung/>
+				<Übersetzung>一年有12个月。</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Ihr Sohn ist jetzt vier Monate alt.</Satz>
+				<Übersetzung>她的儿子现在四个月大。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>
