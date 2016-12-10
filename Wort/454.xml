@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd">
+<?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?>
+<Entry category="Substantiv">
+	<Stichwort>Zelle</Stichwort>
+	<Einheit>5</Einheit>
+	<Anteil>Text</Anteil>
+	<Genus>die</Genus>
+	<Pluralform>Zellen</Pluralform>
+	<GenitivSingular>Zelle</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Zellgewebe</_K>
+      <_K>Zellkern</_K>
+      <_K>Zellplasma</_K>
+      <K_>Dunkelzelle</K_>
+      <K_>Einzelzelle</K_>
+      <K_>Blutzelle</K_>
+      <K_>Nervenzelle</K_>
+      <K_>Telefonzelle</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+    <Synonymegruppe>
+      <Sym>Zimmer</Sym>
+      <Sym>Telefonzelle</Sym>
+    </Synonymegruppe>
+	<Antonymegruppe/>
+	<Kollokationen>
+		<K>eine kahle Zelle</K>
+		<K>eine enge Zelle</K>
+		<K>einen Gefangenen in eine Zelle sperren</K>
+		<K>tote Zellen</K>
+		<K>die Zellen teilen sich</K>
+		<K>die Zellen sterben ab</K>
+	</Kollokationen>
+	<AllgemeineErläuterungen>
+		<Eintrag>
+			<Chinesisch>斗室，小房间，老方，修道的小间</Chinesisch>
+			<BeispielSammlung>
+				<Beispiel>
+					<Satz>Die Häftlinge werden in ihren Zellen eingeschlossen.</Satz>
+					<Übersetzung>囚犯们被关在各自的囚室里。</Übersetzung>
+				</Beispiel>
+			</BeispielSammlung>
+		</Eintrag>
+		<Eintrag>
+			<Chinesisch>电话亭</Chinesisch>
+			<BeispielSammlung>
+				<Beispiel>
+					<Satz>Eine Telefonzelle, oder eine Zelle, ist ein kleines Häuschen mit einer Grundfläche von etwa einem Quadratmeter, an dessen innerer Rückwand ein Telefonapparat angebracht ist.</Satz>
+					<Übersetzung>电话亭，是一个面积大约一平米见方的小房子，内侧墙上挂着一台电话机。</Übersetzung>
+				</Beispiel>
+			</BeispielSammlung>
+		</Eintrag>
+		<Eintrag>
+			<Chinesisch>细胞</Chinesisch>
+			<BeispielSammlung>
+				<Beispiel>
+					<Satz>Jede Zelle stellt ein strukturell abgrenzbares, eigenständiges und selbsterhaltendes System dar.</Satz>
+					<Übersetzung>每个细胞都在结构上表现为一个可分的、独立的、能够独自生存的系统。</Übersetzung>
+				</Beispiel>
+			</BeispielSammlung>
+		</Eintrag>
+	</AllgemeineErläuterungen>
+</Entry>
