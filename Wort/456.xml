@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd">
+<?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?>
+<Entry category="Substantiv">
+	<Stichwort>Zeugnis</Stichwort>
+	<Einheit>7</Einheit>
+	<Anteil>Leseverstehen</Anteil>
+	<Genus>das</Genus>
+	<Pluralform>Zeugnisse</Pluralform>
+	<GenitivSingular>Zeugnisses</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Zeugnisausgabe</_K>
+      <K_>Abiturzeugnis</K_>
+      <K_>Prüfungszeugnis</K_>
+      <K_>Arbeitszeugnis</K_>
+      <K_>Gesundheitszeugnis</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter>
+	<hierzu category="Verb">zeugen</hierzu>
+	<hierzu category="Substantiv">Zeuge</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+    <Synonymegruppe>
+      <Sym>Zeichen</Sym>
+      <Sym>Gutachten</Sym>
+    </Synonymegruppe>
+	<Antonymegruppe/>
+	<Kollokationen>
+		<K>jm. ein Zeugnis ausstellen</K>
+		<K>ein amtliches Zeugnis</K>
+		<K>Zeugnisse der Vergangenheit</K>
+	</Kollokationen>
+	<AllgemeineErläuterungen>
+		<Eintrag>
+			<Chinesisch>成绩单</Chinesisch>
+			<BeispielSammlung>
+				<Beispiel>
+					<Satz>Als Lohn für sein gutes Zeugnis bekam er ein Fahrrad.</Satz>
+					<Übersetzung>他得到一辆自行车，是作为对他好成绩的回报。</Übersetzung>
+				</Beispiel>
+				<Beispiel>
+					<Satz>Mit meinen Eltern gibt es nach den Zeugnissen immer ein Drama.</Satz>
+					<Übersetzung>每回发了成绩单我和父母都有场好戏。</Übersetzung>
+				</Beispiel>
+			</BeispielSammlung>
+		</Eintrag>
+		<Eintrag>
+			<Chinesisch>证明，鉴定</Chinesisch>
+			<BeispielSammlung>
+				<Beispiel>
+					<Satz>Ich wollte Sie bitten, ob Sie mir vielleicht ein Zeugnis ausstellen könnten?</Satz>
+					<Übersetzung>我想请您帮个忙，您是否能给我出个证明？</Übersetzung>
+				</Beispiel>
+				<Beispiel>
+					<Satz>Abitur ist ein beredtes Zeugnis von dem Lernen.</Satz>
+					<Übersetzung>毕业考试是对学业最有说服力的证明。</Übersetzung>
+				</Beispiel>
+			</BeispielSammlung>
+		</Eintrag>
+	</AllgemeineErläuterungen>
+</Entry>
