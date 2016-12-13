@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE Entry SYSTEM "NounModel.dtd">
+<?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?>
+<Entry category="Substantiv">
+	<Stichwort>Zürich</Stichwort>
+	<Einheit>2</Einheit>
+	<Anteil>Leseverstehen</Anteil>
+	<Genus>das</Genus>
+	<Pluralform></Pluralform>
+	<GenitivSingular>Zürich(e)s</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+    </KompositaCollection>
+    <abgeleiteteWörter>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+    <Synonymegruppe>
+    </Synonymegruppe>
+	<Antonymegruppe/>
+	<Kollokationen>
+	</Kollokationen>
+	<AllgemeineErläuterungen>
+		<Eintrag>
+			<Chinesisch>苏黎世（瑞士地名）</Chinesisch>
+			<BeispielSammlung>
+				<Beispiel>
+					<Satz>Zürich ist die Hauptstadt des gleichnamigen Kantons und mit etwa einer halben Million Einwohner die bevölkerungsreichste Stadt der Schweiz.</Satz>
+					<Übersetzung>苏黎世是瑞士同名的州的首府，也是拥有约50万居民的瑞士的人口最多的城市。</Übersetzung>
+				</Beispiel>
+			</BeispielSammlung>
+		</Eintrag>
+	</AllgemeineErläuterungen>
+</Entry>

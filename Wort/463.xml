@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE Entry SYSTEM "NounModel.dtd">
+<?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?>
+<Entry category="Substantiv">
+	<Stichwort>Zwischenprüfung</Stichwort>
+	<Einheit>7</Einheit>
+	<Anteil>Leseverstehen</Anteil>
+	<Genus>die</Genus>
+	<Pluralform>Zwischenprüfungen</Pluralform>
+	<GenitivSingular>Zwischenprüfung</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+    </KompositaCollection>
+    <abgeleiteteWörter>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+    <Synonymegruppe>
+    </Synonymegruppe>
+	<Antonymegruppe/>
+	<Kollokationen>
+		<K>eine Zwischenprüfung ablegen</K>
+		<K>sich auf eine Zwischenprüfung vorbereiten</K>
+	</Kollokationen>
+	<AllgemeineErläuterungen>
+		<Eintrag>
+			<Chinesisch>期中考试</Chinesisch>
+			<BeispielSammlung>
+				<Beispiel>
+					<Satz>Der bloße Gedanke an die Prüfung verursacht mir Magenschemerzen.</Satz>
+					<Übersetzung>只要一想到考试，我就胃疼。</Übersetzung>
+				</Beispiel>
+			</BeispielSammlung>
+		</Eintrag>
+	</AllgemeineErläuterungen>
+</Entry>
