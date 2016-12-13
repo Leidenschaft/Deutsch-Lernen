@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
 <Stichwort>Nachbar</Stichwort>
 <Einheit>6</Einheit>
 <Anteil>Text</Anteil>
@@ -8,8 +8,8 @@
 
 <zusammengesetzteWörter>
 	<KompositaCollection>
-		<_K/>
-		<K_/>
+		<_K link="208.xml">Zimmernachbar (对门)</_K>
+		<K_ link="449.xml">Tischnachbar (同桌)</K_>
 	</KompositaCollection>
 	<abgeleiteteWörter/></zusammengesetzteWörter>
 
@@ -30,7 +30,7 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Meine Nachbarn sind alle nett.</Satz>
-				<Übersetzung/>
+				<Übersetzung>我的邻居都很友善。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>

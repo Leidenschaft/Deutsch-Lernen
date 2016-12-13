@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
 <Stichwort>Nacht</Stichwort>
 <Einheit>1</Einheit>
 <Anteil>Intentionen</Anteil>
@@ -17,11 +17,13 @@
 	<Sym/>
 </Synonymegruppe>
 <Antonymegruppe>
-	<Anm/>
+	<Anm link="438.xml">Tag</Anm>
 </Antonymegruppe>
 
 <Kollokationen>
-<K/>
+<K>bis spät in die Nacht arbeiten</K>
+<K>bis in die späte Nacht arbeiten (刷夜)</K>
+
 </Kollokationen>
 
 <AllgemeineErläuterungen>

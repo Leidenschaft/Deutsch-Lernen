@@ -22,7 +22,7 @@ document.getElementById("resTree").innerHTML=srcTree.transformNode(xsltTree);
 				var hasTheWord=0;
 			var inputField=document.getElementById("searchField");
 			var wordID=inputField.value;
-			
+			//alert("Location"+wordID);
 			for ( x in dic){
 		    if(x==wordID){
 		    hasTheWord=1;
@@ -39,7 +39,7 @@ document.getElementById("resTree").innerHTML=srcTree.transformNode(xsltTree);
 		}
 		function ChangeContent(){
 		    var newFileName=GetAddress();
-			//alert("Location"+newfileName);
+			
 			if(newFileName)
 			   self.parent.frames["right_frame"].location='Wort/'+newFileName;
 			

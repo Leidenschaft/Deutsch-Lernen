@@ -95,7 +95,10 @@
 	<tr><td><span style="color: #FFFFFF;"><b><font face="仿宋">反义词</font></b></span></td></tr></table>
 	<font color="saddlebrown">
 	<xsl:for-each select="Antonymegruppe/Anm">
-	▪<xsl:value-of select="."/>&#160;</xsl:for-each>
+	<xsl:if test="count(@link)">
+	<a><xsl:attribute name="href"><xsl:value-of select="@link"/></xsl:attribute><img src="icon16_search.png"/></a>
+	</xsl:if>
+	<xsl:value-of select="."/>&#160;</xsl:for-each>
 	</font>
 	</xsl:if><br/>
 	

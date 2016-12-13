@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
 <Stichwort>Nachhilfestunde</Stichwort>
 <Einheit>8</Einheit>
 <Anteil>Hörverstehen</Anteil>
@@ -14,7 +14,7 @@
 	<abgeleiteteWörter/></zusammengesetzteWörter>
 
 <Synonymegruppe>
-	<Sym/>
+	<Sym>Nachhilfeunterricht</Sym>
 </Synonymegruppe>
 <Antonymegruppe>
 	<Anm/>
@@ -30,7 +30,7 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Sie gibt zweimal in der Woche Nachhilfestunden.</Satz>
-				<Übersetzung/>
+				<Übersetzung>她这周讲了两次补习课。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>

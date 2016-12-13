@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "D:\ProjectNote\GermaData\MyWordModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
 <Stichwort>Nachmittag</Stichwort>
 <Einheit>3</Einheit>
 <Anteil>Einführung</Anteil>
@@ -8,8 +8,8 @@
 
 <zusammengesetzteWörter>
 	<KompositaCollection>
-		<_K/>
-		<K_/>
+		<_K>Sommernachmittag</_K>
+		<K_>Nachmittagszeit</K_>
 	</KompositaCollection>
 	<abgeleiteteWörter/></zusammengesetzteWörter>
 
@@ -17,7 +17,7 @@
 	<Sym/>
 </Synonymegruppe>
 <Antonymegruppe>
-	<Anm/>
+	<Anm link="175.xml">Vormittag</Anm>
 </Antonymegruppe>
 
 <Kollokationen>
@@ -29,8 +29,8 @@
 		<Chinesisch>下午</Chinesisch>
 		<BeispielSammlung>
 			<Beispiel>
-				<Satz>Am Nachmittag lernen die Kinder nicht.</Satz>
-				<Übersetzung/>
+				<Satz>Am Nachmittag haben die Kinder Schule nicht.</Satz>
+				<Übersetzung>下午孩子们不用上课。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>
