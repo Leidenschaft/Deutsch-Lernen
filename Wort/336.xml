@@ -8,7 +8,10 @@
 
 <zusammengesetzteWörter>
 	<KompositaCollection>
-		<_K/>
+		<_K link="89.xml">Familienname</_K>
+		<_K link="98.xml">Firmenname</_K>
+		<_K link="252.xml">Hundename</_K>
+		<_K link="448.xml">Tiername</_K>
 		<K_/>
 	</KompositaCollection>
 	<abgeleiteteWörter/></zusammengesetzteWörter>
@@ -30,7 +33,11 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Wie ist Ihr Name?</Satz>
-				<Übersetzung/>
+				<Übersetzung>你叫什么名字？</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Sein Name ist Marx.</Satz>
+				<Übersetzung>他叫马克思。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>

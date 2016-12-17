@@ -14,10 +14,11 @@
 	<abgeleiteteWörter/></zusammengesetzteWörter>
 
 <Synonymegruppe>
-	<Sym/>
+	<Sym>Dessert</Sym>
+	<Sym>Nachspeise</Sym>
 </Synonymegruppe>
 <Antonymegruppe>
-	<Anm/>
+	<Anm link="178.xml">Vorspeise</Anm>
 </Antonymegruppe>
 
 <Kollokationen>
@@ -30,9 +31,14 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Als Nachtisch bestellt ich ein Eis.</Satz>
-				<Übersetzung/>
+				<Übersetzung>我点了一只冰淇淋作为饭后甜点。</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Es gibt Obst und Pudding als Nachtisch.</Satz>
+				<Übersetzung>这儿有水果和布丁作为饭后甜点。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
+		
 	</Eintrag>
 </AllgemeineErläuterungen>
 

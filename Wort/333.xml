@@ -9,7 +9,7 @@
 <zusammengesetzteWörter>
 	<KompositaCollection>
 		<_K/>
-		<K_/>
+		<K_ link="246.xml">Nachthimmel</K_>
 	</KompositaCollection>
 	<abgeleiteteWörter/></zusammengesetzteWörter>
 
@@ -32,7 +32,11 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Gute Nacht!</Satz>
-				<Übersetzung/>
+				<Übersetzung>晚安。</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Heute Nacht ist kalt.</Satz>
+				<Übersetzung>今晚很冷。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>

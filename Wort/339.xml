@@ -17,7 +17,7 @@
 	<Sym/>
 </Synonymegruppe>
 <Antonymegruppe>
-	<Anm/>
+	<Anm>Süden</Anm>
 </Antonymegruppe>
 
 <Kollokationen>
@@ -29,8 +29,12 @@
 		<Chinesisch>北方</Chinesisch>
 		<BeispielSammlung>
 			<Beispiel>
-				<Satz>Im Norden isst man oft Gerichte mit frischem Fisch.</Satz>
-				<Übersetzung/>
+				<Satz>Im Norden von Deutschland isst man oft Gerichte mit frischem Fisch.</Satz>
+				<Übersetzung>在德国北部人们的菜肴中经常有新鲜的鱼。</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>In der Nacht sehe ich der</Satz>
+				<Übersetzung></Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>
