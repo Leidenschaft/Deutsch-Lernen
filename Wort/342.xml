@@ -9,12 +9,12 @@
 <zusammengesetzteWörter>
 	<KompositaCollection>
 		<_K/>
-		<K_/>
+		<K_>Ofenohr (火炉的烟囱)</K_>
 	</KompositaCollection>
 	<abgeleiteteWörter/></zusammengesetzteWörter>
 
 <Synonymegruppe>
-	<Sym/>
+	<Sym link="243.xml">Heizung</Sym>
 </Synonymegruppe>
 <Antonymegruppe>
 	<Anm/>
@@ -30,7 +30,7 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Der Ofen ist alt.</Satz>
-				<Übersetzung/>
+				<Übersetzung>炉子旧了。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>

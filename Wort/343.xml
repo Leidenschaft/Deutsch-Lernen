@@ -9,7 +9,7 @@
 <zusammengesetzteWörter>
 	<KompositaCollection>
 		<_K/>
-		<K_/>
+		<K_ link="13.xml">Ohrenarzt</K_>
 	</KompositaCollection>
 	<abgeleiteteWörter/></zusammengesetzteWörter>
 
@@ -21,7 +21,8 @@
 </Antonymegruppe>
 
 <Kollokationen>
-<K/>
+<K>das linke Ohr</K>
+<K>das rechte Ohr</K>
 </Kollokationen>
 
 <AllgemeineErläuterungen>
@@ -30,7 +31,7 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Das Lied geht leicht ins Ohr.</Satz>
-				<Übersetzung/>
+				<Übersetzung>歌声轻飘飘入耳。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>

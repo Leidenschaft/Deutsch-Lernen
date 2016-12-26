@@ -30,7 +30,11 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Ich habe noch einen Onkel.</Satz>
-				<Übersetzung/>
+				<Übersetzung>我还有一个叔叔。</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Er ist mein Onkel.</Satz>
+				<Übersetzung>他是我的叔叔。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>

@@ -17,7 +17,7 @@
 	<Sym/>
 </Synonymegruppe>
 <Antonymegruppe>
-	<Anm/>
+	<Anm link="344.xml">Oma</Anm>
 </Antonymegruppe>
 
 <Kollokationen>
@@ -30,7 +30,7 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Alex hat keinen Opa,aber eine Oma.</Satz>
-				<Übersetzung/>
+				<Übersetzung>Alex 没有祖父，但有祖母。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>

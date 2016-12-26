@@ -30,7 +30,11 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Meine Oma fährt gern Rad.</Satz>
-				<Übersetzung/>
+				<Übersetzung>我的祖母骑自行车很熟练。</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Meine Oma hat Geburtstag.</Satz>
+				<Übersetzung>我的祖母过生日。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>
