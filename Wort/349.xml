@@ -9,7 +9,8 @@
 <zusammengesetzteWörter>
 	<KompositaCollection>
 		<_K/>
-		<K_/>
+		<K_>Ostafrika</K_>
+		<K_>Osteuropa</K_>
 	</KompositaCollection>
 	<abgeleiteteWörter/></zusammengesetzteWörter>
 
@@ -17,7 +18,7 @@
 	<Sym/>
 </Synonymegruppe>
 <Antonymegruppe>
-	<Anm/>
+	<Anm>Westen</Anm>
 </Antonymegruppe>
 
 <Kollokationen>
@@ -30,7 +31,11 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Wir fahren in Richtung Osten.</Satz>
-				<Übersetzung/>
+				<Übersetzung>我们朝着东方行驶。</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Japan ist im Osten der China.</Satz>
+				<Übersetzung>日本在中国的东部。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>

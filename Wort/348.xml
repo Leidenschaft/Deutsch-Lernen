@@ -8,7 +8,7 @@
 
 <zusammengesetzteWörter>
 	<KompositaCollection>
-		<_K/>
+		<_K>Studienordnung</_K>
 		<K_/>
 	</KompositaCollection>
 	<abgeleiteteWörter/></zusammengesetzteWörter>
@@ -21,7 +21,9 @@
 </Antonymegruppe>
 
 <Kollokationen>
-<K/>
+<K>Ordnung halten</K>
+<K>Ordnung machen</K>
+<K>etwas in Ordnung bringen</K>
 </Kollokationen>
 
 <AllgemeineErläuterungen>
@@ -30,7 +32,7 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>In Ordnung!</Satz>
-				<Übersetzung/>
+				<Übersetzung>保持秩序！</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>
