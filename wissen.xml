@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Eintrag category="Verben">
+	<id>3456</id>
+	<Stichwort>wissen</Stichwort>
+	<Einheit></Einheit><!--不一定需要-->
+	<Anteil></Anteil><!--不一定需要-->
+	<Bedeutungen>
+		<Bedeutung>
+			<Konjugation>
+				<Infinitiv>wissen</Infinitiv>
+				<Präsen>
+					<ich>wisse</ich>
+					<du>weißt</du>
+					<er_sie_es>weiß</er_sie_es>
+					<wir>wissen</wir>
+					<ihr>wisst</ihr>
+					<sie_Sie>wissen</sie_Sie>
+				</Präsen>
+				<Imperfekt>
+					<ich>wusste</ich>
+					<du>wusstest</du>
+					<er_sie_es>wusste</er_sie_es>
+					<wir>wussten</wir>
+					<ihr>wusstet</ihr>
+					<sie_Sie>wussten</sie_Sie>
+				</Imperfekt>
+				<Partizip hilfsverb="hat">gewusst</Partizip>
+			</Konjugation>
+			<zusammengesetzteWörter>
+				<Verb id="2016">weisen</Verb>
+				<Substantiv genus="das" id="12345" chinesisch="知识">Wissen</Substantiv>
+				<Substantiv genus="die" id="34567" chinesisch="科学">Wissenschaft</Substantiv>
+				<Substantiv genus="der" id="10086" chinesisch="求知欲">Wissensdurst</Substantiv>
+				<Substantiv genus="der" id="32768" chinesisch="科学家">Wissenschaftler</Substantiv>
+				<Substantiv genus="der" id="65536" chinesisch="智者">Weise</Substantiv>
+				<Substantiv genus="das" id="88888" chinesisch="知觉">Bewusstsein</Substantiv>
+				<Substantiv genus="die" id="99999" chinesisch="失去知觉">Bewusstlosigkeit</Substantiv> <!--次一级的派生词是否直接写在该动词下-->
+				<Adjektiv id="112233" chinesisch="学术的">wissenschaftlich</Adjektiv> <!--如何将其整理入“lich结尾的形容词”的列表-->
+				<Adjektiv id="778899" chinesisch="值得了解的">wissenswert</Adjektiv> <!--同上，如何将其归入“wert结尾的形容词”列表-->
+				<Adjektiv id="147258" chinesisch="聪明的">weise</Adjektiv>
+				<Adjektiv id="386250" chinesisch="故意的">bewusst</Adjektiv>
+				<Adjektiv id="179830" chinesisch="失去知觉的">bewusstlos</Adjektiv> 
+			</zusammengesetzteWörter>
+			<Deverbativ>
+				<Eintrag id="1453" trennbar="TRUE" chinesisch="心中有数" vorsilbe="weiter">weiterwissen</Eintrag>
+			</Deverbativ>
+			<AllgemeineErläuterungen>
+				<Eintrag>
+					<Transitiv>TRUE</Transitiv>
+					<Meinung>durch seine allgemeinen Kenntnisse</Meinung>
+					<Chinesisch>知道，了解</Chinesisch>
+					<Beispiel></Beispiel>
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+		</Bedeutung>
+	</Bedeutungen>
+</Eintrag>
