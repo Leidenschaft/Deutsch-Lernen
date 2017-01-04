@@ -1,0 +1,189 @@
+<html>
+
+<head>
+	     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="description" content="Pimp your tables with CSS3" />
+        <meta name="keywords" content="table, css3, style, beautiful, fancy, css"/>
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
+    <title>动词变位实例</title> 
+    <script type="text/javascript">
+
+        function parseXML() {
+
+            try {
+
+                xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+            } catch (e) {
+
+                try {
+
+                    xmlDoc = document.implementation.createDocument("", "", null);
+                } catch (e) {
+
+                    alert(e.message);
+                    return;
+                }
+            }
+            xmlDoc.async = false;
+            xmlDoc.load("./assen.xml");
+            
+            document.getElementById("Stichwort").innerHTML = xmlDoc.getElementsByTagName("Stichwort")[0].childNodes[0].nodeValue;
+            document.getElementById("Infinitiv").innerHTML = xmlDoc.getElementsByTagName("Infinitiv")[0].childNodes[0].nodeValue;
+            document.getElementById("ich").innerHTML = xmlDoc.getElementsByTagName("ich")[0].childNodes[0].nodeValue;
+            document.getElementById("du").innerHTML = xmlDoc.getElementsByTagName("du")[0].childNodes[0].nodeValue;
+            document.getElementById("er_sie_es").innerHTML = xmlDoc.getElementsByTagName("er_sie_es")[0].childNodes[0].nodeValue;
+            document.getElementById("wir").innerHTML = xmlDoc.getElementsByTagName("wir")[0].childNodes[0].nodeValue;
+            document.getElementById("ihr").innerHTML = xmlDoc.getElementsByTagName("ihr")[0].childNodes[0].nodeValue;
+            document.getElementById("sie_Sie").innerHTML = xmlDoc.getElementsByTagName("sie_Sie")[0].childNodes[0].nodeValue;
+            document.getElementById("ich2").innerHTML = xmlDoc.getElementsByTagName("ich")[1].childNodes[0].nodeValue;
+             document.getElementById("du2").innerHTML = xmlDoc.getElementsByTagName("du")[1].childNodes[0].nodeValue;
+            document.getElementById("er_sie_es2").innerHTML = xmlDoc.getElementsByTagName("er_sie_es")[1].childNodes[0].nodeValue;
+            document.getElementById("wir2").innerHTML = xmlDoc.getElementsByTagName("wir")[1].childNodes[0].nodeValue;
+            document.getElementById("ihr2").innerHTML = xmlDoc.getElementsByTagName("ihr")[1].childNodes[0].nodeValue;
+            document.getElementById("sie_Sie2").innerHTML = xmlDoc.getElementsByTagName("sie_Sie")[1].childNodes[0].nodeValue;
+        }
+    </script>
+</head>
+ <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            font-family: Georgia, serif;
+            font-size: 20px;
+            font-style: italic;
+            font-weight: normal;
+            letter-spacing: normal;
+            background: #f0f0f0;
+        }
+        #content{
+            background-color:#fff;
+            width:750px;
+            padding:40px;
+            margin:0 auto;
+            border-left:30px solid #1D81B6;
+            border-right:1px solid #ddd;
+            -moz-box-shadow:0px 0px 16px #aaa;
+        }
+        .head{
+            font-family:Helvetica,Arial,Verdana;
+            text-transform:uppercase;
+            font-weight:bold;
+            font-size:12px;
+            font-style:normal;
+            letter-spacing:3px;
+            color:#888;
+            border-bottom:3px solid #f0f0f0;
+            padding-bottom:10px;
+            margin-bottom:10px;
+        }
+        .head a{
+            color:#1D81B6;
+            text-decoration:none;
+            float:right;
+            text-shadow:1px 1px 1px #888;
+        }
+        .head a:hover{
+            color:#f0f0f0;
+        }
+        #content h1{
+            font-family:"Trebuchet MS",sans-serif;
+            color:#1D81B6;
+            font-weight:normal;
+            font-style:normal;
+            font-size:56px;
+            text-shadow:1px 1px 1px #aaa;
+        }
+        #content h2{
+            font-family:"Trebuchet MS",sans-serif;
+            font-size:34px;
+            font-style:normal;
+            background-color:#f0f0f0;
+            margin:40px 0px 30px -40px;
+            padding:0px 40px;
+            clear:both;
+            float:left;
+            width:100%;
+            color:#aaa;
+            text-shadow:1px 1px 1px #fff;
+        }
+
+    </style>
+<body onload="parseXML()">
+
+    <h1>Test</h1>
+      <tr><b>Stichwort:</b><div class="check" id="Stichwort" style="display: inline;"></div><br/> </tr>
+      <tr><b>Infinitiv:</b><span id="Infinitiv" display: inline></span><br /></tr>
+      
+        <table class="table1">
+                <thead>
+                    <tr>
+                        <th> </th>
+                        <th scope="col" abbr="Starter">Praesen</th>
+                        <th scope="col" abbr="Medium" >Praeteritum</th>
+                        <th scope="col" abbr="Business">Pratizip</th>
+                      
+                    </tr>
+                </thead>
+               <!-- <tfoot>
+                    <tr>
+                        <th scope="row">ich</th>
+                        <td> </td>
+                        <td>$ 5.90</td>
+                        <td>$ 9.90</td>
+                        <td>$ 14.90</td>
+                    </tr>
+                </tfoot>
+                -->
+                <tbody>
+                    <tr>
+                        <th scope="row">ich</th>
+                        <td> <span id="ich"> </span> </td>
+                        <td> <span id="ich2"> </span> </td>
+                        <td> </td>
+                   
+                    </tr>
+                    <tr>
+                        <th scope="row">du</th>
+                        <td><span id="du"></span><br/></td>
+                        <td><span id="du2"></span><br/></td>
+                        <td> </td>
+                  
+                    </tr>
+                    <tr>
+                        <th scope="row">er/sie/es</th>
+                        <td><span id="er_sie_es"> </span><br/></td>
+                        <td><span id="er_sie_es2"></span><br/></td>
+                        <td> </td>
+                     
+                    </tr>
+                    <tr>
+                        <th scope="row">wir</th>
+                        <td><span id="wir"></span></td>
+                        <td><span id="wir2"></span></td>
+                        <td> </td>
+                    
+                    </tr>
+                    <tr>
+                        <th scope="row">ihr</th>
+                        <td><span id="ihr"></span></td>
+                        <td><span id="ihr2"></span></td>
+                        <td> </td>
+                      
+                    </tr>
+                    <tr>
+                        <th scope="row">sie/Sie</th>
+                        <td><span id="sie_Sie"> </span> <br/></td>
+                        <td><span id="sie_Sie2"> </span> <br/></td>
+                        <td> </td>
+                      
+                    </tr>
+                </tbody>
+            </table>  
+            
+            
+</body>
+
+</html>
+
