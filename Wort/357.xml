@@ -8,7 +8,11 @@
 
 <zusammengesetzteWörter>
 	<KompositaCollection>
-		<_K/>
+		<_K>Arbeitspause</_K>
+		<_K>Schulpause</_K>
+		<_K>Frühstückspause</_K>
+		<_K>Mittagspause</_K>
+		<_K></_K>
 		<K_/>
 	</KompositaCollection>
 	<abgeleiteteWörter/></zusammengesetzteWörter>
@@ -30,7 +34,11 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Jetzt machen wir gerade Pause.</Satz>
-				<Übersetzung/>
+				<Übersetzung>现在我们刚好在休息。</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Er isst ein Eis während der Pause im Theater.</Satz>
+				<Übersetzung>他在剧院中场休息时间吃了一只冰淇淋。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>

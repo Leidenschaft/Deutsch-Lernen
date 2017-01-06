@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE Entry SYSTEM "NounModel.dtd">
+<?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?>
+<Entry category="Substantiv">
 <Stichwort>Passant</Stichwort>
 <Einheit>10</Einheit>
 <Anteil>Text</Anteil>
@@ -11,7 +14,7 @@
 		<_K/>
 		<K_/>
 	</KompositaCollection>
-	<abgeleiteteWörter/></zusammengesetzteWörter>
+	<abgeleiteteWörter><hierzu category="Substantiv">Passantin</hierzu> </abgeleiteteWörter></zusammengesetzteWörter>
 
 <Synonymegruppe>
 	<Sym/>
@@ -30,7 +33,7 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Der erste Passant kann Frau Wang nicht helfen.</Satz>
-				<Übersetzung/>
+				<Übersetzung>第一位过路者帮不上王女士什么忙。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>
