@@ -8,10 +8,12 @@
 
 <zusammengesetzteWörter>
 	<KompositaCollection>
-		<_K/>
+		<_K link="230.xml">Kinderparadies</_K>
+		<_K link="95.xml">Ferienparadies</_K>
+		<_K link="164.xml">Urlaubsparadies</_K>
 		<K_/>
 	</KompositaCollection>
-	<abgeleiteteWörter/></zusammengesetzteWörter>
+	<abgeleiteteWörter><hierzu category="Adjektiv">paradiesisch</hierzu></abgeleiteteWörter></zusammengesetzteWörter>
 
 <Synonymegruppe>
 	<Sym/>
@@ -21,7 +23,7 @@
 </Antonymegruppe>
 
 <Kollokationen>
-<K/>
+<K link="164.xml">ein Paradies für Urlauber</K>
 </Kollokationen>
 
 <AllgemeineErläuterungen>
@@ -30,7 +32,11 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Man nennt die Stadt Hangzhou,,das Praradies auf Erden''.</Satz>
-				<Übersetzung/>
+				<Übersetzung>人们称杭州是人间天堂。</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Adam und Eva leben im Paradies zusammen.</Satz>
+				<Übersetzung>亚当和夏娃一起生活在天堂。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>

@@ -8,7 +8,7 @@
 
 <zusammengesetzteWörter>
 	<KompositaCollection>
-		<_K/>
+		<_K link="153.xml">Stadtpark</_K>
 		<K_/>
 	</KompositaCollection>
 	<abgeleiteteWörter/></zusammengesetzteWörter>
@@ -30,7 +30,7 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Der Park ist sehr groß.</Satz>
-				<Übersetzung/>
+				<Übersetzung>这所公园很大。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>

@@ -8,13 +8,13 @@
 
 <zusammengesetzteWörter>
 	<KompositaCollection>
-		<_K/>
-		<K_/>
+		<_K link="120.xml">Geburtstagsparty</_K>
+		<_K>Tanzparty</_K>
 	</KompositaCollection>
 	<abgeleiteteWörter/></zusammengesetzteWörter>
 
 <Synonymegruppe>
-	<Sym/>
+	<Sym link="92.xml">Feier</Sym>
 </Synonymegruppe>
 <Antonymegruppe>
 	<Anm/>
@@ -30,7 +30,7 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Wo gibt er die Party?</Satz>
-				<Übersetzung/>
+				<Übersetzung>他在哪举办聚会？</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>

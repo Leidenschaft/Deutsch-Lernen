@@ -8,7 +8,7 @@
 
 <zusammengesetzteWörter>
 	<KompositaCollection>
-		<_K/>
+		<_K link="380.xml">Reisepass</_K>
 		<K_/>
 	</KompositaCollection>
 	<abgeleiteteWörter/></zusammengesetzteWörter>
@@ -30,10 +30,10 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Hier sind zwei Pässe.</Satz>
-				<Übersetzung/>
+				<Übersetzung>这儿有两本护照。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>
 </AllgemeineErläuterungen>
-
+<Comment>Pass 还有险峰之间的通路的意思，如何给出一句有一定意境的传统诗文的例句？</Comment>
 </Entry>
