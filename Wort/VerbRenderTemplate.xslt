@@ -58,7 +58,7 @@
 	</xsl:for-each>
 	</font>
 	<font color="maroon">
-	<xsl:for-each select="zusammengesetzteWörter/KompositaCollection/_K">
+	<xsl:for-each select="zusammengesetzteWörter/KompositaCollection/_K | zusammengesetzteWörter/KompositaCollection/_K_">
 	<xsl:if test="count(@link)">
 	<a><xsl:attribute name="href"><xsl:value-of select="@link"/></xsl:attribute><img src="icon16_search.png"/></a>
 	</xsl:if>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>parken</Stichwort>
+	<Einheit>6</Einheit>
+	<Anteil>Übungen</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich/>
+					<du/>
+					<er_sie_es/>
+					<wir/>
+					<ihr/>
+					<sie_Sie/>
+				</Präsen>
+				<Präteritum>
+					<ich/>
+					<du/>
+					<er_sie_es/>
+					<wir/>
+					<ihr/>
+					<sie_Sie/>
+				</Präteritum>
+				<Perfekt hilfsverb="">	
+					<ich/>
+					<du/>
+					<er_sie_es/>
+					<wir/>
+					<ihr/>
+					<sie_Sie/>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>停放</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Kann man da parken?</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

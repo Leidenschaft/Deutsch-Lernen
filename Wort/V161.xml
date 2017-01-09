@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>steigen</Stichwort>
+	<Einheit>10</Einheit>
+	<Anteil>Leseverstehen</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich/>
+					<du/>
+					<er_sie_es/>
+					<wir/>
+					<ihr/>
+					<sie_Sie/>
+				</Präsen>
+				<Präteritum>
+					<ich/>
+					<du/>
+					<er_sie_es/>
+					<wir/>
+					<ihr/>
+					<sie_Sie/>
+				</Präteritum>
+				<Perfekt hilfsverb="">	
+					<ich/>
+					<du/>
+					<er_sie_es/>
+					<wir/>
+					<ihr/>
+					<sie_Sie/>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>登上，攀登</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Sie können auf den Berg steigen und den alten Tempel besichtigen.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

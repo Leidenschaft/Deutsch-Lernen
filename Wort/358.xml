@@ -9,7 +9,7 @@
 <zusammengesetzteWörter>
 	<KompositaCollection>
 		<_K/>
-		<K_/>
+		<K_ link="383.xml">Pizzarestaurant</K_>
 	</KompositaCollection>
 	<abgeleiteteWörter/></zusammengesetzteWörter>
 
@@ -30,7 +30,7 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Ist die Pizza eigentlich chinesisch oder italienisch?</Satz>
-				<Übersetzung/>
+				<Übersetzung>这块比萨究竟是中式的还是意大利式的？</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>

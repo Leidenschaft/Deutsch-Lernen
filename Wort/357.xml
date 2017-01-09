@@ -8,10 +8,10 @@
 
 <zusammengesetzteWörter>
 	<KompositaCollection>
-		<_K>Arbeitspause</_K>
+		<_K link="V5.xml">Arbeitspause</_K>
 		<_K>Schulpause</_K>
-		<_K>Frühstückspause</_K>
-		<_K>Mittagspause</_K>
+		<_K link="112.xml">Frühstückspause</_K>
+		<_K link="317.xml">Mittagspause</_K>
 		<_K></_K>
 		<K_/>
 	</KompositaCollection>

@@ -11,8 +11,9 @@ document.getElementById("resTree").innerHTML=srcTree.transformNode(xsltTree);
 		var xmlObj=srcTree.documentElement.childNodes;
 		for(j=0;j<xmlObj.length;j++){
 			var entry=xmlObj.item(j);
-			var jplus=j+1;
-			dic[entry.text]=jplus.toString();	
+			var attr=entry.attributes.item(0).value;
+			//var jplus=j+1;//here getAttribute method should be used;
+			dic[entry.text]=attr;//jplus.toString();	
 		}
 		function SearchContent(possibleWord){
 		document.getElementById("searchField").value=possibleWord;
@@ -30,9 +31,10 @@ document.getElementById("resTree").innerHTML=srcTree.transformNode(xsltTree);
 		    }
 		    }
 			if(hasTheWord==1){
-			wordID=dic[wordID];
-			var fileName=wordID+'.xml';
-			return fileName;
+			//wordID=dic[wordID];
+			//var fileName=wordID+'.xml';
+			//return fileName;
+			return dic[wordID];
 		   }
 		   else
 		   	  return null;

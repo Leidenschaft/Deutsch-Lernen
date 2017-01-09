@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Entry SYSTEM "VerbenModel.dtd">
+<?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?>
+<Entry category="Verben">
+	<Stichwort>wissen</Stichwort>
+	<Einheit>7</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<!--Infinitiv:wissen-->
+				<Präsen>
+					<ich>weiß</ich>
+					<du>weißt</du>
+					<er_sie_es>weiß</er_sie_es>
+					<wir>wissen</wir>
+					<ihr>wisst</ihr>
+					<sie_Sie>wissen</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>wusste</ich>
+					<du>wusstest</du>
+					<er_sie_es>wusste</er_sie_es>
+					<wir>wussten</wir>
+					<ihr>wusstet</ihr>
+					<sie_Sie>wussten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gewusst</ich>
+					<du>hast gewusst</du>
+					<er_sie_es>hat gewusst</er_sie_es>
+					<wir>haben gewusst</wir>
+					<ihr>habt gewusst</ihr>
+					<sie_Sie>haben gewusst</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+				<K_ category="Substantiv" chinesisch="科学">die Wissenschaft</K_>
+				<K_ category="Substantiv" chinesisch="求知欲">der Wissensdurst</K_>
+				<K_ category="Substantiv" chinesisch="科学家">der Wissenschaftler</K_>								
+				<K_ category="Substantiv" chinesisch="智者">der Weise</K_>								
+				<_K_ category="Substantiv" chinesisch="知觉">das Bewusstsein</_K_>
+				<_K_ category="Substantiv" chinesisch="失去知觉">die Bewusstlosigkeit</_K_>							
+				<!--次一级的派生词是否直接写在该动词下-->
+				<K_ category="Adjektiv" chinesisch="学术的">wissenschaftlich</K_>												
+				<!--如何将其整理入“lich结尾的形容词”的列表-->
+				<K_ category="Adjektiv" chinesisch="值得了解的">wissenswert</K_>												
+				<!--同上，如何将其归入“wert结尾的形容词”列表-->
+				<K_ category="Adjektiv" chinesisch="聪明的">weise</K_>												
+				<_K category="Adjektiv" chinesisch="故意的">bewusst</_K>
+				<_K_ category="Adjektiv" chinesisch="失去知觉的">bewusstlos</_K_>
+			</KompositaCollection>
+			<abgeleiteteWörter><hierzu category="Substantiv" chinesisch="知识">Wissen</hierzu>
+				<hierzu category="Verben" chinesisch="心中有数" trennbar="TRUE">weiterwissen</hierzu> 
+				<!-- vorsilbe="weiter"-->
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym>kennen</Sym>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="TRUE">
+					<!--german definition:durch seine allgemeinen Kenntnisse-->
+					<Chinesisch>知道，了解</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Das weiß ich nicht.</Satz>
+					<Übersetzung>这我不知道。</Übersetzung>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>
