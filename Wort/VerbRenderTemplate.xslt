@@ -109,9 +109,9 @@
                 <thead>
                     <tr>
                         <th>&#160;</th>
-                        <th scope="col" abbr="Starter">Präsen</th>
-                        <th scope="col" abbr="Medium" >Praeteritum</th>
-                        <th scope="col" abbr="Business">Pratizip</th>  
+                        <th scope="col" abbr="Starter">一般现在时</th>
+                        <th scope="col" abbr="Medium" >一般过去时</th>
+                        <th scope="col" abbr="Business">现在完成时</th>  
                     </tr>
                 </thead>
               
@@ -120,42 +120,42 @@
                         <th scope="row">ich</th>
                         <td><xsl:value-of select="Konjugation/Präsen/ich"/> </td>
                         <td><xsl:value-of select="Konjugation/Präteritum/ich"/></td>
-                        <td> </td>
+                        <td><xsl:value-of select="Konjugation/Perfekt/ich"/> </td>
                    
                     </tr>
                     <tr>
                         <th scope="row">du</th>
                         <td><xsl:value-of select="Konjugation/Präsen/du"/></td>
                         <td><xsl:value-of select="Konjugation/Präteritum/du"/></td>
-                        <td> </td>
+                        <td><xsl:value-of select="Konjugation/Perfekt/du"/>  </td>
                   
                     </tr>
                     <tr>
                         <th scope="row">er/sie/es</th>
                         <td><xsl:value-of select="Konjugation/Präsen/er_sie_es"/></td>
                         <td><xsl:value-of select="Konjugation/Präteritum/er_sie_es"/></td>
-                        <td> </td>
+                        <td> <xsl:value-of select="Konjugation/Perfekt/er_sie_es"/> </td>
                      
                     </tr>
                     <tr>
                         <th scope="row">wir</th>
                         <td><xsl:value-of select="Konjugation/Präsen/wir"/></td>
                         <td><xsl:value-of select="Konjugation/Präteritum/wir"/></td>
-                        <td> </td>
+                        <td><xsl:value-of select="Konjugation/Perfekt/wir"/></td>
                     
                     </tr>
                     <tr>
                         <th scope="row">ihr</th>
                         <td><xsl:value-of select="Konjugation/Präsen/ihr"/></td>
                         <td><xsl:value-of select="Konjugation/Präteritum/ihr"/></td>
-                        <td> </td>
+                        <td> <xsl:value-of select="Konjugation/Perfekt/ihr"/></td>
                       
                     </tr>
                     <tr>
                         <th scope="row">sie/Sie</th>
                         <td><xsl:value-of select="Konjugation/Präsen/sie_Sie"/></td>
                         <td><xsl:value-of select="Konjugation/Präteritum/sie_Sie"/></td>
-                        <td> </td>
+                        <td><xsl:value-of select="Konjugation/Perfekt/sie_Sie"/> </td>
                       
                     </tr>
                 </tbody>

@@ -5,7 +5,8 @@ var xsltTree= new ActiveXObject("Msxml2.DOMDocument.6.0");
         xsltTree.async = false;
         // You can substitute other XSLT file names here.
         xsltTree.load("navigation.xslt");
-document.getElementById("resTree").innerHTML=srcTree.transformNode(xsltTree);
+        self.parent.frames["wordList"].document.getElementById("resTree").innerHTML=srcTree.transformNode(xsltTree);
+//document.getElementById("resTree").innerHTML=srcTree.transformNode(xsltTree);
 
 		var dic=new Array();
 		var xmlObj=srcTree.documentElement.childNodes;
