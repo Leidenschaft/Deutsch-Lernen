@@ -16,6 +16,8 @@ var xsltTree= new ActiveXObject("Msxml2.DOMDocument.6.0");
 			//var jplus=j+1;//here getAttribute method should be used;
 			dic[entry.text]=attr;//jplus.toString();	
 		}
+		
+		var LastSearchedWord='';
 		function SearchContent(possibleWord){
 		document.getElementById("searchField").value=possibleWord;
 		return GetAddress();
@@ -35,6 +37,7 @@ var xsltTree= new ActiveXObject("Msxml2.DOMDocument.6.0");
 			//wordID=dic[wordID];
 			//var fileName=wordID+'.xml';
 			//return fileName;
+			LastSearchedWord=wordID;
 			return dic[wordID];
 		   }
 		   else
@@ -43,11 +46,42 @@ var xsltTree= new ActiveXObject("Msxml2.DOMDocument.6.0");
 		function ChangeContent(){
 		    var newFileName=GetAddress();
 			
-			if(newFileName)
+			if(newFileName){
 			   self.parent.frames["right_frame"].location='Wort/'+newFileName;
-			
+			 var st=document.getElementById("searchField");
+        		 st.focus();
+        		 st.select();
+			}
 			//else{
 			//document.getElementById("contentViewer").innerHTML="<p>"+wordID+"&nbsp;not found</p>";
 			//}
 		}
+		function CancelHinting(){
+		if(document.getElementById("searchField").value=='Please Type the word you want to search' || (LastSearchedWord!=''))
+		{document.getElementById("searchField").value='';}
+
+		}
+		function Hinting(){
+			if(document.getElementById("searchField").value=='')
+			{
+				if(LastSearchedWord!='')
+					document.getElementById("searchField").value=LastSearchedWord;
+				else
+				document.getElementById("searchField").value='Please Type the word you want to search';
+			}
+		}
+		function PrepareToChangeContent(e)
+	{
+	var keynum;
+	var keychar;
+	var numcheck;
+
+	if(window.event) // IE
+  	{
+  	keynum = e.keyCode;
+  	if(keynum=13)
+  	   ChangeContent();
+	}
+	}
+
 		
