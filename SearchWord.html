@@ -13,9 +13,13 @@
 
 <button onclick="ChangeContent()">Suchen</button><br/>
 -->
-<input id="searchField" name="InputBox" value='Please Type the word you want to search' size="40"/>
+<input id="searchField" list="Words" name="InputBox" value='Please Type the word you want to search' size="40"/>
+<datalist id="Words">
+
+</datalist>
 
 <button>Suchen</button><br/>
+
 <div id="resTree"></div>
 	
 	<!--ProcessingSearch.js should be rewritten using jQuery.

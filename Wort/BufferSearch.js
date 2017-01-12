@@ -1,6 +1,6 @@
 function LoadNewWord(word_send){
 	var word_send_after_replace=word_send.replace(" ","");
-	var newFileName=self.parent.frames["navigation"].SearchContent(word_send_after_replace);
+	var newFileName = self.parent.frames["navigation"].jqueryFunction(word_send_after_replace);
 	    if(newFileName)
 	       window.location=newFileName;
 }
