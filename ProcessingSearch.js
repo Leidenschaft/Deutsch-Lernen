@@ -1,23 +1,3 @@
-var srcTree = new ActiveXObject("Msxml2.DOMDocument.6.0");
-srcTree.async=false;
-srcTree.load('Wordlist_11.xml');
-var xsltTree= new ActiveXObject("Msxml2.DOMDocument.6.0");
-        xsltTree.async = false;
-        // You can substitute other XSLT file names here.
-        xsltTree.load("navigation.xslt");
-        self.parent.frames["wordList"].document.getElementById("resTree").innerHTML=srcTree.transformNode(xsltTree);
-//document.getElementById("resTree").innerHTML=srcTree.transformNode(xsltTree);
-
-		var dic=new Array();
-		var xmlObj=srcTree.documentElement.childNodes;
-		for(j=0;j<xmlObj.length;j++){
-			var entry=xmlObj.item(j);
-			var attr=entry.attributes.item(0).value;
-			//var jplus=j+1;//here getAttribute method should be used;
-			dic[entry.text]=attr;//jplus.toString();	
-		}
-		
-		var LastSearchedWord='';
 		function SearchContent(possibleWord){
 		document.getElementById("searchField").value=possibleWord;
 		return GetAddress();

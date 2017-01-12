@@ -1,0 +1,34 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Enter your title here</title>
+<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="ProcessingSearchJQueryVersion.js"></script>
+</head>
+<body>
+    <style></style>
+<!--
+	
+<input id="searchField" name="InputBox" onfocus="CancelHinting()" onblur="Hinting()" value='Please Type the word you want to search' size="40"  onkeypress="PrepareToChangeContent(event)"/>
+
+<button onclick="ChangeContent()">Suchen</button><br/>
+-->
+    <div id="Centering" style="position: absolute;margin-left:-200px;left:50%;top: 30%;">
+<img src="integration_verben_table.png" height="150" width="350"/><br />
+<input id="searchField" list="Words" name="InputBox" value='Please Type the word you want to search' size="40"/>
+<datalist id="Words">
+
+</datalist>
+
+<button>Suchen</button><br/>
+</div>
+
+<!--ProcessingSearch.js should be rewritten using jQuery.
+<script type="text/javascript"  src="ProcessingSearch.js">
+</script>
+-->
+</body>
+
+</html>
+

@@ -1,16 +1,24 @@
 var jqueryFunction;
 $(document).ready(function () {
     //below the xml file wordlist is loaded
+    var isIndexPage;
     var srcTree = new ActiveXObject("Msxml2.DOMDocument.6.0");
     srcTree.async = false;
     srcTree.load('Wordlist_11.xml');
-    var xsltTree = new ActiveXObject("Msxml2.DOMDocument.6.0");
-    xsltTree.async = false;
-    // You can substitute other XSLT file names here.
-    xsltTree.load("navigation.xslt");
-    self.parent.frames["wordList"].document.getElementById("resTree").innerHTML = srcTree.transformNode(xsltTree);
-    //document.getElementById("resTree").innerHTML=srcTree.transformNode(xsltTree);
-
+    if ($("#Centering").length) {
+        isIndexPage = true;
+    }
+    else {
+        isIndexPage = false;
+    }
+    if (!isIndexPage) {
+        var xsltTree = new ActiveXObject("Msxml2.DOMDocument.6.0");
+        xsltTree.async = false;
+        // You can substitute other XSLT file names here.
+        xsltTree.load("navigation.xslt");
+        self.parent.frames["wordList"].document.getElementById("resTree").innerHTML = srcTree.transformNode(xsltTree);
+        //document.getElementById("resTree").innerHTML=srcTree.transformNode(xsltTree);
+    }
     var dic = new Array();
     var xmlObj = srcTree.documentElement.childNodes;
     for (j = 0; j < xmlObj.length; j++) {
@@ -21,14 +29,20 @@ $(document).ready(function () {
     }
 
     var LastSearchedWord = '';
-
     $("button").click(function () {
-        ChangeContent();
+        if (!isIndexPage) {
+            ChangeContent();
+        }
+        else {
+            self.location = 'FrameSetTest.html';
+        }
     });
     function ChangeContent() {
         var newFileName = GetAddress();
-
-        if (newFileName) {
+        if (isIndexPage) {
+            self.location = 'FrameSetTest.html';
+        }
+        else if (newFileName) {
             self.parent.frames["right_frame"].location = 'Wort/' + newFileName;
             var st = $("#searchField");//prepend # select id.
             st.focus();
@@ -81,12 +95,32 @@ $(document).ready(function () {
                 ChangeContent();
         }
     });
-    var htmlcontent = "";
+
+     /*   var htmlcontent = "";
         for (x in dic) {
             htmlcontent = htmlcontent + "<option value=\"" + x + "\"></option>";
-    }
-    $("#Words").html(htmlcontent);
-    
+        }
+        $("#Words").html(htmlcontent);
+    */
+    $("#searchField").on('input', function () {
+        var entry = $("#searchField").val();
+        addWordToList(entry);
+    });
 
+        function addWordToList(entry) {
+            var htmlcontent = "";
+            var c = 0;
+            for (x in dic) {
+                if (x < entry) {
+                    continue;
+                }
+                htmlcontent = htmlcontent + "<option value=\"" + x + "\"></option>";
+                c = c + 1;
+                if (c == 5) {
+                    break;
+                }
+            }
+            $("#Words").html(htmlcontent);
+        }
 
 });
