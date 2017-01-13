@@ -1,41 +1,66 @@
 var jqueryFunction;
 $(document).ready(function () {
     //below the xml file wordlist is loaded
-    var isIndexPage;
+    var BrowerType;
+    var userAgent = navigator.userAgent;
+    if (userAgent.indexOf("Chrome") > -1 || userAgent.indexOf("Firefox") > -1) {
+        BrowerType = "Chrome";
+    }
+    else {
+        BrowerType = "IE";
 
-    var srcTree = new ActiveXObject("Msxml2.DOMDocument.6.0");
-    srcTree.async = false;
-    srcTree.load('Wordlist_11.xml');
+    }
+    var isIndexPage;
     if ($("#Centering").length) {
         isIndexPage = true;
     }
     else {
         isIndexPage = false;
-            var url=self.parent.getURL();
-    			if(url!=null){
-    				var newFileName=url.match("=(.*)");	
-		            self.parent.frames["right_frame"].location = 'Wort/' + newFileName[1];				
-   			}
-    }
-    if (!isIndexPage) {
-        var xsltTree = new ActiveXObject("Msxml2.DOMDocument.6.0");
-        xsltTree.async = false;
-        // You can substitute other XSLT file names here.
-        xsltTree.load("navigation.xslt");
-        self.parent.frames["wordList"].document.getElementById("resTree").innerHTML = srcTree.transformNode(xsltTree);
-        //document.getElementById("resTree").innerHTML=srcTree.transformNode(xsltTree);
+        var url = self.parent.getURL();
+        if (url != null) {
+            var newFileName = url.match("=(.*)");
+            self.parent.frames["right_frame"].location = 'Wort/' + newFileName[1];
+        }
     }
     var dic = new Array();
-    var xmlObj = srcTree.documentElement.childNodes;
-    for (j = 0; j < xmlObj.length; j++) {
-        var entry = xmlObj.item(j);
-        var attr = entry.attributes.item(0).value;
-        //var jplus=j+1;//here getAttribute method should be used;
-        dic[entry.text] = attr;//jplus.toString();	
+    var xmlDoc_wordList;
+    if (BrowerType == "Chrome") {
+        $.ajax({
+            url: 'Wordlist_11.xml',
+            type: 'GET',
+            dataType: 'xml',
+            timeout: 1000,
+            cache: false,
+            error: function (xml) {
+                alert("loading xml encounters an error!");
+            },
+            success: function (xml) {
+                xmlDoc_wordList = xml;
+                $(xml).find("Word").each(function (i) {
+                    var id = $(this);
+                    var entry = id.text();
+                    var attr = id.attr("address");
+                    dic[entry] = attr;//jplus.toString();	
+                }
+        )
+            }
+        });
+    }
+    else {
+        var srcTree = new ActiveXObject("Msxml2.DOMDocument.6.0");
+        srcTree.async = false;
+        srcTree.load('Wordlist_11.xml');
+        var xmlObj = srcTree.documentElement.childNodes;
+        for (j=0;j<xmlObj.length;j++){
+            var entry = xmlObj.item(j);
+            var attr = entry.attributes.item(0).value;
+            //var jplus=j+1;//here getAttribute method should be used;
+            dic[entry.text] = attr;//jplus.toString();	
+        }
     }
 
     var LastSearchedWord = '';
-    $("button").click(function () {
+    $("button").click(function (){
             ChangeContent();
     });
     function ChangeContent() {
@@ -51,7 +76,6 @@ $(document).ready(function () {
             st.select();
         }
     }
-
     jqueryFunction = function SearchContent(possibleWord) {
         $("#searchField").val(possibleWord);
         return GetAddress();
@@ -71,7 +95,9 @@ $(document).ready(function () {
         if (hasTheWord == 1) {
             LastSearchedWord = wordform;
             //here call the scrollbar utility function
-              self.parent.frames["wordList"].scrollFunction(cnt);
+            if (!isIndexPage) {
+                self.parent.frames["wordList"].scrollFunction(cnt);
+            }
             return dic[wordform];
         }
         else
@@ -94,12 +120,9 @@ $(document).ready(function () {
 
 
         var keynum;
-        if (window.event) // IE
-        {
             keynum = e.keyCode;
             if (keynum == 13)
                 ChangeContent();
-        }
     });
 
      /*   var htmlcontent = "";
