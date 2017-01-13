@@ -7,21 +7,10 @@
 		<head>
 			<title>Wordlist</title>
       <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
-      <script type="text/javascript">
-        var scrollFunction;
-        $(document).ready(function () {
-        var height_total=$(window).height();//at such time $(window).scrollTop()=0;
-        var width;
-        scrollFunction=function scrollController(amount){
-        var offset=parseInt(amount*height_total);
-        window.scroll(0,offset);
-        }
-        });
-      </script>
+      <script type="text/javascript" src="scroll.js">      </script>
 
     </head>
 		<body>
-		<h3>Wordlist:</h3>
 		<xsl:apply-templates/>
 	   
 		

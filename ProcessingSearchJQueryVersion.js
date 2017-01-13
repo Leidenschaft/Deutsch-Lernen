@@ -1,13 +1,13 @@
 var jqueryFunction;
 $(document).ready(function () {
     //below the xml file wordlist is loaded
-    var BrowerType;
+    var BrowersType;
     var userAgent = navigator.userAgent;
     if (userAgent.indexOf("Chrome") > -1 || userAgent.indexOf("Firefox") > -1) {
-        BrowerType = "Chrome";
+        BrowersType = "Chrome";
     }
     else {
-        BrowerType = "IE";
+        BrowersType = "IE";
 
     }
     var isIndexPage;
@@ -24,7 +24,7 @@ $(document).ready(function () {
     }
     var dic = new Array();
     var xmlDoc_wordList;
-    if (BrowerType == "Chrome") {
+    if (BrowersType == "Chrome") {
         $.ajax({
             url: 'Wordlist_11.xml',
             type: 'GET',
@@ -96,7 +96,8 @@ $(document).ready(function () {
             LastSearchedWord = wordform;
             //here call the scrollbar utility function
             if (!isIndexPage) {
-                self.parent.frames["wordList"].scrollFunction(cnt);
+                var parameter=$("#parameter").val();
+                self.parent.frames["wordList"].scrollFunction(cnt,parameter);
             }
             return dic[wordform];
         }
