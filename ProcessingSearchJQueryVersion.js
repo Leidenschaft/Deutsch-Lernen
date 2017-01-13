@@ -45,7 +45,7 @@ $(document).ready(function () {
         }
         else if (newFileName) {
             self.parent.frames["right_frame"].location = 'Wort/' + newFileName;
-            self.parent.frames["wordList"].scrollController();
+          
             var st = $("#searchField");//prepend # select id.
             st.focus();
             st.select();
@@ -59,8 +59,10 @@ $(document).ready(function () {
     function GetAddress() {
         var hasTheWord = 0;
         var wordform = $("#searchField").val();
+        var cnt=0;
         //alert("Location"+wordID);
         for (x in dic) {
+        	  cnt=cnt+1;
             if (x == wordform) {
                 hasTheWord = 1;
                 break;
@@ -69,6 +71,7 @@ $(document).ready(function () {
         if (hasTheWord == 1) {
             LastSearchedWord = wordform;
             //here call the scrollbar utility function
+              self.parent.frames["wordList"].scrollFunction(cnt);
             return dic[wordform];
         }
         else
