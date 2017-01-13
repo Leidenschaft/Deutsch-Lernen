@@ -2,6 +2,7 @@ var jqueryFunction;
 $(document).ready(function () {
     //below the xml file wordlist is loaded
     var isIndexPage;
+
     var srcTree = new ActiveXObject("Msxml2.DOMDocument.6.0");
     srcTree.async = false;
     srcTree.load('Wordlist_11.xml');
@@ -10,6 +11,11 @@ $(document).ready(function () {
     }
     else {
         isIndexPage = false;
+            var url=self.parent.getURL();
+    			if(url!=null){
+    				var newFileName=url.match("=(.*)");	
+		            self.parent.frames["right_frame"].location = 'Wort/' + newFileName[1];				
+   			}
     }
     if (!isIndexPage) {
         var xsltTree = new ActiveXObject("Msxml2.DOMDocument.6.0");
@@ -30,20 +36,16 @@ $(document).ready(function () {
 
     var LastSearchedWord = '';
     $("button").click(function () {
-        if (!isIndexPage) {
             ChangeContent();
-        }
-        else {
-            self.location = 'FrameSetTest.html';
-        }
     });
     function ChangeContent() {
         var newFileName = GetAddress();
         if (isIndexPage) {
-            self.location = 'FrameSetTest.html';
+            self.location = 'FrameSetTest.html?wordAddress='+newFileName;
         }
         else if (newFileName) {
             self.parent.frames["right_frame"].location = 'Wort/' + newFileName;
+            self.parent.frames["wordList"].scrollController();
             var st = $("#searchField");//prepend # select id.
             st.focus();
             st.select();
@@ -66,6 +68,7 @@ $(document).ready(function () {
         }
         if (hasTheWord == 1) {
             LastSearchedWord = wordform;
+            //here call the scrollbar utility function
             return dic[wordform];
         }
         else
@@ -91,7 +94,7 @@ $(document).ready(function () {
         if (window.event) // IE
         {
             keynum = e.keyCode;
-            if (keynum = 13)
+            if (keynum == 13)
                 ChangeContent();
         }
     });
@@ -104,7 +107,12 @@ $(document).ready(function () {
     */
     $("#searchField").on('input', function () {
         var entry = $("#searchField").val();
+        if(entry==''){
+        $("#Words").html('');
+        }
+        else{
         addWordToList(entry);
+   	  }
     });
 
         function addWordToList(entry) {
