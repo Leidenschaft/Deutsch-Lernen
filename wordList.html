@@ -10,7 +10,7 @@
 			var height_total=$(window).height();//at such time $(window).scrollTop()=0;
 			var width;
 			scrollFunction=function scrollController(amount){
-				var offset=parseInt(amount*height_total);
+				var offset=parseInt(amount*height_total/testNum);
 				    window.scroll(0,offset);	
 			}
 		});
