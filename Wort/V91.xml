@@ -4,28 +4,28 @@
 	<Anteil>Übungen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>tippe</ich>
+					<du>tippst</du>
+					<er_sie_es>tippt</er_sie_es>
+					<wir>tippen</wir>
+					<ihr>tippt</ihr>
+					<sie_Sie>tippen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>tippte</ich>
+					<du>tipptest</du>
+					<er_sie_es>tippte</er_sie_es>
+					<wir>tippten</wir>
+					<ihr>tipptet</ihr>
+					<sie_Sie>tippten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe getippt</ich>
+					<du>hast getippt</du>
+					<er_sie_es>hat getippt</er_sie_es>
+					<wir>haben getippt</wir>
+					<ihr>habt getippt</ihr>
+					<sie_Sie>haben getippt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

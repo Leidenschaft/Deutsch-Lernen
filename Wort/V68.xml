@@ -4,28 +4,28 @@
 	<Anteil>Übungen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>gehöre</ich>
+					<du>gehörst</du>
+					<er_sie_es>gehört</er_sie_es>
+					<wir>gehören</wir>
+					<ihr>gehört</ihr>
+					<sie_Sie>gehören</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>gehörte</ich>
+					<du>gehörtest</du>
+					<er_sie_es>gehörte</er_sie_es>
+					<wir>gehörten</wir>
+					<ihr>gehörtet</ihr>
+					<sie_Sie>gehörten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gehört</ich>
+					<du>hast gehört</du>
+					<er_sie_es>hat gehört</er_sie_es>
+					<wir>haben gehört</wir>
+					<ihr>habt gehört</ihr>
+					<sie_Sie>haben gehört</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

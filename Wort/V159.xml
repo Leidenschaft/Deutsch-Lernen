@@ -4,28 +4,28 @@
 	<Anteil>Hörverstehen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>bemerke</ich>
+					<du>bemerkst</du>
+					<er_sie_es>bemerkt</er_sie_es>
+					<wir>bemerken</wir>
+					<ihr>bemerkt</ihr>
+					<sie_Sie>bemerken</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>bemerkte</ich>
+					<du>bemerktest</du>
+					<er_sie_es>bemerkte</er_sie_es>
+					<wir>bemerkten</wir>
+					<ihr>bemerktet</ihr>
+					<sie_Sie>bemerkten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe bemerkt</ich>
+					<du>hast bemerkt</du>
+					<er_sie_es>hat bemerkt</er_sie_es>
+					<wir>haben bemerkt</wir>
+					<ihr>habt bemerkt</ihr>
+					<sie_Sie>haben bemerkt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

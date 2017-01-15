@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>erlebe</ich>
+					<du>erlebst</du>
+					<er_sie_es>erlebt</er_sie_es>
+					<wir>erleben</wir>
+					<ihr>erlebt</ihr>
+					<sie_Sie>erleben</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>erlebte</ich>
+					<du>erlebtest</du>
+					<er_sie_es>erlebte</er_sie_es>
+					<wir>erlebten</wir>
+					<ihr>erlebtet</ihr>
+					<sie_Sie>erlebten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe erlebt</ich>
+					<du>hast erlebt</du>
+					<er_sie_es>hat erlebt</er_sie_es>
+					<wir>haben erlebt</wir>
+					<ihr>habt erlebt</ihr>
+					<sie_Sie>haben erlebt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

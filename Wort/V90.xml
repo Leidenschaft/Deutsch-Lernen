@@ -4,28 +4,28 @@
 	<Anteil>Übungen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>sitze</ich>
+					<du>sitzt</du>
+					<er_sie_es>sitzt</er_sie_es>
+					<wir>sitzen</wir>
+					<ihr>sitzt</ihr>
+					<sie_Sie>sitzen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>saß</ich>
+					<du>saßest</du>
+					<er_sie_es>saß</er_sie_es>
+					<wir>saßen</wir>
+					<ihr>saßet</ihr>
+					<sie_Sie>saßen</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gesessen</ich>
+					<du>hast gesessen</du>
+					<er_sie_es>hat gesessen</er_sie_es>
+					<wir>haben gesessen</wir>
+					<ihr>habt gesessen</ihr>
+					<sie_Sie>haben gesessen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

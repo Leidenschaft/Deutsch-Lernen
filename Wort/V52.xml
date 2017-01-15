@@ -4,28 +4,28 @@
 	<Anteil>Übungen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>komme mit</ich>
+					<du>kommst mit</du>
+					<er_sie_es>kommt mit</er_sie_es>
+					<wir>kommen mit</wir>
+					<ihr>kommt mit</ihr>
+					<sie_Sie>kommen mit</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>kam mit</ich>
+					<du>kamst mit</du>
+					<er_sie_es>kam mit</er_sie_es>
+					<wir>kamen mit</wir>
+					<ihr>kamt mit</ihr>
+					<sie_Sie>kamen mit</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="sein">	
+					<ich>bin mitgekommen</ich>
+					<du>bist mitgekommen</du>
+					<er_sie_es>ist mitgekommen</er_sie_es>
+					<wir>sind mitgekommen</wir>
+					<ihr>seid mitgekommen</ihr>
+					<sie_Sie>sind mitgekommen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

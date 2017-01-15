@@ -4,28 +4,28 @@
 	<Anteil>Leseverstehen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>erzähle</ich>
+					<du>erzählst</du>
+					<er_sie_es>erzählt</er_sie_es>
+					<wir>erzählen</wir>
+					<ihr>erzählt</ihr>
+					<sie_Sie>erzählen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>erzählte</ich>
+					<du>erzähltest</du>
+					<er_sie_es>erzählte</er_sie_es>
+					<wir>erzählten</wir>
+					<ihr>erzähltet</ihr>
+					<sie_Sie>erzählten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe erzählt</ich>
+					<du>hast erzählt</du>
+					<er_sie_es>hat erzählt</er_sie_es>
+					<wir>haben erzählt</wir>
+					<ihr>habt erzählt</ihr>
+					<sie_Sie>haben erzählt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

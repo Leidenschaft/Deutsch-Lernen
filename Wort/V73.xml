@@ -4,28 +4,28 @@
 	<Anteil>Intentionen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>empfehle</ich>
+					<du>empfiehlst</du>
+					<er_sie_es>empfiehlt</er_sie_es>
+					<wir>empfehlen</wir>
+					<ihr>empfehlt</ihr>
+					<sie_Sie>empfehlen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>empfahl</ich>
+					<du>empfahlst</du>
+					<er_sie_es>empfahl</er_sie_es>
+					<wir>empfahlen</wir>
+					<ihr>empfahlt</ihr>
+					<sie_Sie>empfahlen</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe empfohlen</ich>
+					<du>hast empfohlen</du>
+					<er_sie_es>hat empfohlen</er_sie_es>
+					<wir>haben empfohlen</wir>
+					<ihr>habt empfohlen</ihr>
+					<sie_Sie>haben empfohlen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

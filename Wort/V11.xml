@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>frage</ich>
+					<du>fragst</du>
+					<er_sie_es>fragt</er_sie_es>
+					<wir>fragen</wir>
+					<ihr>fragt</ihr>
+					<sie_Sie>fragen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>fragte</ich>
+					<du>fragtest</du>
+					<er_sie_es>fragte</er_sie_es>
+					<wir>fragten</wir>
+					<ihr>fragtet</ihr>
+					<sie_Sie>fragten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gefragt</ich>
+					<du>hast gefragt</du>
+					<er_sie_es>hat gefragt</er_sie_es>
+					<wir>haben gefragt</wir>
+					<ihr>habt gefragt</ihr>
+					<sie_Sie>haben gefragt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

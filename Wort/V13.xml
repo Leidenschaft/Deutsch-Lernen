@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>schließe</ich>
+					<du>schließt</du>
+					<er_sie_es>schließt</er_sie_es>
+					<wir>schließen</wir>
+					<ihr>schließt</ihr>
+					<sie_Sie>schließen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>schloß</ich>
+					<du>schlossest</du>
+					<er_sie_es>schloß</er_sie_es>
+					<wir>schlossen</wir>
+					<ihr>schloßt</ihr>
+					<sie_Sie>schlossen</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe geschlossen</ich>
+					<du>hast geschlossen</du>
+					<er_sie_es>hat geschlossen</er_sie_es>
+					<wir>haben geschlossen</wir>
+					<ihr>habt geschlossen</ihr>
+					<sie_Sie>haben geschlossen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

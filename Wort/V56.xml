@@ -4,28 +4,28 @@
 	<Anteil>Leseverstehen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>hole ab</ich>
+					<du>holst ab</du>
+					<er_sie_es>holt ab</er_sie_es>
+					<wir>holen ab</wir>
+					<ihr>holt ab</ihr>
+					<sie_Sie>holen ab</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>holte ab</ich>
+					<du>holtest ab</du>
+					<er_sie_es>holte ab</er_sie_es>
+					<wir>holten ab</wir>
+					<ihr>holtet ab</ihr>
+					<sie_Sie>holten ab</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe abgeholt</ich>
+					<du>hast abgeholt</du>
+					<er_sie_es>hat abgeholt</er_sie_es>
+					<wir>haben abgeholt</wir>
+					<ihr>habt abgeholt</ihr>
+					<sie_Sie>haben abgeholt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

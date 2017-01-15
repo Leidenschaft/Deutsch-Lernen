@@ -4,28 +4,28 @@
 	<Anteil>Einfürung</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>spreche</ich>
+					<du>sprichst</du>
+					<er_sie_es>spricht</er_sie_es>
+					<wir>sprechen</wir>
+					<ihr>sprecht</ihr>
+					<sie_Sie>sprechen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>sprach</ich>
+					<du>sprachst</du>
+					<er_sie_es>sprach</er_sie_es>
+					<wir>sprachen</wir>
+					<ihr>spracht</ihr>
+					<sie_Sie>sprachen</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gesprochen</ich>
+					<du>hast gesprochen</du>
+					<er_sie_es>hat gesprochen</er_sie_es>
+					<wir>haben gesprochen</wir>
+					<ihr>habt gesprochen</ihr>
+					<sie_Sie>haben gesprochen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

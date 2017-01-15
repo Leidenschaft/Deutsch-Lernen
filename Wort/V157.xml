@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>begleite</ich>
+					<du>begleitest</du>
+					<er_sie_es>begleitet</er_sie_es>
+					<wir>begleiten</wir>
+					<ihr>begleitet</ihr>
+					<sie_Sie>begleiten</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>begleitete</ich>
+					<du>begleitetest</du>
+					<er_sie_es>begleitete</er_sie_es>
+					<wir>begleiteten</wir>
+					<ihr>begleitetet</ihr>
+					<sie_Sie>begleiteten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe begleitet</ich>
+					<du>hast begleitet</du>
+					<er_sie_es>hat begleitet</er_sie_es>
+					<wir>haben begleitet</wir>
+					<ihr>habt begleitet</ihr>
+					<sie_Sie>haben begleitet</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

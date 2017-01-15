@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>jobbe</ich>
+					<du>jobbst</du>
+					<er_sie_es>jobbt</er_sie_es>
+					<wir>jobben</wir>
+					<ihr>jobbt</ihr>
+					<sie_Sie>jobben</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>jobbte</ich>
+					<du>jobbtest</du>
+					<er_sie_es>jobbte</er_sie_es>
+					<wir>jobbten</wir>
+					<ihr>jobbtet</ihr>
+					<sie_Sie>jobbten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gejobbt</ich>
+					<du>hast gejobbt</du>
+					<er_sie_es>hat gejobbt</er_sie_es>
+					<wir>haben gejobbt</wir>
+					<ihr>habt gejobbt</ihr>
+					<sie_Sie>haben gejobbt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

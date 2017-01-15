@@ -4,28 +4,28 @@
 	<Anteil>2</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>heiße</ich>
+					<du>heißt</du>
+					<er_sie_es>heißt</er_sie_es>
+					<wir>heißen</wir>
+					<ihr>heißt</ihr>
+					<sie_Sie>heißen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>hieß</ich>
+					<du>hießest</du>
+					<er_sie_es>hieß</er_sie_es>
+					<wir>hießen</wir>
+					<ihr>hießt</ihr>
+					<sie_Sie>hießen</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe geheißen</ich>
+					<du>hast geheißen</du>
+					<er_sie_es>hat geheißen</er_sie_es>
+					<wir>haben geheißen</wir>
+					<ihr>habt geheißen</ihr>
+					<sie_Sie>haben geheißen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

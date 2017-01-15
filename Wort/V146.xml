@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>verschreibe</ich>
+					<du>verschreibst</du>
+					<er_sie_es>verschreibt</er_sie_es>
+					<wir>verschreiben</wir>
+					<ihr>verschreibt</ihr>
+					<sie_Sie>verschreiben</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>verschrieb</ich>
+					<du>verschriebst</du>
+					<er_sie_es>verschrieb</er_sie_es>
+					<wir>verschrieben</wir>
+					<ihr>verschriebt</ihr>
+					<sie_Sie>verschrieben</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe verschrieben</ich>
+					<du>hast verschrieben</du>
+					<er_sie_es>hat verschrieben</er_sie_es>
+					<wir>haben verschrieben</wir>
+					<ihr>habt verschrieben</ihr>
+					<sie_Sie>haben verschrieben</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

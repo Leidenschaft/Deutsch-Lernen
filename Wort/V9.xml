@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>mache</ich>
+					<du>machst</du>
+					<er_sie_es>macht</er_sie_es>
+					<wir>machen</wir>
+					<ihr>macht</ihr>
+					<sie_Sie>machen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>machte</ich>
+					<du>machtest</du>
+					<er_sie_es>machte</er_sie_es>
+					<wir>machten</wir>
+					<ihr>machtet</ihr>
+					<sie_Sie>machten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gemacht</ich>
+					<du>hast gemacht</du>
+					<er_sie_es>hat gemacht</er_sie_es>
+					<wir>haben gemacht</wir>
+					<ihr>habt gemacht</ihr>
+					<sie_Sie>haben gemacht</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

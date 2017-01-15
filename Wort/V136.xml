@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>treffe</ich>
+					<du>triffst</du>
+					<er_sie_es>trifft</er_sie_es>
+					<wir>treffen</wir>
+					<ihr>trefft</ihr>
+					<sie_Sie>treffen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>traf</ich>
+					<du>trafst</du>
+					<er_sie_es>traf</er_sie_es>
+					<wir>trafen</wir>
+					<ihr>traft</ihr>
+					<sie_Sie>trafen</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe getroffen</ich>
+					<du>hast getroffen</du>
+					<er_sie_es>hat getroffen</er_sie_es>
+					<wir>haben getroffen</wir>
+					<ihr>habt getroffen</ihr>
+					<sie_Sie>haben getroffen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>rauche</ich>
+					<du>rauchst</du>
+					<er_sie_es>raucht</er_sie_es>
+					<wir>rauchen</wir>
+					<ihr>raucht</ihr>
+					<sie_Sie>rauchen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>rauchte</ich>
+					<du>rauchtest</du>
+					<er_sie_es>rauchte</er_sie_es>
+					<wir>rauchten</wir>
+					<ihr>rauchtet</ihr>
+					<sie_Sie>rauchten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe geraucht</ich>
+					<du>hast geraucht</du>
+					<er_sie_es>hat geraucht</er_sie_es>
+					<wir>haben geraucht</wir>
+					<ihr>habt geraucht</ihr>
+					<sie_Sie>haben geraucht</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

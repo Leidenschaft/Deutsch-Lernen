@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>biege ab</ich>
+					<du>biegst ab</du>
+					<er_sie_es>biegt ab</er_sie_es>
+					<wir>biegen ab</wir>
+					<ihr>biegt ab</ihr>
+					<sie_Sie>biegen ab</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>bog ab</ich>
+					<du>bogst ab</du>
+					<er_sie_es>bog ab</er_sie_es>
+					<wir>bogen ab</wir>
+					<ihr>bogt ab</ihr>
+					<sie_Sie>bogen ab</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe abgebogen</ich>
+					<du>hast abgebogen</du>
+					<er_sie_es>hat abgebogen</er_sie_es>
+					<wir>haben abgebogen</wir>
+					<ihr>habt abgebogen</ihr>
+					<sie_Sie>haben abgebogen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

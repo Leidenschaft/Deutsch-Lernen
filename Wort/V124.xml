@@ -4,28 +4,28 @@
 	<Anteil>Leseverstehen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>genieße</ich>
+					<du>genießt</du>
+					<er_sie_es>genießt</er_sie_es>
+					<wir>genießen</wir>
+					<ihr>genießt</ihr>
+					<sie_Sie>genießen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>genoß</ich>
+					<du>genossest</du>
+					<er_sie_es>genoß</er_sie_es>
+					<wir>genossen</wir>
+					<ihr>genoßt</ihr>
+					<sie_Sie>genossen</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe genossen</ich>
+					<du>hast genossen</du>
+					<er_sie_es>hat genossen</er_sie_es>
+					<wir>haben genossen</wir>
+					<ihr>habt genossen</ihr>
+					<sie_Sie>haben genossen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

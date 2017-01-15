@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>wünsche</ich>
+					<du>wünscht</du>
+					<er_sie_es>wünscht</er_sie_es>
+					<wir>wünschen</wir>
+					<ihr>wünscht</ihr>
+					<sie_Sie>wünschen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>wünschte</ich>
+					<du>wünschtest</du>
+					<er_sie_es>wünschte</er_sie_es>
+					<wir>wünschten</wir>
+					<ihr>wünschtet</ihr>
+					<sie_Sie>wünschten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gewünscht</ich>
+					<du>hast gewünscht</du>
+					<er_sie_es>hat gewünscht</er_sie_es>
+					<wir>haben gewünscht</wir>
+					<ihr>habt gewünscht</ihr>
+					<sie_Sie>haben gewünscht</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

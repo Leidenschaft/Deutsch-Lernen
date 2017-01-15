@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>kenne</ich>
+					<du>kennst</du>
+					<er_sie_es>kennt</er_sie_es>
+					<wir>kennen</wir>
+					<ihr>kennt</ihr>
+					<sie_Sie>kennen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>kannte</ich>
+					<du>kanntest</du>
+					<er_sie_es>kannte</er_sie_es>
+					<wir>kannten</wir>
+					<ihr>kanntet</ihr>
+					<sie_Sie>kannten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gekannt</ich>
+					<du>hast gekannt</du>
+					<er_sie_es>hat gekannt</er_sie_es>
+					<wir>haben gekannt</wir>
+					<ihr>habt gekannt</ihr>
+					<sie_Sie>haben gekannt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

@@ -4,28 +4,28 @@
 	<Anteil>Übungen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>rufe an</ich>
+					<du>rufst an</du>
+					<er_sie_es>ruft an</er_sie_es>
+					<wir>rufen an</wir>
+					<ihr>ruft an</ihr>
+					<sie_Sie>rufen an</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>rief an</ich>
+					<du>riefst an</du>
+					<er_sie_es>rief an</er_sie_es>
+					<wir>riefen an</wir>
+					<ihr>rieft an</ihr>
+					<sie_Sie>riefen an</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe angerufen</ich>
+					<du>hast angerufen</du>
+					<er_sie_es>hat angerufen</er_sie_es>
+					<wir>haben angerufen</wir>
+					<ihr>habt angerufen</ihr>
+					<sie_Sie>haben angerufen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

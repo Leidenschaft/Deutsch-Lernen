@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>finde</ich>
+					<du>findest</du>
+					<er_sie_es>findet</er_sie_es>
+					<wir>finden</wir>
+					<ihr>findet</ihr>
+					<sie_Sie>finden</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>fand</ich>
+					<du>fandest</du>
+					<er_sie_es>fand</er_sie_es>
+					<wir>fanden</wir>
+					<ihr>fandet</ihr>
+					<sie_Sie>fanden</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gefunden</ich>
+					<du>hast gefunden</du>
+					<er_sie_es>hat gefunden</er_sie_es>
+					<wir>haben gefunden</wir>
+					<ihr>habt gefunden</ihr>
+					<sie_Sie>haben gefunden</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

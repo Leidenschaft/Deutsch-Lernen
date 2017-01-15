@@ -4,28 +4,28 @@
 	<Anteil>Einfürung</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>treibe</ich>
+					<du>treibst</du>
+					<er_sie_es>treibt</er_sie_es>
+					<wir>treiben</wir>
+					<ihr>treibt</ihr>
+					<sie_Sie>treiben</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>trieb</ich>
+					<du>triebst</du>
+					<er_sie_es>trieb</er_sie_es>
+					<wir>trieben</wir>
+					<ihr>triebt</ihr>
+					<sie_Sie>trieben</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe getrieben</ich>
+					<du>hast getrieben</du>
+					<er_sie_es>hat getrieben</er_sie_es>
+					<wir>haben getrieben</wir>
+					<ihr>habt getrieben</ihr>
+					<sie_Sie>haben getrieben</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

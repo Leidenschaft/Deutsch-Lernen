@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>erkläre</ich>
+					<du>erklärst</du>
+					<er_sie_es>erklärt</er_sie_es>
+					<wir>erklären</wir>
+					<ihr>erklärt</ihr>
+					<sie_Sie>erklären</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>erklärte</ich>
+					<du>erklärtest</du>
+					<er_sie_es>erklärte</er_sie_es>
+					<wir>erklärten</wir>
+					<ihr>erklärtet</ihr>
+					<sie_Sie>erklärten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe erklärt</ich>
+					<du>hast erklärt</du>
+					<er_sie_es>hat erklärt</er_sie_es>
+					<wir>haben erklärt</wir>
+					<ihr>habt erklärt</ihr>
+					<sie_Sie>haben erklärt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

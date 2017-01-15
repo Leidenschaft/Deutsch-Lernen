@@ -4,28 +4,28 @@
 	<Anteil>Intentionen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>stimme zu</ich>
+					<du>stimmst zu</du>
+					<er_sie_es>stimmt zu</er_sie_es>
+					<wir>stimmen zu</wir>
+					<ihr>stimmt zu</ihr>
+					<sie_Sie>stimmen zu</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>stimmte zu</ich>
+					<du>stimmtest zu</du>
+					<er_sie_es>stimmte zu</er_sie_es>
+					<wir>stimmten zu</wir>
+					<ihr>stimmtet zu</ihr>
+					<sie_Sie>stimmten zu</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe zugestimmt</ich>
+					<du>hast zugestimmt</du>
+					<er_sie_es>hat zugestimmt</er_sie_es>
+					<wir>haben zugestimmt</wir>
+					<ihr>habt zugestimmt</ihr>
+					<sie_Sie>haben zugestimmt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

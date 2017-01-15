@@ -1,34 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE Entry SYSTEM "VerbenModel.dtd">
-<?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?>
-<Entry category="Verben">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
 	<Stichwort>antworten</Stichwort>
 	<Einheit>2</Einheit>
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich></ich>
-					<du></du>
-					<er_sie_es></er_sie_es>
-					<wir></wir>
-					<ihr></ihr>
-					<sie_Sie></sie_Sie>
+					<ich>antworte</ich>
+					<du>antwortest</du>
+					<er_sie_es>antwortet</er_sie_es>
+					<wir>antworten</wir>
+					<ihr>antwortet</ihr>
+					<sie_Sie>antworten</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich></ich>
-					<du></du>
-					<er_sie_es></er_sie_es>
-					<wir></wir>
-					<ihr></ihr>
-					<sie_Sie></sie_Sie>
+					<ich>antwortete</ich>
+					<du>antwortetest</du>
+					<er_sie_es>antwortete</er_sie_es>
+					<wir>antworteten</wir>
+					<ihr>antwortetet</ihr>
+					<sie_Sie>antworteten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich></ich>
-					<du></du>
-					<er_sie_es></er_sie_es>
-					<wir></wir>
-					<ihr></ihr>
-					<sie_Sie></sie_Sie>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe geantwortet</ich>
+					<du>hast geantwortet</du>
+					<er_sie_es>hat geantwortet</er_sie_es>
+					<wir>haben geantwortet</wir>
+					<ihr>habt geantwortet</ihr>
+					<sie_Sie>haben geantwortet</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			
@@ -40,7 +37,7 @@
 			</abgeleiteteWörter>
 	</zusammengesetzteWörter>
 		<Synonymegruppe>
-			<Sym></Sym>
+			<Sym/>
 		</Synonymegruppe>
 		<Antonymegruppe>
 			<Anm/>
@@ -56,7 +53,7 @@
 					<BeispielSammlung>
 					<Beispiel>
 					<Satz>Er antwortet schnell.</Satz>
-					<Übersetzung></Übersetzung>
+					<Übersetzung/>
 					</Beispiel>
 					</BeispielSammlung>
 					

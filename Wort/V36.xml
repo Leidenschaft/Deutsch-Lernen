@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>beginne</ich>
+					<du>beginnst</du>
+					<er_sie_es>beginnt</er_sie_es>
+					<wir>beginnen</wir>
+					<ihr>beginnt</ihr>
+					<sie_Sie>beginnen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>begann</ich>
+					<du>begannst</du>
+					<er_sie_es>begann</er_sie_es>
+					<wir>begannen</wir>
+					<ihr>begannt</ihr>
+					<sie_Sie>begannen</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe begonnen</ich>
+					<du>hast begonnen</du>
+					<er_sie_es>hat begonnen</er_sie_es>
+					<wir>haben begonnen</wir>
+					<ihr>habt begonnen</ihr>
+					<sie_Sie>haben begonnen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

@@ -4,28 +4,28 @@
 	<Anteil>Übungen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>liege</ich>
+					<du>liegst</du>
+					<er_sie_es>liegt</er_sie_es>
+					<wir>liegen</wir>
+					<ihr>liegt</ihr>
+					<sie_Sie>liegen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>lag</ich>
+					<du>lagst</du>
+					<er_sie_es>lag</er_sie_es>
+					<wir>lagen</wir>
+					<ihr>lagt</ihr>
+					<sie_Sie>lagen</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gelegen</ich>
+					<du>hast gelegen</du>
+					<er_sie_es>hat gelegen</er_sie_es>
+					<wir>haben gelegen</wir>
+					<ihr>habt gelegen</ihr>
+					<sie_Sie>haben gelegen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

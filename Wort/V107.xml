@@ -4,28 +4,28 @@
 	<Anteil>Leseverstehen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>packe aus</ich>
+					<du>packst aus</du>
+					<er_sie_es>packt aus</er_sie_es>
+					<wir>packen aus</wir>
+					<ihr>packt aus</ihr>
+					<sie_Sie>packen aus</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>packte aus</ich>
+					<du>packtest aus</du>
+					<er_sie_es>packte aus</er_sie_es>
+					<wir>packten aus</wir>
+					<ihr>packtet aus</ihr>
+					<sie_Sie>packten aus</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe ausgepackt</ich>
+					<du>hast ausgepackt</du>
+					<er_sie_es>hat ausgepackt</er_sie_es>
+					<wir>haben ausgepackt</wir>
+					<ihr>habt ausgepackt</ihr>
+					<sie_Sie>haben ausgepackt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

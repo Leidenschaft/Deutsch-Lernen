@@ -4,28 +4,28 @@
 	<Anteil>Einfürung</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>arbeite</ich>
+					<du>arbeitest</du>
+					<er_sie_es>arbeitet</er_sie_es>
+					<wir>arbeiten</wir>
+					<ihr>arbeitet</ihr>
+					<sie_Sie>arbeiten</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>arbeitete</ich>
+					<du>arbeitetest</du>
+					<er_sie_es>arbeitete</er_sie_es>
+					<wir>arbeiteten</wir>
+					<ihr>arbeitetet</ihr>
+					<sie_Sie>arbeiteten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gearbeitet</ich>
+					<du>hast gearbeitet</du>
+					<er_sie_es>hat gearbeitet</er_sie_es>
+					<wir>haben gearbeitet</wir>
+					<ihr>habt gearbeitet</ihr>
+					<sie_Sie>haben gearbeitet</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>gebe</ich>
+					<du>gibst</du>
+					<er_sie_es>gibt</er_sie_es>
+					<wir>geben</wir>
+					<ihr>gebt</ihr>
+					<sie_Sie>geben</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>gab</ich>
+					<du>gabst</du>
+					<er_sie_es>gab</er_sie_es>
+					<wir>gaben</wir>
+					<ihr>gabt</ihr>
+					<sie_Sie>gaben</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gegeben</ich>
+					<du>hast gegeben</du>
+					<er_sie_es>hat gegeben</er_sie_es>
+					<wir>haben gegeben</wir>
+					<ihr>habt gegeben</ihr>
+					<sie_Sie>haben gegeben</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

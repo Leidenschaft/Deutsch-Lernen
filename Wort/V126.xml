@@ -4,28 +4,28 @@
 	<Anteil>Einfürung</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>rieche</ich>
+					<du>riechst</du>
+					<er_sie_es>riecht</er_sie_es>
+					<wir>riechen</wir>
+					<ihr>riecht</ihr>
+					<sie_Sie>riechen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>roch</ich>
+					<du>rochst</du>
+					<er_sie_es>roch</er_sie_es>
+					<wir>rochen</wir>
+					<ihr>rocht</ihr>
+					<sie_Sie>rochen</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gerochen</ich>
+					<du>hast gerochen</du>
+					<er_sie_es>hat gerochen</er_sie_es>
+					<wir>haben gerochen</wir>
+					<ihr>habt gerochen</ihr>
+					<sie_Sie>haben gerochen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

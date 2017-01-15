@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>probiere</ich>
+					<du>probierst</du>
+					<er_sie_es>probiert</er_sie_es>
+					<wir>probieren</wir>
+					<ihr>probiert</ihr>
+					<sie_Sie>probieren</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>probierte</ich>
+					<du>probiertest</du>
+					<er_sie_es>probierte</er_sie_es>
+					<wir>probierten</wir>
+					<ihr>probiertet</ihr>
+					<sie_Sie>probierten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe probiert</ich>
+					<du>hast probiert</du>
+					<er_sie_es>hat probiert</er_sie_es>
+					<wir>haben probiert</wir>
+					<ihr>habt probiert</ihr>
+					<sie_Sie>haben probiert</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

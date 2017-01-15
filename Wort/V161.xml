@@ -4,28 +4,28 @@
 	<Anteil>Leseverstehen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>steige</ich>
+					<du>steigst</du>
+					<er_sie_es>steigt</er_sie_es>
+					<wir>steigen</wir>
+					<ihr>steigt</ihr>
+					<sie_Sie>steigen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>stieg</ich>
+					<du>stiegst</du>
+					<er_sie_es>stieg</er_sie_es>
+					<wir>stiegen</wir>
+					<ihr>stiegt</ihr>
+					<sie_Sie>stiegen</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="sein">	
+					<ich>bin gestiegen</ich>
+					<du>bist gestiegen</du>
+					<er_sie_es>ist gestiegen</er_sie_es>
+					<wir>sind gestiegen</wir>
+					<ihr>seid gestiegen</ihr>
+					<sie_Sie>sind gestiegen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

@@ -4,28 +4,28 @@
 	<Anteil>Intentionen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>verabschiede</ich>
+					<du>verabschiedest</du>
+					<er_sie_es>verabschiedet</er_sie_es>
+					<wir>verabschieden</wir>
+					<ihr>verabschiedet</ihr>
+					<sie_Sie>verabschieden</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>verabschiedete</ich>
+					<du>verabschiedetest</du>
+					<er_sie_es>verabschiedete</er_sie_es>
+					<wir>verabschiedeten</wir>
+					<ihr>verabschiedetet</ihr>
+					<sie_Sie>verabschiedeten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe verabschiedet</ich>
+					<du>hast verabschiedet</du>
+					<er_sie_es>hat verabschiedet</er_sie_es>
+					<wir>haben verabschiedet</wir>
+					<ihr>habt verabschiedet</ihr>
+					<sie_Sie>haben verabschiedet</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

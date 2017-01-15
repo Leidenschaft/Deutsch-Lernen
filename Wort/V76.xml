@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>zeige</ich>
+					<du>zeigst</du>
+					<er_sie_es>zeigt</er_sie_es>
+					<wir>zeigen</wir>
+					<ihr>zeigt</ihr>
+					<sie_Sie>zeigen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>zeigte</ich>
+					<du>zeigtest</du>
+					<er_sie_es>zeigte</er_sie_es>
+					<wir>zeigten</wir>
+					<ihr>zeigtet</ihr>
+					<sie_Sie>zeigten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gezeigt</ich>
+					<du>hast gezeigt</du>
+					<er_sie_es>hat gezeigt</er_sie_es>
+					<wir>haben gezeigt</wir>
+					<ihr>habt gezeigt</ihr>
+					<sie_Sie>haben gezeigt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

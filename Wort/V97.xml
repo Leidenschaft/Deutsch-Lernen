@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>schenke</ich>
+					<du>schenkst</du>
+					<er_sie_es>schenkt</er_sie_es>
+					<wir>schenken</wir>
+					<ihr>schenkt</ihr>
+					<sie_Sie>schenken</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>schenkte</ich>
+					<du>schenktest</du>
+					<er_sie_es>schenkte</er_sie_es>
+					<wir>schenkten</wir>
+					<ihr>schenktet</ihr>
+					<sie_Sie>schenkten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe geschenkt</ich>
+					<du>hast geschenkt</du>
+					<er_sie_es>hat geschenkt</er_sie_es>
+					<wir>haben geschenkt</wir>
+					<ihr>habt geschenkt</ihr>
+					<sie_Sie>haben geschenkt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

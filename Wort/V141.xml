@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>fliege</ich>
+					<du>fliegst</du>
+					<er_sie_es>fliegt</er_sie_es>
+					<wir>fliegen</wir>
+					<ihr>fliegt</ihr>
+					<sie_Sie>fliegen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>flog</ich>
+					<du>flogst</du>
+					<er_sie_es>flog</er_sie_es>
+					<wir>flogen</wir>
+					<ihr>flogt</ihr>
+					<sie_Sie>flogen</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="sein">	
+					<ich>bin geflogen</ich>
+					<du>bist geflogen</du>
+					<er_sie_es>ist geflogen</er_sie_es>
+					<wir>sind geflogen</wir>
+					<ihr>seid geflogen</ihr>
+					<sie_Sie>sind geflogen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

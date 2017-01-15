@@ -4,28 +4,28 @@
 	<Anteil>Einfürung</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>stehe auf</ich>
+					<du>stehst auf</du>
+					<er_sie_es>steht auf</er_sie_es>
+					<wir>stehen auf</wir>
+					<ihr>steht auf</ihr>
+					<sie_Sie>stehen auf</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>stand auf</ich>
+					<du>stand(e)st auf</du>
+					<er_sie_es>stand auf</er_sie_es>
+					<wir>standen auf</wir>
+					<ihr>standet auf</ihr>
+					<sie_Sie>standen auf</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe aufgestanden</ich>
+					<du>hast aufgestanden</du>
+					<er_sie_es>hat aufgestanden</er_sie_es>
+					<wir>haben aufgestanden</wir>
+					<ihr>habt aufgestanden</ihr>
+					<sie_Sie>haben aufgestanden</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>gefalle</ich>
+					<du>gefällst</du>
+					<er_sie_es>gefällt</er_sie_es>
+					<wir>gefallen</wir>
+					<ihr>gefallt</ihr>
+					<sie_Sie>gefallen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>gefiel</ich>
+					<du>gefielst</du>
+					<er_sie_es>gefiel</er_sie_es>
+					<wir>gefielen</wir>
+					<ihr>gefielt</ihr>
+					<sie_Sie>gefielen</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="sein">	
+					<ich>bin gefallen</ich>
+					<du>bist gefallen</du>
+					<er_sie_es>ist gefallen</er_sie_es>
+					<wir>sind gefallen</wir>
+					<ihr>seid gefallen</ihr>
+					<sie_Sie>sind gefallen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

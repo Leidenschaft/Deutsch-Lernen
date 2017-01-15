@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>komme vorbei</ich>
+					<du>kommst vorbei</du>
+					<er_sie_es>kommt vorbei</er_sie_es>
+					<wir>kommen vorbei</wir>
+					<ihr>kommt vorbei</ihr>
+					<sie_Sie>kommen vorbei</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>kam vorbei</ich>
+					<du>kamst vorbei</du>
+					<er_sie_es>kam vorbei</er_sie_es>
+					<wir>kamen vorbei</wir>
+					<ihr>kamt vorbei</ihr>
+					<sie_Sie>kamen vorbei</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="sein">	
+					<ich>bin vorbeigekommen</ich>
+					<du>bist vorbeigekommen</du>
+					<er_sie_es>ist vorbeigekommen</er_sie_es>
+					<wir>sind vorbeigekommen</wir>
+					<ihr>seid vorbeigekommen</ihr>
+					<sie_Sie>sind vorbeigekommen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

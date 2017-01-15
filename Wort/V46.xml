@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>schlage vor</ich>
+					<du>schlägst vor</du>
+					<er_sie_es>schlägt vor</er_sie_es>
+					<wir>schlagen vor</wir>
+					<ihr>schlagt vor</ihr>
+					<sie_Sie>schlagen vor</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>schlug vor</ich>
+					<du>schlugst vor</du>
+					<er_sie_es>schlug vor</er_sie_es>
+					<wir>schlugen vor</wir>
+					<ihr>schlugt vor</ihr>
+					<sie_Sie>schlugen vor</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe vorgeschlagen</ich>
+					<du>hast vorgeschlagen</du>
+					<er_sie_es>hat vorgeschlagen</er_sie_es>
+					<wir>haben vorgeschlagen</wir>
+					<ihr>habt vorgeschlagen</ihr>
+					<sie_Sie>haben vorgeschlagen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

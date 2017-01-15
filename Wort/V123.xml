@@ -4,28 +4,28 @@
 	<Anteil>Hörverstehen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>zeichne</ich>
+					<du>zeichnest</du>
+					<er_sie_es>zeichnet</er_sie_es>
+					<wir>zeichnen</wir>
+					<ihr>zeichnet</ihr>
+					<sie_Sie>zeichnen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>zeichnete</ich>
+					<du>zeichnetest</du>
+					<er_sie_es>zeichnete</er_sie_es>
+					<wir>zeichneten</wir>
+					<ihr>zeichnetet</ihr>
+					<sie_Sie>zeichneten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gezeichnet</ich>
+					<du>hast gezeichnet</du>
+					<er_sie_es>hat gezeichnet</er_sie_es>
+					<wir>haben gezeichnet</wir>
+					<ihr>habt gezeichnet</ihr>
+					<sie_Sie>haben gezeichnet</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

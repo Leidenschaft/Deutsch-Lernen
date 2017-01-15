@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>berichte</ich>
+					<du>berichtest</du>
+					<er_sie_es>berichtet</er_sie_es>
+					<wir>berichten</wir>
+					<ihr>berichtet</ihr>
+					<sie_Sie>berichten</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>berichtete</ich>
+					<du>berichtetest</du>
+					<er_sie_es>berichtete</er_sie_es>
+					<wir>berichteten</wir>
+					<ihr>berichtetet</ihr>
+					<sie_Sie>berichteten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe berichtet</ich>
+					<du>hast berichtet</du>
+					<er_sie_es>hat berichtet</er_sie_es>
+					<wir>haben berichtet</wir>
+					<ihr>habt berichtet</ihr>
+					<sie_Sie>haben berichtet</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

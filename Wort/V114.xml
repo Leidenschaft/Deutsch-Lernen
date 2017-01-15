@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>verbringe</ich>
+					<du>verbringst</du>
+					<er_sie_es>verbringt</er_sie_es>
+					<wir>verbringen</wir>
+					<ihr>verbringt</ihr>
+					<sie_Sie>verbringen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>verbrachte</ich>
+					<du>verbrachtest</du>
+					<er_sie_es>verbrachte</er_sie_es>
+					<wir>verbrachten</wir>
+					<ihr>verbrachtet</ihr>
+					<sie_Sie>verbrachten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe verbracht</ich>
+					<du>hast verbracht</du>
+					<er_sie_es>hat verbracht</er_sie_es>
+					<wir>haben verbracht</wir>
+					<ihr>habt verbracht</ihr>
+					<sie_Sie>haben verbracht</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

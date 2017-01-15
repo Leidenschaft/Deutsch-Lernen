@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>lese</ich>
+					<du>liest</du>
+					<er_sie_es>liest</er_sie_es>
+					<wir>lesen</wir>
+					<ihr>lest</ihr>
+					<sie_Sie>lesen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>las</ich>
+					<du>lasest</du>
+					<er_sie_es>las</er_sie_es>
+					<wir>lasen</wir>
+					<ihr>last</ihr>
+					<sie_Sie>lasen</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gelesen</ich>
+					<du>hast gelesen</du>
+					<er_sie_es>hat gelesen</er_sie_es>
+					<wir>haben gelesen</wir>
+					<ihr>habt gelesen</ihr>
+					<sie_Sie>haben gelesen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

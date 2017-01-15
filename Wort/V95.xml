@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>grüße</ich>
+					<du>grüßt</du>
+					<er_sie_es>grüßt</er_sie_es>
+					<wir>grüßen</wir>
+					<ihr>grüßt</ihr>
+					<sie_Sie>grüßen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>grüßte</ich>
+					<du>grüßtest</du>
+					<er_sie_es>grüßte</er_sie_es>
+					<wir>grüßten</wir>
+					<ihr>grüßtet</ihr>
+					<sie_Sie>grüßten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gegrüßt</ich>
+					<du>hast gegrüßt</du>
+					<er_sie_es>hat gegrüßt</er_sie_es>
+					<wir>haben gegrüßt</wir>
+					<ihr>habt gegrüßt</ihr>
+					<sie_Sie>haben gegrüßt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

@@ -4,28 +4,28 @@
 	<Anteil>Einfürung</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>besuche</ich>
+					<du>besuchst</du>
+					<er_sie_es>besucht</er_sie_es>
+					<wir>besuchen</wir>
+					<ihr>besucht</ihr>
+					<sie_Sie>besuchen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>besuchte</ich>
+					<du>besuchtest</du>
+					<er_sie_es>besuchte</er_sie_es>
+					<wir>besuchten</wir>
+					<ihr>besuchtet</ihr>
+					<sie_Sie>besuchten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe besucht</ich>
+					<du>hast besucht</du>
+					<er_sie_es>hat besucht</er_sie_es>
+					<wir>haben besucht</wir>
+					<ihr>habt besucht</ihr>
+					<sie_Sie>haben besucht</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

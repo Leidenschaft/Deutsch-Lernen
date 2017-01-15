@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>streite</ich>
+					<du>streitest</du>
+					<er_sie_es>streitet</er_sie_es>
+					<wir>streiten</wir>
+					<ihr>streitet</ihr>
+					<sie_Sie>streiten</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>stritt</ich>
+					<du>strittest</du>
+					<er_sie_es>stritt</er_sie_es>
+					<wir>stritten</wir>
+					<ihr>strittet</ihr>
+					<sie_Sie>stritten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gestritten</ich>
+					<du>hast gestritten</du>
+					<er_sie_es>hat gestritten</er_sie_es>
+					<wir>haben gestritten</wir>
+					<ihr>habt gestritten</ihr>
+					<sie_Sie>haben gestritten</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

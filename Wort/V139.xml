@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>untersuche</ich>
+					<du>untersuchst</du>
+					<er_sie_es>untersucht</er_sie_es>
+					<wir>untersuchen</wir>
+					<ihr>untersucht</ihr>
+					<sie_Sie>untersuchen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>untersuchte</ich>
+					<du>untersuchtest</du>
+					<er_sie_es>untersuchte</er_sie_es>
+					<wir>untersuchten</wir>
+					<ihr>untersuchtet</ihr>
+					<sie_Sie>untersuchten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe untersucht</ich>
+					<du>hast untersucht</du>
+					<er_sie_es>hat untersucht</er_sie_es>
+					<wir>haben untersucht</wir>
+					<ihr>habt untersucht</ihr>
+					<sie_Sie>haben untersucht</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

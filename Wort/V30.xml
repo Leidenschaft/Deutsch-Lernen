@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>habe</ich>
+					<du>hast</du>
+					<er_sie_es>hat</er_sie_es>
+					<wir>haben</wir>
+					<ihr>habt</ihr>
+					<sie_Sie>haben</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>hatte</ich>
+					<du>hattest</du>
+					<er_sie_es>hatte</er_sie_es>
+					<wir>hatten</wir>
+					<ihr>hattet</ihr>
+					<sie_Sie>hatten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gehabt</ich>
+					<du>hast gehabt</du>
+					<er_sie_es>hat gehabt</er_sie_es>
+					<wir>haben gehabt</wir>
+					<ihr>habt gehabt</ihr>
+					<sie_Sie>haben gehabt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

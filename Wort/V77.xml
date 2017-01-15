@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>ziehe aus</ich>
+					<du>ziehst aus</du>
+					<er_sie_es>zieht aus</er_sie_es>
+					<wir>ziehen aus</wir>
+					<ihr>zieht aus</ihr>
+					<sie_Sie>ziehen aus</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>zog aus</ich>
+					<du>zogst aus</du>
+					<er_sie_es>zog aus</er_sie_es>
+					<wir>zogen aus</wir>
+					<ihr>zogt aus</ihr>
+					<sie_Sie>zogen aus</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe ausgezogen</ich>
+					<du>hast ausgezogen</du>
+					<er_sie_es>hat ausgezogen</er_sie_es>
+					<wir>haben ausgezogen</wir>
+					<ihr>habt ausgezogen</ihr>
+					<sie_Sie>haben ausgezogen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

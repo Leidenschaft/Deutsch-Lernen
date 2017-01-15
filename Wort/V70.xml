@@ -4,28 +4,28 @@
 	<Anteil>Übungen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>kaufe</ich>
+					<du>kaufst</du>
+					<er_sie_es>kauft</er_sie_es>
+					<wir>kaufen</wir>
+					<ihr>kauft</ihr>
+					<sie_Sie>kaufen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>kaufte</ich>
+					<du>kauftest</du>
+					<er_sie_es>kaufte</er_sie_es>
+					<wir>kauften</wir>
+					<ihr>kauftet</ihr>
+					<sie_Sie>kauften</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gekauft</ich>
+					<du>hast gekauft</du>
+					<er_sie_es>hat gekauft</er_sie_es>
+					<wir>haben gekauft</wir>
+					<ihr>habt gekauft</ihr>
+					<sie_Sie>haben gekauft</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

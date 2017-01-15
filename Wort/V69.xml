@@ -4,28 +4,28 @@
 	<Anteil>Übungen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>mache zu</ich>
+					<du>machst zu</du>
+					<er_sie_es>macht zu</er_sie_es>
+					<wir>machen zu</wir>
+					<ihr>macht zu</ihr>
+					<sie_Sie>machen zu</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>machte zu</ich>
+					<du>machtest zu</du>
+					<er_sie_es>machte zu</er_sie_es>
+					<wir>machten zu</wir>
+					<ihr>machtet zu</ihr>
+					<sie_Sie>machten zu</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe zugemacht</ich>
+					<du>hast zugemacht</du>
+					<er_sie_es>hat zugemacht</er_sie_es>
+					<wir>haben zugemacht</wir>
+					<ihr>habt zugemacht</ihr>
+					<sie_Sie>haben zugemacht</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>ziehe an</ich>
+					<du>ziehst an</du>
+					<er_sie_es>zieht an</er_sie_es>
+					<wir>ziehen an</wir>
+					<ihr>zieht an</ihr>
+					<sie_Sie>ziehen an</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>zog an</ich>
+					<du>zogst an</du>
+					<er_sie_es>zog an</er_sie_es>
+					<wir>zogen an</wir>
+					<ihr>zogt an</ihr>
+					<sie_Sie>zogen an</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe angezogen</ich>
+					<du>hast angezogen</du>
+					<er_sie_es>hat angezogen</er_sie_es>
+					<wir>haben angezogen</wir>
+					<ihr>habt angezogen</ihr>
+					<sie_Sie>haben angezogen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

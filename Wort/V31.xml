@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>laufe</ich>
+					<du>läufst</du>
+					<er_sie_es>läuft</er_sie_es>
+					<wir>laufen</wir>
+					<ihr>lauft</ihr>
+					<sie_Sie>laufen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>lief</ich>
+					<du>liefst</du>
+					<er_sie_es>lief</er_sie_es>
+					<wir>liefen</wir>
+					<ihr>lieft</ihr>
+					<sie_Sie>liefen</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="sein">	
+					<ich>bin gelaufen</ich>
+					<du>bist gelaufen</du>
+					<er_sie_es>ist gelaufen</er_sie_es>
+					<wir>sind gelaufen</wir>
+					<ihr>seid gelaufen</ihr>
+					<sie_Sie>sind gelaufen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

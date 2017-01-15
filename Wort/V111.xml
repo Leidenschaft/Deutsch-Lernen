@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>fotografiere</ich>
+					<du>fotografierst</du>
+					<er_sie_es>fotografiert</er_sie_es>
+					<wir>fotografieren</wir>
+					<ihr>fotografiert</ihr>
+					<sie_Sie>fotografieren</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>fotografierte</ich>
+					<du>fotografiertest</du>
+					<er_sie_es>fotografierte</er_sie_es>
+					<wir>fotografierten</wir>
+					<ihr>fotografiertet</ihr>
+					<sie_Sie>fotografierten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe fotografiert</ich>
+					<du>hast fotografiert</du>
+					<er_sie_es>hat fotografiert</er_sie_es>
+					<wir>haben fotografiert</wir>
+					<ihr>habt fotografiert</ihr>
+					<sie_Sie>haben fotografiert</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

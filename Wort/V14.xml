@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>höre</ich>
+					<du>hörst</du>
+					<er_sie_es>hört</er_sie_es>
+					<wir>hören</wir>
+					<ihr>hört</ihr>
+					<sie_Sie>hören</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>hörte</ich>
+					<du>hörtest</du>
+					<er_sie_es>hörte</er_sie_es>
+					<wir>hörten</wir>
+					<ihr>hörtet</ihr>
+					<sie_Sie>hörten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gehört</ich>
+					<du>hast gehört</du>
+					<er_sie_es>hat gehört</er_sie_es>
+					<wir>haben gehört</wir>
+					<ihr>habt gehört</ihr>
+					<sie_Sie>haben gehört</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

@@ -4,28 +4,28 @@
 	<Anteil>Intentionen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>begrüße</ich>
+					<du>begrüßt</du>
+					<er_sie_es>begrüßt</er_sie_es>
+					<wir>begrüßen</wir>
+					<ihr>begrüßt</ihr>
+					<sie_Sie>begrüßen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>begrüßte</ich>
+					<du>begrüßtest</du>
+					<er_sie_es>begrüßte</er_sie_es>
+					<wir>begrüßten</wir>
+					<ihr>begrüßtet</ihr>
+					<sie_Sie>begrüßten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe begrüßt</ich>
+					<du>hast begrüßt</du>
+					<er_sie_es>hat begrüßt</er_sie_es>
+					<wir>haben begrüßt</wir>
+					<ihr>habt begrüßt</ihr>
+					<sie_Sie>haben begrüßt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

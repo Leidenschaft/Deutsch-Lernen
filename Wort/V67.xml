@@ -4,28 +4,28 @@
 	<Anteil>Übungen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>helfe</ich>
+					<du>hilfst</du>
+					<er_sie_es>hilft</er_sie_es>
+					<wir>helfen</wir>
+					<ihr>helft</ihr>
+					<sie_Sie>helfen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>half</ich>
+					<du>halfst</du>
+					<er_sie_es>half</er_sie_es>
+					<wir>halfen</wir>
+					<ihr>halft</ihr>
+					<sie_Sie>halfen</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe geholfen</ich>
+					<du>hast geholfen</du>
+					<er_sie_es>hat geholfen</er_sie_es>
+					<wir>haben geholfen</wir>
+					<ihr>habt geholfen</ihr>
+					<sie_Sie>haben geholfen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

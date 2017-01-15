@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>miete</ich>
+					<du>mietest</du>
+					<er_sie_es>mietet</er_sie_es>
+					<wir>mieten</wir>
+					<ihr>mietet</ihr>
+					<sie_Sie>mieten</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>mietete</ich>
+					<du>mietetest</du>
+					<er_sie_es>mietete</er_sie_es>
+					<wir>mieteten</wir>
+					<ihr>mietetet</ihr>
+					<sie_Sie>mieteten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gemietet</ich>
+					<du>hast gemietet</du>
+					<er_sie_es>hat gemietet</er_sie_es>
+					<wir>haben gemietet</wir>
+					<ihr>habt gemietet</ihr>
+					<sie_Sie>haben gemietet</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

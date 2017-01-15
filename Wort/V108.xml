@@ -4,28 +4,28 @@
 	<Anteil>Einfürung</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>springe</ich>
+					<du>springst</du>
+					<er_sie_es>springt</er_sie_es>
+					<wir>springen</wir>
+					<ihr>springt</ihr>
+					<sie_Sie>springen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>sprang</ich>
+					<du>sprangst</du>
+					<er_sie_es>sprang</er_sie_es>
+					<wir>sprangen</wir>
+					<ihr>sprangt</ihr>
+					<sie_Sie>sprangen</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="sein">	
+					<ich>bin gesprungen</ich>
+					<du>bist gesprungen</du>
+					<er_sie_es>ist gesprungen</er_sie_es>
+					<wir>sind gesprungen</wir>
+					<ihr>seid gesprungen</ihr>
+					<sie_Sie>sind gesprungen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

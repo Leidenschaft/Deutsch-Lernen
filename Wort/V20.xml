@@ -4,28 +4,28 @@
 	<Anteil>Leseverstehen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>suche</ich>
+					<du>suchst</du>
+					<er_sie_es>sucht</er_sie_es>
+					<wir>suchen</wir>
+					<ihr>sucht</ihr>
+					<sie_Sie>suchen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>suchte</ich>
+					<du>suchtest</du>
+					<er_sie_es>suchte</er_sie_es>
+					<wir>suchten</wir>
+					<ihr>suchtet</ihr>
+					<sie_Sie>suchten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gesucht</ich>
+					<du>hast gesucht</du>
+					<er_sie_es>hat gesucht</er_sie_es>
+					<wir>haben gesucht</wir>
+					<ihr>habt gesucht</ihr>
+					<sie_Sie>haben gesucht</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

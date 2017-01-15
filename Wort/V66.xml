@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>danke</ich>
+					<du>dankst</du>
+					<er_sie_es>dankt</er_sie_es>
+					<wir>danken</wir>
+					<ihr>dankt</ihr>
+					<sie_Sie>danken</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>dankte</ich>
+					<du>danktest</du>
+					<er_sie_es>dankte</er_sie_es>
+					<wir>dankten</wir>
+					<ihr>danktet</ihr>
+					<sie_Sie>dankten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gedankt</ich>
+					<du>hast gedankt</du>
+					<er_sie_es>hat gedankt</er_sie_es>
+					<wir>haben gedankt</wir>
+					<ihr>habt gedankt</ihr>
+					<sie_Sie>haben gedankt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>putze</ich>
+					<du>putzt</du>
+					<er_sie_es>putzt</er_sie_es>
+					<wir>putzen</wir>
+					<ihr>putzt</ihr>
+					<sie_Sie>putzen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>putzte</ich>
+					<du>putztest</du>
+					<er_sie_es>putzte</er_sie_es>
+					<wir>putzten</wir>
+					<ihr>putztet</ihr>
+					<sie_Sie>putzten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe geputzt</ich>
+					<du>hast geputzt</du>
+					<er_sie_es>hat geputzt</er_sie_es>
+					<wir>haben geputzt</wir>
+					<ihr>habt geputzt</ihr>
+					<sie_Sie>haben geputzt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

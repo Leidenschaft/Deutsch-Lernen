@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>lege</ich>
+					<du>legst</du>
+					<er_sie_es>legt</er_sie_es>
+					<wir>legen</wir>
+					<ihr>legt</ihr>
+					<sie_Sie>legen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>legte</ich>
+					<du>legtest</du>
+					<er_sie_es>legte</er_sie_es>
+					<wir>legten</wir>
+					<ihr>legtet</ihr>
+					<sie_Sie>legten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gelegt</ich>
+					<du>hast gelegt</du>
+					<er_sie_es>hat gelegt</er_sie_es>
+					<wir>haben gelegt</wir>
+					<ihr>habt gelegt</ihr>
+					<sie_Sie>haben gelegt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

@@ -4,28 +4,28 @@
 	<Anteil>Übungen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>parke</ich>
+					<du>parkst</du>
+					<er_sie_es>parkt</er_sie_es>
+					<wir>parken</wir>
+					<ihr>parkt</ihr>
+					<sie_Sie>parken</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>parkte</ich>
+					<du>parktest</du>
+					<er_sie_es>parkte</er_sie_es>
+					<wir>parkten</wir>
+					<ihr>parktet</ihr>
+					<sie_Sie>parkten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe geparkt</ich>
+					<du>hast geparkt</du>
+					<er_sie_es>hat geparkt</er_sie_es>
+					<wir>haben geparkt</wir>
+					<ihr>habt geparkt</ihr>
+					<sie_Sie>haben geparkt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

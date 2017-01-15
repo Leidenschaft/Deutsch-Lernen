@@ -4,28 +4,28 @@
 	<Anteil>Übungen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>bleibe</ich>
+					<du>bleibst</du>
+					<er_sie_es>bleibt</er_sie_es>
+					<wir>bleiben</wir>
+					<ihr>bleibt</ihr>
+					<sie_Sie>bleiben</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>blieb</ich>
+					<du>bliebst</du>
+					<er_sie_es>blieb</er_sie_es>
+					<wir>blieben</wir>
+					<ihr>bliebt</ihr>
+					<sie_Sie>blieben</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="sein">	
+					<ich>bin geblieben</ich>
+					<du>bist geblieben</du>
+					<er_sie_es>ist geblieben</er_sie_es>
+					<wir>sind geblieben</wir>
+					<ihr>seid geblieben</ihr>
+					<sie_Sie>sind geblieben</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

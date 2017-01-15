@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>steige ein</ich>
+					<du>steigst ein</du>
+					<er_sie_es>steigt ein</er_sie_es>
+					<wir>steigen ein</wir>
+					<ihr>steigt ein</ihr>
+					<sie_Sie>steigen ein</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>stieg ein</ich>
+					<du>stiegst ein</du>
+					<er_sie_es>stieg ein</er_sie_es>
+					<wir>stiegen ein</wir>
+					<ihr>stiegt ein</ihr>
+					<sie_Sie>stiegen ein</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="sein">	
+					<ich>bin eingestiegen</ich>
+					<du>bist eingestiegen</du>
+					<er_sie_es>ist eingestiegen</er_sie_es>
+					<wir>sind eingestiegen</wir>
+					<ihr>seid eingestiegen</ihr>
+					<sie_Sie>sind eingestiegen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

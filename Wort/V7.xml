@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>öffne</ich>
+					<du>öffnest</du>
+					<er_sie_es>öffnet</er_sie_es>
+					<wir>öffnen</wir>
+					<ihr>öffnet</ihr>
+					<sie_Sie>öffnen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>öffnete</ich>
+					<du>öffnetest</du>
+					<er_sie_es>öffnete</er_sie_es>
+					<wir>öffneten</wir>
+					<ihr>öffnetet</ihr>
+					<sie_Sie>öffneten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe geöffnet</ich>
+					<du>hast geöffnet</du>
+					<er_sie_es>hat geöffnet</er_sie_es>
+					<wir>haben geöffnet</wir>
+					<ihr>habt geöffnet</ihr>
+					<sie_Sie>haben geöffnet</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

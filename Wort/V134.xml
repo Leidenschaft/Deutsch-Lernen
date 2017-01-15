@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
-	<Stichwort>watschen</Stichwort>
+	<Stichwort>waschen</Stichwort>
 	<Einheit>9</Einheit>
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>wasche</ich>
+					<du>wäschst</du>
+					<er_sie_es>wäscht</er_sie_es>
+					<wir>waschen</wir>
+					<ihr>wascht</ihr>
+					<sie_Sie>waschen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>wusch</ich>
+					<du>wuschest</du>
+					<er_sie_es>wusch</er_sie_es>
+					<wir>wuschen</wir>
+					<ihr>wuscht</ihr>
+					<sie_Sie>wuschen</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gewaschen</ich>
+					<du>hast gewaschen</du>
+					<er_sie_es>hat gewaschen</er_sie_es>
+					<wir>haben gewaschen</wir>
+					<ihr>habt gewaschen</ihr>
+					<sie_Sie>haben gewaschen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

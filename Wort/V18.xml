@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>schreibe</ich>
+					<du>schreibst</du>
+					<er_sie_es>schreibt</er_sie_es>
+					<wir>schreiben</wir>
+					<ihr>schreibt</ihr>
+					<sie_Sie>schreiben</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>schrieb</ich>
+					<du>schriebst</du>
+					<er_sie_es>schrieb</er_sie_es>
+					<wir>schrieben</wir>
+					<ihr>schriebt</ihr>
+					<sie_Sie>schrieben</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe geschrieben</ich>
+					<du>hast geschrieben</du>
+					<er_sie_es>hat geschrieben</er_sie_es>
+					<wir>haben geschrieben</wir>
+					<ihr>habt geschrieben</ihr>
+					<sie_Sie>haben geschrieben</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

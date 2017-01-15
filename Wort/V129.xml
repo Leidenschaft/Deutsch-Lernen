@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>stimme</ich>
+					<du>stimmst</du>
+					<er_sie_es>stimmt</er_sie_es>
+					<wir>stimmen</wir>
+					<ihr>stimmt</ihr>
+					<sie_Sie>stimmen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>stimmte</ich>
+					<du>stimmtest</du>
+					<er_sie_es>stimmte</er_sie_es>
+					<wir>stimmten</wir>
+					<ihr>stimmtet</ihr>
+					<sie_Sie>stimmten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gestimmt</ich>
+					<du>hast gestimmt</du>
+					<er_sie_es>hat gestimmt</er_sie_es>
+					<wir>haben gestimmt</wir>
+					<ihr>habt gestimmt</ihr>
+					<sie_Sie>haben gestimmt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

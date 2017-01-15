@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>sehe aus</ich>
+					<du>siehst aus</du>
+					<er_sie_es>sieht aus</er_sie_es>
+					<wir>sehen aus</wir>
+					<ihr>seht aus</ihr>
+					<sie_Sie>sehen aus</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>sah aus</ich>
+					<du>sah(e)st aus</du>
+					<er_sie_es>sah aus</er_sie_es>
+					<wir>sahen aus</wir>
+					<ihr>saht aus</ihr>
+					<sie_Sie>sahen aus</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe ausgesehen</ich>
+					<du>hast ausgesehen</du>
+					<er_sie_es>hat ausgesehen</er_sie_es>
+					<wir>haben ausgesehen</wir>
+					<ihr>habt ausgesehen</ihr>
+					<sie_Sie>haben ausgesehen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

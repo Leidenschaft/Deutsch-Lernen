@@ -4,28 +4,28 @@
 	<Anteil>Übungen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>sehe</ich>
+					<du>siehst</du>
+					<er_sie_es>sieht</er_sie_es>
+					<wir>sehen</wir>
+					<ihr>seht</ihr>
+					<sie_Sie>sehen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>sah</ich>
+					<du>sah(e)st</du>
+					<er_sie_es>sah</er_sie_es>
+					<wir>sahen</wir>
+					<ihr>saht</ihr>
+					<sie_Sie>sahen</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gesehen</ich>
+					<du>hast gesehen</du>
+					<er_sie_es>hat gesehen</er_sie_es>
+					<wir>haben gesehen</wir>
+					<ihr>habt gesehen</ihr>
+					<sie_Sie>haben gesehen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

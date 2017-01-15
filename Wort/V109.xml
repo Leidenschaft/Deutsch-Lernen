@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>wandere</ich>
+					<du>wandre</du>
+					<er_sie_es>wanderst</er_sie_es>
+					<wir>wandert</wir>
+					<ihr>wandern</ihr>
+					<sie_Sie>wandert</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>Sie</ich>
+					<du>wanderte</du>
+					<er_sie_es>wandertest</er_sie_es>
+					<wir>wanderte</wir>
+					<ihr>wanderten</ihr>
+					<sie_Sie>wandertet</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gewandert</ich>
+					<du>hast gewandert</du>
+					<er_sie_es>hat gewandert</er_sie_es>
+					<wir>haben gewandert</wir>
+					<ihr>habt gewandert</ihr>
+					<sie_Sie>haben gewandert</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

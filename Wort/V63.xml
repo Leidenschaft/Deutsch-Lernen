@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>komme hierher</ich>
+					<du>kommst hierher</du>
+					<er_sie_es>kommt hierher</er_sie_es>
+					<wir>kommen hierher</wir>
+					<ihr>kommt hierher</ihr>
+					<sie_Sie>kommen hierher</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>kam hierher</ich>
+					<du>kamst hierher</du>
+					<er_sie_es>kam hierher</er_sie_es>
+					<wir>kamen hierher</wir>
+					<ihr>kamt hierher</ihr>
+					<sie_Sie>kamen hierher</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="sein">	
+					<ich>bin hierhergekommen</ich>
+					<du>bist hierhergekommen</du>
+					<er_sie_es>ist hierhergekommen</er_sie_es>
+					<wir>sind hierhergekommen</wir>
+					<ihr>seid hierhergekommen</ihr>
+					<sie_Sie>sind hierhergekommen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

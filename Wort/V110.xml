@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>bade</ich>
+					<du>badest</du>
+					<er_sie_es>badet</er_sie_es>
+					<wir>baden</wir>
+					<ihr>badet</ihr>
+					<sie_Sie>baden</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>badete</ich>
+					<du>badetest</du>
+					<er_sie_es>badete</er_sie_es>
+					<wir>badeten</wir>
+					<ihr>badetet</ihr>
+					<sie_Sie>badeten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gebadet</ich>
+					<du>hast gebadet</du>
+					<er_sie_es>hat gebadet</er_sie_es>
+					<wir>haben gebadet</wir>
+					<ihr>habt gebadet</ihr>
+					<sie_Sie>haben gebadet</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

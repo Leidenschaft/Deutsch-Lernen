@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>stehe</ich>
+					<du>stehst</du>
+					<er_sie_es>steht</er_sie_es>
+					<wir>stehen</wir>
+					<ihr>steht</ihr>
+					<sie_Sie>stehen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>stand</ich>
+					<du>stund</du>
+					<er_sie_es>stand(e)st</er_sie_es>
+					<wir>stundst</wir>
+					<ihr>stand</ihr>
+					<sie_Sie>stund</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gestanden</ich>
+					<du>hast gestanden</du>
+					<er_sie_es>hat gestanden</er_sie_es>
+					<wir>haben gestanden</wir>
+					<ihr>habt gestanden</ihr>
+					<sie_Sie>haben gestanden</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

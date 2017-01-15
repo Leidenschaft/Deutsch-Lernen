@@ -4,28 +4,28 @@
 	<Anteil>Intentionen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>lehne ab</ich>
+					<du>lehnst ab</du>
+					<er_sie_es>lehnt ab</er_sie_es>
+					<wir>lehnen ab</wir>
+					<ihr>lehnt ab</ihr>
+					<sie_Sie>lehnen ab</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>lehnte ab</ich>
+					<du>lehntest ab</du>
+					<er_sie_es>lehnte ab</er_sie_es>
+					<wir>lehnten ab</wir>
+					<ihr>lehntet ab</ihr>
+					<sie_Sie>lehnten ab</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe abgelehnt</ich>
+					<du>hast abgelehnt</du>
+					<er_sie_es>hat abgelehnt</er_sie_es>
+					<wir>haben abgelehnt</wir>
+					<ihr>habt abgelehnt</ihr>
+					<sie_Sie>haben abgelehnt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

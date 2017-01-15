@@ -4,28 +4,28 @@
 	<Anteil>Einfürung</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>fahre</ich>
+					<du>fährst</du>
+					<er_sie_es>fährt</er_sie_es>
+					<wir>fahren</wir>
+					<ihr>fahrt</ihr>
+					<sie_Sie>fahren</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>fuhr</ich>
+					<du>fuhrst</du>
+					<er_sie_es>fuhr</er_sie_es>
+					<wir>fuhren</wir>
+					<ihr>fuhrt</ihr>
+					<sie_Sie>fuhren</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="sein">	
+					<ich>bin gefahren</ich>
+					<du>bist gefahren</du>
+					<er_sie_es>ist gefahren</er_sie_es>
+					<wir>sind gefahren</wir>
+					<ihr>seid gefahren</ihr>
+					<sie_Sie>sind gefahren</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>trage</ich>
+					<du>trägst</du>
+					<er_sie_es>trägt</er_sie_es>
+					<wir>tragen</wir>
+					<ihr>tragt</ihr>
+					<sie_Sie>tragen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>trug</ich>
+					<du>trugst</du>
+					<er_sie_es>trug</er_sie_es>
+					<wir>trugen</wir>
+					<ihr>trugt</ihr>
+					<sie_Sie>trugen</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe getragen</ich>
+					<du>hast getragen</du>
+					<er_sie_es>hat getragen</er_sie_es>
+					<wir>haben getragen</wir>
+					<ihr>habt getragen</ihr>
+					<sie_Sie>haben getragen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

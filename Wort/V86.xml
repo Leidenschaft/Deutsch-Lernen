@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>stecke</ich>
+					<du>steckst</du>
+					<er_sie_es>steckt</er_sie_es>
+					<wir>stecken</wir>
+					<ihr>steckt</ihr>
+					<sie_Sie>stecken</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>stak</ich>
+					<du>steckte</du>
+					<er_sie_es>stakst</er_sie_es>
+					<wir>stecktest</wir>
+					<ihr>stak</ihr>
+					<sie_Sie>steckte</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gesteckt</ich>
+					<du>hast gesteckt</du>
+					<er_sie_es>hat gesteckt</er_sie_es>
+					<wir>haben gesteckt</wir>
+					<ihr>habt gesteckt</ihr>
+					<sie_Sie>haben gesteckt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

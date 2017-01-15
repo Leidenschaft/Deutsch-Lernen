@@ -4,28 +4,28 @@
 	<Anteil>Übungen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>warte</ich>
+					<du>wartest</du>
+					<er_sie_es>wartet</er_sie_es>
+					<wir>warten</wir>
+					<ihr>wartet</ihr>
+					<sie_Sie>warten</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>wartete</ich>
+					<du>wartetest</du>
+					<er_sie_es>wartete</er_sie_es>
+					<wir>warteten</wir>
+					<ihr>wartetet</ihr>
+					<sie_Sie>warteten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gewartet</ich>
+					<du>hast gewartet</du>
+					<er_sie_es>hat gewartet</er_sie_es>
+					<wir>haben gewartet</wir>
+					<ihr>habt gewartet</ihr>
+					<sie_Sie>haben gewartet</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

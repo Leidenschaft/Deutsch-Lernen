@@ -4,28 +4,28 @@
 	<Anteil>Übungen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>liebe</ich>
+					<du>liebst</du>
+					<er_sie_es>liebt</er_sie_es>
+					<wir>lieben</wir>
+					<ihr>liebt</ihr>
+					<sie_Sie>lieben</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>liebte</ich>
+					<du>liebtest</du>
+					<er_sie_es>liebte</er_sie_es>
+					<wir>liebten</wir>
+					<ihr>liebtet</ihr>
+					<sie_Sie>liebten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe geliebt</ich>
+					<du>hast geliebt</du>
+					<er_sie_es>hat geliebt</er_sie_es>
+					<wir>haben geliebt</wir>
+					<ihr>habt geliebt</ihr>
+					<sie_Sie>haben geliebt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

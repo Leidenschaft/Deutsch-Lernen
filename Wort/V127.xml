@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>fühle</ich>
+					<du>fühlst</du>
+					<er_sie_es>fühlt</er_sie_es>
+					<wir>fühlen</wir>
+					<ihr>fühlt</ihr>
+					<sie_Sie>fühlen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>fühlte</ich>
+					<du>fühltest</du>
+					<er_sie_es>fühlte</er_sie_es>
+					<wir>fühlten</wir>
+					<ihr>fühltet</ihr>
+					<sie_Sie>fühlten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gefühlt</ich>
+					<du>hast gefühlt</du>
+					<er_sie_es>hat gefühlt</er_sie_es>
+					<wir>haben gefühlt</wir>
+					<ihr>habt gefühlt</ihr>
+					<sie_Sie>haben gefühlt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

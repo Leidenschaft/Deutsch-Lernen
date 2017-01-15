@@ -4,28 +4,28 @@
 	<Anteil>Leseverstehen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>tue</ich>
+					<du>tust</du>
+					<er_sie_es>tut</er_sie_es>
+					<wir>tun</wir>
+					<ihr>tut</ihr>
+					<sie_Sie>tun</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>tat</ich>
+					<du>tatest</du>
+					<er_sie_es>tat</er_sie_es>
+					<wir>taten</wir>
+					<ihr>tatet</ihr>
+					<sie_Sie>taten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe getan</ich>
+					<du>hast getan</du>
+					<er_sie_es>hat getan</er_sie_es>
+					<wir>haben getan</wir>
+					<ihr>habt getan</ihr>
+					<sie_Sie>haben getan</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

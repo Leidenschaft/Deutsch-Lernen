@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>freue</ich>
+					<du>freust</du>
+					<er_sie_es>freut</er_sie_es>
+					<wir>freuen</wir>
+					<ihr>freut</ihr>
+					<sie_Sie>freuen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>freute</ich>
+					<du>freutest</du>
+					<er_sie_es>freute</er_sie_es>
+					<wir>freuten</wir>
+					<ihr>freutet</ihr>
+					<sie_Sie>freuten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gefreut</ich>
+					<du>hast gefreut</du>
+					<er_sie_es>hat gefreut</er_sie_es>
+					<wir>haben gefreut</wir>
+					<ihr>habt gefreut</ihr>
+					<sie_Sie>haben gefreut</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

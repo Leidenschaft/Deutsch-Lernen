@@ -4,28 +4,28 @@
 	<Anteil>3</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>gehe</ich>
+					<du>gehst</du>
+					<er_sie_es>geht</er_sie_es>
+					<wir>gehen</wir>
+					<ihr>geht</ihr>
+					<sie_Sie>gehen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>ging</ich>
+					<du>gieng</du>
+					<er_sie_es>gingst</er_sie_es>
+					<wir>giengst</wir>
+					<ihr>ging</ihr>
+					<sie_Sie>gieng</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="sein">	
+					<ich>bin gegangen</ich>
+					<du>bist gegangen</du>
+					<er_sie_es>ist gegangen</er_sie_es>
+					<wir>sind gegangen</wir>
+					<ihr>seid gegangen</ihr>
+					<sie_Sie>sind gegangen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

@@ -1,0 +1,11 @@
+﻿chatten.xml
+kochen.xml
+leidtun.xml
+hineinschauen.xml
+surfen.xml
+übersetzen.xml
+mailen.xml
+unterhalten.xml
+kümmern.xml
+wehtun.xml
+krankschreiben.xml

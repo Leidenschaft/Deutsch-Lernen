@@ -4,28 +4,28 @@
 	<Anteil>Öbungen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>spiele</ich>
+					<du>spielst</du>
+					<er_sie_es>spielt</er_sie_es>
+					<wir>spielen</wir>
+					<ihr>spielt</ihr>
+					<sie_Sie>spielen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>spielte</ich>
+					<du>spieltest</du>
+					<er_sie_es>spielte</er_sie_es>
+					<wir>spielten</wir>
+					<ihr>spieltet</ihr>
+					<sie_Sie>spielten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gespielt</ich>
+					<du>hast gespielt</du>
+					<er_sie_es>hat gespielt</er_sie_es>
+					<wir>haben gespielt</wir>
+					<ihr>habt gespielt</ihr>
+					<sie_Sie>haben gespielt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>schmecke</ich>
+					<du>schmeckst</du>
+					<er_sie_es>schmeckt</er_sie_es>
+					<wir>schmecken</wir>
+					<ihr>schmeckt</ihr>
+					<sie_Sie>schmecken</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>schmeckte</ich>
+					<du>schmecktest</du>
+					<er_sie_es>schmeckte</er_sie_es>
+					<wir>schmeckten</wir>
+					<ihr>schmecktet</ihr>
+					<sie_Sie>schmeckten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe geschmeckt</ich>
+					<du>hast geschmeckt</du>
+					<er_sie_es>hat geschmeckt</er_sie_es>
+					<wir>haben geschmeckt</wir>
+					<ihr>habt geschmeckt</ihr>
+					<sie_Sie>haben geschmeckt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

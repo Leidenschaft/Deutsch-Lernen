@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>nehme</ich>
+					<du>nimmst</du>
+					<er_sie_es>nimmt</er_sie_es>
+					<wir>nehmen</wir>
+					<ihr>nehmt</ihr>
+					<sie_Sie>nehmen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>nahm</ich>
+					<du>nahmst</du>
+					<er_sie_es>nahm</er_sie_es>
+					<wir>nahmen</wir>
+					<ihr>nahmt</ihr>
+					<sie_Sie>nahmen</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe genommen</ich>
+					<du>hast genommen</du>
+					<er_sie_es>hat genommen</er_sie_es>
+					<wir>haben genommen</wir>
+					<ihr>habt genommen</ihr>
+					<sie_Sie>haben genommen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

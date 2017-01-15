@@ -4,28 +4,28 @@
 	<Anteil>Einfürung</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>trinke</ich>
+					<du>trinkst</du>
+					<er_sie_es>trinkt</er_sie_es>
+					<wir>trinken</wir>
+					<ihr>trinkt</ihr>
+					<sie_Sie>trinken</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>trank</ich>
+					<du>trankst</du>
+					<er_sie_es>trank</er_sie_es>
+					<wir>tranken</wir>
+					<ihr>trankt</ihr>
+					<sie_Sie>tranken</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe getrunken</ich>
+					<du>hast getrunken</du>
+					<er_sie_es>hat getrunken</er_sie_es>
+					<wir>haben getrunken</wir>
+					<ihr>habt getrunken</ihr>
+					<sie_Sie>haben getrunken</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

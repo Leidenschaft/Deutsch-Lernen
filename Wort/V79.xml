@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>halte ein</ich>
+					<du>hältst ein</du>
+					<er_sie_es>hält ein</er_sie_es>
+					<wir>halten ein</wir>
+					<ihr>haltet ein</ihr>
+					<sie_Sie>halten ein</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>hielt ein</ich>
+					<du>hieltest ein</du>
+					<er_sie_es>hielt ein</er_sie_es>
+					<wir>hielten ein</wir>
+					<ihr>hieltet ein</ihr>
+					<sie_Sie>hielten ein</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe eingehalten</ich>
+					<du>hast eingehalten</du>
+					<er_sie_es>hat eingehalten</er_sie_es>
+					<wir>haben eingehalten</wir>
+					<ihr>habt eingehalten</ihr>
+					<sie_Sie>haben eingehalten</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

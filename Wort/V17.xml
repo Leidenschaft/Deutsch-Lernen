@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>wohne</ich>
+					<du>wohnst</du>
+					<er_sie_es>wohnt</er_sie_es>
+					<wir>wohnen</wir>
+					<ihr>wohnt</ihr>
+					<sie_Sie>wohnen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>wohnte</ich>
+					<du>wohntest</du>
+					<er_sie_es>wohnte</er_sie_es>
+					<wir>wohnten</wir>
+					<ihr>wohntet</ihr>
+					<sie_Sie>wohnten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gewohnt</ich>
+					<du>hast gewohnt</du>
+					<er_sie_es>hat gewohnt</er_sie_es>
+					<wir>haben gewohnt</wir>
+					<ihr>habt gewohnt</ihr>
+					<sie_Sie>haben gewohnt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

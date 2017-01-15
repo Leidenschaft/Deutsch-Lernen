@@ -4,28 +4,28 @@
 	<Anteil>Intentionen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>vergesse</ich>
+					<du>vergißt</du>
+					<er_sie_es>vergißt</er_sie_es>
+					<wir>vergessen</wir>
+					<ihr>vergeßt</ihr>
+					<sie_Sie>vergessen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>vergaß</ich>
+					<du>vergaßest</du>
+					<er_sie_es>vergaß</er_sie_es>
+					<wir>vergaßen</wir>
+					<ihr>vergaßt</ihr>
+					<sie_Sie>vergaßen</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe vergessen</ich>
+					<du>hast vergessen</du>
+					<er_sie_es>hat vergessen</er_sie_es>
+					<wir>haben vergessen</wir>
+					<ihr>habt vergessen</ihr>
+					<sie_Sie>haben vergessen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

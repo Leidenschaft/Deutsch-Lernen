@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>atme ein</ich>
+					<du>atmest ein</du>
+					<er_sie_es>atmet ein</er_sie_es>
+					<wir>atmen ein</wir>
+					<ihr>atmet ein</ihr>
+					<sie_Sie>atmen ein</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>atmete ein</ich>
+					<du>atmetest ein</du>
+					<er_sie_es>atmete ein</er_sie_es>
+					<wir>atmeten ein</wir>
+					<ihr>atmetet ein</ihr>
+					<sie_Sie>atmeten ein</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe eingeatmet</ich>
+					<du>hast eingeatmet</du>
+					<er_sie_es>hat eingeatmet</er_sie_es>
+					<wir>haben eingeatmet</wir>
+					<ihr>habt eingeatmet</ihr>
+					<sie_Sie>haben eingeatmet</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

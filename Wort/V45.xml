@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>kaufe ein</ich>
+					<du>kaufst ein</du>
+					<er_sie_es>kauft ein</er_sie_es>
+					<wir>kaufen ein</wir>
+					<ihr>kauft ein</ihr>
+					<sie_Sie>kaufen ein</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>kaufte ein</ich>
+					<du>kauftest ein</du>
+					<er_sie_es>kaufte ein</er_sie_es>
+					<wir>kauften ein</wir>
+					<ihr>kauftet ein</ihr>
+					<sie_Sie>kauften ein</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe eingekauft</ich>
+					<du>hast eingekauft</du>
+					<er_sie_es>hat eingekauft</er_sie_es>
+					<wir>haben eingekauft</wir>
+					<ihr>habt eingekauft</ihr>
+					<sie_Sie>haben eingekauft</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>hänge</ich>
+					<du>hängst</du>
+					<er_sie_es>hängt</er_sie_es>
+					<wir>hängen</wir>
+					<ihr>hängt</ihr>
+					<sie_Sie>hängen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>hing</ich>
+					<du>hieng</du>
+					<er_sie_es>hingest</er_sie_es>
+					<wir>hiengst</wir>
+					<ihr>hing</ihr>
+					<sie_Sie>hieng</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gehangen</ich>
+					<du>hast gehangen</du>
+					<er_sie_es>hat gehangen</er_sie_es>
+					<wir>haben gehangen</wir>
+					<ihr>habt gehangen</ihr>
+					<sie_Sie>haben gehangen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

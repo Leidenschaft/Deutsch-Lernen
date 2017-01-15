@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>lade ein</ich>
+					<du>lädst ein</du>
+					<er_sie_es>lädt ein</er_sie_es>
+					<wir>laden ein</wir>
+					<ihr>lad(e)t ein</ihr>
+					<sie_Sie>laden ein</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>lud ein</ich>
+					<du>ludst ein</du>
+					<er_sie_es>lud ein</er_sie_es>
+					<wir>luden ein</wir>
+					<ihr>ludt ein</ihr>
+					<sie_Sie>luden ein</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe eingeladen</ich>
+					<du>hast eingeladen</du>
+					<er_sie_es>hat eingeladen</er_sie_es>
+					<wir>haben eingeladen</wir>
+					<ihr>habt eingeladen</ihr>
+					<sie_Sie>haben eingeladen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

@@ -4,28 +4,28 @@
 	<Anteil>2</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>komme</ich>
+					<du>kommst</du>
+					<er_sie_es>kommt</er_sie_es>
+					<wir>kommen</wir>
+					<ihr>kommt</ihr>
+					<sie_Sie>kommen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>kam</ich>
+					<du>kamst</du>
+					<er_sie_es>kam</er_sie_es>
+					<wir>kamen</wir>
+					<ihr>kamt</ihr>
+					<sie_Sie>kamen</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="sein">	
+					<ich>bin gekommen</ich>
+					<du>bist gekommen</du>
+					<er_sie_es>ist gekommen</er_sie_es>
+					<wir>sind gekommen</wir>
+					<ihr>seid gekommen</ihr>
+					<sie_Sie>sind gekommen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

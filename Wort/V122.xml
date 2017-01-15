@@ -4,28 +4,28 @@
 	<Anteil>Übungen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>bekomme</ich>
+					<du>bekommst</du>
+					<er_sie_es>bekommt</er_sie_es>
+					<wir>bekommen</wir>
+					<ihr>bekommt</ihr>
+					<sie_Sie>bekommen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>bekam</ich>
+					<du>bekamst</du>
+					<er_sie_es>bekam</er_sie_es>
+					<wir>bekamen</wir>
+					<ihr>bekamt</ihr>
+					<sie_Sie>bekamen</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe bekommen</ich>
+					<du>hast bekommen</du>
+					<er_sie_es>hat bekommen</er_sie_es>
+					<wir>haben bekommen</wir>
+					<ihr>habt bekommen</ihr>
+					<sie_Sie>haben bekommen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

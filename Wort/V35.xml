@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>schlafe</ich>
+					<du>schläfst</du>
+					<er_sie_es>schläft</er_sie_es>
+					<wir>schlafen</wir>
+					<ihr>schlaft</ihr>
+					<sie_Sie>schlafen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>schlief</ich>
+					<du>schliefst</du>
+					<er_sie_es>schlief</er_sie_es>
+					<wir>schliefen</wir>
+					<ihr>schlieft</ihr>
+					<sie_Sie>schliefen</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe geschlafen</ich>
+					<du>hast geschlafen</du>
+					<er_sie_es>hat geschlafen</er_sie_es>
+					<wir>haben geschlafen</wir>
+					<ihr>habt geschlafen</ihr>
+					<sie_Sie>haben geschlafen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>mache mit</ich>
+					<du>machst mit</du>
+					<er_sie_es>macht mit</er_sie_es>
+					<wir>machen mit</wir>
+					<ihr>macht mit</ihr>
+					<sie_Sie>machen mit</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>machte mit</ich>
+					<du>machtest mit</du>
+					<er_sie_es>machte mit</er_sie_es>
+					<wir>machten mit</wir>
+					<ihr>machtet mit</ihr>
+					<sie_Sie>machten mit</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe mitgemacht</ich>
+					<du>hast mitgemacht</du>
+					<er_sie_es>hat mitgemacht</er_sie_es>
+					<wir>haben mitgemacht</wir>
+					<ihr>habt mitgemacht</ihr>
+					<sie_Sie>haben mitgemacht</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

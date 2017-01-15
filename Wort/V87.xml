@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>stelle</ich>
+					<du>stellst</du>
+					<er_sie_es>stellt</er_sie_es>
+					<wir>stellen</wir>
+					<ihr>stellt</ihr>
+					<sie_Sie>stellen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>stellte</ich>
+					<du>stelltest</du>
+					<er_sie_es>stellte</er_sie_es>
+					<wir>stellten</wir>
+					<ihr>stelltet</ihr>
+					<sie_Sie>stellten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gestellt</ich>
+					<du>hast gestellt</du>
+					<er_sie_es>hat gestellt</er_sie_es>
+					<wir>haben gestellt</wir>
+					<ihr>habt gestellt</ihr>
+					<sie_Sie>haben gestellt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

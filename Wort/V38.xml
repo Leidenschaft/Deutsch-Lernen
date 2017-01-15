@@ -4,28 +4,28 @@
 	<Anteil>Intentionen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>fahre ab</ich>
+					<du>fährst ab</du>
+					<er_sie_es>fährt ab</er_sie_es>
+					<wir>fahren ab</wir>
+					<ihr>fahrt ab</ihr>
+					<sie_Sie>fahren ab</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>fuhr ab</ich>
+					<du>fuhrst ab</du>
+					<er_sie_es>fuhr ab</er_sie_es>
+					<wir>fuhren ab</wir>
+					<ihr>fuhrt ab</ihr>
+					<sie_Sie>fuhren ab</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="sein">	
+					<ich>bin abgefahren</ich>
+					<du>bist abgefahren</du>
+					<er_sie_es>ist abgefahren</er_sie_es>
+					<wir>sind abgefahren</wir>
+					<ihr>seid abgefahren</ihr>
+					<sie_Sie>sind abgefahren</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

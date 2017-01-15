@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>erkälte</ich>
+					<du>erkältest</du>
+					<er_sie_es>erkältet</er_sie_es>
+					<wir>erkälten</wir>
+					<ihr>erkältet</ihr>
+					<sie_Sie>erkälten</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>erkältete</ich>
+					<du>erkältetest</du>
+					<er_sie_es>erkältete</er_sie_es>
+					<wir>erkälteten</wir>
+					<ihr>erkältetet</ihr>
+					<sie_Sie>erkälteten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe erkältet</ich>
+					<du>hast erkältet</du>
+					<er_sie_es>hat erkältet</er_sie_es>
+					<wir>haben erkältet</wir>
+					<ihr>habt erkältet</ihr>
+					<sie_Sie>haben erkältet</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

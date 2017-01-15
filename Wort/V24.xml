@@ -4,28 +4,28 @@
 	<Anteil>Einfürung</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>esse</ich>
+					<du>ißt</du>
+					<er_sie_es>ißt</er_sie_es>
+					<wir>essen</wir>
+					<ihr>eßt</ihr>
+					<sie_Sie>essen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>aß</ich>
+					<du>aßest</du>
+					<er_sie_es>aß</er_sie_es>
+					<wir>aßen</wir>
+					<ihr>aßt</ihr>
+					<sie_Sie>aßen</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gegessen</ich>
+					<du>hast gegessen</du>
+					<er_sie_es>hat gegessen</er_sie_es>
+					<wir>haben gegessen</wir>
+					<ihr>habt gegessen</ihr>
+					<sie_Sie>haben gegessen</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			
