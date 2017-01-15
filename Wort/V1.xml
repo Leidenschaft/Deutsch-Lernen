@@ -44,21 +44,27 @@
 		</Antonymegruppe>
 
 		<Kollokationen>
-		<K/>
+      <K>nach Hause kommen</K>
+      <K>zu Erfolg kommen</K>
+      <K>jemandem zu Hilfe kommen</K>
 		</Kollokationen>
 		<AllgemeineErläuterungen>
-				<Eintrag transitiv="">
+				<Eintrag transitiv="FALSE">
 					
 					<Chinesisch>来</Chinesisch>
 					<BeispielSammlung>
 					<Beispiel>
 					<Satz>Woher kommen Sie?</Satz>
-					<Übersetzung/>
+          <Übersetzung>你来自哪？</Übersetzung>
 					</Beispiel>
+          <Beispiel>
+              <Satz>Der kalte Wind kommt von Norden.</Satz>
+              <Übersetzung>寒风自北方来。</Übersetzung>
+          </Beispiel>
 					</BeispielSammlung>
 					
    				</Eintrag>
-			</AllgemeineErläuterungen>
+      </AllgemeineErläuterungen>
 	
 	
 </Entry>

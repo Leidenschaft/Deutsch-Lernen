@@ -17,7 +17,7 @@ $(document).ready(function () {
     else {
         isIndexPage = false;
         var url = self.parent.getURL();
-        if (url != null) {
+        if (url !="") {
             var newFileName = url.match("=(.*)");
             self.parent.frames["right_frame"].location = 'Wort/' + newFileName[1];
         }
@@ -80,6 +80,7 @@ $(document).ready(function () {
         $("#searchField").val(possibleWord);
         return GetAddress();
     }
+    var xmlhttp = new XMLHttpRequest();
     function GetAddress() {
         var hasTheWord = 0;
         var wordform = $("#searchField").val();
@@ -96,13 +97,24 @@ $(document).ready(function () {
             LastSearchedWord = wordform;
             //here call the scrollbar utility function
             if (!isIndexPage) {
-                var parameter=$("#parameter").val();
-                self.parent.frames["wordList"].scrollFunction(cnt,parameter);
+                var parameter = $("#parameter").val();
+                self.parent.frames["wordList"].scrollFunction(cnt, parameter);
             }
             return dic[wordform];
         }
-        else
+        else {
+            //local dictionary not found the word,search the external online dictionary
+            xmlhttp.open("GET", "https://en.wiktionary.org/w/api.php?action=query&titles=Abend&prop=revisions&rvprop=content&format=json", true);//data query realization.
+            xmlhttp.send();
+            
             return null;
+        }
+    }
+    xmlhttp.onreadystatechange = function () {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            var textGet = xmlhttp.responseText;
+            $("#resTree").html(textGet);
+        }
     }
     $("#searchField").on("focus", function () {
         if ($("#searchField").val()=='Please Type the word you want to search' || (LastSearchedWord != ''))
@@ -157,5 +169,4 @@ $(document).ready(function () {
             }
             $("#Words").html(htmlcontent);
         }
-
 });

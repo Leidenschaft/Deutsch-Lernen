@@ -4,7 +4,7 @@ $(document).ready(function () {
     var width;
     scrollFunction = function scrollController(amount, parameter) {
         var offset;
-        
+        //different Browsers have different interpretation about offset.
         if (parameter.length) {
             offset = parseInt(amount * height_total / parseInt(parameter));
         }
