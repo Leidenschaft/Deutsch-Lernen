@@ -53,9 +53,14 @@
 					<BeispielSammlung>
 					<Beispiel>
 					<Satz>Dann verabschieden sie sich.</Satz>
-					<Übersetzung/>
+            <Übersetzung>然后他们相互告别。</Übersetzung>
 					</Beispiel>
-					</BeispielSammlung>
+            <Beispiel>
+              <Satz>Er verabschiedet seinen Gast.</Satz>
+              <Übersetzung>他和客人道别。</Übersetzung>
+            </Beispiel>
+
+          </BeispielSammlung>
 					
    				</Eintrag>
 			</AllgemeineErläuterungen>
