@@ -104,7 +104,7 @@ $(document).ready(function () {
         }
         else {
             //local dictionary not found the word,search the external online dictionary
-            xmlhttp.open("GET", "https://en.wiktionary.org/w/api.php?action=query&titles=Abend&prop=revisions&rvprop=content&format=json", true);//data query realization.
+            xmlhttp.open("GET", "gehen.txt", true);//data query realization.
             xmlhttp.send();
             
             return null;
@@ -113,7 +113,8 @@ $(document).ready(function () {
     xmlhttp.onreadystatechange = function () {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
             var textGet = xmlhttp.responseText;
-            $("#resTree").html(textGet);
+            var JSONObject = eval("(" + textGet + ")");
+            var info = JSONObject.query.pages[11187].revisions["0"]["*"];
         }
     }
     $("#searchField").on("focus", function () {

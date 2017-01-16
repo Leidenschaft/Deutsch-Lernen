@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
-	<Stichwort>gehen</Stichwort>
-	<Einheit>3</Einheit>
+	<Stichwort Band="2">beschreiben</Stichwort>
+	<Einheit>1</Einheit>
 	<Anteil>Einfürung</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich>gehe</ich>
-					<du>gehst</du>
-					<er_sie_es>geht</er_sie_es>
-					<wir>gehen</wir>
-					<ihr>geht</ihr>
-					<sie_Sie>gehen</sie_Sie>
+					<ich>beschreibe</ich>
+					<du>beschreibst</du>
+					<er_sie_es>beschreibt</er_sie_es>
+					<wir>beschreiben</wir>
+					<ihr>beschreibt</ihr>
+					<sie_Sie>beschreiben</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich>ging</ich>
-					<du>gieng</du>
-					<er_sie_es>gingst</er_sie_es>
-					<wir>giengst</wir>
-					<ihr>ging</ihr>
-					<sie_Sie>gieng</sie_Sie>
+					<ich>beschrieb</ich>
+					<du>beschriebst</du>
+					<er_sie_es>beschrieb</er_sie_es>
+					<wir>beschrieben</wir>
+					<ihr>beschriebt</ihr>
+					<sie_Sie>beschrieben</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="sein">	
-					<ich>bin gegangen</ich>
-					<du>bist gegangen</du>
-					<er_sie_es>ist gegangen</er_sie_es>
-					<wir>sind gegangen</wir>
-					<ihr>seid gegangen</ihr>
-					<sie_Sie>sind gegangen</sie_Sie>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe beschrieben</ich>
+					<du>hast beschrieben</du>
+					<er_sie_es>hat beschrieben</er_sie_es>
+					<wir>haben beschrieben</wir>
+					<ihr>habt beschrieben</ihr>
+					<sie_Sie>haben beschrieben</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			
@@ -49,10 +49,10 @@
 		<AllgemeineErläuterungen>
 				<Eintrag transitiv="">
 					
-					<Chinesisch>步行，走，前往</Chinesisch>
+					<Chinesisch>描述，描绘</Chinesisch>
 					<BeispielSammlung>
 					<Beispiel>
-					<Satz>Er geht langsam.</Satz>
+					<Satz>Können Sie den Mann mal beschreiben?</Satz>
 					<Übersetzung/>
 					</Beispiel>
 					</BeispielSammlung>

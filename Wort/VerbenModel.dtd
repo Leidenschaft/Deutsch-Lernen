@@ -52,3 +52,4 @@ Kollokationen,AllgemeineErläuterungen)>
 <!ATTLIST _K_ category CDATA #IMPLIED>  
 <!ATTLIST Perfekt hilfsverb CDATA #REQUIRED>
 <!ATTLIST Eintrag transitiv CDATA #IMPLIED>
+<!ATTLIST Stichwort Band CDATA #IMPLIED>

@@ -34,17 +34,26 @@
 			<KompositaCollection>
 			</KompositaCollection>
 			<abgeleiteteWörter>
-			</abgeleiteteWörter>
+        <hierzu category="Verben" link="V101.xml">hingehen</hierzu>
+                </abgeleiteteWörter>
 	</zusammengesetzteWörter>
 		<Synonymegruppe>
-			<Sym/>
+      <Sym link="V27.xml">fahren</Sym>
 		</Synonymegruppe>
 		<Antonymegruppe>
-			<Anm/>
+      <Anm link="V1.xml">kommen</Anm>
 		</Antonymegruppe>
 
 		<Kollokationen>
-		<K/>
+      <K>langsam gehen</K>
+      <K>geradeaus gehen</K>
+      <K>zur Schule gehen</K>
+      <K link="V45.xml">einkaufen gehen</K>
+      <K link="V35.xml">schlafen gehen</K>
+      <K>ins/zu Bett gehen</K>
+      <K>nach Hause gehen</K>
+      <K>an die Arbeit gehen (开始工作)</K>
+      <K>die Uhr geht</K>
 		</Kollokationen>
 		<AllgemeineErläuterungen>
 				<Eintrag transitiv="">
@@ -53,9 +62,18 @@
 					<BeispielSammlung>
 					<Beispiel>
 					<Satz>Mir geht es gut.</Satz>
-					<Übersetzung/>
+            <Übersetzung>我最近还好。</Übersetzung>
 					</Beispiel>
-					</BeispielSammlung>
+            <Beispiel>
+              <Satz>Das Fenster geht auf die Straße.</Satz>
+              <Übersetzung>窗户外面就是街道。</Übersetzung>
+            </Beispiel>
+            <Beispiel>
+              <Satz>Er geht langsam.</Satz>
+              <Übersetzung>他走得很慢。</Übersetzung>
+            </Beispiel>
+
+          </BeispielSammlung>
 					
    				</Eintrag>
 			</AllgemeineErläuterungen>

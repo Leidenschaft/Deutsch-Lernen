@@ -35,4 +35,5 @@ Antonymegruppe,Kollokationen,AllgemeineErläuterungen,Comment?)>
   <!ATTLIST Sym link CDATA #IMPLIED>  
   <!ATTLIST Anm link CDATA #IMPLIED>  
 <!ATTLIST hierzu link CDATA #IMPLIED>
-<!ATTLIST Stichwort link CDATA #IMPLIED>   
+<!ATTLIST Stichwort link CDATA #IMPLIED>
+<!ATTLIST Stichwort Band CDATA #IMPLIED>

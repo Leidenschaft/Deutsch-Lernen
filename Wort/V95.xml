@@ -37,7 +37,7 @@
 			</abgeleiteteWörter>
 	</zusammengesetzteWörter>
 		<Synonymegruppe>
-			<Sym/>
+      <Sym/>
 		</Synonymegruppe>
 		<Antonymegruppe>
 			<Anm/>
@@ -53,7 +53,7 @@
 					<BeispielSammlung>
 					<Beispiel>
 					<Satz>Grüß dich,Lea.</Satz>
-					<Übersetzung/>
+            <Übersetzung>你好,Lea。</Übersetzung>
 					</Beispiel>
 					</BeispielSammlung>
 					
