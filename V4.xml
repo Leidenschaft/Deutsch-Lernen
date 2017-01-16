@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>verabschieden</Stichwort>
+	<Einheit>1</Einheit>
+	<Anteil>Intentionen</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>verabschiede</ich>
+					<du>verabschiedest</du>
+					<er_sie_es>verabschiedet</er_sie_es>
+					<wir>verabschieden</wir>
+					<ihr>verabschiedet</ihr>
+					<sie_Sie>verabschieden</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>verabschiedete</ich>
+					<du>verabschiedetest</du>
+					<er_sie_es>verabschiedete</er_sie_es>
+					<wir>verabschiedeten</wir>
+					<ihr>verabschiedetet</ihr>
+					<sie_Sie>verabschiedeten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe verabschiedet</ich>
+					<du>hast verabschiedet</du>
+					<er_sie_es>hat verabschiedet</er_sie_es>
+					<wir>haben verabschiedet</wir>
+					<ihr>habt verabschiedet</ihr>
+					<sie_Sie>haben verabschiedet</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>告别，告辞</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Dann verabschieden sie sich.</Satz>
+            <Übersetzung>然后他们相互告别。</Übersetzung>
+					</Beispiel>
+            <Beispiel>
+              <Satz>Er verabschiedet seinen Gast.</Satz>
+              <Übersetzung>他和客人道别。</Übersetzung>
+            </Beispiel>
+
+          </BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>
