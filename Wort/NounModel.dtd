@@ -37,3 +37,4 @@ Antonymegruppe,Kollokationen,AllgemeineErläuterungen,Comment?)>
 <!ATTLIST hierzu link CDATA #IMPLIED>
 <!ATTLIST Stichwort link CDATA #IMPLIED>
 <!ATTLIST Stichwort Band CDATA #IMPLIED>
+<!ATTLIST Stichwort Bild CDATA #IMPLIED>

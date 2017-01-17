@@ -6,6 +6,13 @@
 	<head>
 		<meta charset="utf-8"/>		
 		<title>Enter your title here</title>
+    <style>
+      .img_1
+      {
+      float: right;
+      margin: 1px 20% 10px 1px;
+      }
+    </style>
 	</head>
 	<script type="text/javascript" src="BufferSearch.js"></script>
 	<body ondblclick="GetSelection()">
@@ -16,7 +23,7 @@
 			</h1>	
 	<br/>
 	<b><font color="#0000D0"><xsl:value-of select="Genus"/>&#160;<xsl:value-of select="Stichwort"/>&#160;</font></b>
-	<a href="sound://p008__001776626.spx" >
+    <a href="sound://p008__001776626.spx" >
 	 <img src="snd_sfx.png" style="margin-bottom:-2px" border="0" ></img>
 	</a>
 	
@@ -37,10 +44,23 @@
 	 <ex><font color="#59C945" face="仿宋"><xsl:value-of select="Übersetzung"/></font></ex><br/>
 	 </xsl:for-each>
 	 </xsl:for-each>
+    <xsl:if test="count(Stichwort/@Bild)">
+      <img class="img_1">
+        <xsl:attribute name="src">
+          ../images/<xsl:value-of select="Stichwort/@Bild"/>
+        </xsl:attribute>
+      </img>
+    </xsl:if>
 
-	<xsl:if test="count(Kollokationen/K) &gt; 0">
-	<table width="100%" border="0" bgcolor="#697C15">
-	<tr><td><span style="color: #FFFFFF;"><b><font face="仿宋">常用搭配</font></b></span></td></tr></table>
+    <xsl:if test="count(Kollokationen/K) &gt; 0">
+      <xsl:choose>
+        <xsl:when test="count(Stichwort/@Bild)">
+        <table width="50%" border="0" bgcolor="#697C15">	<tr><td><span style="color: #FFFFFF;"><b><font face="仿宋">常用搭配</font></b></span></td></tr></table>          
+        </xsl:when>
+        <xsl:otherwise>
+        <table width="100%" border="0" bgcolor="#697C15">	<tr><td><span style="color: #FFFFFF;"><b><font face="仿宋">常用搭配</font></b></span></td></tr></table>
+          </xsl:otherwise>
+        </xsl:choose>
 	<font color="saddlebrown">
 	<xsl:for-each select="Kollokationen/K">
 	<xsl:value-of select="."/><br/>
@@ -49,7 +69,13 @@
 	</xsl:if>
 
 	<xsl:if test="(count(zusammengesetzteWörter/KompositaCollection/K_)+count(zusammengesetzteWörter/KompositaCollection/_K)) &gt; 0">	
-	<table width="100%" border="0" bgcolor="#047DB1">
+	<table border="0" bgcolor="#047DB1">
+    <xsl:attribute name="width">
+      <xsl:choose>
+        <xsl:when test="count(Stichwort/@Bild)">50%</xsl:when>
+        <xsl:otherwise>100%</xsl:otherwise>
+      </xsl:choose>
+    </xsl:attribute>
 	<tr><td><span style="color: #FFFFFF;"><b><font face="仿宋">合成词</font></b></span></td></tr></table>
 	<font color="gray">
 	<!--<xsl:value-of select="count(zusammengesetzteWörter/KompositaCollection/_K)"/>-->
@@ -71,8 +97,15 @@
 	</xsl:if>
 	
 	<xsl:if test="count(zusammengesetzteWörter/abgeleiteteWörter/hierzu) &gt; 0">
-    <table width="100%" border="0" bgcolor="#047DB1">
-	<tr><td><span style="color: #FFFFFF;"><b><font face="仿宋">派生词</font></b></span></td></tr></table>
+    <table border="0" bgcolor="#047DB1">
+      <xsl:attribute name="width">
+        <xsl:choose>
+          <xsl:when test="count(Stichwort/@Bild)">50%</xsl:when>
+          <xsl:otherwise>100%</xsl:otherwise>
+        </xsl:choose>
+      </xsl:attribute>
+
+      <tr><td><span style="color: #FFFFFF;"><b><font face="仿宋">派生词</font></b></span></td></tr></table>
 	<xsl:for-each select="zusammengesetzteWörter/abgeleiteteWörter/hierzu">
 	<font color="saddlebrown">	
 	▪<xsl:value-of select="."/>&#160;</font> 
@@ -84,8 +117,15 @@
 	</xsl:if>
 	
 	<xsl:if test="count(Synonymegruppe/Sym) &gt; 0">
-	<table width="100%" border="0" bgcolor="#047DB1">
-	<tr><td><span style="color: #FFFFFF;"><b><font face="仿宋">同义词</font></b></span></td></tr></table>
+	<table border="0" bgcolor="#047DB1">
+    <xsl:attribute name="width">
+      <xsl:choose>
+        <xsl:when test="count(Stichwort/@Bild)">50%</xsl:when>
+        <xsl:otherwise>100%</xsl:otherwise>
+      </xsl:choose>
+    </xsl:attribute>
+
+    <tr><td><span style="color: #FFFFFF;"><b><font face="仿宋">同义词</font></b></span></td></tr></table>
 	<font color="saddlebrown">
 		<xsl:for-each select="Synonymegruppe/Sym">
 		<xsl:if test="count(@link)">
@@ -96,8 +136,15 @@
 	</xsl:if>
 	
 	<xsl:if test="count(Antonymegruppe/Anm) &gt; 0">
-	<table width="100%" border="0" bgcolor="#047DB1">
-	<tr><td><span style="color: #FFFFFF;"><b><font face="仿宋">反义词</font></b></span></td></tr></table>
+	<table border="0" bgcolor="#047DB1">
+    <xsl:attribute name="width">
+      <xsl:choose>
+        <xsl:when test="count(Stichwort/@Bild)">50%</xsl:when>
+        <xsl:otherwise>100%</xsl:otherwise>
+      </xsl:choose>
+    </xsl:attribute>
+
+    <tr><td><span style="color: #FFFFFF;"><b><font face="仿宋">反义词</font></b></span></td></tr></table>
 	<font color="saddlebrown">
 	<xsl:for-each select="Antonymegruppe/Anm">
 	<xsl:if test="count(@link)">

@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
-<Stichwort>Marmelade</Stichwort>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?>
+<Entry category="Substantiv">
+<Stichwort Bild="305.jpg">Marmelade</Stichwort>
 <Einheit>5</Einheit>
 <Anteil>Leseverstehen</Anteil>
 <Genus>die</Genus>
