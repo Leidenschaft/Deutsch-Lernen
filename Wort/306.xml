@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE Entry SYSTEM "NounModel.dtd">
+<?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
 <Stichwort Bild="306.jpg">Maultasche</Stichwort>
 <Einheit>5</Einheit>
 <Anteil>Leseverstehen</Anteil>
@@ -16,6 +18,7 @@
 <Synonymegruppe>
 	<Sym/>
 </Synonymegruppe>
+  
 <Antonymegruppe>
 	<Anm/>
 </Antonymegruppe>

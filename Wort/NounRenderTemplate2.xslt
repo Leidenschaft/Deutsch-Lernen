@@ -37,8 +37,16 @@
 	 <span style="color: black;font-weight:bold;">&#160;Part:&#160;<xsl:value-of select="Anteil"/></span>&#160;
 	 </div>
 	 <xsl:for-each select="AllgemeineErläuterungen/Eintrag">
-	 <table width="100%" border="1" bgcolor="#D07427" style="border-collapse:collapse;"><!--width=100%表示宽度上占满整个屏幕-->
-	 <tr><td><span style="color: #FFFFFF;"><b><font face="仿宋"><xsl:value-of select="Chinesisch"/></font></b></span></td></tr></table>
+	 <table border="1" bgcolor="#D07427" style="border-collapse:collapse;"><!--width=100%表示宽度上占满整个屏幕-->
+     <xsl:attribute name="width">
+       <xsl:choose>
+         <xsl:when test="count(Stichwort/@Bild)">50%</xsl:when>
+         <xsl:otherwise>100%</xsl:otherwise>
+       </xsl:choose>
+     </xsl:attribute>
+     <tr><td><span style="color: #FFFFFF;"><b><font face="仿宋">
+       <xsl:value-of select="Chinesisch"/></font></b></span></td></tr>
+    </table>
 	 <xsl:for-each select="BeispielSammlung/Beispiel">
 	 <ex><font color="#2F4F4F"><xsl:value-of select="Satz"/></font></ex><br/>
 	 <ex><font color="#59C945" face="仿宋"><xsl:value-of select="Übersetzung"/></font></ex><br/>
