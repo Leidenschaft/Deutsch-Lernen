@@ -7,8 +7,7 @@
 		<head>
 			<title>Wordlist</title>
       <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
-      <script type="text/javascript" src="scroll.js">      </script>
-
+  
     </head>
 		<body>
 		<!--<xsl:apply-templates/>
@@ -18,6 +17,9 @@
         <a>
           <xsl:attribute name="href">
             Wort/<xsl:value-of select="@address"/>
+          </xsl:attribute>
+          <xsl:attribute name="id">
+            <xsl:value-of select="."/>
           </xsl:attribute>
           <xsl:attribute name="target">right_frame</xsl:attribute>
           <xsl:value-of select="."/>

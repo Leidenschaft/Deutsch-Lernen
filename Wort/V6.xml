@@ -32,12 +32,13 @@
 			
 	<zusammengesetzteWörter>
 			<KompositaCollection>
+        <K_>Sprechstunde (答疑时间)</K_>
 			</KompositaCollection>
 			<abgeleiteteWörter>
 			</abgeleiteteWörter>
 	</zusammengesetzteWörter>
 		<Synonymegruppe>
-			<Sym/>
+      <Sym>sagen</Sym>
 		</Synonymegruppe>
 		<Antonymegruppe>
 			<Anm/>
@@ -53,8 +54,12 @@
 					<BeispielSammlung>
 					<Beispiel>
 					<Satz>Sprechen Sie Deutsch?</Satz>
-					<Übersetzung/>
-					</Beispiel>
+            <Übersetzung>您会说德语吗？</Übersetzung>
+          </Beispiel>
+            <Beispiel>
+              <Satz>Mein Enkelkind kann schon sprechen.</Satz>
+              <Übersetzung>我的孙子已经会说话了。</Übersetzung>
+            </Beispiel>
 					</BeispielSammlung>
 					
    				</Eintrag>

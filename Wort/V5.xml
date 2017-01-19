@@ -53,9 +53,14 @@
 					<BeispielSammlung>
 					<Beispiel>
 					<Satz>Wo arbeitest du denn?</Satz>
-					<Übersetzung/>
+            <Übersetzung>你在哪上班？</Übersetzung>
 					</Beispiel>
-					</BeispielSammlung>
+            <Beispiel>
+              <Satz>Er arbeitet feißig.</Satz>
+              <Übersetzung>他工作很努力。</Übersetzung>
+            </Beispiel>
+
+          </BeispielSammlung>
 					
    				</Eintrag>
 			</AllgemeineErläuterungen>

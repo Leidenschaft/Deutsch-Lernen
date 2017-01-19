@@ -40,7 +40,7 @@
 			<Sym/>
 		</Synonymegruppe>
 		<Antonymegruppe>
-			<Anm/>
+      <Anm link="V13.xml">schließen</Anm>
 		</Antonymegruppe>
 
 		<Kollokationen>
@@ -53,9 +53,14 @@
 					<BeispielSammlung>
 					<Beispiel>
 					<Satz>Jetzt öffnen Sie bitte die Bücher auf Seite 4.</Satz>
-					<Übersetzung/>
+            <Übersetzung>现在打开书翻到第4页。</Übersetzung>
 					</Beispiel>
-					</BeispielSammlung>
+            <Beispiel>
+              <Satz>Die Tür öffnete sich.</Satz>
+              <Übersetzung>门开了。</Übersetzung>
+            </Beispiel>
+
+          </BeispielSammlung>
 					
    				</Eintrag>
 			</AllgemeineErläuterungen>

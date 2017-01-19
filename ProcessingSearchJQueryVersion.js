@@ -19,7 +19,11 @@ $(document).ready(function () {
         var url = self.parent.getURL();
         if (url !="") {
             var newFileName = url.match("=(.*)");
-            self.parent.frames["right_frame"].location = 'Wort/' + newFileName[1];
+            if (newFileName.length < 1) {
+                self.parent.frames["right_frame"].location = 'Wort/V100.xml';
+            }
+            else
+                self.parent.frames["right_frame"].location = 'Wort/' + newFileName[1];
         }
     }
     function Wort(wordform, address) {
@@ -45,7 +49,32 @@ $(document).ready(function () {
     }
     var dic = new Array();
     var xmlDoc_wordList;
+    var xmlhttp = new XMLHttpRequest();
+    function GetXML(xml) {
+        xmlDoc_wordList = xml;
+        $(xml).find("Word").each(function (i) {
+
+            var id = $(this);
+            dic.push(new Wort(id.text(), id.attr("address")));
+        }
+        )
+        dic.sort(sortWort);
+    }
+    function GetXML2() {
+
+        if (xmlhttp.readyState == 4) {// 4 = "loaded"
+            if (xmlhttp.status == 200) {// 200 = "OK"
+                GetXML(xmlhttp.responseText);
+            }
+            else {
+                alert("Problem retrieving XML data:" + xmlhttp.statusText);
+            }
+        }
+    }
+
     if (BrowersType == "Chrome") {
+        //change the WordList_11.xml to WordList_11.html
+        self.parent.frames["wordList"].location = "WordList_11.html";
         $.ajax({
             url: 'Wordlist_11.xml',
             type: 'GET',
@@ -53,18 +82,17 @@ $(document).ready(function () {
             timeout: 1000,
             cache: false,
             error: function (xml) {
-                alert("loading xml encounters an error!");
-            },
-            success: function (xml) {
-                xmlDoc_wordList = xml;
-                $(xml).find("Word").each(function (i) {
-
-                    var id = $(this);
-                    dic.push(new Wort(id.text(), id.attr("address")));
+                //try loading xml with original javascript
+                if (xmlhttp != null) {
+                    xmlhttp.onreadystatechange = GetXML_2;
+                    xmlhttp.open("GET", '/Wordlist_11.xml', true);
+                    xmlhttp.send(null);
                 }
-            )
-                dic.sort(sortWort);
-            }
+                else {
+                    alert("loading xml encounters an error!");
+                }
+            },
+            success: GetXML
         });
     }
     else {
@@ -90,12 +118,15 @@ $(document).ready(function () {
     }
 
     var LastSearchedWord = '';
-    $("button").click(function (){
+    $("button").click(function () {
             ChangeContent();
     });
     function ChangeContent() {
         var newFileName = GetAddress();
         if (isIndexPage) {
+            if (newFileName == null) {
+                newFileName = 'V100.xml';
+            }
             self.location = 'FrameSetTest.html?wordAddress='+newFileName;
         }
         else if (newFileName) {
@@ -110,7 +141,6 @@ $(document).ready(function () {
         $("#searchField").val(possibleWord);
         return GetAddress();
     }
-    var xmlhttp = new XMLHttpRequest();
     function GetAddress() {
         var hasTheWord = 0;
         var wordform_queried = $("#searchField").val();
@@ -125,8 +155,8 @@ $(document).ready(function () {
             LastSearchedWord = wordform_queried;
             //here call the scrollbar utility function
             if (!isIndexPage) {
-                var parameter = $("#parameter").val();
-                self.parent.frames["wordList"].scrollFunction(cnt, parameter);
+                self.parent.frames["wordList"].document.getElementById(wordform_queried).focus();
+                //element should be focused
             }
             return dic[cnt].address;
         }
@@ -168,6 +198,7 @@ $(document).ready(function () {
     });
 
     $("#searchField").on('input', function () {
+
         var entry = $("#searchField").val();
         if(entry==''){
         $("#Words").html('');
