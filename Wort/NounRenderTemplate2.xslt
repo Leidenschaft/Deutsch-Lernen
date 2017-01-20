@@ -21,7 +21,7 @@
 	</xsl:if></xsl:for-each>	<b><xsl:value-of select="Stichwort"/></b>
 			
 			</h1>	
-	<br/>
+	<!--<br/>-->
 	<b><font color="#0000D0"><xsl:value-of select="Genus"/>&#160;<xsl:value-of select="Stichwort"/>&#160;</font></b>
     <a href="sound://p008__001776626.spx" >
 	 <img src="snd_sfx.png" style="margin-bottom:-2px" border="0" ></img>

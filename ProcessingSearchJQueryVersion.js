@@ -3,6 +3,10 @@ $(document).ready(function () {
     //below the xml file wordlist is loaded
     var BrowersType;
     var userAgent = navigator.userAgent;
+    if (userAgent.indexOf("Android")>-1) {
+        //page redirection
+        location.href = "index_mobile.html";
+    }
     if (userAgent.indexOf("Chrome") > -1 || userAgent.indexOf("Firefox") > -1) {
         BrowersType = "Chrome";
     }
