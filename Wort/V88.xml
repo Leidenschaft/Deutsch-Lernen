@@ -53,9 +53,14 @@
 					<BeispielSammlung>
 					<Beispiel>
 					<Satz>Er legt die Zeitung auf den Tisch.</Satz>
-					<Übersetzung/>
+            <Übersetzung>他把报纸放在桌子上。</Übersetzung>
 					</Beispiel>
-					</BeispielSammlung>
+            <Beispiel>
+              <Satz>Ich lege mich schlafen.</Satz>
+              <Übersetzung>我要睡觉了。</Übersetzung>
+            </Beispiel>
+
+          </BeispielSammlung>
 					
    				</Eintrag>
 			</AllgemeineErläuterungen>

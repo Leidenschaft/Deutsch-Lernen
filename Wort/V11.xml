@@ -34,6 +34,7 @@
 			<KompositaCollection>
 			</KompositaCollection>
 			<abgeleiteteWörter>
+        <hierzu category="Substantiv" link="104.xml">Frage</hierzu>
 			</abgeleiteteWörter>
 	</zusammengesetzteWörter>
 		<Synonymegruppe>
@@ -44,7 +45,7 @@
 		</Antonymegruppe>
 
 		<Kollokationen>
-		<K/>
+      <K>nach dem Weg fragen</K>
 		</Kollokationen>
 		<AllgemeineErläuterungen>
 				<Eintrag transitiv="">
@@ -53,7 +54,7 @@
 					<BeispielSammlung>
 					<Beispiel>
 					<Satz>Der Lehrer fragt Wang Hongliang.</Satz>
-					<Übersetzung/>
+            <Übersetzung>老师问王洪亮问题。</Übersetzung>
 					</Beispiel>
 					</BeispielSammlung>
 					

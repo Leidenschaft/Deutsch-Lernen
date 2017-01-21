@@ -7,7 +7,8 @@
 		 <link rel="stylesheet" href="style.css" type="text/css" media="screen"/>	
 		<title>Enter your title here</title>
 	</head>
-	<script type="text/javascript" src="BufferSearch.js"></script>
+  <script type="text/javascript" src="../jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="BufferSearch.js"></script>
 	<body ondblclick="GetSelection()">
 			<h1><b>
         <xsl:value-of select="Stichwort"/><!---此处为标题字体<font face=".Helvetica Neue Interface"></font>-->

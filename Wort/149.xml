@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
   <Stichwort>Schatz</Stichwort>
   <Einheit>4</Einheit>
   <Anteil>Text</Anteil>
@@ -53,3 +53,4 @@
     </Eintrag>
   </AllgemeineErläuterungen>
 </Entry>
+

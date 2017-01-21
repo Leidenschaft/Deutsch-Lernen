@@ -34,6 +34,7 @@
 			<KompositaCollection>
 			</KompositaCollection>
 			<abgeleiteteWörter>
+        <hierzu category="Substantiv" chinesisch="读者">Leser</hierzu>
 			</abgeleiteteWörter>
 	</zusammengesetzteWörter>
 		<Synonymegruppe>
@@ -47,15 +48,20 @@
 		<K/>
 		</Kollokationen>
 		<AllgemeineErläuterungen>
-				<Eintrag transitiv="">
+				<Eintrag transitiv="true">
 					
 					<Chinesisch>阅读，读，朗读</Chinesisch>
 					<BeispielSammlung>
 					<Beispiel>
 					<Satz>Bitte lesen Sie.</Satz>
-					<Übersetzung/>
+            <Übersetzung>请您读。</Übersetzung>
 					</Beispiel>
-					</BeispielSammlung>
+            <Beispiel>
+              <Satz>Ich lese jeden Tag die Zeitung.</Satz>
+              <Übersetzung>我每天读报。</Übersetzung>
+            </Beispiel>
+
+          </BeispielSammlung>
 					
    				</Eintrag>
 			</AllgemeineErläuterungen>

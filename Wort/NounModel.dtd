@@ -38,3 +38,4 @@ Antonymegruppe,Kollokationen,AllgemeineErläuterungen,Comment?)>
 <!ATTLIST Stichwort link CDATA #IMPLIED>
 <!ATTLIST Stichwort Band CDATA #IMPLIED>
 <!ATTLIST Stichwort Bild CDATA #IMPLIED>
+<!ATTLIST Stichwort Audio CDATA #IMPLIED>

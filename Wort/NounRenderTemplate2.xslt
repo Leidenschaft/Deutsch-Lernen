@@ -13,19 +13,34 @@
       margin: 1px 20% 10px 1px;
       }
     </style>
+    <bgsound src="" loop="1" id="BGSOUND"/>
 	</head>
+  <script type="text/javascript" src="../jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="BufferSearch.js"></script>
 	<body ondblclick="GetSelection()">
-			<h1><xsl:for-each select="Stichwort"><xsl:if test="count(@link)">
-	<a><xsl:attribute name="href"><xsl:value-of select="@link"/></xsl:attribute><img src="icon16_search.png"/></a>
-	</xsl:if></xsl:for-each>	<b><xsl:value-of select="Stichwort"/></b>
+    <h1><xsl:value-of select="Stichwort"/>
 			
 			</h1>	
 	<!--<br/>-->
-	<b><font color="#0000D0"><xsl:value-of select="Genus"/>&#160;<xsl:value-of select="Stichwort"/>&#160;</font></b>
-    <a href="sound://p008__001776626.spx" >
-	 <img src="snd_sfx.png" style="margin-bottom:-2px" border="0" ></img>
-	</a>
+      <xsl:if test="count(Stichwort/@link)">
+        <a>
+          <xsl:attribute name="href">
+            <xsl:value-of select="@link"/>
+          </xsl:attribute>
+          <img src="icon16_search.png"/>
+        </a>
+      </xsl:if>
+    <b><font color="#0000D0"><xsl:value-of select="Genus"/>&#160;<xsl:value-of select="Stichwort"/>&#160;</font></b>
+    <xsl:if test="count(Stichwort/@Audio)">
+      
+        <!--<a>  
+        <xsl:attribute name="href">
+        ../audio/<xsl:value-of select="Stichwort"/>.mp3
+      </xsl:attribute> </a>-->
+        
+      <img src="snd_sfx.png" style="margin-bottom:-2px" border="0" id="audioImg"></img> <!--add img click listen here-->
+	  
+    </xsl:if>
 	
 	 
 	 <b><font color="#DF0101"><i><xsl:value-of select="@category"/>&#160;</i></font></b>

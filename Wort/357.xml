@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
-<Stichwort>Pause</Stichwort>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<Stichwort Audio="true">Pause</Stichwort>
 <Einheit>3</Einheit>
 <Anteil>Text</Anteil>
 <Genus>die</Genus>
@@ -12,7 +12,7 @@
 		<_K>Schulpause</_K>
 		<_K link="112.xml">Frühstückspause</_K>
 		<_K link="317.xml">Mittagspause</_K>
-		<_K></_K>
+		<_K/>
 		<K_/>
 	</KompositaCollection>
 	<abgeleiteteWörter/></zusammengesetzteWörter>

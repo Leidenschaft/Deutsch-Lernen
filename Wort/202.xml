@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
   <Stichwort>Zeichnen</Stichwort>
   <Einheit>8</Einheit>
   <Anteil>Höverstehen</Anteil>
@@ -24,3 +24,4 @@
     </Eintrag>
   </AllgemeineErläuterungen>
 </Entry>
+
