@@ -37,15 +37,20 @@
 			</abgeleiteteWörter>
 	</zusammengesetzteWörter>
 		<Synonymegruppe>
-			<Sym/>
+      <Sym>zumachen</Sym>
+      <Sym>abschließen</Sym>
 		</Synonymegruppe>
 		<Antonymegruppe>
-			<Anm/>
+      <Anm>aufmachen</Anm>
+      <Anm>aufschließen</Anm>
+      <Anm>öffnen</Anm>
 		</Antonymegruppe>
 
 		<Kollokationen>
-		<K/>
-		</Kollokationen>
+      <K>das Fenster schließen</K>
+      <K>die Tür schließen</K>
+
+    </Kollokationen>
 		<AllgemeineErläuterungen>
 				<Eintrag transitiv="">
 					
@@ -53,7 +58,7 @@
 					<BeispielSammlung>
 					<Beispiel>
 					<Satz>Die Studenten schließen die Bücher.</Satz>
-					<Übersetzung/>
+            <Übersetzung>同学们合上了书。</Übersetzung>
 					</Beispiel>
 					</BeispielSammlung>
 					

@@ -32,7 +32,9 @@
 			
 	<zusammengesetzteWörter>
 			<KompositaCollection>
-			</KompositaCollection>
+        <K_ link="195.xml">Wohnhaus</K_>
+
+      </KompositaCollection>
 			<abgeleiteteWörter>
 			</abgeleiteteWörter>
 	</zusammengesetzteWörter>
@@ -44,7 +46,7 @@
 		</Antonymegruppe>
 
 		<Kollokationen>
-		<K/>
+      <K>in der Stadt wohnen</K>
 		</Kollokationen>
 		<AllgemeineErläuterungen>
 				<Eintrag transitiv="">
@@ -53,7 +55,7 @@
 					<BeispielSammlung>
 					<Beispiel>
 					<Satz>Wir wohnen im Studentenwohnheim.</Satz>
-					<Übersetzung/>
+            <Übersetzung>我们住在学生公寓。</Übersetzung>
 					</Beispiel>
 					</BeispielSammlung>
 					

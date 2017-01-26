@@ -44,7 +44,7 @@
 		</Antonymegruppe>
 
 		<Kollokationen>
-		<K/>
+      <K>mit Ja oder Nein antworten</K>
 		</Kollokationen>
 		<AllgemeineErläuterungen>
 				<Eintrag transitiv="">
@@ -53,9 +53,18 @@
 					<BeispielSammlung>
 					<Beispiel>
 					<Satz>Er antwortet schnell.</Satz>
-					<Übersetzung/>
+            <Übersetzung>他回答地很快。</Übersetzung>
 					</Beispiel>
-					</BeispielSammlung>
+					<Beispiel>
+					<Satz>Was hast du ihm auf das Problem geantwortet?</Satz>
+            <Übersetzung>关于那个问题你是怎么回答他的?</Übersetzung>
+					</Beispiel>
+            <Beispiel>
+              <Satz>Er hat auf meine Frage geantwortet.</Satz>
+              <Übersetzung>他回答了我的提问。</Übersetzung>
+            </Beispiel>
+
+          </BeispielSammlung>
 					
    				</Eintrag>
 			</AllgemeineErläuterungen>

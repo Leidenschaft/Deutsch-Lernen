@@ -34,6 +34,7 @@
 			<KompositaCollection>
 			</KompositaCollection>
 			<abgeleiteteWörter>
+        <hierzu category="Substantiv" chinesisch="学生">Studierende</hierzu>
 			</abgeleiteteWörter>
 	</zusammengesetzteWörter>
 		<Synonymegruppe>
@@ -44,7 +45,7 @@
 		</Antonymegruppe>
 
 		<Kollokationen>
-		<K/>
+      <K>Chemie studieren</K>
 		</Kollokationen>
 		<AllgemeineErläuterungen>
 				<Eintrag transitiv="">
@@ -53,7 +54,7 @@
 					<BeispielSammlung>
 					<Beispiel>
 					<Satz>Was studieren Sie?</Satz>
-					<Übersetzung/>
+            <Übersetzung>你学什么专业？</Übersetzung>
 					</Beispiel>
 					</BeispielSammlung>
 					

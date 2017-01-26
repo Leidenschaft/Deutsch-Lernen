@@ -4,28 +4,28 @@
 	<Anteil>Übungen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>surfe</ich>
+					<du>surfst</du>
+					<er_sie_es>surft</er_sie_es>
+					<wir>surfen</wir>
+					<ihr>surft</ihr>
+					<sie_Sie>surfen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>surfte</ich>
+					<du>surftest</du>
+					<er_sie_es>surfte</er_sie_es>
+					<wir>surften</wir>
+					<ihr>surftet</ihr>
+					<sie_Sie>surften</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gesurft</ich>
+					<du>hast gesurft</du>
+					<er_sie_es>hat gesurft</er_sie_es>
+					<wir>haben gesurft</wir>
+					<ihr>habt gesurft</ihr>
+					<sie_Sie>haben gesurft</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

@@ -4,28 +4,28 @@
 	<Anteil>Übungen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>maile</ich>
+					<du>mailst</du>
+					<er_sie_es>mailt</er_sie_es>
+					<wir>mailen</wir>
+					<ihr>mailt</ihr>
+					<sie_Sie>mailen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>mailte</ich>
+					<du>mailtest</du>
+					<er_sie_es>mailte</er_sie_es>
+					<wir>mailten</wir>
+					<ihr>mailtet</ihr>
+					<sie_Sie>mailten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gemailt</ich>
+					<du>hast gemailt</du>
+					<er_sie_es>hat gemailt</er_sie_es>
+					<wir>haben gemailt</wir>
+					<ihr>habt gemailt</ihr>
+					<sie_Sie>haben gemailt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			

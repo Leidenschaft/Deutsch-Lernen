@@ -4,28 +4,28 @@
 	<Anteil>Leseverstehen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>chatte</ich>
+					<du>chattest</du>
+					<er_sie_es>chattet</er_sie_es>
+					<wir>chatten</wir>
+					<ihr>chattet</ihr>
+					<sie_Sie>chatten</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>chattete</ich>
+					<du>chattetest</du>
+					<er_sie_es>chattete</er_sie_es>
+					<wir>chatteten</wir>
+					<ihr>chattetet</ihr>
+					<sie_Sie>chatteten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gechattet</ich>
+					<du>hast gechattet</du>
+					<er_sie_es>hat gechattet</er_sie_es>
+					<wir>haben gechattet</wir>
+					<ihr>habt gechattet</ihr>
+					<sie_Sie>haben gechattet</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			
