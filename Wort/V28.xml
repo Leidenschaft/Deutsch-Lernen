@@ -44,7 +44,7 @@
 		</Antonymegruppe>
 
 		<Kollokationen>
-		<K/>
+      <K>alkoholische Getränke trinken</K>
 		</Kollokationen>
 		<AllgemeineErläuterungen>
 				<Eintrag transitiv="">
@@ -53,8 +53,12 @@
 					<BeispielSammlung>
 					<Beispiel>
 					<Satz>Trinken Sie Kaffee oder Tee?</Satz>
-					<Übersetzung/>
+            <Übersetzung>您喝咖啡还是茶?</Übersetzung>
 					</Beispiel>
+            <Beispiel>
+              <Satz>Wir trinken auf ein gutes neues Jahr!</Satz>
+              <Übersetzung>为新的一年干杯！</Übersetzung>
+            </Beispiel>
 					</BeispielSammlung>
 					
    				</Eintrag>

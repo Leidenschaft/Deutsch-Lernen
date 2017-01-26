@@ -19,13 +19,13 @@
 					<ihr>standet auf</ihr>
 					<sie_Sie>standen auf</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="haben">	
-					<ich>habe aufgestanden</ich>
-					<du>hast aufgestanden</du>
-					<er_sie_es>hat aufgestanden</er_sie_es>
-					<wir>haben aufgestanden</wir>
-					<ihr>habt aufgestanden</ihr>
-					<sie_Sie>haben aufgestanden</sie_Sie>
+				<Perfekt hilfsverb="sein">	
+					<ich>bin aufgestanden</ich>
+					<du>bist aufgestanden</du>
+					<er_sie_es>ist aufgestanden</er_sie_es>
+					<wir>sind aufgestanden</wir>
+					<ihr>seid aufgestanden</ihr>
+					<sie_Sie>sind aufgestanden</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			
@@ -53,8 +53,12 @@
 					<BeispielSammlung>
 					<Beispiel>
 					<Satz>Stehen Sie bitte auf!</Satz>
-					<Übersetzung/>
+            <Übersetzung>请您起床。</Übersetzung>
 					</Beispiel>
+            <Beispiel>
+              <Satz>Er ist heute schon um sechs Uhr aufgestanden.</Satz>
+              <Übersetzung>他今天早上6点就起床了。</Übersetzung>
+            </Beispiel>
 					</BeispielSammlung>
 					
    				</Eintrag>

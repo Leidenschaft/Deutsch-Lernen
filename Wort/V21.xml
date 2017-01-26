@@ -53,8 +53,12 @@
 					<BeispielSammlung>
 					<Beispiel>
 					<Satz>Chattest du gern?</Satz>
-					<Übersetzung/>
+            <Übersetzung>你喜欢聊天吗?</Übersetzung>
 					</Beispiel>
+            <Beispiel>
+              <Satz>Wir chatten täglich online.</Satz>
+              <Übersetzung>我们每天用微信聊天。</Übersetzung>
+            </Beispiel>
 					</BeispielSammlung>
 					
    				</Eintrag>

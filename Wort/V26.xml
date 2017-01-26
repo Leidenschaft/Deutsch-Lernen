@@ -34,6 +34,7 @@
 			<KompositaCollection>
 			</KompositaCollection>
 			<abgeleiteteWörter>
+        <hierzu category="Substantiv" chinesisch="访客"></hierzu>
 			</abgeleiteteWörter>
 	</zusammengesetzteWörter>
 		<Synonymegruppe>
@@ -44,7 +45,11 @@
 		</Antonymegruppe>
 
 		<Kollokationen>
-		<K/>
+      <K>einen Freund besuchen</K>
+      <K>einen Kranken im Krankenhaus besuchen (去医院探望病人)</K>
+      <K>ein Konzert besuchen</K>
+      <K>eine Schule besuchen</K>
+      <K>eine Vorlesung besuchen</K>
 		</Kollokationen>
 		<AllgemeineErläuterungen>
 				<Eintrag transitiv="">
@@ -53,7 +58,7 @@
 					<BeispielSammlung>
 					<Beispiel>
 					<Satz>Wir besuchen am Vormittag Vorlesungen.</Satz>
-					<Übersetzung/>
+            <Übersetzung>我们上午去上课。</Übersetzung>
 					</Beispiel>
 					</BeispielSammlung>
 					

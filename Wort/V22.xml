@@ -34,6 +34,7 @@
 			<KompositaCollection>
 			</KompositaCollection>
 			<abgeleiteteWörter>
+        <hierzu category="Substantiv" link="112.xml">Frühstück</hierzu>
 			</abgeleiteteWörter>
 	</zusammengesetzteWörter>
 		<Synonymegruppe>
@@ -53,7 +54,7 @@
 					<BeispielSammlung>
 					<Beispiel>
 					<Satz>Die Studentin frühstückt gut.</Satz>
-					<Übersetzung/>
+            <Übersetzung>这位女同学早饭吃得很好。</Übersetzung>
 					</Beispiel>
 					</BeispielSammlung>
 					

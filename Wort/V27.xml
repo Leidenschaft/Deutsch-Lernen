@@ -44,7 +44,11 @@
 		</Antonymegruppe>
 
 		<Kollokationen>
-		<K/>
+      <K>nach Berlin fahren</K>
+      <K>Auto fahren (开车)</K>
+      <K>mit dem Auto fahren</K>
+      <K>Ski fahren</K>
+      <K link="308.xml">ans Meer fahren</K>
 		</Kollokationen>
 		<AllgemeineErläuterungen>
 				<Eintrag transitiv="">
@@ -53,7 +57,7 @@
 					<BeispielSammlung>
 					<Beispiel>
 					<Satz>Ich fahre gern Rad.</Satz>
-					<Übersetzung/>
+            <Übersetzung>我喜欢骑自行车。</Übersetzung>
 					</Beispiel>
 					</BeispielSammlung>
 					

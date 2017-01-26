@@ -34,6 +34,7 @@
 			<KompositaCollection>
 			</KompositaCollection>
 			<abgeleiteteWörter>
+        <hierzu category="Substantiv">Essen</hierzu>
 			</abgeleiteteWörter>
 	</zusammengesetzteWörter>
 		<Synonymegruppe>
@@ -44,7 +45,8 @@
 		</Antonymegruppe>
 
 		<Kollokationen>
-		<K/>
+      <K>im Restaurant essen</K>
+      <K>zu Abend essen</K>
 		</Kollokationen>
 		<AllgemeineErläuterungen>
 				<Eintrag transitiv="">
@@ -53,7 +55,7 @@
 					<BeispielSammlung>
 					<Beispiel>
 					<Satz>Martin isst gern Eis.</Satz>
-					<Übersetzung/>
+            <Übersetzung>马丁喜欢吃冰淇淋。</Übersetzung>
 					</Beispiel>
 					</BeispielSammlung>
 					
