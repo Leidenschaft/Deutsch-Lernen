@@ -1,7 +1,0 @@
-﻿leidtun.xml
-hineinschauen.xml
-übersetzen.xml
-unterhalten.xml
-kümmern.xml
-wehtun.xml
-krankschreiben.xml

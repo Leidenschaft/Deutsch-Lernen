@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+<?xml version="1.0" encoding=" UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
 	<Stichwort>geben</Stichwort>
 	<Einheit>3</Einheit>
 	<Anteil>Text</Anteil>
@@ -44,7 +44,9 @@
 		</Antonymegruppe>
 
 		<Kollokationen>
-		<K/>
+      <K>einem Kind ein Glas Milch geben</K>
+      <K>jemandem eine Antwort geben</K>
+      <K>jemandem Unterricht geben</K>
 		</Kollokationen>
 		<AllgemeineErläuterungen>
 				<Eintrag transitiv="">
@@ -55,6 +57,13 @@
 					<Satz>Thomas gibt heute Abend eine Party.</Satz>
 					<Übersetzung/>
 					</Beispiel>
+            <Beispiel>
+              <Satz>Morgen soll es Regen geben.</Satz>
+              <Übersetzung>明天可能有雨。</Übersetzung>
+            </Beispiel>
+            <Beispiel>
+              <Satz>Was gibts heute zum Mittagessen?</Satz>
+            </Beispiel>
 					</BeispielSammlung>
 					
    				</Eintrag>

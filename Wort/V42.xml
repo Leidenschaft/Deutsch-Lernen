@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
 	<Stichwort>meinen</Stichwort>
-	<Einheit>7</Einheit>
+	<Einheit>4</Einheit>
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
@@ -55,7 +55,12 @@
 					<Satz>Meinst du die blaue?</Satz>
 					<Übersetzung/>
 					</Beispiel>
-					</BeispielSammlung>
+            <Beispiel>
+              <Satz>Machen wir eine Pause? Was meinst du dazu?</Satz>
+              <Übersetzung/>
+            </Beispiel>
+
+          </BeispielSammlung>
 					
    				</Eintrag>
 			</AllgemeineErläuterungen>

@@ -53,12 +53,16 @@
 					<BeispielSammlung>
 					<Beispiel>
 					<Satz>Ich laufe schnell.</Satz>
-					<Übersetzung/>
+            <Übersetzung>我跑得很快。</Übersetzung>
 					</Beispiel>
+            <Beispiel>
+              <Satz>Der Hund läuft hinter das Auto.</Satz>
+              <Übersetzung>这只狗跑到车后面去了。</Übersetzung>
+            </Beispiel>
 					</BeispielSammlung>
 					
    				</Eintrag>
 			</AllgemeineErläuterungen>
-	
+  <Comment>hinter ___ Auto https://de.wiktionary.org/wiki/laufen Der Hund läuft hinter dem Auto her</Comment>
 	
 </Entry>

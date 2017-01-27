@@ -1,5 +1,5 @@
 <!ELEMENT Entry (Stichwort,Einheit,Anteil,Konjugation,zusammengesetzteWörter,Synonymegruppe,Antonymegruppe,
-Kollokationen,AllgemeineErläuterungen)>
+Kollokationen,AllgemeineErläuterungen,Comment?)>
 <!ELEMENT Stichwort (#PCDATA)>
 <!ELEMENT Einheit (#PCDATA)>
 <!ELEMENT Anteil (#PCDATA)>
@@ -15,7 +15,7 @@ Kollokationen,AllgemeineErläuterungen)>
   <!ELEMENT wir (#PCDATA)>
   <!ELEMENT ihr (#PCDATA)>
   <!ELEMENT sie_Sie (#PCDATA)>
-  
+<!ELEMENT Comment (#PCDATA)>
   <!ELEMENT abgeleiteteWörter (hierzu*)>
   <!ELEMENT _K (#PCDATA)>
   <!ELEMENT K_ (#PCDATA)>

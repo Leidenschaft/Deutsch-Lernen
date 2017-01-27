@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
-	<Stichwort>meinen</Stichwort>
-	<Einheit>4</Einheit>
-	<Anteil>Text</Anteil>
+	<Stichwort>ausdrücken</Stichwort>
+	<Einheit>9</Einheit>
+	<Anteil>Intentionen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich>meine</ich>
-					<du>meinst</du>
-					<er_sie_es>meint</er_sie_es>
-					<wir>meinen</wir>
-					<ihr>meint</ihr>
-					<sie_Sie>meinen</sie_Sie>
+					<ich>drücke aus</ich>
+					<du>drückst aus</du>
+					<er_sie_es>drückt aus</er_sie_es>
+					<wir>drücken aus</wir>
+					<ihr>drückt aus</ihr>
+					<sie_Sie>drücken aus</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich>meinte</ich>
-					<du>meintest</du>
-					<er_sie_es>meinte</er_sie_es>
-					<wir>meinten</wir>
-					<ihr>meintet</ihr>
-					<sie_Sie>meinten</sie_Sie>
+					<ich>drückte aus</ich>
+					<du>drücktest aus</du>
+					<er_sie_es>drückte aus</er_sie_es>
+					<wir>drückten aus</wir>
+					<ihr>drücktet aus</ihr>
+					<sie_Sie>drückten aus</sie_Sie>
 				</Präteritum>
 				<Perfekt hilfsverb="haben">	
-					<ich>habe gemeint</ich>
-					<du>hast gemeint</du>
-					<er_sie_es>hat gemeint</er_sie_es>
-					<wir>haben gemeint</wir>
-					<ihr>habt gemeint</ihr>
-					<sie_Sie>haben gemeint</sie_Sie>
+					<ich>habe ausgedrückt</ich>
+					<du>hast ausgedrückt</du>
+					<er_sie_es>hat ausgedrückt</er_sie_es>
+					<wir>haben ausgedrückt</wir>
+					<ihr>habt ausgedrückt</ihr>
+					<sie_Sie>haben ausgedrückt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			
@@ -49,13 +49,14 @@
 		<AllgemeineErläuterungen>
 				<Eintrag transitiv="">
 					
-					<Chinesisch>认为，观点，看法</Chinesisch>
+					<Chinesisch>表达</Chinesisch>
 					<BeispielSammlung>
 					<Beispiel>
-					<Satz>Machen wir eine Pause? Was meinst du dazu?</Satz>
+					<Satz>Ich drücke meine Meinung aus.</Satz>
 					<Übersetzung/>
 					</Beispiel>
-					</BeispielSammlung>
+
+          </BeispielSammlung>
 					
    				</Eintrag>
 			</AllgemeineErläuterungen>

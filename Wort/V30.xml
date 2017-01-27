@@ -44,7 +44,7 @@
 		</Antonymegruppe>
 
 		<Kollokationen>
-		<K/>
+      <K>mit jemandem Streit haben</K>
 		</Kollokationen>
 		<AllgemeineErläuterungen>
 				<Eintrag transitiv="">
@@ -53,8 +53,20 @@
 					<BeispielSammlung>
 					<Beispiel>
 					<Satz>Hast du am Nachmittag auch Unterricht?</Satz>
-					<Übersetzung/>
+            <Übersetzung>你下午还有课吗?</Übersetzung>
 					</Beispiel>
+            <Beispiel>
+              <Satz>Ein Mensch des Reiches Qi hat eine Frau und eine Konkubine zu Hause. </Satz>
+              <Übersetzung>齐人有一妻一妾而处室者。</Übersetzung>
+            </Beispiel>
+            <Beispiel>
+              <Satz>Die Jugend haben noch ihr ganzes Leben vor ihnen.</Satz>
+              <Übersetzung>青年的人生之路还很长。</Übersetzung>
+            </Beispiel>
+            <Beispiel>
+              <Satz>--Hast du nichts zu tun? --Ich habe viel zu tun.</Satz>
+              <Übersetzung>--你没事可做吗？ --我有很多事要做。</Übersetzung>
+            </Beispiel>
 					</BeispielSammlung>
 					
    				</Eintrag>
