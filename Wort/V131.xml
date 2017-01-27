@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>kümmere</ich>
+					<du>kümmerst</du>
+					<er_sie_es>kümmert</er_sie_es>
+					<wir>kümmern</wir>
+					<ihr>kümmert</ihr>
+					<sie_Sie>kümmern</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>kümmerte</ich>
+					<du>kümmertest</du>
+					<er_sie_es>kümmerte</er_sie_es>
+					<wir>kümmerten</wir>
+					<ihr>kümmertet</ihr>
+					<sie_Sie>kümmerten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gekümmert</ich>
+					<du>hast gekümmert</du>
+					<er_sie_es>hat gekümmert</er_sie_es>
+					<wir>haben gekümmert</wir>
+					<ihr>habt gekümmert</ihr>
+					<sie_Sie>haben gekümmert</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			
