@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>tue weh</ich>
+					<du>tust weh</du>
+					<er_sie_es>tut weh</er_sie_es>
+					<wir>tun weh</wir>
+					<ihr>tut weh</ihr>
+					<sie_Sie>tun weh</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>tat weh</ich>
+					<du>tatest weh</du>
+					<er_sie_es>tat weh</er_sie_es>
+					<wir>taten weh</wir>
+					<ihr>tatet weh</ihr>
+					<sie_Sie>taten weh</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe wehgetan</ich>
+					<du>hast wehgetan</du>
+					<er_sie_es>hat wehgetan</er_sie_es>
+					<wir>haben wehgetan</wir>
+					<ihr>habt wehgetan</ihr>
+					<sie_Sie>haben wehgetan</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			
