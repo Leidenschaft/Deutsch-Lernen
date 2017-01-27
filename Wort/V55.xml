@@ -4,28 +4,28 @@
 	<Anteil>Intentionen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+          <ich>tu leid</ich>
+					<du>tust leid</du>
+          <er_sie_es>tut leid</er_sie_es>
+          <wir>tun leid</wir>
+          <ihr>tut leid</ihr>
+          <sie_Sie>tun leid</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+          <ich>tat leid</ich>
+          <du>tatest leid</du>
+					<er_sie_es>tat leid</er_sie_es>
+          <wir>taten leid</wir>
+          <ihr>tatet leid</ihr>
+          <sie_Sie>taten leid</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">
+          <ich>habe leidgetan</ich>
+          <du>hast leidgetan</du>
+          <er_sie_es>hat leidgetan</er_sie_es>
+          <wir>haben leidgetan</wir>
+          <ihr>habt leidgetan</ihr>
+          <sie_Sie>haben leidgetan</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			
