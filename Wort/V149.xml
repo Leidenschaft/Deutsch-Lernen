@@ -4,28 +4,28 @@
 	<Anteil>Übungen</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>schreibe krank</ich>
+					<du>schreibst krank</du>
+					<er_sie_es>schreibt krank</er_sie_es>
+					<wir>schreiben krank</wir>
+					<ihr>schreibt krank</ihr>
+					<sie_Sie>schreiben krank</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>schrieb krank</ich>
+					<du>schriebst krank</du>
+					<er_sie_es>schrieb krank</er_sie_es>
+					<wir>schrieben krank</wir>
+					<ihr>schriebt krank</ihr>
+					<sie_Sie>schrieben krank</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe krankgeschrieben</ich>
+					<du>hast krankgeschrieben</du>
+					<er_sie_es>hat krankgeschrieben</er_sie_es>
+					<wir>haben krankgeschrieben</wir>
+					<ihr>habt krankgeschrieben</ihr>
+					<sie_Sie>haben krankgeschrieben</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			
