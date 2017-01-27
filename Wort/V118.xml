@@ -4,28 +4,28 @@
 	<Anteil>Text</Anteil>
 	<Konjugation>
 				<Präsen>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>übersetze</ich>
+					<du>übersetzt</du>
+					<er_sie_es>übersetzt</er_sie_es>
+					<wir>übersetzen</wir>
+					<ihr>übersetzt</ihr>
+					<sie_Sie>übersetzen</sie_Sie>
 				</Präsen>
 				<Präteritum>
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+					<ich>übersetzte</ich>
+					<du>übersetztest</du>
+					<er_sie_es>übersetzte</er_sie_es>
+					<wir>übersetzten</wir>
+					<ihr>übersetztet</ihr>
+					<sie_Sie>übersetzten</sie_Sie>
 				</Präteritum>
-				<Perfekt hilfsverb="">	
-					<ich/>
-					<du/>
-					<er_sie_es/>
-					<wir/>
-					<ihr/>
-					<sie_Sie/>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe übersetzt</ich>
+					<du>hast übersetzt</du>
+					<er_sie_es>hat übersetzt</er_sie_es>
+					<wir>haben übersetzt</wir>
+					<ihr>habt übersetzt</ihr>
+					<sie_Sie>haben übersetzt</sie_Sie>
 				</Perfekt>
 	</Konjugation>
 			
