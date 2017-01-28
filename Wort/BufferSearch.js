@@ -1,3 +1,4 @@
+﻿var GetSelection;
 $(document).ready(function () {
     //judge the browser type here
     var BrowersType;
@@ -11,7 +12,7 @@ $(document).ready(function () {
 
     $("#audioImg").on("click", function () {
         //from <h1> to get the wordform
-        var wordform = $("h1").html();
+        var wordform = $("#stich_wort").html();
         var audio_path = "../audio/" + wordform + ".mp3";
         if (BrowersType == "IE") {
             if ($("#BGSOUND").length) {
@@ -21,7 +22,7 @@ $(document).ready(function () {
         else {//Chrome Processing here
             var file = []; 
             file['mp3'] = audio_path; 
-            audioplayer('audioplane', file, true); // ����
+            audioplayer('audioplane', file, true); // 播放
         /*    var audioplayer = $("#ChromeAudio"); 
             if(audioplayer.length){//remove the original audio object
                 audioplayer.remove();
@@ -37,7 +38,17 @@ $(document).ready(function () {
 
         }
     });
-
+    $("#edit_btn").on("click", function () {
+        if (this.innerHTML == '编辑') {
+            self.parent.frames["editing_frame"].load_xml(BrowersType);
+            self.parent.change_editing_frame("editting");
+            this.innerHTML = '取消编辑';
+        }
+        else {
+            self.parent.change_editing_frame("viewing");
+            this.innerHTML = '编辑';
+        }
+    });
     function audioplayer(id, file, loop) {
         var audioplayer = document.getElementById(id);
         if (audioplayer != null) {
@@ -76,7 +87,7 @@ function BufferSearch()
 	else
 		alert("Invalid Word");
 }
-function GetSelection(){
+GetSelection=function GetSelection(){
 	if(window.getSelection){
 	  var selectedText = window.getSelection().toString(); 
 	  if(selectedText!=null){

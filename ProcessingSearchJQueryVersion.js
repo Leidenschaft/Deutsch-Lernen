@@ -108,7 +108,7 @@ $(document).ready(function () {
             success: GetXML
         });
     }
-    else {
+    else {//IE
         var srcTree = new ActiveXObject("Msxml2.DOMDocument.6.0");
         srcTree.async = false;
         srcTree.load('Wordlist_11.xml');

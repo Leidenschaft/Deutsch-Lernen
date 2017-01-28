@@ -18,8 +18,12 @@
   <script type="text/javascript" src="../jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="BufferSearch.js"></script>
 	<body ondblclick="GetSelection()">
-    <h1><xsl:value-of select="Stichwort"/>
-			
+    <h1>
+      <span id="stich_wort"><xsl:value-of select="Stichwort"/>
+      </span>&#160;
+      <span>
+        <button type="button" id="edit_btn">编辑</button>
+      </span>
 			</h1>	
 	<!--<br/>-->
       <xsl:if test="count(Stichwort/@link)">
