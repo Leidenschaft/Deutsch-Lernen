@@ -10,7 +10,7 @@ $(document).ready(function () {
 
     var BrowersType;
     var userAgent = navigator.userAgent;
-    if (userAgent.indexOf("Android")>-1) {
+    if (userAgent.indexOf("Android")>-1  || userAgent.indexOf("iPhone")>-1 || userAgent.indexOf("iPad")>-1 || userAgent.indexOf("Safari")>-1 ) {
         //page redirection
         location.href = "index_mobile.html";
     }
