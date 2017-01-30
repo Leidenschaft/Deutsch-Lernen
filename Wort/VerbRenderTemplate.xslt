@@ -14,9 +14,18 @@
         <xsl:value-of select="Stichwort"/><!---此处为标题字体<font face=".Helvetica Neue Interface"></font>-->
         
       </b></h1><br/>
+    
 	<table width="100%" align="center" border="0"><tr>
 	<td width="50%" style="font-family:Times New Roman">
     <!--设置主要的英文字体为Times New Roman-->
+    <xsl:if test="count(Stichwort/@Bild)">
+      <img class="img_1">
+        <xsl:attribute name="src">
+          ../images/<xsl:value-of select="Stichwort/@Bild"/>
+        </xsl:attribute>
+      </img>
+    </xsl:if>
+
     <div style="line-height:20px"><!--调整行距-->
 	<b><font color="#0000D0">&#160;<xsl:value-of select="Stichwort"/>&#160;</font></b>
 	<a href="sound://p008__001776626.spx" >
