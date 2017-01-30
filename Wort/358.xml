@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
-<Stichwort Audio="true">Pizza</Stichwort>
+<Stichwort Audio="true" Bild="358.jpg">Pizza</Stichwort>
 <Einheit>5</Einheit>
 <Anteil>Leseverstehen</Anteil>
 <Genus>die</Genus>
