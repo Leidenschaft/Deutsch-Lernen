@@ -1,13 +1,7 @@
 var jqueryFunction;
 $(document).ready(function () {
     //below the xml file wordlist is loaded
-    var myDic = new Array();
-    myDic['ab'] = 3;
-    myDic['cd'] = 4;
-    if ('ab' in myDic) {
-        var a = 1;
-    }
-
+   
     var BrowersType;
     var userAgent = navigator.userAgent;
     if (userAgent.indexOf("Android")>-1) {
