@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
-  <Stichwort Audio="true">Haus</Stichwort>
+  <Stichwort Audio="true" Bild="238.jpg">Haus</Stichwort>
   <Einheit>1</Einheit>
   <Anteil>3</Anteil>
   <Genus>das</Genus>
