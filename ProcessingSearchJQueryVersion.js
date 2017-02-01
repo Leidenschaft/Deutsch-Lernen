@@ -1,4 +1,5 @@
 var jqueryFunction;
+var getWord_form;
 $(document).ready(function () {
     //below the xml file wordlist is loaded
    
@@ -61,6 +62,7 @@ $(document).ready(function () {
 
             var id = $(this);
             dic.push(new Wort(id.text(), id.attr("address")));
+            //replace address with suffix html here
         }
         )
         dic.sort(sortWort);
@@ -174,6 +176,22 @@ $(document).ready(function () {
             
             return null;
         }
+    }
+    getWord_form = function get_word_form(wordAddr) {
+        var hasTheWord = 0;
+        for (var cnt = 0; cnt < dic.length; cnt++) {
+            if (dic[cnt].address == wordAddr) {
+                hasTheWord = 1;
+                break;
+            }
+        }
+        if (hasTheWord == 1) {
+            return dic[cnt].wordform;
+        }
+        else {
+            return null;
+        }
+
     }
 /*    xmlhttp.onreadystatechange = function () {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {

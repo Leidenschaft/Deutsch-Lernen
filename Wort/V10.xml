@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
-	<Stichwort>ausdrücken</Stichwort>
-	<Einheit>9</Einheit>
+	<Stichwort>aussprechen</Stichwort>
+	<Einheit>7</Einheit>
 	<Anteil>Intentionen</Anteil>
 	<Konjugation>
 				<Präsen>
@@ -49,11 +49,11 @@
 		<AllgemeineErläuterungen>
 				<Eintrag transitiv="">
 					
-					<Chinesisch>表达</Chinesisch>
+					<Chinesisch>说出</Chinesisch>
 					<BeispielSammlung>
 					<Beispiel>
-					<Satz>Darf ich meine Meinung ausdrücken?</Satz>
-            <Übersetzung>我能说一下我的观点吗？</Übersetzung>
+					<Satz>Ich spreche meine gute Wünsche aus.</Satz>
+            <Übersetzung></Übersetzung>
 					</Beispiel>
 					</BeispielSammlung>
 					

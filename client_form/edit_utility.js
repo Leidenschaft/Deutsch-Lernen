@@ -3,15 +3,12 @@ $(document).ready(function () {
     var Stichwort_input_boolean=false;
     var Pluralform_input_boolean = false;
     var GenitivSingular_input_boolean = false;
-    var j_xml;
-    var BrowserType_whole;
     //if invoked from frameset, load the word information from right_frame code here
     load_xml=function load_xml(BrowserType) {
         //self.parent.document.getElementById("edit_render_frameset")
         var word_addr = self.parent.frames["right_frame"].location.toString();
         //request for the xml
-        BrowserType_whole = BrowserType;
-        if (BrowserType == "Chrome" || BrowserType=="IE") {
+            if (BrowserType == "Chrome" || BrowserType=="IE") {
          
             $.ajax({
                 url: word_addr,//'../Wort/1.xml',
@@ -39,7 +36,6 @@ $(document).ready(function () {
                    alert("You have error " + myErr.reason);
                 } else {
                     var xmlObj = originalTree.documentElement.childNodes;*/
-                    j_xml = xml;
                     $("#Stichwort").val($(xml).find("Stichwort").text());
                     Stichwort_input_boolean = true;
                     //  $("#Einheit").val(xmlObj.item(1).text);
@@ -90,8 +86,9 @@ $(document).ready(function () {
                         }
                         current_input_compound_item += 1;
                         $("#compound_" + current_input_compound_item.toString()).val(compound_word_group.eq(i).text());
-                        if (compound_word_group.eq(i).attr("link")) {
-                            $("#compound_Link_" + current_input_compound_item.toString()).val(compound_word_group.eq(i).attr("link"));
+                        if (compound_word_group.eq(i).attr("link")) {//here should look up a dic to translate the addr to wordform.
+                            var word_original_form = self.parent.frames["navigation"].getWord_form(compound_word_group.eq(i).attr("link"));
+                            $("#compound_Link_" + current_input_compound_item.toString()).val(word_original_form);
                         }
                         $("#show_link_compound_" + current_input_compound_item.toString()).removeAttr("disabled");
                         add_compound();
@@ -326,78 +323,8 @@ $(document).ready(function () {
     });
     $("#submit_button").on('click', function () {
         if (Stichwort_input_boolean && Pluralform_input_boolean && GenitivSingular_input_boolean) {
-            //convert the form element to xml format and send it to the server here
-           // submit_xml = $("<Entry/>");
-            // submit_xml.attr("category", "Substantiv");
-            $(j_xml).find("Stichwort").text($("#Stichwort").val());
-            $(j_xml).find("Einheit").text($("#Einheit").val());
-            $(j_xml).find("Anteil").text($("#Anteil").children("option[selected='selected']").first().text());
-            $(j_xml).find("Genus").text( $("input[name='Genus']").parent().children("input[checked='checked']").first().val() );
-            $(j_xml).find("Pluralform").text($("#Pluralform").val());
-            $(j_xml).find("GenitivSingular").text($("#GenitivSingular").val());
-        //    $(j_xml).find("KompositaCollection").remove();
-        //    $(j_xml).find("abgeleiteteWörter").remove();
-            var compound_in_xml_num = $(j_xml).find("KompositaCollection").children("*").length;
-            var compound_in_dom = $(".compound");
-            var stichwort_tmp = $("#Stichwort").val().toLowerCase();
-            for (var i = 0; i < compound_in_dom.length - (current_compound_item - current_input_compound_item) ; i++) {
-                var compound_word_tmp = compound_in_dom.eq(i).val();
-                if (i < compound_in_xml_num) {
-                    $(j_xml).find("KompositaCollection").children("*").eq(i).text(compound_word_tmp);
-                }
-                else {
-                    if (compound_word_tmp.indexOf(stichwort_tmp) > 2)
-                        KompositaCollection.append($("<_K/>", { html: compound_word_tmp }));
-                    else
-                        KompositaCollection.append($("<K_/>", { html: compound_word_tmp }));
-                }
-                if($("#compound_Link_"+(i+1).toString()).val().length>0){
-                    KompositaCollection.children('*').eq(i).attr("link", $("#compound_Link_" + (i + 1).toString()).val());
-                }
-                
-            }
-            $(j_xml).find("zusammengesetzteWörter").append(KompositaCollection);
-            derivativeCollection = $("<abgeleiteteWörter/>");
-            var derivative_in_dom = $(".derivative");
-            for (var i = 0; i < derivative_in_dom.length - (current_derivative_item - current_input_derivative_item) ; i++) {
-                derivativeCollection.append($("<hierzu/>", { html: derivative_in_dom.eq(i).val() }));
-                if ($("#derivative_Link_" + (i + 1).toString()).val() .length>0) {
-                    derivativeCollection.children('*').eq(i).attr("link", $("#derivative_Link_" + (i + 1).toString()).val());
-                }
-                var category_tmp = $("#derivative_"+(i+1).toString()).parent().find("input[checked='checked']").first().val();
-                derivativeCollection.children('*').eq(i).attr('category', category_tmp);
-            }
-
-            $(j_xml).find("zusammengesetzteWörter").append(derivativeCollection);
- 
-        /*    Synonymegruppe = $("<Synonymegruppe/>");
-            var Synonym_in_dom = $(".Sym");
-            for (var i = 0; i < Synonym_in_dom.length - (current_Sym_item - current_input_Sym_item) ; i++) {       
-                Synonymegruppe.append($("<Sym/>", { html: Synonym_in_dom.eq(i).val() }));
-                if ($("#Sym_Link_" + (i + 1).toString()).val().length>0) {
-                    Synonymegruppe.children('*').eq(i).attr("link", $("#Sym_Link_" + (i + 1).toString()).val());
-                }
-            }
-            submit_xml.append(Synonymegruppe);
-
-            Antonymgruppe = $("<Antonymgruppe/>");
-            var Synonym_in_dom = $(".Anm");
-            for (var i = 0; i < Synonym_in_dom.length - (current_Anm_item - current_input_Anm_item) ; i++) {
-                Antonymgruppe.append($("<Anm/>", { html: Synonym_in_dom.eq(i).val() }));
-                if ($("#Anm_Link_" + (i + 1).toString()).val().length > 0) {
-                    Antonymgruppe.children('*').eq(i).attr("link", $("#Anm_Link_" + (i + 1).toString()).val());
-                }
-            }
-            submit_xml.append(Antonymgruppe);*/
-            var xml_str;
-            if (BrowserType_whole == "IE")
-                xml_str = j_xml.xml;
-            else
-                xml_str = (new XMLSerializer()).serializeToString(j_xml);
-            alert(xml_str);
-            //send xml_str to the server;
-            return false;
-           // $("form").submit();
+            $("#errorMessage").html();
+            $("form").submit();
         }
         else {
             html_content = '';
