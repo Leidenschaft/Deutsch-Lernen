@@ -1,17 +1,17 @@
 var jqueryFunction;
+var getWord_form;
 $(document).ready(function () {
     //below the xml file wordlist is loaded
-    var myDic = new Array();
-    myDic['ab'] = 3;
-    myDic['cd'] = 4;
-    if ('ab' in myDic) {
-        var a = 1;
-    }
-
+   
     var BrowersType;
     var userAgent = navigator.userAgent;
+<<<<<<< HEAD
     if (userAgent.indexOf("Android")>-1  || userAgent.indexOf("iPhone")>-1 || userAgent.indexOf("iPad")>-1|| userAgent.indexOf("Safari")>-1) {
         //page redirection
+=======
+    if (userAgent.indexOf("Android")>-1  || userAgent.indexOf("iPhone")>-1 ) {
+        //page redirection|| userAgent.indexOf("iPad")>-1 || userAgent.indexOf("Safari")>-1 
+>>>>>>> origin/master
         location.href = "index_mobile.html";
     }
     if (userAgent.indexOf("Chrome") > -1 || userAgent.indexOf("Firefox") > -1) {
@@ -67,6 +67,7 @@ $(document).ready(function () {
 
             var id = $(this);
             dic.push(new Wort(id.text(), id.attr("address")));
+            //replace address with suffix html here
         }
         )
         dic.sort(sortWort);
@@ -180,6 +181,22 @@ $(document).ready(function () {
             
             return null;
         }
+    }
+    getWord_form = function get_word_form(wordAddr) {
+        var hasTheWord = 0;
+        for (var cnt = 0; cnt < dic.length; cnt++) {
+            if (dic[cnt].address == wordAddr) {
+                hasTheWord = 1;
+                break;
+            }
+        }
+        if (hasTheWord == 1) {
+            return dic[cnt].wordform;
+        }
+        else {
+            return null;
+        }
+
     }
 /*    xmlhttp.onreadystatechange = function () {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {

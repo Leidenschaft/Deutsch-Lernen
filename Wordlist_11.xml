@@ -473,7 +473,11 @@
   <Word address="V7.xml">öffnen</Word>
   <Word address="V8.xml">lesen</Word>
   <Word address="V9.xml">machen</Word>
+<<<<<<< HEAD
   <Word address="V10.xml">ausdrücken</Word>
+=======
+  <Word address="V10.xml">aussprechen</Word>
+>>>>>>> origin/master
   <Word address="V11.xml">fragen</Word>
   <Word address="V12.xml">antworten</Word>
   <Word address="V13.xml">schließen</Word>
@@ -506,7 +510,7 @@
   <Word address="V40.xml">vorhaben</Word>
   <Word address="V41.xml">finden</Word>
   <Word address="V42.xml">meinen</Word>
-  <Word address="V43.xml">meinen</Word>
+  <Word address="V43.xml">ausdrücken</Word>
   <Word address="V44.xml">einladen</Word>
   <Word address="V45.xml">einkaufen</Word>
   <Word address="V46.xml">vorschlagen</Word>

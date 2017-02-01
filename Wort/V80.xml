@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
-	<Stichwort>halten</Stichwort>
-	<Einheit>7</Einheit>
-	<Anteil>Text</Anteil>
+	<Stichwort>wiedersprechen</Stichwort>
+	<Einheit>9</Einheit>
+	<Anteil>Intentionen</Anteil>
 	<Konjugation>
-				<Präsen>
-					<ich>halte</ich>
-					<du>hältst</du>
-					<er_sie_es>hält</er_sie_es>
-					<wir>halten</wir>
-					<ihr>haltet</ihr>
-					<sie_Sie>halten</sie_Sie>
-				</Präsen>
-				<Präteritum>
-					<ich>hielt</ich>
-					<du>hieltest</du>
-					<er_sie_es>hielt</er_sie_es>
-					<wir>hielten</wir>
-					<ihr>hieltet</ihr>
-					<sie_Sie>hielten</sie_Sie>
-				</Präteritum>
-				<Perfekt hilfsverb="haben">	
-					<ich>habe gehalten</ich>
-					<du>hast gehalten</du>
-					<er_sie_es>hat gehalten</er_sie_es>
-					<wir>haben gehalten</wir>
-					<ihr>habt gehalten</ihr>
-					<sie_Sie>haben gehalten</sie_Sie>
-				</Perfekt>
+    <Präsen>
+      <ich/>
+      <du/>
+      <er_sie_es/>
+      <wir/>
+      <ihr/>
+      <sie_Sie/>
+    </Präsen>
+    <Präteritum>
+      <ich/>
+      <du/>
+      <er_sie_es/>
+      <wir/>
+      <ihr/>
+      <sie_Sie/>
+    </Präteritum>
+    <Perfekt hilfsverb="">
+      <ich/>
+      <du/>
+      <er_sie_es/>
+      <wir/>
+      <ihr/>
+      <sie_Sie/>
+    </Perfekt>
+
 	</Konjugation>
 			
 			
@@ -49,11 +50,11 @@
 		<AllgemeineErläuterungen>
 				<Eintrag transitiv="">
 					
-					<Chinesisch>认为</Chinesisch>
+					<Chinesisch>反驳</Chinesisch>
 					<BeispielSammlung>
 					<Beispiel>
-					<Satz>Was hältst du von dem Handy hier?</Satz>
-					<Übersetzung/>
+					<Satz>Sprichst du die Meinung wieder?</Satz>
+            <Übersetzung>你反对这个意见吗？</Übersetzung>
 					</Beispiel>
 					</BeispielSammlung>
 					

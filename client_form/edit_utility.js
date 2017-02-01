@@ -7,10 +7,25 @@ $(document).ready(function () {
     load_xml=function load_xml(BrowserType) {
         //self.parent.document.getElementById("edit_render_frameset")
         var word_addr = self.parent.frames["right_frame"].location.toString();
-            //request for the xml
+        //request for the xml
+            if (BrowserType == "Chrome" || BrowserType=="IE") {
+         
+            $.ajax({
+                url: word_addr,//'../Wort/1.xml',
+                type: 'GET',
+                dataType: 'xml',
+                timeout: 1000,
+                cache: false,
+                error: function (xhr, status, errorThrown) {
+                        alert("status: "+status+"\n errorThrown "+errorThrown);
+                },
+                success: function (xml) {
+                    //alert($(xml).find("Stichwort").text());
 
-            if (BrowserType == "IE") {
-                var originalTree = new ActiveXObject("Msxml2.DOMDocument.6.0");
+    //    }
+
+      //  else if(BrowserType == "IE") {
+                /*var originalTree = new ActiveXObject("Msxml2.DOMDocument.6.0");
                 originalTree.async = false;
                 originalTree.setProperty("ProhibitDTD", false);
                 originalTree.validateOnParse=false;
@@ -20,10 +35,12 @@ $(document).ready(function () {
                     var myErr = originalTree.parseError;
                    alert("You have error " + myErr.reason);
                 } else {
-                    var xmlObj = originalTree.documentElement.childNodes;
-                    $("#Stichwort").val(xmlObj.item(0).text);
-                    $("#Einheit").val(xmlObj.item(1).text);
-                    var unit = xmlObj.item(2).text;
+                    var xmlObj = originalTree.documentElement.childNodes;*/
+                    $("#Stichwort").val($(xml).find("Stichwort").text());
+                    Stichwort_input_boolean = true;
+                    //  $("#Einheit").val(xmlObj.item(1).text);
+                    $("#Einheit").val($(xml).find("Einheit").text());
+                    var unit = $(xml).find("Anteil").text();
                //     $("#Anteil").find("option[selected='']").removeAttr("selected");
                     var Anteil_option = $("#Anteil").children();
                     Anteil_option.removeAttr("selected");
@@ -32,9 +49,9 @@ $(document).ready(function () {
                             Anteil_option.eq(i).attr("selected", "");
                             Anteil_option.eq(i).click();
                             break;
-                        }
+                        } parseInt(current_input_compound_item)
                     }
-                    var genus = xmlObj.item(3).text;
+                    var genus = $(xml).find("Genus").text();
                     var genus_option = $("input[name='Genus']");
                     genus_option.removeAttr("checked");
                     for (var i = 0; i < genus_option.length; i++) {
@@ -44,38 +61,172 @@ $(document).ready(function () {
                             break;
                         }
                     }
-                    $("#Pluralform").val(xmlObj.item(4).text);
-                    $("#GenitivSingular").val(xmlObj.item(5).text);
+                    $("#Pluralform").val($(xml).find("Pluralform").text());
+                    Pluralform_input_boolean=true;
+
+                    if ($(xml).find("GenitivSingular").text().length > 1) {
+                        $("#GenitivSingular").val($(xml).find("GenitivSingular").text());
+                        GenitivSingular_input_boolean = true;
+                    }
                     //   var current_compound_item = 1;
+                    
                     current_input_compound_item = 0;
-                    compound_word_group = xmlObj.item(6).childNodes.item(0).childNodes;
+                    compound_word_group = $(xml).find("KompositaCollection").children("*");
                     //first remove the compound word group if exists any
                     //compound_word_group.length
                     while (current_compound_item > 1) {
                         $("#compound_" + current_compound_item.toString()).parent().remove();
                         current_compound_item -= 1;
                     }
+                    $("#compound_1").val('请在此输入第1个合成词');
+                    $("#compound_Link_1").val('');
                     for (var i = 0; i < compound_word_group.length; i++) {
-                        if (compound_word_group.item(i).text.length < 1) {
+                        if (compound_word_group.eq(i).text().length < 1) {
                             continue;
                         }
                         current_input_compound_item += 1;
-                        $("#compound_" + parseInt(current_input_compound_item)).val(compound_word_group.item(i).text);
-                        if (compound_word_group.item(i).getAttribute("link")) {
-                            $("#compound_Link_" + parseInt(current_input_compound_item)).val(compound_word_group.item(i).getAttribute("link"));
+                        $("#compound_" + current_input_compound_item.toString()).val(compound_word_group.eq(i).text());
+                        if (compound_word_group.eq(i).attr("link")) {//here should look up a dic to translate the addr to wordform.
+                            var word_original_form = self.parent.frames["navigation"].getWord_form(compound_word_group.eq(i).attr("link"));
+                            $("#compound_Link_" + current_input_compound_item.toString()).val(word_original_form);
                         }
-                        $("#show_link_compound_" + parseInt(current_input_compound_item)).removeAttr("disabled");
+                        $("#show_link_compound_" + current_input_compound_item.toString()).removeAttr("disabled");
                         add_compound();
                       
                     }
-                  
-                  //  for (j = 0; j < xmlObj.length; j++) {
+					current_input_derivative_item=0;
+					derivative_word_group = $(xml).find("abgeleiteteWörter").children("*");
+                    while (current_derivative_item > 1) {
+                        $("#derivative_" + current_derivative_item.toString()).parent().remove();
+                        current_derivative_item -= 1;
+                    }
+                    $("#derivative_1").val('请在此输入第1个派生词');
+                    $("#derivative_Link_1").val('');
+                    for (var i = 0; i < derivative_word_group.length; i++) {
+                        if (derivative_word_group.eq(i).text().length < 1) {
+                            continue;
+                        }
+                        current_input_derivative_item += 1;
+                        $("#derivative_" + current_input_derivative_item.toString()).val(derivative_word_group.eq(i).text());
+                        category_collection = $("input[name='derivative_category_" + current_input_derivative_item.toString() + "']");
+                        var txt_L = category_collection.length;
+                        var txt_1 = category_collection.eq(0).attr("checked");
+                        var txt_2 = category_collection.eq(1).attr("checked");
+                        var txt_3 = category_collection.eq(2).attr("checked");
+                        var gender_tmp = derivative_word_group.eq(i).attr("category");
+                        category_collection.parent().children("input[checked='checked']").first().removeAttr("checked");
+                        if (gender_tmp == 'Substantiv') { category_collection.eq(0).attr("checked", "checked"); category_collection.eq(0).click();}
+                        if (gender_tmp == 'Verben') { category_collection.eq(2).attr("checked", "checked"); category_collection.eq(2).click(); }
+                        if (gender_tmp == 'Adjektiv') { category_collection.eq(1).attr("checked", "checked"); category_collection.eq(1).click(); }
                        
-                 //           var txt = xmlObj.item(j).tagName;
-                   
-                 //   }
-               }
-            }
+                        if (derivative_word_group.eq(i).attr("link")) {
+                            $("#derivative_Link_" + current_input_derivative_item.toString()).val(derivative_word_group.eq(i).attr("link"));
+                          }
+
+                        $("#show_link_derivative_" + current_input_derivative_item.toString()).removeAttr("disabled");
+                        add_derivative();
+                      
+                    }
+                    current_input_Sym_item = 0;
+                    Sym_word_group = $(xml).find("Synonymegruppe").children("*");
+                    while (current_Sym_item > 1) {
+                        $("#Sym_" + current_Sym_item.toString()).parent().remove();
+                        current_Sym_item -= 1;
+                    }
+                    $("#Sym_1").val('请在此输入第1个同义词');
+                    $("#Sym_Link_1").val('');
+                    for (var i = 0; i < Sym_word_group.length; i++) {
+                        if (Sym_word_group.eq(i).text().length < 1) {
+                            continue;
+                        }
+                        current_input_Sym_item += 1;
+                        $("#Sym_" + current_input_Sym_item.toString()).val(Sym_word_group.eq(i).text());
+                        if (Sym_word_group.eq(i).attr("link")) {
+                            $("#Sym_Link_" + current_input_Sym_item.toString()).val(Sym_word_group.eq(i).attr("link"));
+                        }
+                        $("#show_link_Sym_" + current_input_Sym_item.toString()).removeAttr("disabled");
+                        add_Sym();
+
+                    }
+
+                    current_input_Anm_item = 0;
+                    Anm_word_group = $(xml).find("Antonymegruppe").children("*");
+                    while (current_Anm_item > 1) {
+                        $("#Anm_" + current_Anm_item.toString()).parent().remove();
+                        current_Anm_item -= 1;
+                    }
+                    $("#Anm_1").val('请在此输入第1个反义词');
+                    $("#Anm_Link_1").val('');
+                    for (var i = 0; i < Anm_word_group.length; i++) {
+                        if (Anm_word_group.eq(i).text().length < 1) {
+                            continue;
+                        }
+                        current_input_Anm_item += 1;
+                        $("#Anm_" + current_input_Anm_item.toString()).val(Anm_word_group.eq(i).text());
+                        if (Anm_word_group.eq(i).attr("link")) {
+                            $("#Anm_Link_" + current_input_Anm_item.toString()).val(Anm_word_group.eq(i).attr("link"));
+                        }
+                        $("#show_link_Anm_" + current_input_Anm_item.toString()).removeAttr("disabled");
+                        add_Anm();
+
+                    }
+                    current_input_collocation_item = 0;
+                    collocation_word_group = $(xml).find("Kollokationen").children("*");
+                    while (current_collocation_item > 1) {
+                        $("#collocation_" + current_collocation_item.toString()).parent().remove();
+                        current_collocation_item -= 1;
+                    }
+                  
+                    $("#collocation_1").val('请在此输入第1个短语');
+                    for (var i = 0; i < collocation_word_group.length; i++) {
+                        if (collocation_word_group.eq(i).text().length < 1) {
+                            continue;
+                        }
+                        current_input_collocation_item += 1;
+                        $("#collocation_" + current_input_collocation_item.toString()).val(collocation_word_group.eq(i).text());
+                        var collocation_actural_width=textWidth($("#collocation_" + current_input_collocation_item.toString()).val());
+                        if(collocation_actural_width>collocation_min_width)
+                            $("#collocation_" + current_input_collocation_item.toString()).width(collocation_actural_width + 10);
+                        add_collocation();
+                    }
+
+                    current_input_definition_item = 0;
+                    Eintrag_group = $(xml).find("AllgemeineErläuterungen").children("*");//Eintrag
+                    while (current_definition_item > 1) {
+                        $("#explanation_" + current_definition_item.toString()).parent().next().remove();
+                        $("#explanation_" + current_definition_item.toString()).parent().remove();
+                        current_definition_item -= 1;//array quit stack
+                        current_example_item.pop();
+                        current_input_example_item.pop();
+                    }
+                    current_input_example_item[0] = 0;
+                    while (current_example_item[0] > 1) {
+                        $("#example_1_" + current_example_item[0].toString()).parent().remove();
+                        current_example_item[0] -= 1;
+                    }
+                    for (var i = 0; i < Eintrag_group.length; i++) {
+                        current_input_definition_item += 1;
+                        $("#explanation_"+current_input_definition_item.toString()).val(Eintrag_group.eq(i).children("*").eq(0).text());
+                        var beispielSammulung = Eintrag_group.eq(i).children("*").eq(1).children("*");
+                        for (var j = 0; j < beispielSammulung.length; j++) {
+                            current_input_example_item[current_input_definition_item - 1] += 2;
+                            if(i>0)add_example(current_input_definition_item);
+                            $("#original_" + current_input_definition_item + "_" + current_example_item[current_input_definition_item - 1].toString()).val(beispielSammulung.eq(j).children("*").first().text());
+                            $("#translation_" + current_input_definition_item + "_" + current_example_item[current_input_definition_item - 1].toString()).val(beispielSammulung.eq(j).children("*").last().text());
+                            if (i == 0) add_example(current_input_definition_item);
+                        }
+                        add_definition();
+
+
+
+                    }
+               
+
+               // }
+                }
+            });
+
+            }//this is the end of else if
     }
     var textWidth = function (text) {
         var sensor = $('<pre>' + text + '</pre>').css({ display: 'none' });
@@ -172,7 +323,7 @@ $(document).ready(function () {
     });
     $("#submit_button").on('click', function () {
         if (Stichwort_input_boolean && Pluralform_input_boolean && GenitivSingular_input_boolean) {
-            $("#errorMessage").html("");
+            $("#errorMessage").html();
             $("form").submit();
         }
         else {
@@ -204,19 +355,21 @@ $(document).ready(function () {
 
     var current_collocation_item = 1;
     var current_input_collocation_item = 0;
+    function add_collocation() {
+        current_collocation_item += 1;
+        new_collocation = $("<input/>", {
+            "name": 'collocation_' + current_collocation_item.toString(),
+            "class": "collocation",
+            'value': '请在此输入第' + current_collocation_item.toString() + '个短语',
+            'id': "collocation_" + current_collocation_item.toString()
+        });
+        new_dd = $("<dd/>");
+        new_collocation.appendTo(new_dd);
+        new_dd.appendTo($("#collocation_list"));
+    }
     $("#edit_collocation").on('click', function () {
         if (this.innerHTML == '点击添加短语') {
-            //get the dl node and append one dd to it
-            current_collocation_item += 1;
-            new_collocation = $("<input/>", {
-                "name": 'collocation_' + current_collocation_item.toString(),
-                "class": "collocation",
-                'value': '请在此输入第' + current_collocation_item.toString() + '个短语',
-                'id': "collocation_" + current_collocation_item.toString()
-            });
-            new_dd = $("<dd/>");
-            new_collocation.appendTo(new_dd);
-            new_dd.appendTo($("#collocation_list"));
+            add_collocation();
             this.innerHTML = '点击移除短语';
         }
         else {
@@ -256,34 +409,37 @@ $(document).ready(function () {
 
     var current_Sym_item = 1;
     var current_input_Sym_item = 0;
+    function add_Sym() {
+        //get the dl node and append one dd to it
+        current_Sym_item += 1;
+        new_Sym = $("<input/>", {
+            "name": 'Sym_' + current_Sym_item.toString(),
+            "class": "Sym",
+            'value': '请在此输入第' + current_Sym_item.toString() + '个同义词',
+            'id': "Sym_" + current_Sym_item.toString()
+        });
+        new_show_link_button = $("<button/>", {
+            "class": 'show_link',
+            "type": 'button',
+            'html': '编辑超链接',
+            'id': 'show_link_Sym_' + current_Sym_item.toString(),
+            'disabled': ""
+        });
+        new_span = $("#Sym_Link_1").parent().clone();
+        var new_span_children = new_span.children()
+        new_span_children.first().attr('for', 'Sym_Link_' + current_Sym_item.toString());
+        new_span_children.last().attr('id', 'Sym_Link_' + current_Sym_item.toString());
+        new_span_children.last().attr('name', 'Sym_Link_' + current_Sym_item.toString());
+        new_dd = $("<dd/>");
+        new_Sym.appendTo(new_dd);
+        new_show_link_button.appendTo(new_dd);
+        new_dd.append($("<br/>"));
+        new_span.appendTo(new_dd);
+        new_dd.appendTo($("#Sym_List"));
+    }
     $("#edit_Sym").on('click', function () {
         if (this.innerHTML == '点击添加同义词') {
-            //get the dl node and append one dd to it
-            current_Sym_item += 1;
-            new_Sym = $("<input/>", {
-                "name": 'Sym_' + current_Sym_item.toString(),
-                "class": "Sym",
-                'value': '请在此输入第' + current_Sym_item.toString() + '个同义词',
-                'id': "Sym_" + current_Sym_item.toString()
-            });
-            new_show_link_button = $("<button/>", {
-                "class": 'show_link',
-                "type": 'button',
-                'html': '编辑超链接',
-                'id': 'show_link_Sym_' + current_Sym_item.toString(),
-                'disabled': ""
-            });
-            new_span = $("#Sym_Link_1").parent().clone();
-            var new_span_children = new_span.children()
-            new_span_children.first().attr('for', 'Sym_Link_' + current_Sym_item.toString());
-            new_span_children.last().attr('id', 'Sym_Link_' + current_Sym_item.toString());
-            new_span_children.last().attr('name', 'Sym_Link_' + current_Sym_item.toString());
-            new_dd = $("<dd/>");
-            new_Sym.appendTo(new_dd);
-            new_show_link_button.appendTo(new_dd);
-            new_dd.append($("<br/>"));
-            new_span.appendTo(new_dd);
-            new_dd.appendTo($("#Sym_List"));
+            add_Sym();
             this.innerHTML = '点击移除同义词';
         }
         else {
@@ -337,35 +493,38 @@ $(document).ready(function () {
     });
     var current_Anm_item = 1;
     var current_input_Anm_item = 0;
+    function add_Anm() {
+        current_Anm_item += 1;
+        new_Anm = $("<input/>", {
+            "name": 'Anm_' + current_Anm_item.toString(),
+            "class": "Anm",
+            'value': '请在此输入第' + current_Anm_item.toString() + '个反义词',
+            'id': "Anm_" + current_Anm_item.toString()
+        });
+        new_show_link_button = $("<button/>", {
+            "class": 'show_link',
+            "type": 'button',
+            'html': '编辑超链接',
+            'id': 'show_link_Anm_' + current_Anm_item.toString(),
+            'disabled': ""
+        });
+        new_span = $("#Anm_Link_1").parent().clone();
+        var new_span_children = new_span.children()
+        new_span_children.first().attr('for', 'Anm_Link_' + current_Anm_item.toString());
+        new_span_children.last().attr('id', 'Anm_Link_' + current_Anm_item.toString());
+        new_span_children.last().attr('name', 'Anm_Link_' + current_Anm_item.toString());
+        new_dd = $("<dd/>");
+        new_Anm.appendTo(new_dd);
+        new_show_link_button.appendTo(new_dd);
+        new_dd.append($("<br/>"));
+        new_span.appendTo(new_dd);
+
+        new_dd.appendTo($("#Anm_List"));
+
+    }
     $("#edit_Anm").on('click', function () {
         if (this.innerHTML == '点击添加反义词') {
-            //get the dl node and append one dd to it
-            current_Anm_item += 1;
-            new_Anm = $("<input/>", {
-                "name": 'Anm_' + current_Anm_item.toString(),
-                "class": "Anm",
-                'value': '请在此输入第' + current_Anm_item.toString() + '个反义词',
-                'id': "Anm_" + current_Anm_item.toString()
-            });
-            new_show_link_button = $("<button/>", {
-                "class": 'show_link',
-                "type": 'button',
-                'html': '编辑超链接',
-                'id': 'show_link_Anm_' + current_Anm_item.toString(),
-                'disabled': ""
-            });
-            new_span = $("#Anm_Link_1").parent().clone();
-            var new_span_children = new_span.children()
-            new_span_children.first().attr('for', 'Anm_Link_' + current_Anm_item.toString());
-            new_span_children.last().attr('id', 'Anm_Link_' + current_Anm_item.toString());
-            new_span_children.last().attr('name', 'Anm_Link_' + current_Anm_item.toString());
-            new_dd = $("<dd/>");
-            new_Anm.appendTo(new_dd);
-            new_show_link_button.appendTo(new_dd);
-            new_dd.append($("<br/>"));
-            new_span.appendTo(new_dd);
-
-            new_dd.appendTo($("#Anm_List"));
+            add_Anm();
             this.innerHTML = '点击移除反义词';
         }
         else {
@@ -405,23 +564,27 @@ $(document).ready(function () {
 
     var current_derivative_item = 1;
     var current_input_derivative_item = 0;
+    function add_derivative() {
+        //get the dl node and append one dd to it
+        current_derivative_item += 1;
+
+        new_dd = $("#derivative_1").parent().clone();
+        new_dd_first_input = new_dd.children().first();
+        new_dd_first_input.attr('id', 'derivative_' + current_derivative_item.toString());
+        new_dd_first_input.val('请在此输入第' + current_derivative_item.toString() + '个派生词');
+        new_dd_first_input.attr('name', 'derivative_' + current_derivative_item.toString());
+        new_dd.children('div').find('input').attr('name', "derivative_category_" + current_derivative_item.toString());
+        new_dd.children('button').attr('id', "show_link_derivative_" + current_derivative_item.toString());
+        new_dd.children('span').find('label').attr('for', 'derivative_Link_' + current_derivative_item.toString());
+        new_dd.children('span').find('input').attr('id', 'derivative_Link_' + current_derivative_item.toString());
+        new_dd.children('span').find('input').attr('name', 'derivative_Link_' + current_derivative_item.toString());
+
+        new_dd.appendTo($("#derivative_list"));
+
+    }
     $("#edit_derivative").on('click', function () {
         if (this.innerHTML == '点击添加派生词') {
-            //get the dl node and append one dd to it
-            current_derivative_item += 1;
-        
-            new_dd = $("#derivative_1").parent().clone();
-            new_dd_first_input = new_dd.children().first();
-            new_dd_first_input.attr('id', 'derivative_' + current_derivative_item.toString());
-            new_dd_first_input.val('请在此输入第' + current_derivative_item.toString() + '个派生词');
-            new_dd_first_input.attr('name', 'derivative_' + current_derivative_item.toString());
-            new_dd.children('div').find('input').attr('name', "derivative_category_" + current_derivative_item.toString());
-            new_dd.children('button').attr('id', "show_link_derivative_" + current_derivative_item.toString());
-            new_dd.children('span').find('label').attr('for', 'derivative_Link_' + current_derivative_item.toString());
-            new_dd.children('span').find('input').attr('id', 'derivative_Link_' + current_derivative_item.toString());
-            new_dd.children('span').find('input').attr('name', 'derivative_Link_' + current_derivative_item.toString());
-
-            new_dd.appendTo($("#derivative_list"));
+            add_derivative();
             this.innerHTML = '点击移除派生词';
         }
         else {
@@ -534,7 +697,7 @@ $(document).ready(function () {
     var translation_prompt_width = textWidth($("#translation_1_1").val()) + 10;
     $("#translation_1_1").width(translation_prompt_width);
     $("#original_1_1").width(translation_prompt_width);
-
+    var collocation_min_width = textWidth($("#edit_collocation"));
     var current_definition_item = 1;
     var current_input_definition_item = 0;
 
@@ -576,40 +739,73 @@ $(document).ready(function () {
 
         }
     });
+    function add_example(definition_index) {
+        //get the dl node and append one dd to it
+        var definition_id_last = definition_index.toString();
+        current_example_item[definition_index - 1] += 1;
+        new_original = $("<textarea/>", {
+            "name": 'original_' + definition_id_last + '_' + current_example_item[definition_index - 1].toString(),
+            "class": 'original',
+            "rows": '3',
+            'html': '请在此输入第' + current_example_item[definition_index - 1].toString() + '条例句',
+            'id': 'original_' + definition_id_last + '_' + current_example_item[definition_index - 1].toString(),
+            'width': translation_prompt_width
+        });
+        new_translation = $("<input/>", {
+            "name": 'translation_' + definition_id_last + '_' + current_example_item[definition_index - 1].toString(),
+            "class": 'translation',
+            'value': '请在此输入第' + current_example_item[definition_index - 1].toString() + '条例句的汉语翻译',
+            'id': 'translation_' + definition_id_last + '_' + current_example_item[definition_index - 1].toString(),
+            'width': translation_prompt_width
+        });
+        new_example = $("<div/>", {
+            "id": 'example_' + definition_id_last + '_' + current_example_item[definition_index - 1].toString()
+        });
+        new_example.append(new_original);
+        new_example.append($("<br/>"));
+        new_example.append(new_translation);
+        new_dd = $("<dd/>");
+        new_example.appendTo(new_dd);
+        new_dd.appendTo($("#example_list_" + definition_id_last));
+
+    }
+    function add_definition() {
+        current_definition_item += 1;
+        new_explanation = $("<input/>", {
+            "name": 'explanation_' + current_definition_item.toString(),
+            "class": 'chinese',
+            "rows": '3',
+            'value': '请在此输入词条的第' + current_definition_item.toString() + '条汉语意思',
+            'id': 'explanation_' + current_definition_item.toString(),
+            'width': chinese_prompt_width
+        });
+        new_dt = $("<dt/>");
+        new_explanation.appendTo(new_dt);
+        new_dt.appendTo("#definition_list");
+
+        new_edit_example_button = $("<button/>", {
+            "class": 'definition',
+            "type": 'button',
+            'html': '点击添加例句',
+            'id': 'edit_example_' + current_definition_item.toString(),
+            'disabled': ""
+        });
+        new_dd = $("<dd/>");
+        new_dt = $("<dt/>");
+        new_dl = $("<dl/>", {
+            "id": "example_list_" + current_definition_item.toString()
+        });
+        new_edit_example_button.appendTo(new_dt);
+        new_dt.appendTo(new_dl);
+        new_dl.append($("<dd/>"));
+        new_dl.appendTo(new_dd);
+        new_dd.appendTo("#definition_list");
+        current_example_item.push(0);
+        current_input_example_item.push(0);
+    }
     $("#edit_definition").on('click', function () {
         if (this.innerHTML == '点击添加词的义项') {
-            current_definition_item += 1;
-            new_explanation = $("<input/>", {
-                "name": 'explanation_' + current_definition_item.toString(),
-                "class": 'chinese',
-                "rows": '3',
-                'value': '请在此输入词条的第' + current_definition_item.toString() + '条汉语意思',
-                'id': 'explanation_' + current_definition_item.toString(),
-                'width': chinese_prompt_width
-            });
-            new_dt = $("<dt/>");
-            new_explanation.appendTo(new_dt);
-            new_dt.appendTo("#definition_list");
-
-            new_edit_example_button = $("<button/>", {
-                "class": 'definition',
-                "type": 'button',
-                'html': '点击添加例句',
-                'id': 'edit_example_' + current_definition_item.toString(),
-                'disabled': ""
-            });
-            new_dd=$("<dd/>");
-            new_dt = $("<dt/>");
-            new_dl = $("<dl/>", {
-                "id": "example_list_" + current_definition_item.toString()
-            });
-            new_edit_example_button.appendTo(new_dt);
-            new_dt.appendTo(new_dl);
-            new_dl.append($("<dd/>"));
-            new_dl.appendTo(new_dd);
-            new_dd.appendTo("#definition_list");
-            current_example_item.push(0);
-            current_input_example_item.push(0);
+            add_definition();
             //<button type="button" id="edit_example_1" disabled="" class="definition">点击添加例句</button>
         }
 
@@ -619,36 +815,11 @@ $(document).ready(function () {
         var definition_id_last = definition_id[definition_id.length - 1];
         var definition_index = parseInt(definition_id_last);
         if (this.innerHTML == '点击添加例句') {
-            //get the dl node and append one dd to it
-            current_example_item[definition_index-1] += 1;
-            new_original = $("<textarea/>", {
-                "name": 'original_' + definition_id_last + '_' + current_example_item[definition_index-1].toString(),
-                "class": 'original',
-                "rows":'3',
-                'html': '请在此输入第' + current_example_item[definition_index-1].toString() + '条例句',
-                'id': 'original_' + definition_id_last + '_' + current_example_item[definition_index - 1].toString(),
-                'width': translation_prompt_width
-            });
-            new_translation = $("<input/>", {
-                "name": 'translation_'+definition_id_last+'_' + current_example_item[definition_index-1].toString(),
-                "class": 'translation',
-                'value': '请在此输入第' + current_example_item[definition_index-1].toString() + '条例句的汉语翻译',
-                'id': 'translation_' + definition_id_last + '_' + current_example_item[definition_index - 1].toString(),
-                'width': translation_prompt_width
-            });
-            new_example = $("<div/>", {
-                "id": 'example_'+definition_id_last+'_' + current_example_item[definition_index-1].toString()
-            });
-            new_example.append(new_original);
-            new_example.append($("<br/>"));
-            new_example.append(new_translation);
-            new_dd = $("<dd/>");
-            new_example.appendTo(new_dd);
-            new_dd.appendTo($("#example_list_" + definition_id_last));
+            add_example(definition_index);
             this.innerHTML = '点击移除例句';
         }
         else {
-            $("#example_"+definition_id_last+"_" + current_example_item[definition_index-1].toString()).remove();
+            $("#example_"+definition_id_last+"_" + current_example_item[definition_index-1].toString()).parent().remove();
             current_example_item[definition_index-1] -= 1;
             this.innerHTML = '点击添加例句';
         }
@@ -687,8 +858,8 @@ $(document).ready(function () {
             this.value = '';
             current_input_example_item[original_id_parent-1] += 1;
         }
-        if (current_input_example_item[original_id_parent - 1] == current_example_item[original_id_parent-1] * 2 && (original_id_parent == current_input_definition_item)) {
-            //test the "attr:disabled" exists
+        if (current_input_example_item[original_id_parent - 1] == current_example_item[original_id_parent-1] * 2) {
+            //test the "attr:disabled" exists && (original_id_parent == current_input_definition_item
             //if exists then enable the edit_original_button
             $("#edit_example_" + original_id_parent.toString()).removeAttr("disabled");
             $("#edit_example_" + original_id_parent.toString()).text('点击添加例句');
@@ -704,8 +875,8 @@ $(document).ready(function () {
             this.value = '';
             current_input_example_item[translation_id_parent-1] += 1;
         }
-        if (current_input_example_item[translation_id_parent - 1] == current_example_item[translation_id_parent - 1] * 2 && (translation_id_parent == current_input_definition_item)) {
-            //test the "attr:disabled" exists
+        if (current_input_example_item[translation_id_parent - 1] == current_example_item[translation_id_parent - 1] * 2) {
+            //test the "attr:disabled" exists && (translation_id_parent == current_input_definition_item
             //if exists then enable the edit_translation_button
             $("#edit_example_" + translation_id_parent.toString()).removeAttr("disabled");
             $("#edit_example_" + translation_id_parent.toString()).text('点击添加例句');
