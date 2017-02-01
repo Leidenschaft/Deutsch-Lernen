@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
-	<Stichwort>kommen</Stichwort>
+	<Stichwort Bild="V1.jpg">kommen</Stichwort>
 	<Einheit>1</Einheit>
 	<Anteil>2</Anteil>
 	<Konjugation>

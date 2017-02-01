@@ -53,3 +53,4 @@ Kollokationen,AllgemeineErläuterungen,Comment?)>
 <!ATTLIST Perfekt hilfsverb CDATA #REQUIRED>
 <!ATTLIST Eintrag transitiv CDATA #IMPLIED>
 <!ATTLIST Stichwort Band CDATA #IMPLIED>
+<!ATTLIST Stichwort Bild CDATA #IMPLIED>

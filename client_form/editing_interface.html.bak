@@ -1,0 +1,179 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+      	<link href="_assets/_css/main.css" rel="stylesheet" type="text/css" />
+        <title>Wort Edit</title>
+     <style type="text/css">
+     	   @import url('style1.css')
+         .choicable_expand {
+             display: block;
+         }
+        .choicable_collapse {
+             display: none;
+         }
+         #errorMessage {
+             display: none;
+         }
+         #submit_button:focus + #errorMessage {
+             display:block;
+         }
+         .tab_css {
+            display: none;  
+         }
+         .tab_nav_main {
+             background-color:yellow;
+         }
+         .tab_nav_sub {
+             background-color:gray;
+         }
+
+             /*#parent span:hover + ul{display: block;}
+             #testFocus:focus + ul{color:#ff0000;display:block;}
+             */
+            </style>
+        <script src="../jquery-1.9.1.min.js"></script>
+        <script src="edit_utility.js"></script>
+    </head>
+    <body>
+    <!--a form here{% url 'Word_edit:results' 'zhaofeng-shu33' %}-->
+     <form action="{% url 'Word_edit:results' 'zhaofeng-shu33' %}" method="post">
+        <div>
+            <div>
+           <!--词条基本信息 例句 相关词汇-->
+            <button type="button" id="tab_nav_1" class="tab_nav_sub">词条基本信息</button>
+            <button type="button" id="tab_nav_2" class="tab_nav_sub">例句和短语</button>
+            <button type="button" id="tab_nav_3" class="tab_nav_sub">相关词汇</button>
+
+            
+            </div>
+            <div>
+                <div class="tab_css" id="tab_content_1">
+         <input id="Stichwort"  value='请在此输入词条的名称' name="Stichwort"/>
+         <div>
+        <label><input name="Genus" type="radio" value='der' checked="checked"/>der</label> 
+        <label><input name="Genus" type="radio"  value='die'/>die</label> 
+         <label><input name="Genus" type="radio"  value='das'/>das</label>
+        </div>
+         <div>
+         <input id="Pluralform" list="Pluralform_Prompt" value='请在此输入复数' name="Pluralform"/>
+         <datalist id="Pluralform_Prompt"></datalist>
+         </div>
+         <!--example here-->
+         <div>
+         <input id="GenitivSingular" list="GenitivSingular_Prompt" value='请在此输入第二格' name="GenitivSingular"/>
+         <datalist id="GenitivSingular_Prompt"></datalist>
+         </div>
+
+         <div>
+         <span>选填：</span><button type="button" id="testFocus">Collapse</button>
+                      <div id="choicable" class="choicable_expand"><!--unordered list-->
+        
+        <label for="unittype">单元:</label>
+        <select id="Einheit" name="unittype">
+        <option value="1"> Eins </option>
+        <option value="2"> Zwei </option>
+        <option value="3" selected> Drei </option>
+        <option value="4"> Vier </option>
+        <option value="5"> Fünf </option>
+        <option value="6"> Sechs </option>
+        <option value="7"> Sieben </option>
+        <option value="8"> Acht </option>
+        <option value="9"> Neun </option>
+        <option value="10"> Zehn </option>
+        </select><br />
+
+        <label for="Anteil">部分:</label>
+        <select id="Anteil" name="Anteil">
+        <option value="1">Einfürung</option>
+        <option value="2" selected="">Text</option>
+        <option value="3">Übungen</option>
+        <option value="4">Intentionen</option>
+        <option value="5">Hörverstehen</option>
+        <option value="6">Leseverstehen</option>
+        </select><br/>
+        <label for="UserName">用户名</label>
+                          <select id="UserName" name="UserName">
+                              <option value="赵丰">赵丰</option>
+                              <option value="赵凯">赵凯</option>
+                              <option value="牛行知">牛行知</option>
+                              <option value="">匿名</option>
+                          </select>
+         </div>
+
+        </div>
+        </div>
+                <div class="tab_css" id="tab_content_2">
+                    <dl id="definition_list">
+                <dt><button type="button" id="edit_definition" disabled="">点击添加词的义项</button>
+                    </dt>
+                     
+                  <dt><input id="explanation_1"  value='请在此输入词条的第1条汉语意思' name="explanation_1" class="chinese"/></dt>
+                  <dd>
+                      <dl id="example_list_1">
+                        <dt><button type="button" id="edit_example_1" disabled="" class="definition">点击添加例句</button></dt>
+                        <dd><div id="example_1_1">
+                                <textarea id="original_1_1" name="original_1_1" class="original" rows="3">请在此输入第1条例句</textarea><br />
+                                <input id="translation_1_1" value='请在此输入第1条例句的汉语翻译' name="translation_1_1" class="translation"/>
+                            </div>
+                        </dd>
+                      </dl>
+                  </dd>
+                       
+                        </dl>
+                        <dl id="collocation_list">
+                            <dt><button type="button" id="edit_collocation" disabled="">点击添加短语</button></dt>
+                            <dd><input id="collocation_1" value='请在此输入第1个短语' name="collocation_1" class="collocation"/>
+                            </dd>
+                           <!-- <dd><input id="Sym_2" value='请在此输入第2个同义词' name="Sym_2" class="Sym"/></dd>-->
+                        </dl>
+
+                </div>
+                <div class="tab_css" id="tab_content_3">
+                        <dl id="Sym_List">
+                            <dt><button type="button" id="edit_Sym" disabled="">点击添加同义词</button></dt>
+                            <dd><input id="Sym_1" value='请在此输入第1个同义词' name="Sym_1" class="Sym"/>
+                                <button type="button" class="show_link" disabled="" id="show_link_Sym_1">编辑超链接</button><br/>
+                                <span style="display:none"><label for="Sym_Link_1">WordLink</label><input id="Sym_Link_1" name="Sym_Link_1"/></span>
+                            </dd>
+                           <!-- <dd><input id="Sym_2" value='请在此输入第2个同义词' name="Sym_2" class="Sym"/></dd>-->
+                        </dl>
+                        <dl id="Anm_List">
+                            <dt><button type="button" id="edit_Anm" disabled="">点击添加反义词</button></dt>
+                            <dd><input id="Anm_1" value='请在此输入第1个反义词' name="Anm_1" class="Anm"/>
+                                <button type="button" class="show_link" disabled="" id="show_link_Anm_1">编辑超链接</button><br/>
+                                <span style="display:none"><label for="Anm_Link_1">WordLink</label><input id="Anm_Link_1" name="Anm_Link_1"/></span>
+                            </dd>
+                        </dl>
+                        <dl id="derivative_list">
+                            <dt><button type="button" id="edit_derivative" disabled="">点击添加派生词</button></dt>
+                            <dd><input id="derivative_1" value='请在此输入第1个派生词' name="derivative_1" class="derivative"/><br/>
+                                    <div>
+                                    <label><input name="derivative_category_1" type="radio" value='名词' checked="checked"/>名词</label> 
+                                    <label><input name="derivative_category_1" type="radio"  value='形容词'/>形容词</label> 
+                                    <label><input name="derivative_category_1" type="radio"  value='动词'/>动词</label>
+                                    </div>
+                                <button type="button" class="show_link" disabled="" id="show_link_derivative_1">编辑超链接</button><br/>
+                                <span style="display:none"><label for="derivative_Link_1">WordLink</label><input id="derivative_Link_1" name="derivative_Link_1"/></span>
+                            </dd>             
+                        </dl>
+
+                        <dl id="compound_list">
+                            <dt><button type="button" id="edit_compound" disabled="">点击添加合成词</button></dt>
+                            <dd><input id="compound_1" value='请在此输入第1个合成词' name="compound_1" class="compound"/>
+                                <button type="button" class="show_link" disabled="" id="show_link_compound_1">编辑超链接</button><br/>
+                                <span style="display:none"><label for="compound_Link_1">WordLink</label><input id="compound_Link_1" name="compound_Link_1"/></span>
+                            </dd>             
+                        </dl>
+
+                 </div>
+
+
+            </div>
+        </div>  
+         <!--attribute editor here -->
+          <input value="提交" type="submit" id="submit_button"/>
+         <!--another button to render the xml-->
+        </form>
+
+         
+                   </body></html>
