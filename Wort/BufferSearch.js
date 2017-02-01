@@ -40,6 +40,9 @@ $(document).ready(function () {
     });
     $("#edit_btn").on("click", function () {
         if (this.innerHTML == '编辑') {
+            if ($("form").length < 1) {//reload editting_interface
+                self.parent.frames["editing_frame"].location = 'client_form/editing_interface.html';
+            }
             self.parent.frames["editing_frame"].load_xml(BrowersType);
             self.parent.change_editing_frame("editting");
             this.innerHTML = '取消编辑';
