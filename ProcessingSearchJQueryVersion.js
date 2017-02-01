@@ -5,13 +5,8 @@ $(document).ready(function () {
    
     var BrowersType;
     var userAgent = navigator.userAgent;
-<<<<<<< HEAD
-    if (userAgent.indexOf("Android")>-1  || userAgent.indexOf("iPhone")>-1 || userAgent.indexOf("iPad")>-1|| userAgent.indexOf("Safari")>-1) {
-        //page redirection
-=======
     if (userAgent.indexOf("Android")>-1  || userAgent.indexOf("iPhone")>-1 ) {
         //page redirection|| userAgent.indexOf("iPad")>-1 || userAgent.indexOf("Safari")>-1 
->>>>>>> origin/master
         location.href = "index_mobile.html";
     }
     if (userAgent.indexOf("Chrome") > -1 || userAgent.indexOf("Firefox") > -1) {
