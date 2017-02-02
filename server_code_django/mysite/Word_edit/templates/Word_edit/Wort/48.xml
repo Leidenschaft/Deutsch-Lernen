@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Buch</Stichwort>
+  <Einheit>1</Einheit>
+  <Anteil>3</Anteil>
+  <Genus>das</Genus>
+  <Pluralform>Bücher</Pluralform>
+  <GenitivSingular/>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Schulbuch</_K>
+      <_K>Kochbuch</_K>
+      <K_>Bücherregal</K_>
+      <K_>Bücherschrank</K_>
+      <K_>Buchtitel</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>ein Buch schreiben</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>书</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Das Buch ist dick.</Satz>
+          <Übersetzung>这本书很厚。</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Er ist sehr gesprächig und redet wie ein Buch.</Satz>
+          <Übersetzung>他很善辩，说起话来滔滔不绝。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

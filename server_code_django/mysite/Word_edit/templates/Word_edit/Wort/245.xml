@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Herr</Stichwort>
+  <Einheit>1</Einheit>
+  <Anteil>3</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>Herren</Pluralform>
+  <GenitivSingular>Herren</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <K_>Herrenbekleidung (男式服装)</K_>
+      <K_>Herrentoilette</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe>
+    <Anm>Dame</Anm>
+    <Anm>Frau</Anm>
+  </Antonymegruppe>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>先生</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Das ist Herr Baumann.</Satz>
+          <Übersetzung>这是鲍曼先生。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

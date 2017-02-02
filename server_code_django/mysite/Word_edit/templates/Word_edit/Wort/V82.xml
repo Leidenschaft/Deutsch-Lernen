@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>umziehen</Stichwort>
+	<Einheit>6</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>ziehe um</ich>
+          <du>ziehst um</du>
+          <er_sie_es>zieht um</er_sie_es>
+          <wir>ziehen um</wir>
+          <ihr>zieht um</ihr>
+          <sie_Sie>ziehen um</sie_Sie>
+				</Präsen>
+				<Präteritum>
+          <ich>zog um</ich>
+          <du>zogst um</du>
+          <er_sie_es>zog um</er_sie_es>
+          <wir>zogen um</wir>
+          <ihr>zogt um</ihr>
+          <sie_Sie>zogen um</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="">	
+					<ich/>
+					<du/>
+					<er_sie_es/>
+					<wir/>
+					<ihr/>
+					<sie_Sie/>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>搬家</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Heute zieht er um.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

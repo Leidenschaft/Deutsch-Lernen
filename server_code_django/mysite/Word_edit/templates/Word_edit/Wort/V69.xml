@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>zumachen</Stichwort>
+	<Einheit>5</Einheit>
+	<Anteil>Übungen</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>mache zu</ich>
+					<du>machst zu</du>
+					<er_sie_es>macht zu</er_sie_es>
+					<wir>machen zu</wir>
+					<ihr>macht zu</ihr>
+					<sie_Sie>machen zu</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>machte zu</ich>
+					<du>machtest zu</du>
+					<er_sie_es>machte zu</er_sie_es>
+					<wir>machten zu</wir>
+					<ihr>machtet zu</ihr>
+					<sie_Sie>machten zu</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe zugemacht</ich>
+					<du>hast zugemacht</du>
+					<er_sie_es>hat zugemacht</er_sie_es>
+					<wir>haben zugemacht</wir>
+					<ihr>habt zugemacht</ihr>
+					<sie_Sie>haben zugemacht</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>关闭，封闭</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Mach bitte die Tür zu!</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

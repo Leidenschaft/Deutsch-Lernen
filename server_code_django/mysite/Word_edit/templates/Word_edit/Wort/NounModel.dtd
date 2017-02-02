@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Entry (Stichwort,Einheit,Anteil,Genus,Pluralform,GenitivSingular,zusammengesetzteWörter,Synonymegruppe,
+Antonymegruppe,Kollokationen,AllgemeineErläuterungen,Comment?)>
+<!ELEMENT Stichwort (#PCDATA)>
+<!ELEMENT Einheit (#PCDATA)>
+<!ELEMENT Anteil (#PCDATA)>
+<!ELEMENT Genus (#PCDATA)>
+<!ELEMENT Pluralform (#PCDATA)>
+<!ELEMENT GenitivSingular (#PCDATA)>
+<!ELEMENT zusammengesetzteWörter (KompositaCollection,abgeleiteteWörter)>
+  <!ELEMENT KompositaCollection (_K|K_)*>
+  <!ELEMENT abgeleiteteWörter (hierzu*)>
+  <!ELEMENT _K (#PCDATA)>
+  <!ELEMENT K_ (#PCDATA)>
+  <!ELEMENT hierzu (#PCDATA)>
+  <!ELEMENT AllgemeineErläuterungen (Eintrag+)>
+  <!ELEMENT Eintrag (Chinesisch,BeispielSammlung)>
+  <!ELEMENT Chinesisch (#PCDATA)>
+  <!ELEMENT BeispielSammlung (Beispiel*)>
+  <!ELEMENT Beispiel (Satz,Übersetzung)>
+  <!ELEMENT Satz (#PCDATA)>
+  <!ELEMENT Übersetzung (#PCDATA)>  
+  <!ELEMENT Synonymegruppe (Sym*)>  
+  <!ELEMENT Sym (#PCDATA)>
+  <!ELEMENT Antonymegruppe (Anm*)>  
+  <!ELEMENT Anm (#PCDATA)>
+  <!ELEMENT Kollokationen (K*)>  
+  <!ELEMENT K (#PCDATA)>  
+  <!ELEMENT Comment (#PCDATA)>
+  <!ATTLIST hierzu category (Substantiv | Adjektiv | Verben) "Substantiv"> <?Substantiv is the default value?>
+  <!ATTLIST Entry category (Substantiv | Adjektiv | Verben) "Substantiv"> <?Substantiv is the default value?>
+  <!ATTLIST _K link CDATA #IMPLIED>    
+  <!ATTLIST K link CDATA #IMPLIED>    
+  <!ATTLIST K_ link CDATA #IMPLIED>
+  <!ATTLIST Sym link CDATA #IMPLIED>  
+  <!ATTLIST Anm link CDATA #IMPLIED>  
+<!ATTLIST hierzu link CDATA #IMPLIED>
+<!ATTLIST Stichwort link CDATA #IMPLIED>
+<!ATTLIST Stichwort Band CDATA #IMPLIED>
+<!ATTLIST Stichwort Bild CDATA #IMPLIED>
+<!ATTLIST Stichwort Audio CDATA #IMPLIED>

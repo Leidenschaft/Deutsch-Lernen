@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>mieten</Stichwort>
+	<Einheit>6</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>miete</ich>
+					<du>mietest</du>
+					<er_sie_es>mietet</er_sie_es>
+					<wir>mieten</wir>
+					<ihr>mietet</ihr>
+					<sie_Sie>mieten</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>mietete</ich>
+					<du>mietetest</du>
+					<er_sie_es>mietete</er_sie_es>
+					<wir>mieteten</wir>
+					<ihr>mietetet</ihr>
+					<sie_Sie>mieteten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gemietet</ich>
+					<du>hast gemietet</du>
+					<er_sie_es>hat gemietet</er_sie_es>
+					<wir>haben gemietet</wir>
+					<ihr>habt gemietet</ihr>
+					<sie_Sie>haben gemietet</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>租用，租借，租赁</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Er möchte eine Wohnung mieten.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

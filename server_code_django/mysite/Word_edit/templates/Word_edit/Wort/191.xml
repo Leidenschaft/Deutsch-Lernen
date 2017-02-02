@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Wiese</Stichwort>
+  <Einheit>8</Einheit>
+  <Anteil>Einfürung</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>Wiesen</Pluralform>
+  <GenitivSingular>Wiese</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>草坪，草地</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Am Morgen lag eine weiße Decke Schnee auf der Wiese.</Satz>
+          <Übersetzung>清晨草坪上覆盖着一层白雪。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

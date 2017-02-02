@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Flur</Stichwort>
+  <Einheit>6</Einheit>
+  <Anteil>Einführung</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>Flure</Pluralform>
+  <GenitivSingular>Flurs</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe>
+    <Sym>Korridor</Sym>
+  </Synonymegruppe>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>走廊</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Die Katze sitzt im Flur.</Satz>
+          <Übersetzung>那只猫在走廊里坐着。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

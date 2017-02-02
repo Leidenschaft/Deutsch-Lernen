@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>schreiben</Stichwort>
+	<Einheit>2</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>schreibe</ich>
+					<du>schreibst</du>
+					<er_sie_es>schreibt</er_sie_es>
+					<wir>schreiben</wir>
+					<ihr>schreibt</ihr>
+					<sie_Sie>schreiben</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>schrieb</ich>
+					<du>schriebst</du>
+					<er_sie_es>schrieb</er_sie_es>
+					<wir>schrieben</wir>
+					<ihr>schriebt</ihr>
+					<sie_Sie>schrieben</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe geschrieben</ich>
+					<du>hast geschrieben</du>
+					<er_sie_es>hat geschrieben</er_sie_es>
+					<wir>haben geschrieben</wir>
+					<ihr>habt geschrieben</ihr>
+					<sie_Sie>haben geschrieben</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+      <K>einen Brief schreiben</K>
+      <K>auf Deutsch schreiben</K>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>写，写信，写作</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Wie schreibt man das?</Satz>
+            <Übersetzung>这个词怎么拼？</Übersetzung>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

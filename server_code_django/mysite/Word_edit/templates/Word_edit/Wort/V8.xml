@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>lesen</Stichwort>
+	<Einheit>2</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>lese</ich>
+					<du>liest</du>
+					<er_sie_es>liest</er_sie_es>
+					<wir>lesen</wir>
+					<ihr>lest</ihr>
+					<sie_Sie>lesen</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>las</ich>
+					<du>lasest</du>
+					<er_sie_es>las</er_sie_es>
+					<wir>lasen</wir>
+					<ihr>last</ihr>
+					<sie_Sie>lasen</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gelesen</ich>
+					<du>hast gelesen</du>
+					<er_sie_es>hat gelesen</er_sie_es>
+					<wir>haben gelesen</wir>
+					<ihr>habt gelesen</ihr>
+					<sie_Sie>haben gelesen</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+        <hierzu category="Substantiv" chinesisch="读者">Leser</hierzu>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="true">
+					
+					<Chinesisch>阅读，读，朗读</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Bitte lesen Sie.</Satz>
+            <Übersetzung>请您读。</Übersetzung>
+					</Beispiel>
+            <Beispiel>
+              <Satz>Ich lese jeden Tag die Zeitung.</Satz>
+              <Übersetzung>我每天读报。</Übersetzung>
+            </Beispiel>
+
+          </BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

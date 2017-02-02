@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>beeilen</Stichwort>
+	<Einheit>10</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>beeile</ich>
+					<du>beeilst</du>
+					<er_sie_es>beeilt</er_sie_es>
+					<wir>beeilen</wir>
+					<ihr>beeilt</ihr>
+					<sie_Sie>beeilen</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>beeilte</ich>
+					<du>beeiltest</du>
+					<er_sie_es>beeilte</er_sie_es>
+					<wir>beeilten</wir>
+					<ihr>beeiltet</ihr>
+					<sie_Sie>beeilten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe beeilt</ich>
+					<du>hast beeilt</du>
+					<er_sie_es>hat beeilt</er_sie_es>
+					<wir>haben beeilt</wir>
+					<ihr>habt beeilt</ihr>
+					<sie_Sie>haben beeilt</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>赶快</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Oh,es ist schon fünf vor sechs.Ich muss mich beeilen.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

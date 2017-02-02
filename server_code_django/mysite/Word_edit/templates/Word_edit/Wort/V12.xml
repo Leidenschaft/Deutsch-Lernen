@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>antworten</Stichwort>
+	<Einheit>2</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>antworte</ich>
+					<du>antwortest</du>
+					<er_sie_es>antwortet</er_sie_es>
+					<wir>antworten</wir>
+					<ihr>antwortet</ihr>
+					<sie_Sie>antworten</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>antwortete</ich>
+					<du>antwortetest</du>
+					<er_sie_es>antwortete</er_sie_es>
+					<wir>antworteten</wir>
+					<ihr>antwortetet</ihr>
+					<sie_Sie>antworteten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe geantwortet</ich>
+					<du>hast geantwortet</du>
+					<er_sie_es>hat geantwortet</er_sie_es>
+					<wir>haben geantwortet</wir>
+					<ihr>habt geantwortet</ihr>
+					<sie_Sie>haben geantwortet</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+      <K>mit Ja oder Nein antworten</K>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>回答，回复，回信</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Er antwortet schnell.</Satz>
+            <Übersetzung>他回答地很快。</Übersetzung>
+					</Beispiel>
+					<Beispiel>
+					<Satz>Was hast du ihm auf das Problem geantwortet?</Satz>
+            <Übersetzung>关于那个问题你是怎么回答他的?</Übersetzung>
+					</Beispiel>
+            <Beispiel>
+              <Satz>Er hat auf meine Frage geantwortet.</Satz>
+              <Übersetzung>他回答了我的提问。</Übersetzung>
+            </Beispiel>
+
+          </BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

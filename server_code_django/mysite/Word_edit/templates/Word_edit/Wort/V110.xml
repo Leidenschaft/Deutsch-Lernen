@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>baden</Stichwort>
+	<Einheit>8</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>bade</ich>
+					<du>badest</du>
+					<er_sie_es>badet</er_sie_es>
+					<wir>baden</wir>
+					<ihr>badet</ihr>
+					<sie_Sie>baden</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>badete</ich>
+					<du>badetest</du>
+					<er_sie_es>badete</er_sie_es>
+					<wir>badeten</wir>
+					<ihr>badetet</ihr>
+					<sie_Sie>badeten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gebadet</ich>
+					<du>hast gebadet</du>
+					<er_sie_es>hat gebadet</er_sie_es>
+					<wir>haben gebadet</wir>
+					<ihr>habt gebadet</ihr>
+					<sie_Sie>haben gebadet</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>洗澡，游泳</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Er badet im Fluss.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

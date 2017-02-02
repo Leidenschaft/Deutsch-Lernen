@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<Stichwort Audio="true">Mappe</Stichwort>
+<Einheit>1</Einheit>
+<Anteil>2</Anteil>
+<Genus>die</Genus>
+<Pluralform>Mappen</Pluralform>
+<GenitivSingular/>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K>Schulmappe</_K>
+		<K_/>
+	</KompositaCollection>
+	<abgeleiteteWörter/></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym/>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K/>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>书包</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Das ist eine Mappe.</Satz>
+				<Übersetzung>这是一个书包。</Übersetzung>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Entry>

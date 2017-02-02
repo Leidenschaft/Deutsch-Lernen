@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Verabredung</Stichwort>
+  <Einheit>4</Einheit>
+  <Anteil>Intentionen</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>Verabredungen</Pluralform>
+  <GenitivSingular>Verabredung</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter>
+      <hierzu category="Substantiv">verabreden</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe>
+    <Sym>Vereinbarung</Sym>
+    <Sym>Abmachung</Sym>
+  </Synonymegruppe>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>eine Verabredung mit jm.</K>
+    <K>eine geschäftliche Verabredung</K>
+    <K>eine Verabredung haben</K>
+    <K>eine Verabredung absagen</K>
+    <K>zu einer Verabredung zu spät kommen</K>
+    <K>eine Verabredung einhalten</K>
+    <K>sich an eine Verabredung halten</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>约定，协议，约会</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Ich muss zu meiner Schande gestehen, dass ich unsere Verabredung vergessen habe.</Satz>
+          <Übersetzung>我必须惭愧地承认，我把此次约会忘记了。</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Wir hatten eine Verabredung, aber sie hat mich sitzen lassen.</Satz>
+          <Übersetzung>我们是约好了的，可是她让我空等了。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

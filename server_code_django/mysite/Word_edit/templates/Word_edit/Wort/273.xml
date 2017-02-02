@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<Stichwort Audio="true">Krankheit</Stichwort>
+<Einheit>9</Einheit>
+<Anteil>Leseverstehen</Anteil>
+<Genus>die</Genus>
+<Pluralform>Krankheiten</Pluralform>
+<GenitivSingular/>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K/>
+		<K_/>
+	</KompositaCollection>
+	<abgeleiteteWörter/></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym link="35.xml">Beschwerde</Sym>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K>eine Krankheit bekommen</K>
+<K/>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>疾病</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Diese Krankheit ist selten.</Satz>
+				<Übersetzung>这种疾病很少见。</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Während seiner Krankheit konnte er nicht Vorlesungen besuchen.</Satz>
+				<Übersetzung>他由于生病不能去上课。</Übersetzung>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Entry>

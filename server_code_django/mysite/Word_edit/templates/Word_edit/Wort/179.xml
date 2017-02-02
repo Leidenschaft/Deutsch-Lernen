@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Waage</Stichwort>
+  <Einheit>1</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>Waagen</Pluralform>
+  <GenitivSingular>Waage</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Waagebalken</_K>
+      <K_>Briefwaage</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter>
+      <hierzu category="Verben">wiegen</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>eine zuverlässige Waage</K>
+    <K>eine elektronische Waage</K>
+    <K>eine Waage eichen</K>
+    <K>sich auf die Waage stellen</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>秤，天平</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Die Waage zeigt 30kg an.</Satz>
+          <Übersetzung>秤上指明是30公斤。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>天秤座</Chinesisch>
+      <BeispielSammlung/>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>
+

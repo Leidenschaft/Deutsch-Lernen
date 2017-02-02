@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+  <Stichwort>kochen</Stichwort>
+  <Einheit>4</Einheit>
+  <Anteil>Text</Anteil>
+  <Konjugation>
+    <Präsen>
+      <ich>koche</ich>
+      <du>kochst</du>
+      <er_sie_es>kocht</er_sie_es>
+      <wir>kochen</wir>
+      <ihr>kocht</ihr>
+      <sie_Sie>kochen</sie_Sie>
+    </Präsen>
+    <Präteritum>
+      <ich>kochte</ich>
+      <du>kochtest</du>
+      <er_sie_es>kochte</er_sie_es>
+      <wir>kochten</wir>
+      <ihr>kochtet</ihr>
+      <sie_Sie>kochten</sie_Sie>
+    </Präteritum>
+    <Perfekt hilfsverb="haben">
+      <ich>habe gekocht</ich>
+      <du>hast gekocht</du>
+      <er_sie_es>hat gekocht</er_sie_es>
+      <wir>haben gekocht</wir>
+      <ihr>habt gekocht</ihr>
+      <sie_Sie>haben gekocht</sie_Sie>
+    </Perfekt>
+  </Konjugation>
+
+
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+    </KompositaCollection>
+    <abgeleiteteWörter>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe>
+    <Sym/>
+  </Synonymegruppe>
+  <Antonymegruppe>
+    <Anm/>
+  </Antonymegruppe>
+
+  <Kollokationen>
+    <K/>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag transitiv="">
+
+      <Chinesisch>做菜饭；煮，烧，烹调</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Was kochst du da?</Satz>
+          <Übersetzung/>
+        </Beispiel>
+      </BeispielSammlung>
+
+    </Eintrag>
+  </AllgemeineErläuterungen>
+
+
+</Entry>

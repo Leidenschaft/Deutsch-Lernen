@@ -1,0 +1,16 @@
+<html><head><meta charset="utf-8"/><title>Enter your title here</title><style>
+      .img_1
+      {
+      float: right;
+      margin: 1px 20% 10px 1px;
+      }
+    </style><bgsound src="" loop="1" id="BGSOUND"/></head>
+{% load static %} 
+<script type="text/javascript" src="{% static 'Word_edit/jquery-1.9.1.min.js' %}"></script><script type="text/javascript" src="{% static 'Word_edit/BufferSearch.js' %}"></script><body ondblclick="GetSelection()"><h1><span id="stich_wort">Schmerz</span> 
+      <span><button type="button" id="edit_btn">编辑</button></span></h1><b><font color="#0000D0">der Schmerz </font></b><img src="{% static 'Word_edit/snd_sfx.png'%}" style="margin-bottom:-2px" border="0" id="audioImg"/><b><font color="#DF0101"><i>Substantiv </i></font></b><i>plural:</i><font color="green"><b>Schmerzen </b></font><i>genetiv:</i><font color="green"><b> </b></font><div style="display:block;background-color:#f9f4bb;"><span style="color: black;font-weight:bold;"> Unit: 9</span> 
+	 
+	 <span style="color: black;font-weight:bold;"> Part: Einführung</span> 
+	 </div><table border="1" bgcolor="#D07427" style="border-collapse:collapse;" width="100%"><tr><td><span style="color: #FFFFFF;"><b><font face="&#x4EFF;&#x5B8B;">疼痛</font></b></span></td></tr></table><ex><font color="#2F4F4F">Er arbeitet immer am Computer und bekommt dann Augenschmerzen.</font></ex><br/><ex><font color="#59C945" face="&#x4EFF;&#x5B8B;"/></ex><br/><table width="100%" border="0" bgcolor="#697C15"><tr><td><span style="color: #FFFFFF;"><b><font face="&#x4EFF;&#x5B8B;">常用搭配</font></b></span></td></tr></table><font color="saddlebrown"><br/></font><table border="0" bgcolor="#047DB1" width="100%"><tr><td><span style="color: #FFFFFF;"><b><font face="&#x4EFF;&#x5B8B;">合成词</font></b></span></td></tr></table><font color="gray">   
+	</font><font color="maroon">   
+	</font><table border="0" bgcolor="#047DB1" width="100%"><tr><td><span style="color: #FFFFFF;"><b><font face="&#x4EFF;&#x5B8B;">同义词</font></b></span></td></tr></table><font color="saddlebrown">
+	▪ </font><table border="0" bgcolor="#047DB1" width="100%"><tr><td><span style="color: #FFFFFF;"><b><font face="&#x4EFF;&#x5B8B;">反义词</font></b></span></td></tr></table><font color="saddlebrown"> </font><br/><button id="ClipBoardSearchButton" onclick="BufferSearch()">查询当前剪贴板中的单词</button></body></html>

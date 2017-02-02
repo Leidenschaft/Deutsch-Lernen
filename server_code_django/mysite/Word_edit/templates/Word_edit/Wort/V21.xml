@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>chatten</Stichwort>
+	<Einheit>2</Einheit>
+	<Anteil>Leseverstehen</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>chatte</ich>
+					<du>chattest</du>
+					<er_sie_es>chattet</er_sie_es>
+					<wir>chatten</wir>
+					<ihr>chattet</ihr>
+					<sie_Sie>chatten</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>chattete</ich>
+					<du>chattetest</du>
+					<er_sie_es>chattete</er_sie_es>
+					<wir>chatteten</wir>
+					<ihr>chattetet</ihr>
+					<sie_Sie>chatteten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gechattet</ich>
+					<du>hast gechattet</du>
+					<er_sie_es>hat gechattet</er_sie_es>
+					<wir>haben gechattet</wir>
+					<ihr>habt gechattet</ihr>
+					<sie_Sie>haben gechattet</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>聊天</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Chattest du gern?</Satz>
+            <Übersetzung>你喜欢聊天吗?</Übersetzung>
+					</Beispiel>
+            <Beispiel>
+              <Satz>Wir chatten täglich online.</Satz>
+              <Übersetzung>我们每天用微信聊天。</Übersetzung>
+            </Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>klingeln</Stichwort>
+	<Einheit>4</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>klingle</ich>
+					<du>klingelst</du>
+					<er_sie_es>klingelt</er_sie_es>
+					<wir>klingeln</wir>
+					<ihr>klingelt</ihr>
+					<sie_Sie>klingeln</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>klingelte</ich>
+					<du>klingeltest</du>
+					<er_sie_es>klingelte</er_sie_es>
+					<wir>klingelten</wir>
+					<ihr>klingeltet</ihr>
+					<sie_Sie>klingelten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe geklingelt</ich>
+					<du>hast geklingelt</du>
+					<er_sie_es>hat geklingelt</er_sie_es>
+					<wir>haben geklingelt</wir>
+					<ihr>habt geklingelt</ihr>
+					<sie_Sie>haben geklingelt</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>按铃，铃响</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Es klingelt.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

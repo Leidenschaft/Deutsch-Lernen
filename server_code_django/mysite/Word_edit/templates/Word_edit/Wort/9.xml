@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Apfel</Stichwort>
+  <Einheit>1</Einheit>
+  <Anteil>4</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>Äpfel</Pluralform>
+  <GenitivSingular>Apfels</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Bratapfel(烤熟)</_K>
+      <_K>Frühapfel(早熟)</_K>
+      <_K>Winterapfel(可贮藏过冬)</_K>
+      <K_>Apfelbaum</K_>
+      <K_>Apfelwein</K_>
+      <K_>Apfelsaft</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>einen Apfel essen</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>苹果</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Das sind Äpfel.</Satz>
+          <Übersetzung>这是苹果。</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Der Apfel fällt nicht weit vom Stamm(树干).</Satz>
+          <Übersetzung>这孩子长得像他父亲（或母亲）。</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Könnst du mir einen Apfel geben?</Satz>
+          <Übersetzung>你能给我一个苹果吗?</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Möchtest du keine Äpfel? Das sind billig.</Satz>
+          <Übersetzung>你不买点苹果吗？很便宜的。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

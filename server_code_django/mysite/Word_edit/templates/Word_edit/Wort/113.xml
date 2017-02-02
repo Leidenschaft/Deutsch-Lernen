@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Fuß</Stichwort>
+  <Einheit>1</Einheit>
+  <Anteil>2</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>Füße</Pluralform>
+  <GenitivSingular>Fußes</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <K_>Fußpflege (足疗)</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>zu Fuß gehen (步行)</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>脚</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Ein Mensch hat zwei Füße.</Satz>
+          <Übersetzung>人有两只脚。</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Er hat mir auf den Fuß getreten.</Satz>
+          <Übersetzung>他踩我脚了。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>底座</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Ein Fuß des Schrankes ist gebrochen.</Satz>
+          <Übersetzung>箱子有条腿坏了。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

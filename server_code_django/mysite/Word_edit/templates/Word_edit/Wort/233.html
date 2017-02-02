@@ -1,0 +1,13 @@
+<html><head><meta charset="utf-8"/><title>Enter your title here</title><style>
+      .img_1
+      {
+      float: right;
+      margin: 1px 20% 10px 1px;
+      }
+    </style><bgsound src="" loop="1" id="BGSOUND"/></head>
+{% load static %} 
+<script type="text/javascript" src="{% static 'Word_edit/jquery-1.9.1.min.js' %}"></script><script type="text/javascript" src="{% static 'Word_edit/BufferSearch.js' %}"></script><body ondblclick="GetSelection()"><h1><span id="stich_wort">Hand</span> 
+      <span><button type="button" id="edit_btn">编辑</button></span></h1><b><font color="#0000D0">die Hand </font></b><img src="{% static 'Word_edit/snd_sfx.png'%}" style="margin-bottom:-2px" border="0" id="audioImg"/><b><font color="#DF0101"><i>Substantiv </i></font></b><i>plural:</i><font color="green"><b>Hände </b></font><i>genetiv:</i><font color="green"><b>Hand </b></font><div style="display:block;background-color:#f9f4bb;"><span style="color: black;font-weight:bold;"> Unit: 1</span> 
+	 
+	 <span style="color: black;font-weight:bold;"> Part: 3</span> 
+	 </div><table border="1" bgcolor="#D07427" style="border-collapse:collapse;" width="100%"><tr><td><span style="color: #FFFFFF;"><b><font face="&#x4EFF;&#x5B8B;">手</font></b></span></td></tr></table><ex><font color="#2F4F4F">Ich habe zwei Hände.</font></ex><br/><ex><font color="#59C945" face="&#x4EFF;&#x5B8B;">我有两只手。</font></ex><br/><ex><font color="#2F4F4F">Zum Abschied gebe ich ihm die Hand.</font></ex><br/><ex><font color="#59C945" face="&#x4EFF;&#x5B8B;">我和他握手告别。</font></ex><br/><img class="img_1" src="&#10;          {% static 'Word_edit/images/233.jpg' %}&#10;          "/><table width="50%" border="0" bgcolor="#697C15"><tr><td><span style="color: #FFFFFF;"><b><font face="&#x4EFF;&#x5B8B;">常用搭配</font></b></span></td></tr></table><font color="saddlebrown">die rechte Hand<br/>die linke Hand<br/>sich vor dem Essen die Hände waschen<br/>in die Hand nehmen<br/>in der Hand halten<br/></font><br/><button id="ClipBoardSearchButton" onclick="BufferSearch()">查询当前剪贴板中的单词</button></body></html>

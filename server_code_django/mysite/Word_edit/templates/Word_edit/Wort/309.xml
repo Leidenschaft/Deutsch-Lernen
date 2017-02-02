@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<Stichwort Audio="true">Meinung</Stichwort>
+<Einheit>9</Einheit>
+<Anteil>Text</Anteil>
+<Genus>die</Genus>
+<Pluralform>Meinungen</Pluralform>
+<GenitivSingular/>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K/>
+		<K_/>
+	</KompositaCollection>
+	<abgeleiteteWörter/></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym/>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K>eine gute Meinung von jemandem haben (对某人评价很高)</K>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>意见</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Der Arzt ist der Meinung,dass ich ins Krankenhaus muss.</Satz>
+				<Übersetzung>医生建议我必须住院治疗。</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Meiner Meining nach ist das Rindersteak im Restaurant schmeckt mir gut.</Satz>
+				<Übersetzung>我觉得这家店的牛排很好吃。</Übersetzung>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Entry>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Informatik</Stichwort>
+  <Einheit>2</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>o.Pl.</Pluralform>
+  <GenitivSingular>Informatik</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter>
+      <hierzu category="Substantiv">Informatiker</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>计算机科学</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Wang Hongliang studiert Informatik.</Satz>
+          <Übersetzung>王洪亮是学计算机的。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

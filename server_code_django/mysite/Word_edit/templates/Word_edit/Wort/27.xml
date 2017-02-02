@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Baum</Stichwort>
+  <Einheit>1</Einheit>
+  <Anteil>3</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>Bäume</Pluralform>
+  <GenitivSingular>Baumes</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>ObstBaum</_K>
+      <K_>Baumstamm</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>树</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Das ist ein Baum.</Satz>
+          <Übersetzung>这是一棵树。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

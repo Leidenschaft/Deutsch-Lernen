@@ -1,0 +1,13 @@
+<html><head><meta charset="utf-8"/><title>Enter your title here</title><style>
+      .img_1
+      {
+      float: right;
+      margin: 1px 20% 10px 1px;
+      }
+    </style><bgsound src="" loop="1" id="BGSOUND"/></head>
+{% load static %} 
+<script type="text/javascript" src="{% static 'Word_edit/jquery-1.9.1.min.js' %}"></script><script type="text/javascript" src="{% static 'Word_edit/BufferSearch.js' %}"></script><body ondblclick="GetSelection()"><h1><span id="stich_wort">Zürich</span> 
+      <span><button type="button" id="edit_btn">编辑</button></span></h1><b><font color="#0000D0">das Zürich </font></b><b><font color="#DF0101"><i>Substantiv </i></font></b><i>plural:</i><font color="green"><b> </b></font><i>genetiv:</i><font color="green"><b>Zürich(e)s </b></font><div style="display:block;background-color:#f9f4bb;"><span style="color: black;font-weight:bold;"> Unit: 2</span> 
+	 
+	 <span style="color: black;font-weight:bold;"> Part: Leseverstehen</span> 
+	 </div><table border="1" bgcolor="#D07427" style="border-collapse:collapse;" width="100%"><tr><td><span style="color: #FFFFFF;"><b><font face="&#x4EFF;&#x5B8B;">苏黎世（瑞士地名）</font></b></span></td></tr></table><ex><font color="#2F4F4F">Zürich ist die Hauptstadt des gleichnamigen Kantons und mit etwa einer halben Million Einwohner die bevölkerungsreichste Stadt der Schweiz.</font></ex><br/><ex><font color="#59C945" face="&#x4EFF;&#x5B8B;">苏黎世是瑞士同名的州的首府，也是拥有约50万居民的瑞士的人口最多的城市。</font></ex><br/><br/><button id="ClipBoardSearchButton" onclick="BufferSearch()">查询当前剪贴板中的单词</button></body></html>

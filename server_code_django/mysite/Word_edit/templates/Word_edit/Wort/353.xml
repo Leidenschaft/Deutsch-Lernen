@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<Stichwort Audio="true">Parkplatz</Stichwort>
+<Einheit>6</Einheit>
+<Anteil>Text</Anteil>
+<Genus>der</Genus>
+<Pluralform>Parkplätz</Pluralform>
+<GenitivSingular/>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K/>
+		<K_/>
+	</KompositaCollection>
+	<abgeleiteteWörter/></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym/>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K/>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>停车场</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Hinter dem Haus liegt ein Parkplatz.</Satz>
+				<Übersetzung>在房子后面有一片停车场。</Übersetzung>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Entry>

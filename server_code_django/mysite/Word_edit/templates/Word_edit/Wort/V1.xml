@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>kommen</Stichwort>
+	<Einheit>1</Einheit>
+	<Anteil>2</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>komme</ich>
+					<du>kommst</du>
+					<er_sie_es>kommt</er_sie_es>
+					<wir>kommen</wir>
+					<ihr>kommt</ihr>
+					<sie_Sie>kommen</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>kam</ich>
+					<du>kamst</du>
+					<er_sie_es>kam</er_sie_es>
+					<wir>kamen</wir>
+					<ihr>kamt</ihr>
+					<sie_Sie>kamen</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="sein">	
+					<ich>bin gekommen</ich>
+					<du>bist gekommen</du>
+					<er_sie_es>ist gekommen</er_sie_es>
+					<wir>sind gekommen</wir>
+					<ihr>seid gekommen</ihr>
+					<sie_Sie>sind gekommen</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+      <K>nach Hause kommen</K>
+      <K>zu Erfolg kommen</K>
+      <K>jemandem zu Hilfe kommen</K>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="FALSE">
+					
+					<Chinesisch>来</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Woher kommen Sie?</Satz>
+          <Übersetzung>你来自哪？</Übersetzung>
+					</Beispiel>
+          <Beispiel>
+              <Satz>Der kalte Wind kommt von Norden.</Satz>
+              <Übersetzung>寒风自北方来。</Übersetzung>
+          </Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+      </AllgemeineErläuterungen>
+	
+	
+</Entry>

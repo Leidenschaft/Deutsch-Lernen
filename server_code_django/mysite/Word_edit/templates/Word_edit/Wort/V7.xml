@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>öffnen</Stichwort>
+	<Einheit>2</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>öffne</ich>
+					<du>öffnest</du>
+					<er_sie_es>öffnet</er_sie_es>
+					<wir>öffnen</wir>
+					<ihr>öffnet</ihr>
+					<sie_Sie>öffnen</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>öffnete</ich>
+					<du>öffnetest</du>
+					<er_sie_es>öffnete</er_sie_es>
+					<wir>öffneten</wir>
+					<ihr>öffnetet</ihr>
+					<sie_Sie>öffneten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe geöffnet</ich>
+					<du>hast geöffnet</du>
+					<er_sie_es>hat geöffnet</er_sie_es>
+					<wir>haben geöffnet</wir>
+					<ihr>habt geöffnet</ihr>
+					<sie_Sie>haben geöffnet</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+      <Anm link="V13.xml">schließen</Anm>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>打开</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Jetzt öffnen Sie bitte die Bücher auf Seite 4.</Satz>
+            <Übersetzung>现在打开书翻到第4页。</Übersetzung>
+					</Beispiel>
+            <Beispiel>
+              <Satz>Die Tür öffnete sich.</Satz>
+              <Übersetzung>门开了。</Übersetzung>
+            </Beispiel>
+
+          </BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

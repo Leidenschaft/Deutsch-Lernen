@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<Stichwort Audio="true">Kopf</Stichwort>
+<Einheit>9</Einheit>
+<Anteil>Einführung</Anteil>
+<Genus>der</Genus>
+<Pluralform>Köpfe</Pluralform>
+<GenitivSingular/>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K/>
+		<K_>Kopfhaar</K_>
+	</KompositaCollection>
+	<abgeleiteteWörter/></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym/>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K>ein Gentleman von Kopf bis Fuß (完全)</K>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>头</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Er betrachtet mich von Kopf bis Fuß.</Satz>
+				<Übersetzung>他从头到脚打量着我。</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Er ist der Kopf der Organisation.</Satz>
+				<Übersetzung>他是这个组织的领袖。</Übersetzung>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Entry>

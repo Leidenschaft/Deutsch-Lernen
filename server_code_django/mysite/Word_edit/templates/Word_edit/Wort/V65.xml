@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>zahlen</Stichwort>
+	<Einheit>5</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>zahle</ich>
+					<du>zahlst</du>
+					<er_sie_es>zahlt</er_sie_es>
+					<wir>zahlen</wir>
+					<ihr>zahlt</ihr>
+					<sie_Sie>zahlen</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>zahlte</ich>
+					<du>zahltest</du>
+					<er_sie_es>zahlte</er_sie_es>
+					<wir>zahlten</wir>
+					<ihr>zahltet</ihr>
+					<sie_Sie>zahlten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gezahlt</ich>
+					<du>hast gezahlt</du>
+					<er_sie_es>hat gezahlt</er_sie_es>
+					<wir>haben gezahlt</wir>
+					<ihr>habt gezahlt</ihr>
+					<sie_Sie>haben gezahlt</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>付钱</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Zahlen,bitte!</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

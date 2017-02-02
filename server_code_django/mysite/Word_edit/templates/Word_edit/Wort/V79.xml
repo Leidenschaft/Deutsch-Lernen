@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>einhalten</Stichwort>
+	<Einheit>6</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>halte ein</ich>
+					<du>hältst ein</du>
+					<er_sie_es>hält ein</er_sie_es>
+					<wir>halten ein</wir>
+					<ihr>haltet ein</ihr>
+					<sie_Sie>halten ein</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>hielt ein</ich>
+					<du>hieltest ein</du>
+					<er_sie_es>hielt ein</er_sie_es>
+					<wir>hielten ein</wir>
+					<ihr>hieltet ein</ihr>
+					<sie_Sie>hielten ein</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe eingehalten</ich>
+					<du>hast eingehalten</du>
+					<er_sie_es>hat eingehalten</er_sie_es>
+					<wir>haben eingehalten</wir>
+					<ihr>habt eingehalten</ihr>
+					<sie_Sie>haben eingehalten</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>遵守 </Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Alle Studenten müssen die Hausordnung einhalten.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

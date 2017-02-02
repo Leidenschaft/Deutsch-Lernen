@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>abbiegen</Stichwort>
+	<Einheit>10</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>biege ab</ich>
+					<du>biegst ab</du>
+					<er_sie_es>biegt ab</er_sie_es>
+					<wir>biegen ab</wir>
+					<ihr>biegt ab</ihr>
+					<sie_Sie>biegen ab</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>bog ab</ich>
+					<du>bogst ab</du>
+					<er_sie_es>bog ab</er_sie_es>
+					<wir>bogen ab</wir>
+					<ihr>bogt ab</ihr>
+					<sie_Sie>bogen ab</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe abgebogen</ich>
+					<du>hast abgebogen</du>
+					<er_sie_es>hat abgebogen</er_sie_es>
+					<wir>haben abgebogen</wir>
+					<ihr>habt abgebogen</ihr>
+					<sie_Sie>haben abgebogen</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>拐弯</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Dort an der Kreuzung biegen Sie links in die Goethestraße ab.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

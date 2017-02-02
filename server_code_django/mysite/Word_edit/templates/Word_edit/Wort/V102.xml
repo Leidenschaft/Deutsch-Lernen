@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>gucken</Stichwort>
+	<Einheit>7</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>gucke</ich>
+					<du>guckst</du>
+					<er_sie_es>guckt</er_sie_es>
+					<wir>gucken</wir>
+					<ihr>guckt</ihr>
+					<sie_Sie>gucken</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>guckte</ich>
+					<du>gucktest</du>
+					<er_sie_es>guckte</er_sie_es>
+					<wir>guckten</wir>
+					<ihr>gucktet</ihr>
+					<sie_Sie>guckten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe geguckt</ich>
+					<du>hast geguckt</du>
+					<er_sie_es>hat geguckt</er_sie_es>
+					<wir>haben geguckt</wir>
+					<ihr>habt geguckt</ihr>
+					<sie_Sie>haben geguckt</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>瞧，张望</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Guck mal,hier sind Mützen.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

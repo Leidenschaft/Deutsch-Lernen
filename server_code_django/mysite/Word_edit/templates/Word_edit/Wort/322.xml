@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<Stichwort Audio="true">Morgen</Stichwort>
+<Einheit>1</Einheit>
+<Anteil>3</Anteil>
+<Genus>der</Genus>
+<Pluralform>Morgen</Pluralform>
+<GenitivSingular/>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K/>
+		<K_ link="205.xml">Morgenzeitung</K_>
+	</KompositaCollection>
+	<abgeleiteteWörter>
+		<hierzu category="Adjektiv">morgendlich</hierzu>
+	</abgeleiteteWörter></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym>Frühe</Sym>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm>Abend</Anm>
+</Antonymegruppe>
+
+<Kollokationen>
+<K/>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>早晨</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Guten Morgen!</Satz>
+				<Übersetzung>早上好！</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Es ist Morgen.</Satz>
+				<Übersetzung>现在是早上。</Übersetzung>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Entry>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<Stichwort Audio="true">Milch</Stichwort>
+<Einheit>5</Einheit>
+<Anteil>Einführung</Anteil>
+<Genus>die</Genus>
+<Pluralform>o.Pl.</Pluralform>
+<GenitivSingular/>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K>Frischmilch</_K>
+		<K_ link="218.xml">Milchkanne</K_>
+		<K_ link="132.xml">Milchmixgetränk</K_>
+	</KompositaCollection>
+	<abgeleiteteWörter/></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym/>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K>Milch trinken</K>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>牛奶</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Trinkst du täglich Milch?</Satz>
+				<Übersetzung>你每天喝牛奶吗?</Übersetzung>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Entry>

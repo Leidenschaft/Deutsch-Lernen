@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Frau</Stichwort>
+  <Einheit>1</Einheit>
+  <Anteil>3</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>Frauen</Pluralform>
+  <GenitivSingular>Frau</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter>
+      <hierzu category="Adjektiv">frauenhaft (女性的)</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe>
+    <Anm>Mann </Anm>
+    <Anm>Herr</Anm>
+  </Antonymegruppe>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>女士</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Das ist Frau Li.</Satz>
+          <Übersetzung>这是李夫人。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

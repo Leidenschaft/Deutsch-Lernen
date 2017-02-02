@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>lieben</Stichwort>
+	<Einheit>9</Einheit>
+	<Anteil>Übungen</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>liebe</ich>
+					<du>liebst</du>
+					<er_sie_es>liebt</er_sie_es>
+					<wir>lieben</wir>
+					<ihr>liebt</ihr>
+					<sie_Sie>lieben</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>liebte</ich>
+					<du>liebtest</du>
+					<er_sie_es>liebte</er_sie_es>
+					<wir>liebten</wir>
+					<ihr>liebtet</ihr>
+					<sie_Sie>liebten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe geliebt</ich>
+					<du>hast geliebt</du>
+					<er_sie_es>hat geliebt</er_sie_es>
+					<wir>haben geliebt</wir>
+					<ihr>habt geliebt</ihr>
+					<sie_Sie>haben geliebt</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>爱</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Sie sehen sich an und lieben sich wieder.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

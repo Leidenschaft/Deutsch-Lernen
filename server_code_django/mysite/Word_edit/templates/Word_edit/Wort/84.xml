@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Fahne</Stichwort>
+  <Einheit>1</Einheit>
+  <Anteil>2</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>Fahnen</Pluralform>
+  <GenitivSingular>Fahne</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <K_>Staatsfahne</K_>
+      <K_>Truppenfahne</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>die Fahne nach dem Winde drehen (见风使舵)</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>旗</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Die Fahne (zum Beispiel, Stattsfahne von Frankreich) hat drei Farben.</Satz>
+          <Übersetzung>这面旗子 (比如法国国旗) 有三种颜色。</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Seit Kinderheit hat er die Zulassung bei Tsinghua Universität auf die Fahnen geschrieben.</Satz>
+          <Übersetzung>他从小就把考上清华大学作为奋斗目标。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

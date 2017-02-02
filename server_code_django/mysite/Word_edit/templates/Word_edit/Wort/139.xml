@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Kirche</Stichwort>
+  <Einheit>10</Einheit>
+  <Anteil>Einfürung</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>Kirchen</Pluralform>
+  <GenitivSingular>Kirche</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Kirchenbank</_K>
+      <_K>Kirchenrecht</_K>
+      <_K>Kirchenkonzert</_K>
+      <_K>Kirchenpatron</_K>
+      <_K>Kirchenamt</_K>
+      <_K>Kirchhof</_K>
+      <_K>Kirchturm</_K>
+      <K_>Barockkirche</K_>
+      <K_>Bischofskirche</K_>
+      <K_>Pfarrkirche</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter>
+      <hierzu category="Adjektiv">kirchlich</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe>
+    <Sym>Dom</Sym>
+    <Sym>Kathedrale</Sym>
+    <Sym>Münster</Sym>
+    <Sym>Konfession</Sym>
+  </Synonymegruppe>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>eine kleine Kirche</K>
+    <K>eine evangelische Kirche</K>
+    <K>die Kirche errichten</K>
+    <K>in die Kirche gehen</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>教堂，礼拜堂</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Warum hast du mich nicht gleich gefragt und bist erst mit der Kirche ums Dorf gefahren?</Satz>
+          <Übersetzung>你为什么不马上问问我而是要自己走弯路呢？</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Es gibt eine gotische Kirche in meiner Heimat.</Satz>
+          <Übersetzung>我的故乡有一座哥特式的教堂。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>教会，教派</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Der Papst ist das Oberhaupt der römisch-katholischen Kirche.</Satz>
+          <Übersetzung>教皇是罗马天主教的领袖。</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Martin Luther trat aus der Kirche wegen seiner Meinung aus.</Satz>
+          <Übersetzung>马丁路德因他的观点而退出了教会。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

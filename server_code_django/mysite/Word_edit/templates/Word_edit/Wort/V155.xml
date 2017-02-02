@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>umsteigen</Stichwort>
+	<Einheit>10</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>steige um</ich>
+					<du>steigst um</du>
+					<er_sie_es>steigt um</er_sie_es>
+					<wir>steigen um</wir>
+					<ihr>steigt um</ihr>
+					<sie_Sie>steigen um</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>stieg um</ich>
+					<du>stiegst um</du>
+					<er_sie_es>stieg um</er_sie_es>
+					<wir>stiegen um</wir>
+					<ihr>stiegt um</ihr>
+					<sie_Sie>stiegen um</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="sein">	
+					<ich>bin umgestiegen</ich>
+					<du>bist umgestiegen</du>
+					<er_sie_es>ist umgestiegen</er_sie_es>
+					<wir>sind umgestiegen</wir>
+					<ihr>seid umgestiegen</ihr>
+					<sie_Sie>sind umgestiegen</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>（火）车（小）站换车</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Dort steigen Sie in die U2 um und fahren bis zum Karlsplatz.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

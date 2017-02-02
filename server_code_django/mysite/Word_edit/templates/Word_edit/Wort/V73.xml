@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>empfehlen</Stichwort>
+	<Einheit>5</Einheit>
+	<Anteil>Intentionen</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>empfehle</ich>
+					<du>empfiehlst</du>
+					<er_sie_es>empfiehlt</er_sie_es>
+					<wir>empfehlen</wir>
+					<ihr>empfehlt</ihr>
+					<sie_Sie>empfehlen</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>empfahl</ich>
+					<du>empfahlst</du>
+					<er_sie_es>empfahl</er_sie_es>
+					<wir>empfahlen</wir>
+					<ihr>empfahlt</ihr>
+					<sie_Sie>empfahlen</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe empfohlen</ich>
+					<du>hast empfohlen</du>
+					<er_sie_es>hat empfohlen</er_sie_es>
+					<wir>haben empfohlen</wir>
+					<ihr>habt empfohlen</ihr>
+					<sie_Sie>haben empfohlen</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>推荐</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Was empfehlen Sie uns?</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

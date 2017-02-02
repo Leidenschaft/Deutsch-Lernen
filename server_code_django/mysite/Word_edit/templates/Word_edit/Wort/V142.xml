@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>ausruhen</Stichwort>
+	<Einheit>9</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>ruhe aus</ich>
+					<du>ruhst aus</du>
+					<er_sie_es>ruht aus</er_sie_es>
+					<wir>ruhen aus</wir>
+					<ihr>ruht aus</ihr>
+					<sie_Sie>ruhen aus</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>ruhte aus</ich>
+					<du>ruhtest aus</du>
+					<er_sie_es>ruhte aus</er_sie_es>
+					<wir>ruhten aus</wir>
+					<ihr>ruhtet aus</ihr>
+					<sie_Sie>ruhten aus</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe ausgeruht</ich>
+					<du>hast ausgeruht</du>
+					<er_sie_es>hat ausgeruht</er_sie_es>
+					<wir>haben ausgeruht</wir>
+					<ihr>habt ausgeruht</ihr>
+					<sie_Sie>haben ausgeruht</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>（劳动后）休息</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Sie haben den ganzen Tag gearbeitet und sollen sich jetzt ausruhen.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

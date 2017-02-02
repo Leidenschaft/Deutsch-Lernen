@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Wartezimmer</Stichwort>
+  <Einheit>9</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>das</Genus>
+  <Pluralform>Wartezimmer</Pluralform>
+  <GenitivSingular>Wartezimmers</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>候诊室</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Das Wartezimmer war so überfüllt, dass ich auf dem Gang warten musste.</Satz>
+          <Übersetzung>候诊室人非常多，我不得不在过道里等。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>wünschen</Stichwort>
+	<Einheit>7</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>wünsche</ich>
+					<du>wünscht</du>
+					<er_sie_es>wünscht</er_sie_es>
+					<wir>wünschen</wir>
+					<ihr>wünscht</ihr>
+					<sie_Sie>wünschen</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>wünschte</ich>
+					<du>wünschtest</du>
+					<er_sie_es>wünschte</er_sie_es>
+					<wir>wünschten</wir>
+					<ihr>wünschtet</ihr>
+					<sie_Sie>wünschten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gewünscht</ich>
+					<du>hast gewünscht</du>
+					<er_sie_es>hat gewünscht</er_sie_es>
+					<wir>haben gewünscht</wir>
+					<ihr>habt gewünscht</ihr>
+					<sie_Sie>haben gewünscht</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>希望，祝愿，想要</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Ich wünsche dir viel Glück!</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

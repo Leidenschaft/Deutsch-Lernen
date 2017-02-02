@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>frühstücken</Stichwort>
+	<Einheit>3</Einheit>
+	<Anteil>Einfürung</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>frühstücke</ich>
+					<du>frühstückst</du>
+					<er_sie_es>frühstückt</er_sie_es>
+					<wir>frühstücken</wir>
+					<ihr>frühstückt</ihr>
+					<sie_Sie>frühstücken</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>frühstückte</ich>
+					<du>frühstücktest</du>
+					<er_sie_es>frühstückte</er_sie_es>
+					<wir>frühstückten</wir>
+					<ihr>frühstücktet</ihr>
+					<sie_Sie>frühstückten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gefrühstückt</ich>
+					<du>hast gefrühstückt</du>
+					<er_sie_es>hat gefrühstückt</er_sie_es>
+					<wir>haben gefrühstückt</wir>
+					<ihr>habt gefrühstückt</ihr>
+					<sie_Sie>haben gefrühstückt</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+        <hierzu category="Substantiv" link="112.xml">Frühstück</hierzu>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>吃早餐</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Die Studentin frühstückt gut.</Satz>
+            <Übersetzung>这位女同学早饭吃得很好。</Übersetzung>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

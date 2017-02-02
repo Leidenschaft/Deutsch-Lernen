@@ -1,0 +1,13 @@
+<html><head><meta charset="utf-8"/><title>Enter your title here</title><style>
+      .img_1
+      {
+      float: right;
+      margin: 1px 20% 10px 1px;
+      }
+    </style><bgsound src="" loop="1" id="BGSOUND"/></head>
+{% load static %} 
+<script type="text/javascript" src="{% static 'Word_edit/jquery-1.9.1.min.js' %}"></script><script type="text/javascript" src="{% static 'Word_edit/BufferSearch.js' %}"></script><body ondblclick="GetSelection()"><h1><span id="stich_wort">Gedächtniskirche</span> 
+      <span><button type="button" id="edit_btn">编辑</button></span></h1><a href=""><img src="{% static 'Word_edit/icon16_search.png'%}"/></a><b><font color="#0000D0">die Gedächtniskirche </font></b><b><font color="#DF0101"><i>Substantiv </i></font></b><i>plural:</i><font color="green"><b>Gedächtniskirchen </b></font><i>genetiv:</i><font color="green"><b>Gedächtniskirche </b></font><div style="display:block;background-color:#f9f4bb;"><span style="color: black;font-weight:bold;"> Unit: 8</span> 
+	 
+	 <span style="color: black;font-weight:bold;"> Part: Übungen</span> 
+	 </div><table border="1" bgcolor="#D07427" style="border-collapse:collapse;" width="100%"><tr><td><span style="color: #FFFFFF;"><b><font face="&#x4EFF;&#x5B8B;">纪念大教堂</font></b></span></td></tr></table><ex><font color="#2F4F4F">Die Gedächtniskirche liegt im Stadtzentrum.</font></ex><br/><ex><font color="#59C945" face="&#x4EFF;&#x5B8B;">纪念大教堂坐落在城市中央。</font></ex><br/><br/><button id="ClipBoardSearchButton" onclick="BufferSearch()">查询当前剪贴板中的单词</button></body></html>

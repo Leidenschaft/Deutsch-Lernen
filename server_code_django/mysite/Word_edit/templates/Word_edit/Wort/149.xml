@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Schatz</Stichwort>
+  <Einheit>4</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>Schätze</Pluralform>
+  <GenitivSingular>Schatzes</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <K_>Schatzinsel</K_>
+      <K_>Schatzsuche</K_>
+      <K_>Schatzkammer</K_>
+      <K_>Schatzkiste</K_>
+      <_K>Piratenschatz</_K>
+      <_K>Kirchenschatz</_K>
+    </KompositaCollection>
+    <abgeleiteteWörter>
+      <hierzu category="Substantiv">Schatzer</hierzu>
+      <hierzu category="Verben">schätzen</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe>
+    <Sym>Fülle</Sym>
+  </Synonymegruppe>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>einen Schatz anhäufen</K>
+    <K>einen Schatz hüten</K>
+    <K>einen Schatz suchen</K>
+    <K>einen Schatz finden</K>
+    <K>ein Schatz an D.</K>
+    <K>ein Schatz an Erfahrungen</K>
+    <K>ein Schatz von Erinnerungen</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>宝藏，财宝</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Die Piraten vergruben ihren Schatz auf einer einsamen Insel.</Satz>
+          <Übersetzung>海盗将他们的财宝埋藏在一个孤岛上。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>大量珍品</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Das Museum besitzt einen großen Schatz an alten Gemälden.</Satz>
+          <Übersetzung>博物馆拥有大量古老油画珍藏。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>
+

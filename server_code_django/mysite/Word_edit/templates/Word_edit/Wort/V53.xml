@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>annehmen</Stichwort>
+	<Einheit>4</Einheit>
+	<Anteil>Intentionen</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>nehme an</ich>
+					<du>nimmst an</du>
+					<er_sie_es>nimmt an</er_sie_es>
+					<wir>nehmen an</wir>
+					<ihr>nehmt an</ihr>
+					<sie_Sie>nehmen an</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>nahm an</ich>
+					<du>nahmst an</du>
+					<er_sie_es>nahm an</er_sie_es>
+					<wir>nahmen an</wir>
+					<ihr>nahmt an</ihr>
+					<sie_Sie>nahmen an</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe angenommen</ich>
+					<du>hast angenommen</du>
+					<er_sie_es>hat angenommen</er_sie_es>
+					<wir>haben angenommen</wir>
+					<ihr>habt angenommen</ihr>
+					<sie_Sie>haben angenommen</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>接受，接收；假设</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Nimmst du den Vorschlag an oder lehnst du ihn lieber ab?</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

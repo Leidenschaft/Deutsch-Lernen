@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Wiedersehen</Stichwort>
+  <Einheit>1</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>das</Genus>
+  <Pluralform>nur Sg</Pluralform>
+  <GenitivSingular>Wiedersehens</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Wiedersehensfreude</_K>
+    </KompositaCollection>
+    <abgeleiteteWörter>
+      <hierzu category="Verben">wiedersehen</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe>
+    <Sym>Wiederschauen</Sym>
+  </Synonymegruppe>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>auf Wiedersehen</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>再见，重逢</Chinesisch>
+      <BeispielSammlung/>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

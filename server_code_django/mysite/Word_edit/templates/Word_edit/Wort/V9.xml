@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>machen</Stichwort>
+	<Einheit>2</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>mache</ich>
+					<du>machst</du>
+					<er_sie_es>macht</er_sie_es>
+					<wir>machen</wir>
+					<ihr>macht</ihr>
+					<sie_Sie>machen</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>machte</ich>
+					<du>machtest</du>
+					<er_sie_es>machte</er_sie_es>
+					<wir>machten</wir>
+					<ihr>machtet</ihr>
+					<sie_Sie>machten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gemacht</ich>
+					<du>hast gemacht</du>
+					<er_sie_es>hat gemacht</er_sie_es>
+					<wir>haben gemacht</wir>
+					<ihr>habt gemacht</ihr>
+					<sie_Sie>haben gemacht</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+      <K>eine Reise machen</K>
+      <K>ein Foto machen</K>
+      <K>einen Vorschlag machen</K>
+      <K>eine Pause machen</K>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>总计；干，做</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Das Essen macht zusammen 28,50 Euro.</Satz>
+            <Übersetzung>这顿饭总共是28欧元50欧分。</Übersetzung>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+
+      <Eintrag transitiv="">
+
+        <Chinesisch>使..处于特定状态</Chinesisch>
+        <BeispielSammlung>
+          <Beispiel>
+            <Satz>Ich mache mir Sorgen um die Kinder.</Satz>
+            <Übersetzung>我担心孩子们。</Übersetzung>
+          </Beispiel>
+          <Beispiel>
+            <Satz>Die Kinder machen ihr viel Freude.</Satz>
+            <Übersetzung>孩子们令她很高兴。</Übersetzung>
+          </Beispiel>
+          <Beispiel>
+            <Satz>Die Sorge macht ihn zu einem  kranken Mann.</Satz>
+            <Übersetzung>忧虑使他生病。</Übersetzung>
+          </Beispiel>
+
+          <Beispiel>
+            <Satz>Computerspielen macht mir Spaß.</Satz>
+            <Übersetzung>玩电脑游戏让我很快乐。</Übersetzung>
+          </Beispiel>
+
+          <Beispiel>
+            <Satz>Karin macht alles.</Satz>
+            <Übersetzung>Karin 什么都做。</Übersetzung>
+          </Beispiel>
+
+        </BeispielSammlung>
+
+      </Eintrag>
+
+    </AllgemeineErläuterungen>
+	
+	
+</Entry>

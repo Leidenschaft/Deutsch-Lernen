@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>riechen</Stichwort>
+	<Einheit>9</Einheit>
+	<Anteil>Einfürung</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>rieche</ich>
+					<du>riechst</du>
+					<er_sie_es>riecht</er_sie_es>
+					<wir>riechen</wir>
+					<ihr>riecht</ihr>
+					<sie_Sie>riechen</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>roch</ich>
+					<du>rochst</du>
+					<er_sie_es>roch</er_sie_es>
+					<wir>rochen</wir>
+					<ihr>rocht</ihr>
+					<sie_Sie>rochen</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gerochen</ich>
+					<du>hast gerochen</du>
+					<er_sie_es>hat gerochen</er_sie_es>
+					<wir>haben gerochen</wir>
+					<ihr>habt gerochen</ihr>
+					<sie_Sie>haben gerochen</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>闻，嗅</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Es riecht nach Zwiebeln.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

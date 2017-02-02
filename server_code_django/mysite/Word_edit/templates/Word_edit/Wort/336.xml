@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<Stichwort Audio="true">Name</Stichwort>
+<Einheit>1</Einheit>
+<Anteil>2</Anteil>
+<Genus>der</Genus>
+<Pluralform>Namen</Pluralform>
+<GenitivSingular/>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K link="89.xml">Familienname</_K>
+		<_K link="98.xml">Firmenname</_K>
+		<_K link="252.xml">Hundename</_K>
+		<_K link="448.xml">Tiername</_K>
+		<K_/>
+	</KompositaCollection>
+	<abgeleiteteWörter/></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym/>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K/>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>名字</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Wie ist Ihr Name?</Satz>
+				<Übersetzung>你叫什么名字？</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Sein Name ist Marx.</Satz>
+				<Übersetzung>他叫马克思。</Übersetzung>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Entry>

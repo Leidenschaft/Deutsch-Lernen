@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<Stichwort Audio="true">Pause</Stichwort>
+<Einheit>3</Einheit>
+<Anteil>Text</Anteil>
+<Genus>die</Genus>
+<Pluralform>Pausen</Pluralform>
+<GenitivSingular/>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K link="V5.xml">Arbeitspause</_K>
+		<_K>Schulpause</_K>
+		<_K link="112.xml">Frühstückspause</_K>
+		<_K link="317.xml">Mittagspause</_K>
+		<_K/>
+		<K_/>
+	</KompositaCollection>
+	<abgeleiteteWörter/></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym/>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K/>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>休息</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Jetzt machen wir gerade Pause.</Satz>
+				<Übersetzung>现在我们刚好在休息。</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Er isst ein Eis während der Pause im Theater.</Satz>
+				<Übersetzung>他在剧院中场休息时间吃了一只冰淇淋。</Übersetzung>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Entry>

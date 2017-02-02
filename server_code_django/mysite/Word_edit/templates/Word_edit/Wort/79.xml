@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Erfolg</Stichwort>
+  <Einheit>7</Einheit>
+  <Anteil>Intentionen</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>Erfolge</Pluralform>
+  <GenitivSingular>Erfolgs</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Publikumserfolg</_K>
+      <K_>Erfolgschancen</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe>
+    <Anm>Misserfolg</Anm>
+  </Antonymegruppe>
+  <Kollokationen>
+    <K>mit Prüfung Erfolg haben</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>成功</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Der Lehrer gratuliert seinen Studenten zu ihrem Erfolg bei der Prüfung.</Satz>
+          <Übersetzung>老师祝贺他的学生在测验中取得好成绩。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

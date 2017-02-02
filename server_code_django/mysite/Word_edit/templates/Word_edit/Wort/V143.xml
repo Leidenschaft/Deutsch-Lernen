@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>abhorchen</Stichwort>
+	<Einheit>9</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>horche ab</ich>
+					<du>horchst ab</du>
+					<er_sie_es>horcht ab</er_sie_es>
+					<wir>horchen ab</wir>
+					<ihr>horcht ab</ihr>
+					<sie_Sie>horchen ab</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>horchte ab</ich>
+					<du>horchtest ab</du>
+					<er_sie_es>horchte ab</er_sie_es>
+					<wir>horchten ab</wir>
+					<ihr>horchtet ab</ihr>
+					<sie_Sie>horchten ab</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe abgehorcht</ich>
+					<du>hast abgehorcht</du>
+					<er_sie_es>hat abgehorcht</er_sie_es>
+					<wir>haben abgehorcht</wir>
+					<ihr>habt abgehorcht</ihr>
+					<sie_Sie>haben abgehorcht</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>对……听诊</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Der Arzt horcht den Kranken gerade ab.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

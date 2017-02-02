@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Chemie</Stichwort>
+  <Einheit>2</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>o.Pl.</Pluralform>
+  <GenitivSingular>Chemie</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <K_>Chemiestudent</K_>
+      <K_>Chemieindustrie</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>化学</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Ich studiere Chemie.</Satz>
+          <Übersetzung>我的专业是化学。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

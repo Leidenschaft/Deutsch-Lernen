@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>hängen</Stichwort>
+	<Einheit>6</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>hänge</ich>
+					<du>hängst</du>
+					<er_sie_es>hängt</er_sie_es>
+					<wir>hängen</wir>
+					<ihr>hängt</ihr>
+					<sie_Sie>hängen</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>hing</ich>
+					<du>hieng</du>
+					<er_sie_es>hingest</er_sie_es>
+					<wir>hiengst</wir>
+					<ihr>hing</ihr>
+					<sie_Sie>hieng</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gehangen</ich>
+					<du>hast gehangen</du>
+					<er_sie_es>hat gehangen</er_sie_es>
+					<wir>haben gehangen</wir>
+					<ihr>habt gehangen</ihr>
+					<sie_Sie>haben gehangen</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>挂着，悬着，吊着</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Die Wanduhr hängt gegenüber dem Bild.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

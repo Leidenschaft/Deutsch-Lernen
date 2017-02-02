@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>sprechen</Stichwort>
+	<Einheit>2</Einheit>
+	<Anteil>Einfürung</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>spreche</ich>
+					<du>sprichst</du>
+					<er_sie_es>spricht</er_sie_es>
+					<wir>sprechen</wir>
+					<ihr>sprecht</ihr>
+					<sie_Sie>sprechen</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>sprach</ich>
+					<du>sprachst</du>
+					<er_sie_es>sprach</er_sie_es>
+					<wir>sprachen</wir>
+					<ihr>spracht</ihr>
+					<sie_Sie>sprachen</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gesprochen</ich>
+					<du>hast gesprochen</du>
+					<er_sie_es>hat gesprochen</er_sie_es>
+					<wir>haben gesprochen</wir>
+					<ihr>habt gesprochen</ihr>
+					<sie_Sie>haben gesprochen</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+        <K_>Sprechstunde (答疑时间)</K_>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+      <Sym>sagen</Sym>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>说话，谈话</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Sprechen Sie Deutsch?</Satz>
+            <Übersetzung>您会说德语吗？</Übersetzung>
+          </Beispiel>
+            <Beispiel>
+              <Satz>Mein Enkelkind kann schon sprechen.</Satz>
+              <Übersetzung>我的孙子已经会说话了。</Übersetzung>
+            </Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

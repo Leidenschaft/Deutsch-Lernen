@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Gesundheit</Stichwort>
+  <Einheit>9</Einheit>
+  <Anteil>Einführung</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>o.Pl.</Pluralform>
+  <GenitivSingular>Gesundheit</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <K_>Gesundheitsschaden</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>auf jemands Gesundheit trinken</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>健康</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Trinken wir auf die Gesundheit unserer Eltern!</Satz>
+          <Übersetzung>为我们父母的健康干杯！</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

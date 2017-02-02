@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>einkaufen</Stichwort>
+	<Einheit>4</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>kaufe ein</ich>
+					<du>kaufst ein</du>
+					<er_sie_es>kauft ein</er_sie_es>
+					<wir>kaufen ein</wir>
+					<ihr>kauft ein</ihr>
+					<sie_Sie>kaufen ein</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>kaufte ein</ich>
+					<du>kauftest ein</du>
+					<er_sie_es>kaufte ein</er_sie_es>
+					<wir>kauften ein</wir>
+					<ihr>kauftet ein</ihr>
+					<sie_Sie>kauften ein</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe eingekauft</ich>
+					<du>hast eingekauft</du>
+					<er_sie_es>hat eingekauft</er_sie_es>
+					<wir>haben eingekauft</wir>
+					<ihr>habt eingekauft</ihr>
+					<sie_Sie>haben eingekauft</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>购物；买进</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Ich gehe gern einkaufen.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

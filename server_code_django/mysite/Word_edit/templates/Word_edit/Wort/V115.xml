@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>erleben</Stichwort>
+	<Einheit>8</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>erlebe</ich>
+					<du>erlebst</du>
+					<er_sie_es>erlebt</er_sie_es>
+					<wir>erleben</wir>
+					<ihr>erlebt</ihr>
+					<sie_Sie>erleben</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>erlebte</ich>
+					<du>erlebtest</du>
+					<er_sie_es>erlebte</er_sie_es>
+					<wir>erlebten</wir>
+					<ihr>erlebtet</ihr>
+					<sie_Sie>erlebten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe erlebt</ich>
+					<du>hast erlebt</du>
+					<er_sie_es>hat erlebt</er_sie_es>
+					<wir>haben erlebt</wir>
+					<ihr>habt erlebt</ihr>
+					<sie_Sie>haben erlebt</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>体验，经历</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Er hat einen Monat auf dem Land verbracht und viel erlebt.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

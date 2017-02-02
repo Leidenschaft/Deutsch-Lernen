@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Zitrone</Stichwort>
+  <Einheit>5</Einheit>
+  <Anteil>Hörverstehen</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>Zitronen</Pluralform>
+  <GenitivSingular>Zitrone</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Zitronesaft</_K>
+      <_K>Zitronelimonade</_K>
+      <_K>zitronengelb </_K>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>eine Zitrone auspressen</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>柠檬</Chinesisch>
+      <BeispielSammlung/>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

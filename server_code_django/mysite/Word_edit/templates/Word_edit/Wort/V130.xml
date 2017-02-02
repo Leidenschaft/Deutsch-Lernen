@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>unterhalten</Stichwort>
+	<Einheit>9</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>unterhalte</ich>
+					<du>unterhältst</du>
+					<er_sie_es>unterhält</er_sie_es>
+					<wir>unterhalten</wir>
+					<ihr>unterhaltet</ihr>
+					<sie_Sie>unterhalten</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>unterhielt</ich>
+					<du>unterhieltst</du>
+					<er_sie_es>unterhielt</er_sie_es>
+					<wir>unterhielten</wir>
+					<ihr>unterhieltet</ihr>
+					<sie_Sie>unterhielten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe unterhalten</ich>
+					<du>hast unterhalten</du>
+					<er_sie_es>hat unterhalten</er_sie_es>
+					<wir>haben unterhalten</wir>
+					<ihr>habt unterhalten</ihr>
+					<sie_Sie>haben unterhalten</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>聊天，谈天，说话</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Karl unterhält sich mit Maria über die Geburtstagsfeier.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

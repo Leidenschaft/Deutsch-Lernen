@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Berufsleben</Stichwort>
+  <Einheit>8</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>das</Genus>
+  <Pluralform>o.Pl.</Pluralform>
+  <GenitivSingular>Berufslebens</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>职业生涯</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Das ist für unser Berufsleben wichtig.</Satz>
+          <Übersetzung>这对我们的职业生涯很重要。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

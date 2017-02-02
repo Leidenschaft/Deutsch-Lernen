@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>betrachten</Stichwort>
+	<Einheit>6</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>betrachte</ich>
+					<du>betrachtest</du>
+					<er_sie_es>betrachtet</er_sie_es>
+					<wir>betrachten</wir>
+					<ihr>betrachtet</ihr>
+					<sie_Sie>betrachten</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>betrachtete</ich>
+					<du>betrachtetest</du>
+					<er_sie_es>betrachtete</er_sie_es>
+					<wir>betrachteten</wir>
+					<ihr>betrachtetet</ihr>
+					<sie_Sie>betrachteten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe betrachtet</ich>
+					<du>hast betrachtet</du>
+					<er_sie_es>hat betrachtet</er_sie_es>
+					<wir>haben betrachtet</wir>
+					<ihr>habt betrachtet</ihr>
+					<sie_Sie>haben betrachtet</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>细看，打量</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Er betrachtet das Zimmer genau.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

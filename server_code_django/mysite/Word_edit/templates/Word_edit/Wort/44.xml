@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Brot</Stichwort>
+  <Einheit>5</Einheit>
+  <Anteil>Einführung</Anteil>
+  <Genus>das</Genus>
+  <Pluralform>Brote</Pluralform>
+  <GenitivSingular/>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Weißbrot</_K>
+      <_K>Wurstbrot</_K>
+      <_K>Marmeladenbrot</_K>
+      <_K>Käsebrot</_K>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>Brot backen</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>面包</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Das Brot ist alt.</Satz>
+          <Übersetzung>这块面包不新鲜了。</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Als Beilagen gelten Gemüse und Salate sowie Brot,Kartoffeln,Nudeln und Reis.</Satz>
+          <Übersetzung>配菜一般指的是蔬菜、沙拉以及面包、土豆、面条、米饭等。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

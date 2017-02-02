@@ -1,0 +1,29 @@
+<html><head><meta charset="utf-8"/><title>Enter your title here</title><style>
+      .img_1
+      {
+      float: right;
+      margin: 1px 20% 10px 1px;
+      }
+    </style><bgsound src="" loop="1" id="BGSOUND"/></head>
+{% load static %} 
+<script type="text/javascript" src="{% static 'Word_edit/jquery-1.9.1.min.js' %}"></script><script type="text/javascript" src="{% static 'Word_edit/BufferSearch.js' %}"></script><body ondblclick="GetSelection()"><h1><span id="stich_wort">Uhr</span> 
+      <span><button type="button" id="edit_btn">编辑</button></span></h1><b><font color="#0000D0">die Uhr </font></b><img src="{% static 'Word_edit/snd_sfx.png'%}" style="margin-bottom:-2px" border="0" id="audioImg"/><b><font color="#DF0101"><i>Substantiv </i></font></b><i>plural:</i><font color="green"><b>Uhren </b></font><i>genetiv:</i><font color="green"><b>Uhr </b></font><div style="display:block;background-color:#f9f4bb;"><span style="color: black;font-weight:bold;"> Unit: 3</span> 
+	 
+	 <span style="color: black;font-weight:bold;"> Part: Text</span> 
+	 </div><table border="1" bgcolor="#D07427" style="border-collapse:collapse;" width="100%"><tr><td><span style="color: #FFFFFF;"><b><font face="&#x4EFF;&#x5B8B;">表，钟</font></b></span></td></tr></table><ex><font color="#2F4F4F">Meine Uhr geht jeden Tag zehn Minuten vor.</font></ex><br/><ex><font color="#59C945" face="&#x4EFF;&#x5B8B;">我的表每天走快十分钟。</font></ex><br/><table border="1" bgcolor="#D07427" style="border-collapse:collapse;" width="100%"><tr><td><span style="color: #FFFFFF;"><b><font face="&#x4EFF;&#x5B8B;">小时</font></b></span></td></tr></table><ex><font color="#2F4F4F">Wir treffen uns gegen elf Uhr.</font></ex><br/><ex><font color="#59C945" face="&#x4EFF;&#x5B8B;">我们十一点左右碰面。</font></ex><br/><img class="img_1" src="&#10;          {% static 'Word_edit/images/160.jpg' %}&#10;          "/><table width="50%" border="0" bgcolor="#697C15"><tr><td><span style="color: #FFFFFF;"><b><font face="&#x4EFF;&#x5B8B;">常用搭配</font></b></span></td></tr></table><font color="saddlebrown">eine wasserdichte Uhr<br/>das Zifferblatt einer Uhr<br/>die Zieger einer Uhr<br/>die Uhr tickt<br/>die Uhr geht vor<br/>die Uhr geht nach<br/>die Uhr geht richtig<br/>die Uhr bleibt stehen<br/>eine Uhr aufziehen<br/>eine Uhr zurückstellen<br/></font><table border="0" bgcolor="#047DB1" width="50%"><tr><td><span style="color: #FFFFFF;"><b><font face="&#x4EFF;&#x5B8B;">合成词</font></b></span></td></tr></table><font color="gray">Armbanduhr   
+	Standuhr   
+	Taschenuhr   
+	Bahnhofsuhr   
+	Kirchenuhr   
+	Turmuhr   
+	Digitaluhr   
+	Eieruhr   
+	Sonnenuhr   
+	Stoppuhr   
+	</font><font color="maroon">Uhrband   
+	Uhrzeiger   
+	Uhrmacher   
+	Uhrwerk   
+	Uhrzeigersinn   
+	Uhrzeit   
+	</font><br/><button id="ClipBoardSearchButton" onclick="BufferSearch()">查询当前剪贴板中的单词</button></body></html>

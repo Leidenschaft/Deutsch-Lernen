@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>fragen</Stichwort>
+	<Einheit>2</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>frage</ich>
+					<du>fragst</du>
+					<er_sie_es>fragt</er_sie_es>
+					<wir>fragen</wir>
+					<ihr>fragt</ihr>
+					<sie_Sie>fragen</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>fragte</ich>
+					<du>fragtest</du>
+					<er_sie_es>fragte</er_sie_es>
+					<wir>fragten</wir>
+					<ihr>fragtet</ihr>
+					<sie_Sie>fragten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gefragt</ich>
+					<du>hast gefragt</du>
+					<er_sie_es>hat gefragt</er_sie_es>
+					<wir>haben gefragt</wir>
+					<ihr>habt gefragt</ihr>
+					<sie_Sie>haben gefragt</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+        <hierzu category="Substantiv" link="104.xml">Frage</hierzu>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+      <K>nach dem Weg fragen</K>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>问，打听</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Der Lehrer fragt Wang Hongliang.</Satz>
+            <Übersetzung>老师问王洪亮问题。</Übersetzung>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

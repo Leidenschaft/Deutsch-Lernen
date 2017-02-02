@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>sitzen</Stichwort>
+	<Einheit>6</Einheit>
+	<Anteil>Übungen</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>sitze</ich>
+					<du>sitzt</du>
+					<er_sie_es>sitzt</er_sie_es>
+					<wir>sitzen</wir>
+					<ihr>sitzt</ihr>
+					<sie_Sie>sitzen</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>saß</ich>
+					<du>saßest</du>
+					<er_sie_es>saß</er_sie_es>
+					<wir>saßen</wir>
+					<ihr>saßet</ihr>
+					<sie_Sie>saßen</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gesessen</ich>
+					<du>hast gesessen</du>
+					<er_sie_es>hat gesessen</er_sie_es>
+					<wir>haben gesessen</wir>
+					<ihr>habt gesessen</ihr>
+					<sie_Sie>haben gesessen</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>坐，坐着</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Du sitzt immer vor den Fernseher.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

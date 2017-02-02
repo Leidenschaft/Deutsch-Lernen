@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>meinen</Stichwort>
+	<Einheit>4</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>meine</ich>
+					<du>meinst</du>
+					<er_sie_es>meint</er_sie_es>
+					<wir>meinen</wir>
+					<ihr>meint</ihr>
+					<sie_Sie>meinen</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>meinte</ich>
+					<du>meintest</du>
+					<er_sie_es>meinte</er_sie_es>
+					<wir>meinten</wir>
+					<ihr>meintet</ihr>
+					<sie_Sie>meinten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gemeint</ich>
+					<du>hast gemeint</du>
+					<er_sie_es>hat gemeint</er_sie_es>
+					<wir>haben gemeint</wir>
+					<ihr>habt gemeint</ihr>
+					<sie_Sie>haben gemeint</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>认为，觉得，指</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Meinst du die blaue?</Satz>
+					<Übersetzung/>
+					</Beispiel>
+            <Beispiel>
+              <Satz>Machen wir eine Pause? Was meinst du dazu?</Satz>
+              <Übersetzung/>
+            </Beispiel>
+
+          </BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

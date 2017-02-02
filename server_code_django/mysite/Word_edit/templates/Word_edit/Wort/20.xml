@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Auto</Stichwort>
+  <Einheit>3</Einheit>
+  <Anteil>Übungen</Anteil>
+  <Genus>das</Genus>
+  <Pluralform>Autos</Pluralform>
+  <GenitivSingular/>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Polizeiauto</_K>
+      <K_>Autofahrer</K_>
+      <K_>Autoschlüssel</K_>
+      <K_>Autoindustrie</K_>
+      <_K>Kleinauto</_K>
+      <K_>Autobus</K_>
+      <_K>Personenauto</_K>
+    </KompositaCollection>
+    <abgeleiteteWörter>
+      <hierzu category="Substantiv">Autofahren</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe>
+    <Sym>Fahrzeug</Sym>
+  </Synonymegruppe>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>mit dem Auto fahren</K>
+    <K>ein Auto haben</K>
+    <K>mit dem Auto unterwegs sein</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>小汔车</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Das sind Autos aus Deutschland.</Satz>
+          <Übersetzung>这是外国产的汽车。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<Stichwort Audio="true">Lage</Stichwort>
+<Einheit>6</Einheit>
+<Anteil>Hörverstehen</Anteil>
+<Genus>die</Genus>
+<Pluralform>Lagen</Pluralform>
+<GenitivSingular/>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K/>
+		<K_/>
+	</KompositaCollection>
+	<abgeleiteteWörter/></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym/>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>位置</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Wie ist die Lage?</Satz>
+				<Übersetzung>这地方在哪?</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Er liegt im Haus in sonniger Lage.</Satz>
+				<Übersetzung>他住在向阳的房子里。</Übersetzung>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Entry>

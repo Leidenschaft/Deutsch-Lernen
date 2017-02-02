@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<Stichwort Audio="true">Paradies</Stichwort>
+<Einheit>10</Einheit>
+<Anteil>Leseverstehen</Anteil>
+<Genus>das</Genus>
+<Pluralform>Paradiese</Pluralform>
+<GenitivSingular/>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K link="230.xml">Kinderparadies</_K>
+		<_K link="95.xml">Ferienparadies</_K>
+		<_K link="164.xml">Urlaubsparadies</_K>
+		<K_/>
+	</KompositaCollection>
+	<abgeleiteteWörter><hierzu category="Adjektiv">paradiesisch</hierzu></abgeleiteteWörter></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym/>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K link="164.xml">ein Paradies für Urlauber</K>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>天堂</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Man nennt die Stadt Hangzhou,,das Praradies auf Erden''.</Satz>
+				<Übersetzung>人们称杭州是人间天堂。</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Adam und Eva leben im Paradies zusammen.</Satz>
+				<Übersetzung>亚当和夏娃一起生活在天堂。</Übersetzung>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Entry>

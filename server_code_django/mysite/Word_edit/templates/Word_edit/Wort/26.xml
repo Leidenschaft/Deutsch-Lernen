@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Bauch</Stichwort>
+  <Einheit>9</Einheit>
+  <Anteil>Einführung</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>Bäuche</Pluralform>
+  <GenitivSingular>Bauches</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <K_>Bauchschmerzen</K_>
+      <K_>Bauchtanz</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>einen leeren Bauch haben</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>肚子</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Das Kind schläft gern auf dem Bauch.</Satz>
+          <Übersetzung>这个孩子喜欢趴着睡觉。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>krankschreiben</Stichwort>
+	<Einheit>9</Einheit>
+	<Anteil>Übungen</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>schreibe krank</ich>
+					<du>schreibst krank</du>
+					<er_sie_es>schreibt krank</er_sie_es>
+					<wir>schreiben krank</wir>
+					<ihr>schreibt krank</ihr>
+					<sie_Sie>schreiben krank</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>schrieb krank</ich>
+					<du>schriebst krank</du>
+					<er_sie_es>schrieb krank</er_sie_es>
+					<wir>schrieben krank</wir>
+					<ihr>schriebt krank</ihr>
+					<sie_Sie>schrieben krank</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe krankgeschrieben</ich>
+					<du>hast krankgeschrieben</du>
+					<er_sie_es>hat krankgeschrieben</er_sie_es>
+					<wir>haben krankgeschrieben</wir>
+					<ihr>habt krankgeschrieben</ihr>
+					<sie_Sie>haben krankgeschrieben</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>开病假证明</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Ich schreibe Sie krank.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

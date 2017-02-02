@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>ablehnen</Stichwort>
+	<Einheit>4</Einheit>
+	<Anteil>Intentionen</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>lehne ab</ich>
+					<du>lehnst ab</du>
+					<er_sie_es>lehnt ab</er_sie_es>
+					<wir>lehnen ab</wir>
+					<ihr>lehnt ab</ihr>
+					<sie_Sie>lehnen ab</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>lehnte ab</ich>
+					<du>lehntest ab</du>
+					<er_sie_es>lehnte ab</er_sie_es>
+					<wir>lehnten ab</wir>
+					<ihr>lehntet ab</ihr>
+					<sie_Sie>lehnten ab</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe abgelehnt</ich>
+					<du>hast abgelehnt</du>
+					<er_sie_es>hat abgelehnt</er_sie_es>
+					<wir>haben abgelehnt</wir>
+					<ihr>habt abgelehnt</ihr>
+					<sie_Sie>haben abgelehnt</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>拒绝</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz/>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

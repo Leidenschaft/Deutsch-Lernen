@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Verwandte</Stichwort>
+  <Einheit>4</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>Verwandten</Pluralform>
+  <GenitivSingular>Verwandten</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Verwandtenbesuch</_K>
+      <_K>Verwandtenkreis</_K>
+    </KompositaCollection>
+    <abgeleiteteWörter>
+      <hierzu category="Verben">verwandeln</hierzu>
+      <hierzu category="Adjektiv">vverwandt</hierzu>
+      <hierzu category="Substantiv">Verwandtschaft</hierzu>
+      <hierzu category="Adjektiv">Verwandtschaftlich</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>ein Verwandter</K>
+    <K>der Verwandte</K>
+    <K>den Verwandten</K>
+    <K>dem Verwandten</K>
+    <K>des Verwandten</K>
+    <K>ein enger Verwandter von jm.</K>
+    <K>ein weitläufiger Verwandter</K>
+    <K>den Verwandten besuchen</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>亲戚，亲属</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Ich halte mich in den USA, bei Verwandten auf.</Satz>
+          <Übersetzung>我正在美国的亲戚处逗留。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>
+

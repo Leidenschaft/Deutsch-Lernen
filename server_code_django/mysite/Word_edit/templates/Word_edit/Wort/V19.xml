@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>spielen</Stichwort>
+	<Einheit>2</Einheit>
+	<Anteil>Öbungen</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>spiele</ich>
+					<du>spielst</du>
+					<er_sie_es>spielt</er_sie_es>
+					<wir>spielen</wir>
+					<ihr>spielt</ihr>
+					<sie_Sie>spielen</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>spielte</ich>
+					<du>spieltest</du>
+					<er_sie_es>spielte</er_sie_es>
+					<wir>spielten</wir>
+					<ihr>spieltet</ihr>
+					<sie_Sie>spielten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gespielt</ich>
+					<du>hast gespielt</du>
+					<er_sie_es>hat gespielt</er_sie_es>
+					<wir>haben gespielt</wir>
+					<ihr>habt gespielt</ihr>
+					<sie_Sie>haben gespielt</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+      <K>Schache spielen (下国际象棋)</K>
+      <K>Fußball spielen</K>
+      <K>die Hauptrolle spielen (扮演主角)</K>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>玩，比赛</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Was spielen wir jetzt?</Satz>
+            <Übersetzung>我们现在玩什么?</Übersetzung>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>haben</Stichwort>
+	<Einheit>3</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>habe</ich>
+					<du>hast</du>
+					<er_sie_es>hat</er_sie_es>
+					<wir>haben</wir>
+					<ihr>habt</ihr>
+					<sie_Sie>haben</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>hatte</ich>
+					<du>hattest</du>
+					<er_sie_es>hatte</er_sie_es>
+					<wir>hatten</wir>
+					<ihr>hattet</ihr>
+					<sie_Sie>hatten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gehabt</ich>
+					<du>hast gehabt</du>
+					<er_sie_es>hat gehabt</er_sie_es>
+					<wir>haben gehabt</wir>
+					<ihr>habt gehabt</ihr>
+					<sie_Sie>haben gehabt</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+      <K>mit jemandem Streit haben</K>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>有，得到</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Hast du am Nachmittag auch Unterricht?</Satz>
+            <Übersetzung>你下午还有课吗?</Übersetzung>
+					</Beispiel>
+            <Beispiel>
+              <Satz>Ein Mensch des Reiches Qi hat eine Frau und eine Konkubine zu Hause. </Satz>
+              <Übersetzung>齐人有一妻一妾而处室者。</Übersetzung>
+            </Beispiel>
+            <Beispiel>
+              <Satz>Die Jugend haben noch ihr ganzes Leben vor ihnen.</Satz>
+              <Übersetzung>青年的人生之路还很长。</Übersetzung>
+            </Beispiel>
+            <Beispiel>
+              <Satz>--Hast du nichts zu tun? --Ich habe viel zu tun.</Satz>
+              <Übersetzung>--你没事可做吗？ --我有很多事要做。</Übersetzung>
+            </Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

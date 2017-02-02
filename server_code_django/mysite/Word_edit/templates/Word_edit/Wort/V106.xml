@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>gratulieren</Stichwort>
+	<Einheit>7</Einheit>
+	<Anteil>Intentionen</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>gratuliere</ich>
+					<du>gratulierst</du>
+					<er_sie_es>gratuliert</er_sie_es>
+					<wir>gratulieren</wir>
+					<ihr>gratuliert</ihr>
+					<sie_Sie>gratulieren</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>gratulierte</ich>
+					<du>gratuliertest</du>
+					<er_sie_es>gratulierte</er_sie_es>
+					<wir>gratulierten</wir>
+					<ihr>gratuliertet</ihr>
+					<sie_Sie>gratulierten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gratuliert</ich>
+					<du>hast gratuliert</du>
+					<er_sie_es>hat gratuliert</er_sie_es>
+					<wir>haben gratuliert</wir>
+					<ihr>habt gratuliert</ihr>
+					<sie_Sie>haben gratuliert</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>祝贺，庆贺</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Ich gratuliere Ihnen herzlich zum Geburtstag!</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

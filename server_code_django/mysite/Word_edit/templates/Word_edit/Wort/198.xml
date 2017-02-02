@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Wörterbuch</Stichwort>
+  <Einheit>7</Einheit>
+  <Anteil>Hörverstehen</Anteil>
+  <Genus>das</Genus>
+  <Pluralform>Wörterbücher</Pluralform>
+  <GenitivSingular>Wörterbuch(e)s</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>ein zweisprachiges Wörterbuch</K>
+    <K>ein deutsch-italienisches Wörterbuch</K>
+    <K>ein medizinisches Wörterbuch</K>
+    <K>etwas in einem Wörterbuch nachschlagen</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>词典，字典</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Die Schüler müssen den Gebrauch eines Wörterbuches üben.</Satz>
+          <Übersetzung>中小学生必须训练运用词典。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

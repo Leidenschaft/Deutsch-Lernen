@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<Stichwort Audio="true">Monat</Stichwort>
+<Einheit>6</Einheit>
+<Anteil>Text</Anteil>
+<Genus>der</Genus>
+<Pluralform>Monate</Pluralform>
+<GenitivSingular>Monats</GenitivSingular>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K>Frühlingsmonat(孟春)</_K>
+		<K_>Monatsbeginn</K_>
+		<K_>Monatsende</K_>
+	</KompositaCollection>
+	<abgeleiteteWörter/></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym/>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K/>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>月份</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Ein Jahr hat zwölf Monate.</Satz>
+				<Übersetzung>一年有12个月。</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Ihr Sohn ist jetzt vier Monate alt.</Satz>
+				<Übersetzung>她的儿子现在四个月大。</Übersetzung>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Entry>

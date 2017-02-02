@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<Stichwort Audio="true">Tür</Stichwort>
+<Einheit>1</Einheit>
+<Anteil>3</Anteil>
+<Genus>die</Genus>
+<Pluralform>Türen</Pluralform>
+<GenitivSingular/>
+<zusammengesetzteWörter>
+<KompositaCollection>
+<K_>Türklingel</K_>
+<K_>Türschloss</K_>
+<_K link="116.xml">Gartentür</_K>
+<_K link="238.xml">Haustür</_K>
+<_K link="342.xml">Ofentür</_K>
+<_K link="395.xml">Schranktür</_K>
+<_K link="196.xml">Wohnungstür</_K>
+<_K link="208.xml">Zimmertür</_K>
+
+</KompositaCollection>
+<abgeleiteteWörter/>
+</zusammengesetzteWörter>
+<Synonymegruppe/>
+<Antonymegruppe/>
+<Kollokationen/>
+<AllgemeineErläuterungen>
+<Eintrag>
+<Chinesisch>门</Chinesisch>
+<BeispielSammlung>
+<Beispiel>
+<Satz>Das ist eine Tür.</Satz>
+<Übersetzung>这是一扇门。</Übersetzung>
+</Beispiel>
+</BeispielSammlung>
+</Eintrag>
+</AllgemeineErläuterungen>
+</Entry>

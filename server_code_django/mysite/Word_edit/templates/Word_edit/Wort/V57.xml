@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>reisen</Stichwort>
+	<Einheit>4</Einheit>
+	<Anteil>Leseverstehen</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>reise</ich>
+					<du>reist</du>
+					<er_sie_es>reist</er_sie_es>
+					<wir>reisen</wir>
+					<ihr>reist</ihr>
+					<sie_Sie>reisen</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>reiste</ich>
+					<du>reistest</du>
+					<er_sie_es>reiste</er_sie_es>
+					<wir>reisten</wir>
+					<ihr>reistet</ihr>
+					<sie_Sie>reisten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gereist</ich>
+					<du>hast gereist</du>
+					<er_sie_es>hat gereist</er_sie_es>
+					<wir>haben gereist</wir>
+					<ihr>habt gereist</ihr>
+					<sie_Sie>haben gereist</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>旅行</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Er reist viel</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

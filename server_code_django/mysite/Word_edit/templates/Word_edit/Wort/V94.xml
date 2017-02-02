@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>parken</Stichwort>
+	<Einheit>6</Einheit>
+	<Anteil>Übungen</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>parke</ich>
+					<du>parkst</du>
+					<er_sie_es>parkt</er_sie_es>
+					<wir>parken</wir>
+					<ihr>parkt</ihr>
+					<sie_Sie>parken</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>parkte</ich>
+					<du>parktest</du>
+					<er_sie_es>parkte</er_sie_es>
+					<wir>parkten</wir>
+					<ihr>parktet</ihr>
+					<sie_Sie>parkten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe geparkt</ich>
+					<du>hast geparkt</du>
+					<er_sie_es>hat geparkt</er_sie_es>
+					<wir>haben geparkt</wir>
+					<ihr>habt geparkt</ihr>
+					<sie_Sie>haben geparkt</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>停放</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Kann man da parken?</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

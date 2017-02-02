@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>bemerken</Stichwort>
+	<Einheit>10</Einheit>
+	<Anteil>Hörverstehen</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>bemerke</ich>
+					<du>bemerkst</du>
+					<er_sie_es>bemerkt</er_sie_es>
+					<wir>bemerken</wir>
+					<ihr>bemerkt</ihr>
+					<sie_Sie>bemerken</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>bemerkte</ich>
+					<du>bemerktest</du>
+					<er_sie_es>bemerkte</er_sie_es>
+					<wir>bemerkten</wir>
+					<ihr>bemerktet</ihr>
+					<sie_Sie>bemerkten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe bemerkt</ich>
+					<du>hast bemerkt</du>
+					<er_sie_es>hat bemerkt</er_sie_es>
+					<wir>haben bemerkt</wir>
+					<ihr>habt bemerkt</ihr>
+					<sie_Sie>haben bemerkt</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>看到，察觉</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Erst an der Kasse im Supermarkt habe ich bemerkt,dass ich unterwegs mein Geld verloren habe.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

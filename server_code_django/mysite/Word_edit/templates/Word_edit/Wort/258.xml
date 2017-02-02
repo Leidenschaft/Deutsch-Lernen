@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort>Internetanschluss</Stichwort>
+  <Einheit>6</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>Internetanschlüsse</Pluralform>
+  <GenitivSingular>Internetanschlusses</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>网络接口</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>In der Mietwohnung gibt es schon Internetanschlüsse.</Satz>
+          <Übersetzung>在租用的住宅里可以上网。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>
+

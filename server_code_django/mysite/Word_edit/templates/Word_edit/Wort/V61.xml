@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>schmecken</Stichwort>
+	<Einheit>5</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>schmecke</ich>
+					<du>schmeckst</du>
+					<er_sie_es>schmeckt</er_sie_es>
+					<wir>schmecken</wir>
+					<ihr>schmeckt</ihr>
+					<sie_Sie>schmecken</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>schmeckte</ich>
+					<du>schmecktest</du>
+					<er_sie_es>schmeckte</er_sie_es>
+					<wir>schmeckten</wir>
+					<ihr>schmecktet</ihr>
+					<sie_Sie>schmeckten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe geschmeckt</ich>
+					<du>hast geschmeckt</du>
+					<er_sie_es>hat geschmeckt</er_sie_es>
+					<wir>haben geschmeckt</wir>
+					<ihr>habt geschmeckt</ihr>
+					<sie_Sie>haben geschmeckt</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>有滋味，有（好）味道</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Mir schmeckt das Rindersteak auch sehr gut.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

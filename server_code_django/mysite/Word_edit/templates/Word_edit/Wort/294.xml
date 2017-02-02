@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<Stichwort Audio="true">Löwe</Stichwort>
+<Einheit>1</Einheit>
+<Anteil>3</Anteil>
+<Genus>die</Genus>
+<Pluralform>Löwen</Pluralform>
+<GenitivSingular/>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K/>
+		<K_/>
+	</KompositaCollection>
+	<abgeleiteteWörter/></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym/>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K/>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>狮子</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Das ist ein Löwe.</Satz>
+				<Übersetzung>这是一头狮子。</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Die Proletarier kämpfen wie Löwen gehen die Bourgeoise.</Satz>
+				<Übersetzung>无产阶级猛烈地抗争着资产阶级的统治。</Übersetzung>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Entry>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<Stichwort Audio="true">Miete</Stichwort>
+<Einheit>6</Einheit>
+<Anteil>Text</Anteil>
+<Genus>die</Genus>
+<Pluralform>Mieten</Pluralform>
+<GenitivSingular/>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K link="196.xml">Wohnungsmiete</_K>
+		<_K link="238.xml">Hausmiete</_K>
+		<K_ link="320.xml">Monatsmiete</K_>
+	</KompositaCollection>
+	<abgeleiteteWörter/></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym/>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K/>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>租金</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Wie hoch ist die Miete?</Satz>
+				<Übersetzung>租金是多少?</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Im Campus gibt es viele Mieteräder, für Touristen zu mieten.</Satz>
+				<Übersetzung>在校园里有很多游客可以租用的自行车。</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Sie bezahlen monatlich 500 Euro Mieter für ihre Wohnung.</Satz>
+				<Übersetzung>他们每月花500欧元付房租。</Übersetzung>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Entry>

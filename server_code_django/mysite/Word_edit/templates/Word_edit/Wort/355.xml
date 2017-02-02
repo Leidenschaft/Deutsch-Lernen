@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<Stichwort Audio="true">Pass</Stichwort>
+<Einheit>1</Einheit>
+<Anteil>2</Anteil>
+<Genus>der</Genus>
+<Pluralform>Pässe</Pluralform>
+<GenitivSingular/>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K link="380.xml">Reisepass</_K>
+		<K_/>
+	</KompositaCollection>
+	<abgeleiteteWörter/></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym/>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K/>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>护照</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Hier sind zwei Pässe.</Satz>
+				<Übersetzung>这儿有两本护照。</Übersetzung>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+<Comment>Pass 还有险峰之间的通路的意思，如何给出一句有一定意境的传统诗文的例句？</Comment>
+</Entry>

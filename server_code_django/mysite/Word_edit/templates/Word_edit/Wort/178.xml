@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Vorspeise</Stichwort>
+  <Einheit>4</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>Vorspeisen</Pluralform>
+  <GenitivSingular>Vorspeise</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe>
+    <Anm>Nachspeise</Anm>
+  </Antonymegruppe>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>餐前小吃</Chinesisch>
+      <BeispielSammlung/>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

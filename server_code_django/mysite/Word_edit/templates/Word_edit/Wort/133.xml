@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Glückwunsch</Stichwort>
+  <Einheit>7</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>Glückwünsche</Pluralform>
+  <GenitivSingular>Glückwünschs</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe>
+    <Sym>Gratulation</Sym>
+  </Synonymegruppe>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>jemandem die besten Glückwünsche senden</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>祝贺</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Herzlichen Glückwunsch zum Geburtstag!</Satz>
+          <Übersetzung>祝生日快乐!</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

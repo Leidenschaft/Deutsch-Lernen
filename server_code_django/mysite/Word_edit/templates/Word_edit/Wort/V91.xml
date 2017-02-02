@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>tippen</Stichwort>
+	<Einheit>6</Einheit>
+	<Anteil>Übungen</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>tippe</ich>
+					<du>tippst</du>
+					<er_sie_es>tippt</er_sie_es>
+					<wir>tippen</wir>
+					<ihr>tippt</ihr>
+					<sie_Sie>tippen</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>tippte</ich>
+					<du>tipptest</du>
+					<er_sie_es>tippte</er_sie_es>
+					<wir>tippten</wir>
+					<ihr>tipptet</ihr>
+					<sie_Sie>tippten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe getippt</ich>
+					<du>hast getippt</du>
+					<er_sie_es>hat getippt</er_sie_es>
+					<wir>haben getippt</wir>
+					<ihr>habt getippt</ihr>
+					<sie_Sie>haben getippt</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>打字</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Sie tippt stundenlang.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

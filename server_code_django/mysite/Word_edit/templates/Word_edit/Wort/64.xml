@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Doktor</Stichwort>
+  <Einheit>6</Einheit>
+  <Anteil>Intentionen</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>Doktoren</Pluralform>
+  <GenitivSingular/>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <K_>Doktorexamen</K_>
+      <K_>Doktortitel</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe>
+    <Sym>Arzt</Sym>
+  </Synonymegruppe>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>den Doktor machen</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>医生</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Herr Doktor,muss ich noch im Bett liegen?</Satz>
+          <Übersetzung>请问大夫，我只能卧床休息吗？</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>博士</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Ich will den Doktor der Mathematik machen.</Satz>
+          <Übersetzung>我想读数学博士。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

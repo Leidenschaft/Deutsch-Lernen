@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>nachsehen</Stichwort>
+	<Einheit>7</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>sehe nach</ich>
+					<du>siehst nach</du>
+					<er_sie_es>sieht nach</er_sie_es>
+					<wir>sehen nach</wir>
+					<ihr>seht nach</ihr>
+					<sie_Sie>sehen nach</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>sah nach</ich>
+					<du>sah(e)st nach</du>
+					<er_sie_es>sah nach</er_sie_es>
+					<wir>sahen nach</wir>
+					<ihr>saht nach</ihr>
+					<sie_Sie>sahen nach</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe nachgesehen</ich>
+					<du>hast nachgesehen</du>
+					<er_sie_es>hat nachgesehen</er_sie_es>
+					<wir>haben nachgesehen</wir>
+					<ihr>habt nachgesehen</ihr>
+					<sie_Sie>haben nachgesehen</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>查看，审阅</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Sehen Sie mal nach, wie viel sie kostet!</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

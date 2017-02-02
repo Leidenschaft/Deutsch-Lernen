@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<Stichwort Audio="true">Passant</Stichwort>
+<Einheit>10</Einheit>
+<Anteil>Text</Anteil>
+<Genus>der</Genus>
+<Pluralform>Passanten</Pluralform>
+<GenitivSingular/>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K/>
+		<K_/>
+	</KompositaCollection>
+	<abgeleiteteWörter><hierzu category="Substantiv">Passantin</hierzu> </abgeleiteteWörter></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym/>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K/>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>行人</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Der erste Passant kann Frau Wang nicht helfen.</Satz>
+				<Übersetzung>第一位过路者帮不上王女士什么忙。</Übersetzung>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Entry>

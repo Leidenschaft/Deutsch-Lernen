@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<Stichwort Audio="true">Kurs</Stichwort>
+<Einheit>8</Einheit>
+<Anteil>Hörverstehen</Anteil>
+<Genus>der</Genus>
+<Pluralform>Kurse</Pluralform>
+<GenitivSingular>Kurses</GenitivSingular>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<K_ link="420.xml">Sprachkurs</K_>
+		<K_ link="76.xml">Englischkurs</K_>
+	</KompositaCollection>
+	<abgeleiteteWörter/></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym/>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K/>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>培训班</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Sie besucht gerade einen Fotokurs.</Satz>
+				<Übersetzung>她刚上了摄影课。</Übersetzung>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Entry>

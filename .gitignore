@@ -2,7 +2,10 @@
 Wort/NounRenderTemplate.xslt
 #ignore Untracked.txt
 Untracked.txt
-server_code_django/*
+server_code_django/mysite/classGame/*
+server_code_django/mysite/classGame/polls/*
+server_code_django/mysite/Word_edit/**/_pycache_
+server_code_django/mysite/*.xml
 server_code_django.zip
 **/Wort_html_for_desktop.zip
 Wort_html/

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>begrüßen</Stichwort>
+	<Einheit>1</Einheit>
+	<Anteil>Intentionen</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>begrüße</ich>
+					<du>begrüßt</du>
+					<er_sie_es>begrüßt</er_sie_es>
+					<wir>begrüßen</wir>
+					<ihr>begrüßt</ihr>
+					<sie_Sie>begrüßen</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>begrüßte</ich>
+					<du>begrüßtest</du>
+					<er_sie_es>begrüßte</er_sie_es>
+					<wir>begrüßten</wir>
+					<ihr>begrüßtet</ihr>
+					<sie_Sie>begrüßten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe begrüßt</ich>
+					<du>hast begrüßt</du>
+					<er_sie_es>hat begrüßt</er_sie_es>
+					<wir>haben begrüßt</wir>
+					<ihr>habt begrüßt</ihr>
+					<sie_Sie>haben begrüßt</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>欢迎，向……问候</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Frau Li begrüßt die Studenten.</Satz>
+            <Übersetzung>李女士欢迎她的学生。</Übersetzung>
+					</Beispiel>
+
+          </BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

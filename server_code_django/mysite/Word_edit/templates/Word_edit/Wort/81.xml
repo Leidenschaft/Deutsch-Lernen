@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Etage</Stichwort>
+  <Einheit>7</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>Etagen</Pluralform>
+  <GenitivSingular>Etage</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <K_>Etagenheizung</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>楼层</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>In der ersten Etage von Supermarkt findet man Mützen.</Satz>
+          <Übersetzung>在超市的第一层可以找到帽子。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

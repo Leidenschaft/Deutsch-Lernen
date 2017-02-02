@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort Band="2">beschreiben</Stichwort>
+	<Einheit>1</Einheit>
+	<Anteil>Einfürung</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>beschreibe</ich>
+					<du>beschreibst</du>
+					<er_sie_es>beschreibt</er_sie_es>
+					<wir>beschreiben</wir>
+					<ihr>beschreibt</ihr>
+					<sie_Sie>beschreiben</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>beschrieb</ich>
+					<du>beschriebst</du>
+					<er_sie_es>beschrieb</er_sie_es>
+					<wir>beschrieben</wir>
+					<ihr>beschriebt</ihr>
+					<sie_Sie>beschrieben</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe beschrieben</ich>
+					<du>hast beschrieben</du>
+					<er_sie_es>hat beschrieben</er_sie_es>
+					<wir>haben beschrieben</wir>
+					<ihr>habt beschrieben</ihr>
+					<sie_Sie>haben beschrieben</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>描述，描绘</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Können Sie den Mann mal beschreiben?</Satz>
+            <Übersetzung>您能再描述一遍那个人吗?</Übersetzung>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

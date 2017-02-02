@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Campingplatz</Stichwort>
+  <Einheit>8</Einheit>
+  <Anteil>Leseverstehen</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>Campingplätze</Pluralform>
+  <GenitivSingular>Campingplatzes</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>宿营地</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Ist hier in der Nähe ein Campingplatz?</Satz>
+          <Übersetzung>这附近有宿营地吗？</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

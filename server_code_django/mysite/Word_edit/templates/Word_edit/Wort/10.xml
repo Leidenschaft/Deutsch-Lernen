@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Apotheke</Stichwort>
+  <Einheit>9</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>o.Pl.</Pluralform>
+  <GenitivSingular>Apothekes</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter>
+      <hierzu category="Substantiv">Apotheker</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>chinesische Apotheke</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>药店</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Er holt sich Medikamente aus der Apotheke.</Satz>
+          <Übersetzung>他从药店那买了药。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

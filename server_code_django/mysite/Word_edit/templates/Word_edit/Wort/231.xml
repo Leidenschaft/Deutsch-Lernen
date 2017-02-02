@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Hals</Stichwort>
+  <Einheit>9</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>Hälse</Pluralform>
+  <GenitivSingular>Halses</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Flaschenhals (瓶口)</_K>
+      <K_>Halstuch (围巾)</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>den Hals streken (伸长脖子)</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>脖子</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Wegen des kalten Wetter habe ich michein Tuch um meinen Hals gelegt.</Satz>
+          <Übersetzung>由于天气寒冷我戴上了围脖。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+    <Eintrag>
+      <Chinesisch>喉咙</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Die Gräte bleibt mir im Hals stecken.</Satz>
+          <Übersetzung>我让鱼骨卡住了。</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Mein Hals tut mir weh.</Satz>
+          <Übersetzung>我喉咙痛。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

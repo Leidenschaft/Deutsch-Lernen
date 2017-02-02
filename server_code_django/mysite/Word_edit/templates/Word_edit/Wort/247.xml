@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Hobby</Stichwort>
+  <Einheit>2</Einheit>
+  <Anteil>Leseverstehen</Anteil>
+  <Genus>das</Genus>
+  <Pluralform>Hobbys</Pluralform>
+  <GenitivSingular>Hobbys</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>业余爱好</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Meine Hobbys sind Lesen und Fußballspielen.</Satz>
+          <Übersetzung>我的爱好是看书和踢球。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

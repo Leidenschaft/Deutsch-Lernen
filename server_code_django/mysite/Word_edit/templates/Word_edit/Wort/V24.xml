@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>essen</Stichwort>
+	<Einheit>3</Einheit>
+	<Anteil>Einfürung</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>esse</ich>
+					<du>ißt</du>
+					<er_sie_es>ißt</er_sie_es>
+					<wir>essen</wir>
+					<ihr>eßt</ihr>
+					<sie_Sie>essen</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>aß</ich>
+					<du>aßest</du>
+					<er_sie_es>aß</er_sie_es>
+					<wir>aßen</wir>
+					<ihr>aßt</ihr>
+					<sie_Sie>aßen</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gegessen</ich>
+					<du>hast gegessen</du>
+					<er_sie_es>hat gegessen</er_sie_es>
+					<wir>haben gegessen</wir>
+					<ihr>habt gegessen</ihr>
+					<sie_Sie>haben gegessen</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+        <hierzu category="Substantiv">Essen</hierzu>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+      <K>im Restaurant essen</K>
+      <K>zu Abend essen</K>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>吃</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Martin isst gern Eis.</Satz>
+            <Übersetzung>马丁喜欢吃冰淇淋。</Übersetzung>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

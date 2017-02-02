@@ -1,0 +1,17 @@
+<html><head><meta charset="utf-8"/><title>Enter your title here</title><style>
+      .img_1
+      {
+      float: right;
+      margin: 1px 20% 10px 1px;
+      }
+    </style><bgsound src="" loop="1" id="BGSOUND"/></head>
+{% load static %} 
+<script type="text/javascript" src="{% static 'Word_edit/jquery-1.9.1.min.js' %}"></script><script type="text/javascript" src="{% static 'Word_edit/BufferSearch.js' %}"></script><body ondblclick="GetSelection()"><h1><span id="stich_wort">Auskunft</span> 
+      <span><button type="button" id="edit_btn">编辑</button></span></h1><b><font color="#0000D0">die Auskunft </font></b><img src="{% static 'Word_edit/snd_sfx.png'%}" style="margin-bottom:-2px" border="0" id="audioImg"/><b><font color="#DF0101"><i>Substantiv </i></font></b><i>plural:</i><font color="green"><b>Auskünfte </b></font><i>genetiv:</i><font color="green"><b>Auskünft </b></font><div style="display:block;background-color:#f9f4bb;"><span style="color: black;font-weight:bold;"> Unit: 10</span> 
+	 
+	 <span style="color: black;font-weight:bold;"> Part: Text</span> 
+	 </div><table border="1" bgcolor="#D07427" style="border-collapse:collapse;" width="100%"><tr><td><span style="color: #FFFFFF;"><b><font face="&#x4EFF;&#x5B8B;">问讯处</font></b></span></td></tr></table><ex><font color="#2F4F4F">Bei der Auskunft kann man Informationen bekommen.</font></ex><br/><ex><font color="#59C945" face="&#x4EFF;&#x5B8B;">在问讯处人们能得到所需的信息。</font></ex><br/><ex><font color="#2F4F4F">Sie hat bei der Auskunft am Bahnhof nach dem Zug gefragt.</font></ex><br/><ex><font color="#59C945" face="&#x4EFF;&#x5B8B;">她在地铁站的问讯处问了地铁的情况。</font></ex><br/><table border="1" bgcolor="#D07427" style="border-collapse:collapse;" width="100%"><tr><td><span style="color: #FFFFFF;"><b><font face="&#x4EFF;&#x5B8B;">信息</font></b></span></td></tr></table><ex><font color="#2F4F4F">Ich bitte ihn um eine Auskunft über den Weg.</font></ex><br/><ex><font color="#59C945" face="&#x4EFF;&#x5B8B;">我向他问路。</font></ex><br/><table width="100%" border="0" bgcolor="#697C15"><tr><td><span style="color: #FFFFFF;"><b><font face="&#x4EFF;&#x5B8B;">常用搭配</font></b></span></td></tr></table><font color="saddlebrown">die Auskunft anrufen<br/></font><table border="0" bgcolor="#047DB1" width="100%"><tr><td><span style="color: #FFFFFF;"><b><font face="&#x4EFF;&#x5B8B;">合成词</font></b></span></td></tr></table><font color="gray"/><font color="maroon">Zugauskunft   
+	Telefonauskunft   
+	</font><table border="0" bgcolor="#047DB1" width="100%"><tr><td><span style="color: #FFFFFF;"><b><font face="&#x4EFF;&#x5B8B;">同义词</font></b></span></td></tr></table><font color="saddlebrown">
+	▪Information 
+	▪Antwort </font><br/><button id="ClipBoardSearchButton" onclick="BufferSearch()">查询当前剪贴板中的单词</button></body></html>

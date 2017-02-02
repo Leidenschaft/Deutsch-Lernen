@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>untersuchen</Stichwort>
+	<Einheit>9</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>untersuche</ich>
+					<du>untersuchst</du>
+					<er_sie_es>untersucht</er_sie_es>
+					<wir>untersuchen</wir>
+					<ihr>untersucht</ihr>
+					<sie_Sie>untersuchen</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>untersuchte</ich>
+					<du>untersuchtest</du>
+					<er_sie_es>untersuchte</er_sie_es>
+					<wir>untersuchten</wir>
+					<ihr>untersuchtet</ihr>
+					<sie_Sie>untersuchten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe untersucht</ich>
+					<du>hast untersucht</du>
+					<er_sie_es>hat untersucht</er_sie_es>
+					<wir>haben untersucht</wir>
+					<ihr>habt untersucht</ihr>
+					<sie_Sie>haben untersucht</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>检查，调查</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Der Arzt untersucht Frau Müller.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

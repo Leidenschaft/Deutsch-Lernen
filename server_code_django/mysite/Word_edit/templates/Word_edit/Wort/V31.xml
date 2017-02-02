@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>laufen</Stichwort>
+	<Einheit>3</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>laufe</ich>
+					<du>läufst</du>
+					<er_sie_es>läuft</er_sie_es>
+					<wir>laufen</wir>
+					<ihr>lauft</ihr>
+					<sie_Sie>laufen</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>lief</ich>
+					<du>liefst</du>
+					<er_sie_es>lief</er_sie_es>
+					<wir>liefen</wir>
+					<ihr>lieft</ihr>
+					<sie_Sie>liefen</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="sein">	
+					<ich>bin gelaufen</ich>
+					<du>bist gelaufen</du>
+					<er_sie_es>ist gelaufen</er_sie_es>
+					<wir>sind gelaufen</wir>
+					<ihr>seid gelaufen</ihr>
+					<sie_Sie>sind gelaufen</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>跑，跑步</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Ich laufe schnell.</Satz>
+            <Übersetzung>我跑得很快。</Übersetzung>
+					</Beispiel>
+            <Beispiel>
+              <Satz>Der Hund läuft hinter das Auto.</Satz>
+              <Übersetzung>这只狗跑到车后面去了。</Übersetzung>
+            </Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+  <Comment>hinter ___ Auto https://de.wiktionary.org/wiki/laufen Der Hund läuft hinter dem Auto her</Comment>
+	
+</Entry>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>arbeiten</Stichwort>
+	<Einheit>2</Einheit>
+	<Anteil>Einfürung</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>arbeite</ich>
+					<du>arbeitest</du>
+					<er_sie_es>arbeitet</er_sie_es>
+					<wir>arbeiten</wir>
+					<ihr>arbeitet</ihr>
+					<sie_Sie>arbeiten</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>arbeitete</ich>
+					<du>arbeitetest</du>
+					<er_sie_es>arbeitete</er_sie_es>
+					<wir>arbeiteten</wir>
+					<ihr>arbeitetet</ihr>
+					<sie_Sie>arbeiteten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gearbeitet</ich>
+					<du>hast gearbeitet</du>
+					<er_sie_es>hat gearbeitet</er_sie_es>
+					<wir>haben gearbeitet</wir>
+					<ihr>habt gearbeitet</ihr>
+					<sie_Sie>haben gearbeitet</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>工作，学习，劳动</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Wo arbeitest du denn?</Satz>
+            <Übersetzung>你在哪上班？</Übersetzung>
+					</Beispiel>
+            <Beispiel>
+              <Satz>Er arbeitet feißig.</Satz>
+              <Übersetzung>他工作很努力。</Übersetzung>
+            </Beispiel>
+
+          </BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>schenken</Stichwort>
+	<Einheit>7</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>schenke</ich>
+					<du>schenkst</du>
+					<er_sie_es>schenkt</er_sie_es>
+					<wir>schenken</wir>
+					<ihr>schenkt</ihr>
+					<sie_Sie>schenken</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>schenkte</ich>
+					<du>schenktest</du>
+					<er_sie_es>schenkte</er_sie_es>
+					<wir>schenkten</wir>
+					<ihr>schenktet</ihr>
+					<sie_Sie>schenkten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe geschenkt</ich>
+					<du>hast geschenkt</du>
+					<er_sie_es>hat geschenkt</er_sie_es>
+					<wir>haben geschenkt</wir>
+					<ihr>habt geschenkt</ihr>
+					<sie_Sie>haben geschenkt</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>赠送</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz/>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

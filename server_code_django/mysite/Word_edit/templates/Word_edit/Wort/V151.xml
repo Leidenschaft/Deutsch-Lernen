@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>beantworten</Stichwort>
+	<Einheit>9</Einheit>
+	<Anteil>Leseverstehen</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>beantworte</ich>
+					<du>beantwortest</du>
+					<er_sie_es>beantwortet</er_sie_es>
+					<wir>beantworten</wir>
+					<ihr>beantwortet</ihr>
+					<sie_Sie>beantworten</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>beantwortete</ich>
+					<du>beantwortetest</du>
+					<er_sie_es>beantwortete</er_sie_es>
+					<wir>beantworteten</wir>
+					<ihr>beantwortetet</ihr>
+					<sie_Sie>beantworteten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe beantwortet</ich>
+					<du>hast beantwortet</du>
+					<er_sie_es>hat beantwortet</er_sie_es>
+					<wir>haben beantwortet</wir>
+					<ihr>habt beantwortet</ihr>
+					<sie_Sie>haben beantwortet</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>回答，回复</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Beantworten Sie bitte die Fragen zum Text.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

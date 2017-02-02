@@ -1,0 +1,5 @@
+#ignore Wort/NounRenderTemplate.xslt
+Wort/NounRenderTemplate.xslt
+#ignore Untracked.txt
+Untracked.txt
+server_code_django/*

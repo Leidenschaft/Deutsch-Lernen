@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<Stichwort Audio="true">Leute</Stichwort>
+<Einheit>7</Einheit>
+<Anteil>Übungen</Anteil>
+<Genus>Plural</Genus>
+<Pluralform>Leute</Pluralform>
+<GenitivSingular/>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K/>
+		<K_/>
+	</KompositaCollection>
+	<abgeleiteteWörter/></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym>Menschen</Sym>
+	<Sym>Personen</Sym>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K/>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>人们</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Kleider machen Leute.</Satz>
+				<Übersetzung>人们做衣服。</Übersetzung>
+			</Beispiel>
+			<Beispiel>
+				<Satz>Jeden Tag viele Leute gehen zur Arbeit mit U-Bahn.</Satz>
+				<Übersetzung>很多人每天乘地铁去上班。</Übersetzung>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Entry>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>legen</Stichwort>
+	<Einheit>6</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>lege</ich>
+					<du>legst</du>
+					<er_sie_es>legt</er_sie_es>
+					<wir>legen</wir>
+					<ihr>legt</ihr>
+					<sie_Sie>legen</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>legte</ich>
+					<du>legtest</du>
+					<er_sie_es>legte</er_sie_es>
+					<wir>legten</wir>
+					<ihr>legtet</ihr>
+					<sie_Sie>legten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gelegt</ich>
+					<du>hast gelegt</du>
+					<er_sie_es>hat gelegt</er_sie_es>
+					<wir>haben gelegt</wir>
+					<ihr>habt gelegt</ihr>
+					<sie_Sie>haben gelegt</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>平放，摆；躺，卧</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Er legt die Zeitung auf den Tisch.</Satz>
+            <Übersetzung>他把报纸放在桌子上。</Übersetzung>
+					</Beispiel>
+            <Beispiel>
+              <Satz>Ich lege mich schlafen.</Satz>
+              <Übersetzung>我要睡觉了。</Übersetzung>
+            </Beispiel>
+
+          </BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

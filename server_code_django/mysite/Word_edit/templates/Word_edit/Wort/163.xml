@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Unterricht</Stichwort>
+  <Einheit>1</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>nur Sg</Pluralform>
+  <GenitivSingular>Unterricht(e)s</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>Unterrichtsstunde</_K>
+      <_K>Unterrichtsfach</_K>
+      <_K>Unterrichtsgegenstand</_K>
+      <_K>Unterrichtsmaterial</_K>
+      <_K>Unterrichtsmethode</_K>
+      <K_>Chemieunterricht</K_>
+      <K_>Klavierunterricht</K_>
+      <K_>Sportunterricht</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter>
+      <hierzu category="Verben">unterrichten</hierzu>
+      <hierzu category="Adjektiv">unterrichtsfrei</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>jm. Unterricht geben</K>
+    <K>jm. Unterricht erteilen</K>
+    <K>Unterricht nehmen</K>
+    <K>Unterricht erhalten</K>
+    <K>den Unterricht besuchen</K>
+    <K>am Unterricht teilnehmen</K>
+    <K>dem Unterricht fernbleiben</K>
+    <K>den Unterricht schwänzen</K>
+    <K>der Unterricht fällt aus</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>课，课程</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>jm. Unterricht in Englisch geben</Satz>
+          <Übersetzung>用英语给人上课</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

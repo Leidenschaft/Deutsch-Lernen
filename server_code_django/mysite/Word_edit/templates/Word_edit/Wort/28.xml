@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Begrüßung</Stichwort>
+  <Einheit>7</Einheit>
+  <Anteil>Leseverstehen</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>Begrüßungen</Pluralform>
+  <GenitivSingular>Begrüßung</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <K_>Begrüßungsrede</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>迎接</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Man gibt dem Gastgeber schon bei der Begrüßung das Geschenk.</Satz>
+          <Übersetzung>一般在见面寒暄时向东道主赠送礼物。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Arm</Stichwort>
+  <Einheit>9</Einheit>
+  <Anteil>Übungen</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>Arme</Pluralform>
+  <GenitivSingular/>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>der rechte Arm</K>
+    <K>der linke Arm</K>
+    <K>ein Kind auf den Arm nehmen</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>臂</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Die Mutter nimmt ihr Kind auf den Arm.</Satz>
+          <Übersetzung>母亲抓住了孩子的胳膊。</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Er geht mit seiner Frau Arm in Arm spazieren.</Satz>
+          <Übersetzung>他携夫人一起散步。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

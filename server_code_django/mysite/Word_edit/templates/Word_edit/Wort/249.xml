@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Hochzeit</Stichwort>
+  <Einheit>7</Einheit>
+  <Anteil>Intentionen</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>Hochzeiten</Pluralform>
+  <GenitivSingular>Hochzeit</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <K_>Hochzeitsfeier</K_>
+      <K_>Hochzeitskleid</K_>
+      <K_>Hochzeitsreise</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter>
+      <hierzu category="Adjektiv">hochzeitlich</hierzu>
+    </abgeleiteteWörter>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe/>
+  <Kollokationen>
+    <K>Hochzeit feiern</K>
+    <K>jemanden zur Hochzeit einladen</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>婚礼</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Ich gratuliere euch ganz herzlich zur Hochzeit!</Satz>
+          <Übersetzung/>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

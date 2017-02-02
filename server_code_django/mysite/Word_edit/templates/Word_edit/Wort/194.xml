@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+  <Stichwort Audio="true">Wohngemeinschaft</Stichwort>
+  <Einheit>6</Einheit>
+  <Anteil>Einfürung</Anteil>
+  <Genus>die</Genus>
+  <Pluralform>Wohngemeinschaft</Pluralform>
+  <GenitivSingular>Wohngemeinschafts</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection/>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe>
+    <Sym>WG</Sym>
+  </Synonymegruppe>
+  <Antonymegruppe/>
+  <Kollokationen/>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>集体宿舍</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Ich zog gestern in die Wohngemeinschaft ein.</Satz>
+          <Übersetzung>昨天我搬进了集体宿舍。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

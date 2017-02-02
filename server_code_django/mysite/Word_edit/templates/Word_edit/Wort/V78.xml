@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>nehmen</Stichwort>
+	<Einheit>6</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>nehme</ich>
+					<du>nimmst</du>
+					<er_sie_es>nimmt</er_sie_es>
+					<wir>nehmen</wir>
+					<ihr>nehmt</ihr>
+					<sie_Sie>nehmen</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>nahm</ich>
+					<du>nahmst</du>
+					<er_sie_es>nahm</er_sie_es>
+					<wir>nahmen</wir>
+					<ihr>nahmt</ihr>
+					<sie_Sie>nahmen</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe genommen</ich>
+					<du>hast genommen</du>
+					<er_sie_es>hat genommen</er_sie_es>
+					<wir>haben genommen</wir>
+					<ihr>habt genommen</ihr>
+					<sie_Sie>haben genommen</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>接受，选，购，乘，坐</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Ich nehme die Wohnung.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

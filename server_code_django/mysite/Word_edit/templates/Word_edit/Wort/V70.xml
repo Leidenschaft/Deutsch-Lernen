@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>kaufen</Stichwort>
+	<Einheit>5</Einheit>
+	<Anteil>Übungen</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>kaufe</ich>
+					<du>kaufst</du>
+					<er_sie_es>kauft</er_sie_es>
+					<wir>kaufen</wir>
+					<ihr>kauft</ihr>
+					<sie_Sie>kaufen</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>kaufte</ich>
+					<du>kauftest</du>
+					<er_sie_es>kaufte</er_sie_es>
+					<wir>kauften</wir>
+					<ihr>kauftet</ihr>
+					<sie_Sie>kauften</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gekauft</ich>
+					<du>hast gekauft</du>
+					<er_sie_es>hat gekauft</er_sie_es>
+					<wir>haben gekauft</wir>
+					<ihr>habt gekauft</ihr>
+					<sie_Sie>haben gekauft</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>买，购买</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Was möchten Sie denn kaufen? Die Studenten kaufen gern Bücher.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

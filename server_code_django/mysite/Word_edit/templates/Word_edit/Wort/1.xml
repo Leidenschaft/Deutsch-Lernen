@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Entry SYSTEM "NounModel.dtd">
+<?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?>
+<Entry category="Substantiv">
+  <Stichwort Audio="true">Abend</Stichwort>
+  <Einheit>1</Einheit>
+  <Anteil>Intentionen</Anteil>
+  <Genus>der</Genus>
+  <Pluralform>Abende</Pluralform>
+  <GenitivSingular> Abends</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K>MontagAbend</_K>
+      <K_>SommerAbend</K_>
+      <K_>Abendessen</K_>
+      <K_>Festabend</K_>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe>
+    <Anm>Morgen</Anm>
+  </Antonymegruppe>
+  <Kollokationen>
+    <K>am Abend</K>
+    <K>zu Abend essen</K>
+    <K>vom Morgen bis zum Abend</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>晚上</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Ich wünsche dir guten Abend!</Satz>
+          <Übersetzung>晚上好！</Übersetzung>
+        </Beispiel>
+        <Beispiel>
+          <Satz>Wo treffen wir heute Abend?</Satz>
+          <Übersetzung>今天晚上我们在哪碰面？</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

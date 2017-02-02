@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>mitmachen</Stichwort>
+	<Einheit>4</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>mache mit</ich>
+					<du>machst mit</du>
+					<er_sie_es>macht mit</er_sie_es>
+					<wir>machen mit</wir>
+					<ihr>macht mit</ihr>
+					<sie_Sie>machen mit</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>machte mit</ich>
+					<du>machtest mit</du>
+					<er_sie_es>machte mit</er_sie_es>
+					<wir>machten mit</wir>
+					<ihr>machtet mit</ihr>
+					<sie_Sie>machten mit</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe mitgemacht</ich>
+					<du>hast mitgemacht</du>
+					<er_sie_es>hat mitgemacht</er_sie_es>
+					<wir>haben mitgemacht</wir>
+					<ihr>habt mitgemacht</ihr>
+					<sie_Sie>haben mitgemacht</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>一起干，参与做</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Machen Sie mit!</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

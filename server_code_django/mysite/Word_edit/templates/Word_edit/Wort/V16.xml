@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>lernen</Stichwort>
+	<Einheit>2</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>lerne</ich>
+					<du>lernst</du>
+					<er_sie_es>lernt</er_sie_es>
+					<wir>lernen</wir>
+					<ihr>lernt</ihr>
+					<sie_Sie>lernen</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>lernte</ich>
+					<du>lerntest</du>
+					<er_sie_es>lernte</er_sie_es>
+					<wir>lernten</wir>
+					<ihr>lerntet</ihr>
+					<sie_Sie>lernten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe gelernt</ich>
+					<du>hast gelernt</du>
+					<er_sie_es>hat gelernt</er_sie_es>
+					<wir>haben gelernt</wir>
+					<ihr>habt gelernt</ihr>
+					<sie_Sie>haben gelernt</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+      <K>eine Fremdsprache lernen</K>
+      <K>kochen lernen</K>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>学习，学</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Lernst du Deutsch?</Satz>
+            <Übersetzung>你学过德语吗?</Übersetzung>
+					</Beispiel>
+            <Beispiel>
+              <Satz>Sie lernt Deutsch in der Schule.</Satz>
+              <Übersetzung>她在上中学的时候学过德语。</Übersetzung>
+            </Beispiel>
+            <Beispiel>
+              <Satz>Lernen und das Gelernte zur rechten Zeit anwenden, ist das nicht auch eine Freude?</Satz>
+              <Übersetzung>学而时习之，不亦说乎？</Übersetzung>
+            </Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>

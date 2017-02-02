@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+	<Stichwort>begleiten</Stichwort>
+	<Einheit>10</Einheit>
+	<Anteil>Text</Anteil>
+	<Konjugation>
+				<Präsen>
+					<ich>begleite</ich>
+					<du>begleitest</du>
+					<er_sie_es>begleitet</er_sie_es>
+					<wir>begleiten</wir>
+					<ihr>begleitet</ihr>
+					<sie_Sie>begleiten</sie_Sie>
+				</Präsen>
+				<Präteritum>
+					<ich>begleitete</ich>
+					<du>begleitetest</du>
+					<er_sie_es>begleitete</er_sie_es>
+					<wir>begleiteten</wir>
+					<ihr>begleitetet</ihr>
+					<sie_Sie>begleiteten</sie_Sie>
+				</Präteritum>
+				<Perfekt hilfsverb="haben">	
+					<ich>habe begleitet</ich>
+					<du>hast begleitet</du>
+					<er_sie_es>hat begleitet</er_sie_es>
+					<wir>haben begleitet</wir>
+					<ihr>habt begleitet</ihr>
+					<sie_Sie>haben begleitet</sie_Sie>
+				</Perfekt>
+	</Konjugation>
+			
+			
+	<zusammengesetzteWörter>
+			<KompositaCollection>
+			</KompositaCollection>
+			<abgeleiteteWörter>
+			</abgeleiteteWörter>
+	</zusammengesetzteWörter>
+		<Synonymegruppe>
+			<Sym/>
+		</Synonymegruppe>
+		<Antonymegruppe>
+			<Anm/>
+		</Antonymegruppe>
+
+		<Kollokationen>
+		<K/>
+		</Kollokationen>
+		<AllgemeineErläuterungen>
+				<Eintrag transitiv="">
+					
+					<Chinesisch>伴随，陪同</Chinesisch>
+					<BeispielSammlung>
+					<Beispiel>
+					<Satz>Ich kann Sie ein Stück begleiten.</Satz>
+					<Übersetzung/>
+					</Beispiel>
+					</BeispielSammlung>
+					
+   				</Eintrag>
+			</AllgemeineErläuterungen>
+	
+	
+</Entry>
