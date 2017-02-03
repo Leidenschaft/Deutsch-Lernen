@@ -32,11 +32,11 @@ $(document).ready(function () {
                 self.parent.frames["right_frame"].location = 'Wort/' + newFileName[1];
         }
     }
-    function Wort(wordform, address) {
+    function Wort(wordform, address,other_info) {
         this.wordform = wordform;
-        this.address =address;
+        this.address = address;
     }
-    function sortWort(wort_1, wort_2) {//if wort_1<wort_2; return false
+  /*  function sortWort(wort_1, wort_2) {//if wort_1<wort_2; return false
         var minLen = wort_1.wordform.length;
         if (minLen > wort_2.wordform.length) minLen = wort_2.wordform.length;
         var wort_2_is_forward=true;
@@ -52,8 +52,9 @@ $(document).ready(function () {
             }
         }
         return wort_2_is_forward;
-    }
+    }*/
     var dic = new Array();
+    var availableTags = new Array();
     var xmlDoc_wordList;
     var xmlhttp = new XMLHttpRequest();
     function GetXML(xml) {
@@ -61,11 +62,19 @@ $(document).ready(function () {
         $(xml).find("Word").each(function (i) {
 
             var id = $(this);
-            dic.push(new Wort(id.text(), id.attr("address")));
-            //replace address with suffix html here
+            var other_info;
+            var oneDicEntry = new Array();
+            oneDicEntry['value'] = id.text();
+            if (id.attr("address")[0] == 'V')
+                oneDicEntry['label']=id.text()+' '+id.attr("third_person_present") + '|' + id.attr("perfekt") + ' ' + id.attr('chinese');
+            else 
+                oneDicEntry['label'] =id.text() + ' ' + id.attr("gender") + ' ' + id.attr('chinese');
+
+            dic.push(new Wort(id.text(), id.attr("address"), other_info));
+            availableTags.push(oneDicEntry);
         }
         )
-        dic.sort(sortWort);
+       // dic.sort(sortWort);
     }
     function GetXML2() {
 
@@ -193,6 +202,10 @@ $(document).ready(function () {
         }
 
     }
+    $("#searchField").autocomplete({
+        source: availableTags
+    });
+
 /*    xmlhttp.onreadystatechange = function () {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
             var textGet = xmlhttp.responseText;
@@ -200,31 +213,14 @@ $(document).ready(function () {
             var info = JSONObject.query.pages[11187].revisions["0"]["*"];
         }
     }*/
-    $("#searchField").on("focus", function () {
-        if ($("#searchField").val()=='Please Type the word you want to search' || (LastSearchedWord != ''))
-        { $("#searchField").val(''); }
-    });
-
-    $("#searchField").on("blur", function () {
-        if ($("#searchField").val()== '') {
-            if (LastSearchedWord != '')
-                $("#searchField").val(LastSearchedWord);
-            else
-                $("#searchField").val('Please Type the word you want to search');
-        }
-    });
     $("#searchField").keypress(function (e) {
-        //judge the focused element here 
-  //      var triggerElement = document.activeElement;
-    //    if (triggerElement.name == 'InputBox') {
             var keynum;
             keynum = e.keyCode;
             if (keynum == 13)
                 ChangeContent();
-//        }
     });
 
-    $("#searchField").on('input', function () {
+     /*$("#searchField").on('input', function () {
 
         var entry = $("#searchField").val();
         if(entry==''){
@@ -234,7 +230,7 @@ $(document).ready(function () {
         addWordToList(entry);
    	  }
     });
-    function GetCharCode(character) {
+   function GetCharCode(character) {
         unicode=character.charCodeAt(0);
         if (unicode > 122) {
             switch (unicode) {
@@ -280,9 +276,6 @@ $(document).ready(function () {
                     }
                 }
                 if (isContinued) continue;
-  //              if (x < entry) {
-  //                  continue;
-  //              }
                 htmlcontent = htmlcontent + "<option value=\"" + dic[j].wordform + "\"></option>";
                 c = c + 1;
                 if (c == 5) {
@@ -290,5 +283,5 @@ $(document).ready(function () {
                 }
             }
             $("#Words").html(htmlcontent);
-        }
+        }*/
 });
