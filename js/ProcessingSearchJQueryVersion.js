@@ -90,9 +90,9 @@ $(document).ready(function () {
 
     if (BrowersType == "Chrome") {
         //change the WordList_11.xml to WordList_11.html
-        if (!isIndexPage) {
-            self.parent.frames["wordList"].location = "Wordlist_11.html";
-        }
+      //  if (!isIndexPage) {
+      //      self.parent.frames["wordList"].location = "Wordlist_11.html";
+      //  }
         $.ajax({
             url: 'Wordlist_11.xml',
             type: 'GET',
