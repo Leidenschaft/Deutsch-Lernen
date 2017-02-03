@@ -13,7 +13,7 @@ $(document).ready(function () {
     $("#audioImg").on("click", function () {
         //from <h1> to get the wordform
         var wordform = $("#stich_wort").html();
-        var audio_path = "../audio/" + wordform + ".mp3";
+        var audio_path = "../../static/Word_edit/audio/" + wordform + ".mp3";
         if (BrowersType == "IE") {
             if ($("#BGSOUND").length) {
                 $("#BGSOUND").attr("src", audio_path);

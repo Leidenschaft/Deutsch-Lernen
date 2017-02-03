@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
-	<Stichwort>wiedersprechen</Stichwort>
+	<Stichwort>widersprechen</Stichwort>
 	<Einheit>9</Einheit>
 	<Anteil>Intentionen</Anteil>
 	<Konjugation>
     <Präsen>
       <ich/>
       <du/>
-      <er_sie_es/>
+      <er_sie_es>spricht wider</er_sie_es>
       <wir/>
       <ihr/>
       <sie_Sie/>
@@ -22,7 +22,7 @@
     <Perfekt hilfsverb="">
       <ich/>
       <du/>
-      <er_sie_es/>
+      <er_sie_es>hat widergesprochen</er_sie_es>
       <wir/>
       <ihr/>
       <sie_Sie/>
@@ -53,7 +53,7 @@
 					<Chinesisch>反驳</Chinesisch>
 					<BeispielSammlung>
 					<Beispiel>
-					<Satz>Sprichst du die Meinung wieder?</Satz>
+					<Satz>Sprichst du die Meinung wider?</Satz>
             <Übersetzung>你反对这个意见吗？</Übersetzung>
 					</Beispiel>
 					</BeispielSammlung>

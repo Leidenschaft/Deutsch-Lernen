@@ -5,12 +5,12 @@
 	<Einheit>7</Einheit>
 	<Anteil>Text</Anteil>
 	<Konjugation>
-				<!--Infinitiv:wissen-->
 				<Präsen>
 					<ich>weiß</ich>
 					<du>weißt</du>
 					<er_sie_es>weiß</er_sie_es>
-					<wir>wissen</wir>
+          <!--Infinitiv:wissen-->
+          <wir>wissen</wir>
 					<ihr>wisst</ihr>
 					<sie_Sie>wissen</sie_Sie>
 				</Präsen>
@@ -31,9 +31,9 @@
 					<sie_Sie>haben gewusst</sie_Sie>
 				</Perfekt>
 	</Konjugation>
-			
-			
-	<zusammengesetzteWörter>
+
+
+  <zusammengesetzteWörter>
 			<KompositaCollection>
 				<K_ category="Substantiv" chinesisch="科学">die Wissenschaft</K_>
 				<K_ category="Substantiv" chinesisch="求知欲">der Wissensdurst</K_>
@@ -67,9 +67,9 @@
 		</Kollokationen>
 		<AllgemeineErläuterungen>
 				<Eintrag transitiv="TRUE">
-					<!--german definition:durch seine allgemeinen Kenntnisse-->
 					<Chinesisch>知道，了解</Chinesisch>
-					<BeispielSammlung>
+          <!--german definition:durch seine allgemeinen Kenntnisse-->
+          <BeispielSammlung>
 					<Beispiel>
 					<Satz>Das weiß ich nicht.</Satz>
 					<Übersetzung>这我不知道。</Übersetzung>

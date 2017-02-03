@@ -15,7 +15,7 @@
     </style>
     <bgsound src="" loop="1" id="BGSOUND"/>
 	</head>
-  <script type="text/javascript" src="../jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="BufferSearch.js"></script>
 	<body ondblclick="GetSelection()">
     <h1>
@@ -74,7 +74,7 @@
     <xsl:if test="count(Stichwort/@Bild)">
       <img class="img_1">
         <xsl:attribute name="src">
-          {% static 'Word_edit/images/<xsl:value-of select="Stichwort/@Bild"/>' %}
+          ../images/<xsl:value-of select="Stichwort/@Bild"/>
           <!--<xsl:attribute name="src">../images/<xsl:value-of select="Stichwort/@Bild"/>-->
         </xsl:attribute>
       </img>

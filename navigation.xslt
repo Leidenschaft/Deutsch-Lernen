@@ -6,7 +6,7 @@
 	<html>
 		<head>
 			<title>Wordlist</title>
-      <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+      <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
   
     </head>
 		<body>

@@ -4,7 +4,8 @@ Wort/NounRenderTemplate.xslt
 Untracked.txt
 server_code_django/mysite/classGame/*
 server_code_django/mysite/classGame/polls/*
-server_code_django/mysite/Word_edit/**/_pycache_
+server_code_django/mysite/mysite/__pycache__
+server_code_django/mysite/Word_edit/**/__pycache__
 server_code_django/mysite/*.xml
 server_code_django.zip
 **/Wort_html_for_desktop.zip
