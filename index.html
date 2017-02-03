@@ -3,7 +3,9 @@
 <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <title>Enter your title here</title>
+    <link rel="stylesheet" href="css/jquery-ui.css">
 <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="js/ProcessingSearchJQueryVersion.js"></script>
 </head>
 <body>
@@ -16,12 +18,10 @@
 -->
     <div id="Centering" style="position: absolute;margin-left:-200px;left:50%;top: 30%;">
 <img src="integration_verben_table.png" height="150" width="350"/><br />
-<input id="searchField" list="Words" name="InputBox" value='Please Type the word you want to search' size="40"/>
-<datalist id="Words">
-
-</datalist>
-
+<div class="ui-widget">
+  <input id="searchField">
 <button>Suchen</button><br/>
+</div>
 </div>
 
 <!--ProcessingSearch.js should be rewritten using jQuery.
