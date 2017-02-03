@@ -1,20 +1,24 @@
 ﻿var GetSelection;
 $(document).ready(function () {
     //judge the browser type here
-    var BrowersType;
+    var BrowsersType;
     var userAgent = navigator.userAgent;
-    if (userAgent.indexOf("Chrome") > -1 || userAgent.indexOf("Firefox") > -1) {
-        BrowersType = "Chrome";
+    if (userAgent.indexOf("Android") > -1 || userAgent.indexOf("iPhone") > -1) {
+        //page redirection|| userAgent.indexOf("iPad")>-1 || userAgent.indexOf("Safari")>-1 
+        BrowserType = "Mobile";
+    }
+    else if (userAgent.indexOf("Chrome") > -1 || userAgent.indexOf("Firefox") > -1) {
+        BrowsersType = "Chrome";
     }
     else {
-        BrowersType = "IE";
+        BrowsersType = "IE";
     }
-
+    //add support for mobile here
     $("#audioImg").on("click", function () {
         //from <h1> to get the wordform
         var wordform = $("#stich_wort").html();
         var audio_path = "../audio/" + wordform + ".mp3";
-        if (BrowersType == "IE") {
+        if (BrowsersType == "IE") {
             if ($("#BGSOUND").length) {
                 $("#BGSOUND").attr("src", audio_path);
             }
@@ -43,7 +47,7 @@ $(document).ready(function () {
             if ($("form").length < 1) {//reload editting_interface
                 self.parent.frames["editing_frame"].location = 'client_form/editing_interface.html';
             }
-            self.parent.frames["editing_frame"].load_xml(BrowersType);
+            self.parent.frames["editing_frame"].load_xml(BrowsersType);
             self.parent.change_editing_frame("editting");
             this.innerHTML = '取消编辑';
         }
@@ -80,7 +84,7 @@ function LoadNewWord(word_send) {
 	    if(newFileName)
 	       window.location=newFileName;
 }
-function BufferSearch()
+/*BufferSearch = function BufferSearch()
 {
 	var possibleWord=window.clipboardData.getData('text');
 	if(possibleWord.split(" ").length==1){	//No space is contained, other limitation.
@@ -89,7 +93,7 @@ function BufferSearch()
 	}
 	else
 		alert("Invalid Word");
-}
+}*/
 GetSelection=function GetSelection(){
 	if(window.getSelection){
 	  var selectedText = window.getSelection().toString(); 

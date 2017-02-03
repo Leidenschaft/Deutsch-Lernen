@@ -143,10 +143,12 @@ def parseexp(rq):
             sampcount=sampcount+1
             transcur=rq.get('translation_'+str(expcount)+'_'+str(sampcount),'$samp')
             samptuple=[oricur,transcur]
-            samplist.append(samptuple)
+            if not (samptuple[0][0]=="请"):
+                samplist.append(samptuple)
             oricur=rq.get('original_'+str(expcount)+'_'+str(sampcount+1),'$samp')
         exptuple=[expcur,samplist]
-        explist.append(exptuple)
+        if not (exptuple[0][0]=="请"):
+            explist.append(exptuple)
         expcur=rq.get('explanation_'+str(expcount+1),'$exp')
     return explist
 
@@ -160,6 +162,10 @@ def parsesym(rq):
         symtuple=[symcur,symlink]
         symlist.append(symtuple)
         symcur=rq.get('Sym_'+str(symcount+1),'$sym')
+    if len(symlist)==0:
+        return symlist
+    if (symlist[len(symlist)-1][0][0]=="请"):
+        symlist.pop()
     return symlist
 
 def parseanm(rq):
@@ -172,6 +178,10 @@ def parseanm(rq):
         anmtuple=[anmcur,anmlink]
         anmlist.append(anmtuple)
         anmcur=rq.get('Anm_'+str(anmcount+1),'$anm')
+    if len(anmlist)==0:
+        return anmlist
+    if (anmlist[len(anmlist)-1][0][0]=="请"):
+        anmlist.pop()
     return anmlist
 
 def parsecom(rq):
@@ -184,6 +194,10 @@ def parsecom(rq):
         comtuple=[comcur,comlink]
         comlist.append(comtuple)
         comcur=rq.get('compound_'+str(comcount+1),'$com')
+    if len(comlist)==0:
+        return comlist
+    if (comlist[len(comlist)-1][0][0]=="请"):
+        comlist.pop()
     return comlist
 
 def parsedrv(rq):
@@ -203,6 +217,10 @@ def parsedrv(rq):
         drvtuple=[drvcur,drvc,drvlink]
         drvlist.append(drvtuple)
         drvcur=rq.get('derivative_'+str(drvcount+1),'$drv')
+    if len(drvlist)==0:
+        return drvlist
+    if (drvlist[len(drvlist)-1][0][0]=="请"):
+        drvlist.pop()
     return drvlist
 
 def parsecol(rq):
@@ -213,6 +231,10 @@ def parsecol(rq):
         colcount=colcount+1
         collist.append(colcur)
         colcur=rq.get('collocation_'+str(colcount+1),'$col')
+    if len(collist)==0:
+        return collist
+    if (collist[len(collist)-1][0]=="请"):
+        collist.pop()
     return collist
 
 from datetime import *
@@ -312,7 +334,12 @@ def check(request):
         a.pop()
     s="<html>"
     for file in a:
-        s=s+'''<a href="/Word_edit/edit_check/'''+file+'''">'''+file+"</a>"+"<br>"
+        s=s+'''<a href="/Word_edit/edit_check/show/'''+file+'''">'''+file+"</a>"
+        s=s+'''<span style="width:100px;">  </span>'''
+        s=s+'''<a href="/Word_edit/edit_check/del/'''+file+'''">放弃</a>'''
+        s=s+'''<span style="width:100px;">  </span>'''
+        s=s+'''<a href="/Word_edit/edit_check/acc/'''+file+'''">通过</a>'''
+        s=s+"<br>"
     s=s+"</html>"
     return HttpResponse(s)
 
@@ -321,9 +348,67 @@ def showedit(request):
     path=path+"\\Word_edit\\templates\\Word_edit\\edits\\"
     p=request.path
     p=p[1:len(p)]
-    p=p.replace("edit_check","edits")
+    p=p.replace("edit_check/show","edits")
     template = loader.get_template(p)
     return HttpResponse(template.render({},request))
+
+def deledit(request):
+    p=request.path
+    p=p[1:len(p)]
+    p=p.replace("edit_check/del","edits")
+    filename=p[16:]
+    delfromlist(filename)
+    s='''<html><head>'''+filename+''' Has Been Successfully Deleted!</head><br><a href="/Word_edit/edit_check/">返回</a></html>'''
+    return HttpResponse(s)
+
+def accedit(request):
+    p=request.path
+    p=p[1:len(p)]
+    p=p.replace("edit_check/acc","edits")
+    filename=p[16:]
+    word=filename.split("_")[0]
+    wordurl=geturl(word)
+    path=os.getcwd()
+    path=path+"\\Word_edit\\templates\\Word_edit\\"
+    editedxml=codecs.open(path+"edits\\"+filename,'r',encoding='utf-8')
+    s=editedxml.read()
+    editedxml.close()
+    originalxml=codecs.open(path+"Wort\\"+wordurl,'w',encoding='utf-8')
+    originalxml.write(s)
+    originalxml.close()
+    f=open(path+'Wort\\NounRenderTemplate2.xslt','rb')
+    xslt_root=etree.XML(f.read())
+    transform=etree.XSLT(xslt_root)
+    f.close()
+    doc=etree.XML(s)
+    result_tree=transform(doc)
+    st1=etree.tostring(result_tree.getroot().find('body'),encoding='utf-8')
+    html=codecs.open(path+"Wort\\"+wordurl.replace('xml','html'),'w',encoding='utf-8')
+    st1=st1.decode('utf-8')
+    html.write(st1)
+    html.close()
+    delfromlist(filename)
+    s='''<html><head>'''+filename+''' Has Been Successfully Updated!</head><br><a href="/Word_edit/edit_check/">返回</a></html>'''
+    return HttpResponse(s)
+
+def delfromlist(filename):
+    path=os.getcwd()
+    path=path+"\\Word_edit\\templates\\Word_edit\\edits\\"
+    indexfile=codecs.open(path+"edit_record.txt",'r',encoding='utf-8')
+    s=indexfile.read()
+    indexfile.close()
+    a=s.split(",")
+    if len(a)>0:
+        a.pop()
+    if filename in a:
+        a.remove(filename)
+        os.remove(path+filename)
+    indexfile=codecs.open(path+"edit_record.txt",'w',encoding='utf-8')
+    for files in a:
+        indexfile.write(files+",")
+    if len(a)==0:
+        indexfile.write("")
+    indexfile.close()
 
 from bs4 import BeautifulSoup
 def geturl(word):

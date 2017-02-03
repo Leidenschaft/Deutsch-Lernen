@@ -21,9 +21,9 @@
     <h1>
       <span id="stich_wort"><xsl:value-of select="Stichwort"/>
       </span>&#160;
-      <span>
+<!--      <span>
         <button type="button" id="edit_btn">编辑</button>
-      </span>
+      </span>-->
 			</h1>	
 	<!--<br/>-->
       <xsl:if test="count(Stichwort/@link)">
@@ -182,7 +182,7 @@
 	</font>
 	</xsl:if><br/>
 	
-	<button id="ClipBoardSearchButton" onclick="BufferSearch()">查询当前剪贴板中的单词</button>
+<!--	<button id="ClipBoardSearchButton" onclick="BufferSearch()">查询当前剪贴板中的单词</button>-->
 	</body>
 </html>
 </xsl:template>

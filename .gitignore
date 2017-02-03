@@ -7,7 +7,7 @@ server_code_django/mysite/classGame/polls/*
 server_code_django/mysite/mysite/__pycache__
 server_code_django/mysite/Word_edit/**/__pycache__
 server_code_django/mysite/*.xml
-server_code_django.zip
 **/Wort_html_for_desktop.zip
 Wort_html/
-Wort_html_for_desktop
+Wort_html_for_desktop/
+server_code_django/*

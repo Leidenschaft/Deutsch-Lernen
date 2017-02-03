@@ -95,6 +95,10 @@ $(document).ready(function () {
                    alert("You have error " + myErr.reason);
                 } else {
                     var xmlObj = originalTree.documentElement.childNodes;*/
+                    if ($(xml).find("Stichwort").attr("Audio"))
+                        $("#StichwortAudio").val("true");
+                    if ($(xml).find("Stichwort").attr("Bild"))
+                        $("#StichwortPicture").val($(xml).find("Stichwort").attr("Bild"));
                     $("#Stichwort").val($(xml).find("Stichwort").text());
                     Stichwort_input_boolean = true;
                     //  $("#Einheit").val(xmlObj.item(1).text);
