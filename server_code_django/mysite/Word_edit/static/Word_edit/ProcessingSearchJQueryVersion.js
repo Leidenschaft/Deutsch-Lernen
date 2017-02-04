@@ -145,8 +145,12 @@ $(document).ready(function () {
     }
 
     var LastSearchedWord = '';
-    $("button").click(function () {
+    $("#suchen_button").click(function () {
             ChangeContent();
+    });
+    $("#create_button").click(function () {
+        self.parent.frames["editing_frame"].load_xml(BrowserType,1);
+        self.parent.change_editing_frame("editting");
     });
     function ChangeContent() {
         var newFileName = GetAddress();

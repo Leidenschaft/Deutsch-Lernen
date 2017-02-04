@@ -14,7 +14,7 @@ for i in range(1,464):
     if(mode=='n'):
         f=open('../Wort/%d.xml'%i,'rb')
     else:
-        f=pen('../Wort/V%d.xml'%i,'rb')
+        f=open('../Wort/V%d.xml'%i,'rb')
     st=f.read()
     doc=etree.XML(st)
     result_tree=transform(doc)

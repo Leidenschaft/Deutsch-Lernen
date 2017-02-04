@@ -62,10 +62,18 @@ $(document).ready(function () {
     });
 
     //if invoked from frameset, load the word information from right_frame code here
-    load_xml=function load_xml(BrowserType) {
+    load_xml=function load_xml(BrowserType,isNew) {
         //self.parent.document.getElementById("edit_render_frameset")
-        var word_addr = self.parent.frames["right_frame"].location.toString();
-        word_addr=word_addr.replace('html', 'xml');
+
+        var word_addr;
+        if (isNew) {
+            word_addr = '../Wort/0.xml';//xml template
+        }
+        else{
+            word_addr = self.parent.frames["right_frame"].location.toString();
+            word_addr = word_addr.replace('html', 'xml');
+        }
+
         //request for the xml
             if (BrowserType == "Chrome" || BrowserType=="IE") {
          

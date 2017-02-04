@@ -41,7 +41,7 @@ $(document).ready(function () {
     $("#edit_btn").on("click", function () {
         if (this.innerHTML == '编辑') {
             //ajax request here
-                self.parent.frames["editing_frame"].load_xml(BrowersType);
+                self.parent.frames["editing_frame"].load_xml(BrowersType,0);
                 self.parent.change_editing_frame("editting");
                 this.innerHTML = '取消编辑';
          
