@@ -33,6 +33,7 @@ $(document).ready(function () {
         e.preventDefault();
         $(this).ajaxSubmit({
             url: '../results/zhaofeng-shu33/',
+            timeout:3000,
             success: function (response_txt) {
                // alert(response_txt);
                 alert($(response_txt).children("info").first().text());
@@ -81,7 +82,7 @@ $(document).ready(function () {
                 url: word_addr,//'../Wort/1.xml',
                 type: 'GET',
                 dataType: 'xml',
-                timeout: 1000,
+                timeout: 3000,
                 cache: false,
                 error: function (xhr, status, errorThrown) {
                         alert("status: "+status+"\n errorThrown "+errorThrown);

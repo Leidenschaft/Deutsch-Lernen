@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding=" UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Entry SYSTEM "VerbenModel.dtd">
+<?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?>
+<Entry category="Verben">
 	<Stichwort>geben</Stichwort>
 	<Einheit>3</Einheit>
 	<Anteil>Text</Anteil>
@@ -62,7 +65,8 @@
               <Übersetzung>明天可能有雨。</Übersetzung>
             </Beispiel>
             <Beispiel>
-              <Satz>Was gibts heute zum Mittagessen?</Satz>
+              <Satz>Was gibt's heute zum Mittagessen?</Satz>
+              <Übersetzung>今天中午吃什么？</Übersetzung>
             </Beispiel>
 					</BeispielSammlung>
 					

@@ -106,7 +106,7 @@ $(document).ready(function () {
             url: 'Wordlist_11.xml',
             type: 'GET',
             dataType: 'xml',
-            timeout: 1000,
+            timeout: 3000,
             cache: false,
             error: function (xml) {
                 //try loading xml with original javascript

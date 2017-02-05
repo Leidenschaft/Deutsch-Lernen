@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Entry category="Substantiv">
+  <Stichwort></Stichwort>
+  <Einheit></Einheit>
+  <Anteil></Anteil>
+  <Genus></Genus>
+  <Pluralform></Pluralform>
+  <GenitivSingular></GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+      <_K></_K>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe>
+    <Anm></Anm>
+  </Antonymegruppe>
+  <Kollokationen>
+    <K></K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch></Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz></Satz>
+          <Übersetzung></Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>

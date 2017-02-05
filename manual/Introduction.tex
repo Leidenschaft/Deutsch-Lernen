@@ -1,4 +1,4 @@
-\documentclass[12pt,twocolumn]{article}
+\documentclass[12pt]{article}
 \usepackage{xeCJK}%preamble part
 \usepackage{graphicx}
 \usepackage{indentfirst}
@@ -18,15 +18,22 @@
 \setlength{\extrarowheight}{4pt}
 \setlength{\parindent}{1cm}
 \begin{document}
-\title{\textbf{\fontsize{15.75pt}{\baselineskip}{用户型德语初学者词典Klick Auf Deutsch Hilfer设计理念}}} 
+\title{\textbf{\fontsize{15.75pt}{\baselineskip}{用户型德语初学者词典Klick Auf Deutsch Hilfer设计理念}}}
 \author{\fontsize{12pt}{\baselineskip}{计41 牛行知 数33 赵丰}}
 
 \maketitle
+\renewcommand{\abstractname}{摘要}
+\renewcommand*\contentsname{目录}
+\begin{abstract}
+在国内外语学习的热潮下双语词典的编纂一直是为人们所忽视的主题，传统词典一直由少数专家把关，编一部词典的周期长，门槛高；现代信息技术的进步为使用计算机网络技术进行协作式编辑，充分考虑用户需求，缩短编辑周期和提高实用性方面提供了可能。本次项目试图以用户型德语初学者词典为突破口探索这种可能性。目前已经实现了词典的浏览和在线编辑模块。
+\end{abstract}
+\tableofcontents
 \large
 \twocolumn
 \setlength{\columnseprule}{1pt}
-\section{\textbf{\fontsize{12pt}{\baselineskip}{问题背景：我国双语学习型词典的设计缺位}}}
-我国改革开放所引进或合作编纂出版的外来词典，其编纂设计者与使用者形成了主客二分的疏离关系，设计者对于需求的认知主要源于编者主体的专业知识判断，而非对实际用户需求调研的结果。\cite{Bib1}
+
+\section[问题背景]{问题背景：我国双语学习型词典的设计缺位}
+尽管英汉词典学是我国外语人才培养的一个二级学科，但我国真正流行的词典几乎都是所引进或合作编纂出版的外来词典，其编纂设计者与使用者形成了主客二分的疏离关系，设计者对于需求的认知主要源于编者主体的专业知识判断，而非对实际用户需求调研的结果。\cite{Bib1}
 
 我国原创英汉汉英类词典，在国内词典市场的份额缺失严重，这和脱离用户需求，盲目照翻单语词典不无关系。
 
@@ -34,14 +41,13 @@
 
 欧美电子词典以辞书为本体来开发电子词典，注重词典数据库的建设，而我国内地则是以电子为本体，先是由IT公司开发，出现问题后又转向引进权威词典。\cite{Bib2}
 
-\section{\textbf{\fontsize{12pt}{\baselineskip}{设计目标描述}}}
-	电子词典的核心功能是单词查询，一般词典只能提供精确查询单词及变位入口点，我们试图在实现精确查询的基础上添加模糊查询（给出相关词）入口，通配符查询（用*表示任意字母）入口，短语查询入口等。
-	
+\section{设计目标描述}
+	电子词典的核心功能是单词查询的浏览功能。
 	电子词典的界面设计一方面要继承纸制词典的风格，另一方面在不同的媒介下有一定的发挥空间。
-
-	为实现上述设计目标，我们以网页为平台开发了Klick Auf Deutsch Hilfer。
 	
-\section{\textbf{\fontsize{12pt}{\baselineskip}{设计理念综述}}}
+	为实现上述设计目标，我们以网页为平台开发了Klick Auf Deutsch Hilfer。
+	在开发过程中，为了提高编辑工作效率，我们设计了用户编辑模块。
+\section{单词查询}
 
 \subsection{\textbf{\fontsize{12pt}{\baselineskip}{数据视角}}}
 	我们设计词典抛弃了一般电子词典采用的急键值加表项的方式，而采用超文本标记语言xml组织每一个词项。单独的xml文件以词条的编号命名，如1.xml表示名词类中的第一个,词项是Abend;V100.xml表示动词类中的第100个，词项是wissen.
@@ -68,13 +74,61 @@ Beispiel组成的，而每一个Beipiel由Satz和Übersetzung组成。该部分�
 
 同时，我们考虑到单词之间错综复杂的语义关系，在Eintrag的相关子元素下设置了link属性，其值为相对应单词的文件名称，如essen词项下<\_K link=''1.xml''>Abendessen<\/K>就表示Abendessen可以链接到Abend.这种方法不仅为展示数据提供了统一个接口，还为用网络的方法做关联分析提供了数据基础。
 \subsection{\textbf{\fontsize{12pt}{\baselineskip}{界面视角}}}
-\subsection{\textbf{\fontsize{12pt}{\baselineskip}{词汇量}}}
+\section{用户编辑}
 
+\section{背单词}
+我们打算基于已有的词典内容开发背单词的模块，传统的背单词往往基于简单的随机因子和分数累加，在开发之前，我们仔细学习了Item Response
+Theory,并以此理论为基础，建立单词测试的数学模型，用统计学中分析数据的方法，在数据库和CS架构的技术基础上尝试实现背单词模块，目前该
+模块正在开发过程中。
+\subsection{\textbf{\fontsize{12pt}{\baselineskip}{词汇量统计方法}}}
+\cite{Bib4}中给出了估计正常人遇到的词汇量的基本方法，首先统计出Alphabetical Type（N)与语料库规模(M)的关系，Herdan's Law指出N是M的幂函数且幂指数小于1，其次通过抽样调查的方法统计某一特定人群在一段时间内exposed to 语言输入的tokens，对这些tokens进行统计去重再外推即得到encountered AT值。
+传统的词汇测量方法是基于Classical Test Theory对于每个test item,一般结果是二值的，即只有对和错两个result，累加后的结果可以作为observed score。CTT认为X=T+E,T是true score,E是error.
+CTT还有三个基本假设：
+\begin{enumerate}
+\item{E的期望为0}
+\item{T和E不相关}
+\item{不同次测量结果(对不同participants)相互独立}
+\end{enumerate}
+该测量的性能评估用reliability表示，其数学定义为
+\begin{equation}
+\rho_{XT}^2=\frac{\sigma_T^2}{\sigma_X^2}
+\end{equation}•
+在心理学领域，要测量某个latent variable,不能采用独立重复试验的方法，如果要基于单次测量估计$\rho_{XT}$，该单次测量应该在subscale上应该由同样能反应出被测量laten variable 水平的item组成。
+基于不同participants,可以得到item 矩阵，分析该item矩阵可估计$\rho_{XT}$。该方法的数学模型如下：
+假设一test有k个items $u_j,j=1,..,k$,对第i个participant其总得分为：
+\begin{equation}
+X_i=\sum_{j=1}^k U_{ij}
+\end{equation}
+上式中$U_{ij}$表示对第i个参与者在第j个item上observed score。
+可以证明，Cronbach's alpha是$\rho_{XT}$的下界。
+\begin{equation}
+\alpha=\frac{k}{k-1}(1-\frac{\sum_{i=1}^k \sigma_{U_j}^2}{\sigma_X^2})
+\end{equation}
+$\alpha$介于0,1之间，用于评估Test性能，一般认为$\alpha$值在0.9以上会有redundacy of items,但对于individual high-stakes testing这又是必要的。
+在CTT框架下,$\alpha$只能用于评估Test总体性能，如果要做item analysis,对于每个item,计算p value(表征item difficulty)和item-total correlation(表征 discrimination).
+CTT的问题在于评估Test性能和被试者特征(examinee characteristics)有关,而且对于不同被试者假定true score均值不同方差相等。
+在psychometrics,一般不使用CTT而用IRT方法(item response theory).这是一种基于item而不是test(由许多item组成）的方法，IRT要估计latent variable $\theta$,
+假设各个item彼此独立，被试者对某个item的回答正确的概率用IRF(item response function)建模.一般$\theta$会做一个归一化,使得其均值为0标准差为1，这样$\hat{\theta}$作为$\theta$的估计值一般在-3到3之前，非常接近0表示水平中等。这种归一化给不同测试集之间相互比较提供了方便。
+IRF函数有多种不同的建模方式，一般常用的有Logistic model:
+\begin{equation}
+p_i(\theta)=c_i+\frac{1-c_i}{1+exp(-a_i(\theta-b_i))}
+\end{equation}
+上式中i表示被试者的编号，a,b,c是item的参数，分别表征discrimination,difficulty和pseudo guessing,可以从下图(ICC曲线,item characteristic curve)形象地说明这三个参数
+\begin{figure}
+\caption{三个参数的IRF}
+\includegraphics[width=\linewidth]{3PL_IRF.png}
+\end{figure}
+由上图可以看出$\theta=-3$时被试者仍有概率c答对，对4选1的multiple choice,c=$\frac{1}{4}$,b是$p(\theta)=\frac{c+1}{2}$的点,即最大值1和最小值c的平均值的点，同时也是LRF曲线最陡的点，可以衡量difficulty.a和p'(b)成正比，a越大曲线两级分化越严重，即ability $\theta$小于某一个阈值答对的正确率为c,大于此阈值答对的正确率为1.
+此外LRF曲线还可以从标准正态分布的cdf建模。
+\appendix
+\section{First Appendix}
 \begin{thebibliography}{}
 \bibitem{Bib1}双语学习型词典设计特征研究 外研社2013年出版
 
 \bibitem{Bib2} 计算词典学 上海辞书出版社2011年版
 
 \bibitem{Bib3} \url{https://github.com/Leidenschaft/Deutsch-Lernen}
+\bibitem{Bib4} How Many Words Do We Know? Practical Estimates Of
+Vocabulary Size Depedenent on Word Definition, the Degree of Language Input and the Participant's Age		frontiers in Psychology
 \end{thebibliography}
 \end{document}

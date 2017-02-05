@@ -15,7 +15,12 @@
   <AllgemeineErläuterungen>
     <Eintrag>
       <Chinesisch>经济学</Chinesisch>
-      <BeispielSammlung/>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Ich studiere Wirtshaftswissenschaft.</Satz>
+          <Übersetzung>我学习经济学。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
     </Eintrag>
   </AllgemeineErläuterungen>
 </Entry>
