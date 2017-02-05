@@ -3,9 +3,10 @@
 <xsl:template match="Entry">
 <html>
 	<head>
-		<meta charset="utf-8"/>	
+    <title>Enter your title here</title>
+
+    <meta charset="utf-8"/>	
 		 <link rel="stylesheet" href="style.css" type="text/css" media="screen"/>	
-		<title>Enter your title here</title>
 	</head>
   <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
   <script type="text/javascript" src="BufferSearch.js"></script>

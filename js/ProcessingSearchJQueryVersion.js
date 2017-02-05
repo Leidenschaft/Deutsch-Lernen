@@ -1,19 +1,16 @@
 var jqueryFunction;
 var getWord_form;
 $(document).ready(function () {
-    //below the xml file wordlist is loaded
-   
-    var BrowersType;
+    var BrowsersType;
     var userAgent = navigator.userAgent;
     if (userAgent.indexOf("Android")>-1  || userAgent.indexOf("iPhone")>-1 ) {
-        //page redirection|| userAgent.indexOf("iPad")>-1 || userAgent.indexOf("Safari")>-1 
         location.href = "index_mobile.html";
     }
     if (userAgent.indexOf("Chrome") > -1 || userAgent.indexOf("Firefox") > -1) {
-        BrowersType = "Chrome";
+        BrowsersType = "Chrome";
     }
     else {
-        BrowersType = "IE";
+        BrowsersType = "IE";
 
     }
     var isIndexPage;
@@ -36,23 +33,6 @@ $(document).ready(function () {
         this.wordform = wordform;
         this.address = address;
     }
-  /*  function sortWort(wort_1, wort_2) {//if wort_1<wort_2; return false
-        var minLen = wort_1.wordform.length;
-        if (minLen > wort_2.wordform.length) minLen = wort_2.wordform.length;
-        var wort_2_is_forward=true;
-        for(var i=0;i<minLen;i++){
-            var first=GetCharCode(wort_1.wordform[i]);
-            var next= GetCharCode(wort_2.wordform[i]);
-            if (first<next) {
-                wort_2_is_forward=false;
-                break;
-            }
-            else if (first > next) {
-                break;
-            }
-        }
-        return wort_2_is_forward;
-    }*/
     var dic = new Array();
     var availableTags = new Array();
     var xmlDoc_wordList;
@@ -74,7 +54,6 @@ $(document).ready(function () {
             availableTags.push(oneDicEntry);
         }
         )
-       // dic.sort(sortWort);
     }
     function GetXML2() {
 
@@ -87,20 +66,14 @@ $(document).ready(function () {
             }
         }
     }
-
-    if (BrowersType == "Chrome") {
-        //change the WordList_11.xml to WordList_11.html
-      //  if (!isIndexPage) {
-      //      self.parent.frames["wordList"].location = "Wordlist_11.html";
-      //  }
+    if (BrowsersType == "Chrome") {
         $.ajax({
             url: 'Wordlist_11.xml',
             type: 'GET',
             dataType: 'xml',
             timeout: 1000,
             cache: false,
-            error: function (xml) {
-                //try loading xml with original javascript
+            error: function (xml) {//try loading xml with original javascript
                 if (xmlhttp != null) {
                     xmlhttp.onreadystatechange = GetXML_2;
                     xmlhttp.open("GET", '/Wordlist_11.xml', true);
@@ -113,7 +86,7 @@ $(document).ready(function () {
             success: GetXML
         });
     }
-    else {//IE
+    else {//for IE,this feature is for opening Frameset without configuring the server
         var srcTree = new ActiveXObject("Msxml2.DOMDocument.6.0");
         srcTree.async = false;
         srcTree.load('Wordlist_11.xml');
@@ -121,18 +94,10 @@ $(document).ready(function () {
         for (j=0;j<xmlObj.length;j++){
             var entry = xmlObj.item(j);
             var attr = entry.attributes.item(0).value;
-            //var jplus=j+1;//here getAttribute method should be used;
             dic.push(new Wort(entry.text,attr));
             
-            dic[entry.text] = attr;//jplus.toString();	
-        }//implementing the sorting by yourself
-        for (var i = dic.length - 1; i > 0; i--)
-            for (var j = 0; j < i; j++)
-                if (sortWort(dic[j], dic[j + 1])) {
-                    var k = dic[j];
-                    dic[j] =dic[j+1];
-                    dic[j + 1] = k;
-                }
+            dic[entry.text] = attr;	
+        }
     }
 
     var LastSearchedWord = '';
@@ -162,7 +127,6 @@ $(document).ready(function () {
     function GetAddress() {
         var hasTheWord = 0;
         var wordform_queried = $("#searchField").val();
-        //alert("Location"+wordID);
         for (var cnt = 0; cnt < dic.length;cnt++) {
             if (dic[cnt].wordform == wordform_queried) {
                 hasTheWord = 1;
@@ -171,7 +135,6 @@ $(document).ready(function () {
         }
         if (hasTheWord == 1) {
             LastSearchedWord = wordform_queried;
-            //here call the scrollbar utility function
             if (!isIndexPage) {
                 self.parent.frames["wordList"].document.getElementById(wordform_queried).focus();
                 //element should be focused
@@ -179,10 +142,6 @@ $(document).ready(function () {
             return dic[cnt].address;
         }
         else {
-            //local dictionary not found the word,search the external online dictionary
-            //xmlhttp.open("GET", "gehen.txt", true);//data query realization.
-            //xmlhttp.send();
-            
             return null;
         }
     }
@@ -206,82 +165,10 @@ $(document).ready(function () {
         source: availableTags
     });
 
-/*    xmlhttp.onreadystatechange = function () {
-        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-            var textGet = xmlhttp.responseText;
-            var JSONObject = eval("(" + textGet + ")");
-            var info = JSONObject.query.pages[11187].revisions["0"]["*"];
-        }
-    }*/
     $("#searchField").keypress(function (e) {
             var keynum;
             keynum = e.keyCode;
             if (keynum == 13)
                 ChangeContent();
     });
-
-     /*$("#searchField").on('input', function () {
-
-        var entry = $("#searchField").val();
-        if(entry==''){
-        $("#Words").html('');
-        }
-        else{
-        addWordToList(entry);
-   	  }
-    });
-   function GetCharCode(character) {
-        unicode=character.charCodeAt(0);
-        if (unicode > 122) {
-            switch (unicode) {
-                case 220:
-                    unicode = 85;//U
-                    break;
-                case 0xFC:
-                    unicode = 117;//u
-                    break;
-                case 0xC4:
-                    unicode = 65;//A
-                    break;
-                case 0xE4:
-                    unicode = 97;//a
-                    break;
-                case 0xD6:
-                    unicode = 79;//O
-                    break;
-                case 0xF6:
-                    unicode = 111;//o
-                    break;
-                case 0xDF:
-                    unicode = 115;//ss
-                    break;
-                default:
-                    break;
-            }
-        }
-        if (unicode >= 65 && unicode <= 90) unicode = unicode + 32;
-            return unicode;
-    }
-    function addWordToList(entry) {
-            var htmlcontent = "";
-            var c = 0;
-            for(var j=0;j<dic.length;j++){//dic has been sorted!
-                var minLen = dic[j].wordform.length;
-                if (minLen > entry.length) minLen = entry.length;
-                var isContinued=false;
-                for(var i=0;i<minLen;i++){
-                    if (GetCharCode(dic[j].wordform[i]) < GetCharCode(entry[i])) {
-                        isContinued = true;
-                        break;
-                    }
-                }
-                if (isContinued) continue;
-                htmlcontent = htmlcontent + "<option value=\"" + dic[j].wordform + "\"></option>";
-                c = c + 1;
-                if (c == 5) {
-                    break;
-                }
-            }
-            $("#Words").html(htmlcontent);
-        }*/
 });
