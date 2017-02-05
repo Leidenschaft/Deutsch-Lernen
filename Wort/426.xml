@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Entry SYSTEM "NounModel.dtd">
+<?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?>
+<Entry category="Substantiv">
 <Stichwort Audio="true">Stelle</Stichwort>
 <Einheit>4</Einheit>
 <Anteil>Leseverstehen</Anteil>
@@ -26,7 +29,7 @@
 
 <AllgemeineErläuterungen>
 	<Eintrag>
-		<Chinesisch>插头</Chinesisch>
+		<Chinesisch>职位</Chinesisch>
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Er findet keine Stelle.</Satz>

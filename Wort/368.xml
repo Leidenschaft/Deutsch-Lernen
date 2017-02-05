@@ -9,7 +9,7 @@
 <zusammengesetzteWörter>
 	<KompositaCollection>
 		<_K/>
-		<K_/>
+    <K_ link="237.xml">Provinzhauptstadt</K_>
 	</KompositaCollection>
 	<abgeleiteteWörter/></zusammengesetzteWörter>
 
@@ -30,7 +30,7 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Hangzhou ist die Hauptstadt der Provinz Zhejiang.</Satz>
-				<Übersetzung/>
+        <Übersetzung>杭州是浙江的首都。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>

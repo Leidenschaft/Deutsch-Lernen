@@ -1,6 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="navigation.xslt"?>
-
 <Wordlist>
   <Word address="1.xml" gender="der" chinese="晚上">Abend</Word>
   <Word address="2.xml" gender="die" chinese="毕业论文">Abschlussarbeit</Word>
@@ -427,7 +424,6 @@
   <Word address="423.xml" gender="die" chinese="雪碧">Sprite</Word>
   <Word address="424.xml" gender="der" chinese="国家">Staat</Word>
   <Word address="425.xml" gender="der" chinese="插座">Stecker</Word>
-
   <Word address="426.xml" gender="die" chinese="职位">Stelle</Word>
   <Word address="427.xml" gender="der" chinese="星星">Stern</Word>
   <Word address="428.xml" gender="der" chinese="楼层">Stock</Word>
@@ -454,9 +450,7 @@
   <Word address="449.xml" gender="der" chinese="桌子">Tisch</Word>
   <Word address="450.xml" gender="die" chinese="女儿">Tochter</Word>
   <Word address="451.xml" gender="der" chinese="豆腐">Tofu</Word>
-  <Word address="452.xml" gender="die" chinese="卫生间">Toilette</Word>
-
-
+  <Word address="452.xml" gender="die" chinese="图片，图画">Toilette</Word>
   <Word address="453.xml" gender="dad" chinese="图片，图画">Bild</Word>
    <Word address="454.xml" gender="die" chinese="斗室，小房间，老方，修道的小间">Zelle</Word>
   <Word address="455.xml" gender="die" chinese="中央银行">Zentralbank</Word>

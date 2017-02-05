@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE Entry SYSTEM "NounModel.dtd"><?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?><Entry category="Substantiv">
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Entry SYSTEM "NounModel.dtd">
+<?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?>
+<Entry category="Substantiv">
 <Stichwort Audio="true" Bild="427.jpg">Stern</Stichwort>
 <Einheit>5</Einheit>
 <Anteil>Übungen</Anteil>
@@ -11,7 +14,8 @@
 		<_K/>
 		<K_/>
 	</KompositaCollection>
-	<abgeleiteteWörter/></zusammengesetzteWörter>
+	<abgeleiteteWörter/>
+	</zusammengesetzteWörter>
 
 <Synonymegruppe>
 	<Sym/>
@@ -26,7 +30,7 @@
 
 <AllgemeineErläuterungen>
 	<Eintrag>
-		<Chinesisch>职位</Chinesisch>
+		<Chinesisch>星星</Chinesisch>
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Die Sterne hängen am Himmel.</Satz>
@@ -37,3 +41,4 @@
 </AllgemeineErläuterungen>
 
 </Entry>
+

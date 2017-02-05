@@ -4,7 +4,7 @@
 <Anteil>Hörverstehen</Anteil>
 <Genus>der</Genus>
 <Pluralform>Preise</Pluralform>
-<GenitivSingular/>
+  <GenitivSingular>Preises</GenitivSingular>
 
 <zusammengesetzteWörter>
 	<KompositaCollection>
@@ -21,7 +21,7 @@
 </Antonymegruppe>
 
 <Kollokationen>
-<K/>
+  <K>die Preis sinken</K>
 </Kollokationen>
 
 <AllgemeineErläuterungen>
@@ -30,10 +30,19 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Die Preise sind auch niedrig.</Satz>
-				<Übersetzung/>
+        <Übersetzung>价格也很便宜。</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>
+  <Eintrag>
+    <Chinesisch>奖</Chinesisch>
+    <BeispielSammlung>
+      <Beispiel>
+        <Satz>Er hat die erste Preis gewinnen.</Satz>
+        <Übersetzung>他得了一等奖。</Übersetzung>
+      </Beispiel>
+    </BeispielSammlung>
+  </Eintrag>
 </AllgemeineErläuterungen>
 
 </Entry>

@@ -8,9 +8,9 @@
 
 <zusammengesetzteWörter>
 	<KompositaCollection>
-		<_K/>
-		<K_/>
-	</KompositaCollection>
+    <K_>Polizeibeamte</K_>
+    <K_>Verkehrspolizei</K_>
+  </KompositaCollection>
 	<abgeleiteteWörter/></zusammengesetzteWörter>
 
 <Synonymegruppe>
@@ -21,19 +21,21 @@
 </Antonymegruppe>
 
 <Kollokationen>
-<K/>
+  <K>Polizei rufen</K>
 </Kollokationen>
-
-<AllgemeineErläuterungen>
-	<Eintrag>
-		<Chinesisch>警察</Chinesisch>
-		<BeispielSammlung>
-			<Beispiel>
-				<Satz>Die Polizei ist dort.</Satz>
-				<Übersetzung/>
-			</Beispiel>
-		</BeispielSammlung>
-	</Eintrag>
-</AllgemeineErläuterungen>
-
+  <AllgemeineErläuterungen>
+    <Eintrag>
+    <Chinesisch> 警察,警察局</Chinesisch>
+  <BeispielSammlung>
+    <Beispiel>
+      <Satz>Die Polizei ist dort.</Satz>
+      <Übersetzung>警察在那里。</Übersetzung>
+    </Beispiel>
+    <Beispiel>
+      <Satz>Ich muss morgen zu Polizei.</Satz>
+      <Übersetzung>我必须明天去警察局。</Übersetzung>
+    </Beispiel>
+  </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
 </Entry>

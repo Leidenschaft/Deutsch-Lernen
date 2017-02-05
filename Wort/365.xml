@@ -8,8 +8,8 @@
 
 <zusammengesetzteWörter>
 	<KompositaCollection>
-		<_K/>
-		<K_/>
+    <_K link="6.xml">Alkoholproblem</_K>
+    <K_/>
 	</KompositaCollection>
 	<abgeleiteteWörter/></zusammengesetzteWörter>
 
@@ -21,7 +21,7 @@
 </Antonymegruppe>
 
 <Kollokationen>
-<K/>
+  <K>Problem lösung</K>
 </Kollokationen>
 
 <AllgemeineErläuterungen>
@@ -30,7 +30,7 @@
 		<BeispielSammlung>
 			<Beispiel>
 				<Satz>Kein Problem!</Satz>
-				<Übersetzung/>
+        <Übersetzung>没问题</Übersetzung>
 			</Beispiel>
 		</BeispielSammlung>
 	</Eintrag>
