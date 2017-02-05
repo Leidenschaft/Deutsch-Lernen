@@ -3,7 +3,7 @@
 <xsl:template match="Wordlist">
 	<html>
 		<head>
-      <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <META http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 			<title>Wordlist</title>
       <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
   
