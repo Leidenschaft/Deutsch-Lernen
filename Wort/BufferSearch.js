@@ -1,10 +1,8 @@
 ﻿var GetSelection;
 $(document).ready(function () {
-    //judge the browser type here
-    var BrowsersType;
+    var BrowsersType;    //judge the browser type here
     var userAgent = navigator.userAgent;
     if (userAgent.indexOf("Android") > -1 || userAgent.indexOf("iPhone") > -1) {
-        //page redirection|| userAgent.indexOf("iPad")>-1 || userAgent.indexOf("Safari")>-1 
         BrowserType = "Mobile";
     }
     else if (userAgent.indexOf("Chrome") > -1 || userAgent.indexOf("Firefox") > -1) {
@@ -15,8 +13,7 @@ $(document).ready(function () {
     }
     //add support for mobile here
     $("#audioImg").on("click", function () {
-        //from <h1> to get the wordform
-        var wordform = $("#stich_wort").html();
+        var wordform = $("#stich_wort").html();        //from <h1> to get the wordform
         var audio_path = "../audio/" + wordform + ".mp3";
         if (BrowsersType == "IE") {
             if ($("#BGSOUND").length) {
@@ -27,19 +24,6 @@ $(document).ready(function () {
             var file = []; 
             file['mp3'] = audio_path; 
             audioplayer('audioplane', file, true); // 播放
-        /*    var audioplayer = $("#ChromeAudio"); 
-            if(audioplayer.length){//remove the original audio object
-                audioplayer.remove();
-            }
-            var new_audioplayer=$("<audio></audio>");
-            new_audioplayer.appendTo("#AudioDiv");
-            new_audioplayer.id="ChromeAudio";
-            new_audioplayer.attr("autoplay","autoplay");
-            var new_source=$("<source></source>");
-            new_source.src=audio_path;
-            new_source.type="audio/mpeg";
-            new_audioplayer.append(new_source);*/
-
         }
     });
     $("#edit_btn").on("click", function () {
@@ -67,11 +51,7 @@ $(document).ready(function () {
                 var player = document.createElement('audio');
                 player.id = id;
                 player.setAttribute('autoplay', 'autoplay');
-             //   if (loop) {
-             //       player.setAttribute('loop', 'loop');
-             //   }
                 document.body.appendChild(player);
-
                 var mp3 = document.createElement('source');
                 mp3.src = file['mp3'];
                 mp3.type = 'audio/mpeg';
@@ -84,23 +64,12 @@ function LoadNewWord(word_send) {
 	    if(newFileName)
 	       window.location=newFileName;
 }
-/*BufferSearch = function BufferSearch()
-{
-	var possibleWord=window.clipboardData.getData('text');
-	if(possibleWord.split(" ").length==1){	//No space is contained, other limitation.
-		var word_send=possibleWord.split(" ")[0];
-	    LoadNewWord(word_send);
-	}
-	else
-		alert("Invalid Word");
-}*/
 GetSelection=function GetSelection(){
 	if(window.getSelection){
 	  var selectedText = window.getSelection().toString(); 
 	  if(selectedText!=null){
 	     LoadNewWord(selectedText);
 	  }
-	   // self.parent.frames["left_frame"].document.getElementById("source").value=selectedText;	
 }
 }
 });
