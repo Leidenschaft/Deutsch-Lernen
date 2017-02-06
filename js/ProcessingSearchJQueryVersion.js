@@ -4,7 +4,7 @@ $(document).ready(function () {
     var BrowsersType;
     var userAgent = navigator.userAgent;
     if (userAgent.indexOf("Android")>-1  || userAgent.indexOf("iPhone")>-1 ) {
-        location.href = "FrameSetTest.html";
+        location.href = "FrameSetTest_for_mobile.html";
     }
     if (userAgent.indexOf("Chrome") > -1 || userAgent.indexOf("Firefox") > -1) {
         BrowsersType = "Chrome";
