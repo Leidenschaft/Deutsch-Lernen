@@ -30,7 +30,7 @@ for i in range(1,464):
         st=st.replace(b'</head>',b'</head>\n{% load static %} \n')
     else:
         st=st.replace(b'<html>',b'<html>{% load static %}\n');
-    st=st.replace(b'../jquery-1.9.1.min.js"/>',b"{% static 'Word_edit/jquery-1.9.1.min.js' %}\"></script>")
+    st=st.replace(b'../js/jquery-1.9.1.min.js"/>',b"{% static 'Word_edit/jquery-1.9.1.min.js' %}\"></script>")
     st=st.replace(b'BufferSearch.js"/>',b"{% static 'Word_edit/BufferSearch.js' %}\"></script>")
     st=st.replace(b'snd_sfx.png',b"{% static 'Word_edit/snd_sfx.png'%}");
     st=st.replace(b'icon16_search.png',b"{% static 'Word_edit/icon16_search.png'%}");

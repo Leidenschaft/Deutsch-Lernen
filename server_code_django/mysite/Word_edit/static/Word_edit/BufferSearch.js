@@ -42,7 +42,7 @@ $(document).ready(function () {
         if (this.innerHTML == '编辑') {
             //ajax request here
                 self.parent.frames["editing_frame"].load_xml(BrowersType,0);
-                self.parent.change_editing_frame("editting");
+                self.parent.change_editing_frame("editing");
                 this.innerHTML = '取消编辑';
          
         }

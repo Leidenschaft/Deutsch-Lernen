@@ -1,4 +1,4 @@
-var jqueryFunction;
+﻿var jqueryFunction;
 var getWord_form;
 $(document).ready(function () {
     //below the xml file wordlist is loaded
@@ -138,7 +138,7 @@ $(document).ready(function () {
         for (var i = dic.length - 1; i > 0; i--)
             for (var j = 0; j < i; j++)
                 if (sortWort(dic[j], dic[j + 1])) {
-                    var k = dic[j];
+                    var k = dic[j]; 
                     dic[j] =dic[j+1];
                     dic[j + 1] = k;
                 }
@@ -148,9 +148,18 @@ $(document).ready(function () {
     $("#suchen_button").click(function () {
             ChangeContent();
     });
-    $("#create_button").click(function () {
-        self.parent.frames["editing_frame"].load_xml(BrowserType,1);
-        self.parent.change_editing_frame("editting");
+    $("#test_button").click(function () {
+        if (this.innerHTML == 'Test your vocabulary') {//open Test interface
+            this.innerHTML = '关闭测试界面'
+            self.parent.frames["editing_frame"].location = "../static/Word_edit/test_interface.html";
+            self.parent.change_editing_frame("editing");
+
+        }
+        else {
+            self.parent.frames["editing_frame"].location = '../static/Word_edit/editing_interface.html';
+            self.parent.change_editing_frame("viewing");
+            this.innerHTML = 'Test your vocabulary';
+        }
     });
     function ChangeContent() {
         var newFileName = GetAddress();

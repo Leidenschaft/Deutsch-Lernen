@@ -21,7 +21,7 @@
     <h1>
       <span id="stich_wort"><xsl:value-of select="Stichwort"/>
       </span>&#160;
-<!--      <span>
+  <!--    <span>
         <button type="button" id="edit_btn">编辑</button>
       </span>-->
 			</h1>	
@@ -75,7 +75,6 @@
       <img class="img_1">
         <xsl:attribute name="src">
           ../images/<xsl:value-of select="Stichwort/@Bild"/>
-          <!--<xsl:attribute name="src">../images/<xsl:value-of select="Stichwort/@Bild"/>-->
         </xsl:attribute>
       </img>
     </xsl:if>

@@ -1,0 +1,16 @@
+﻿Beim Arzt
+Szene 1: Einen Termin machen
+Sprechstundenhilfe: Praxis Dr. Laun. Guten Tag.
+Müller: Guten Tag. Ich fühle mich sehr schlecht und hätte gern einen Termin.
+Sprechstundenhilfe: Gut. Am Mittwoch, den 23., um 13.30 Uhr ist noch ein Termin frei. Geht das?
+Müller: erst am 23.? Das ist zu spät! Es geht mir schlecht!
+Sprechstundenhilfe; Moment bitte. Geht es am 21., um 10.30 Uhr?
+Müller: Ja,gut.
+Sprechstundenhilfe: Wie ist Ihr Name bitte?
+Müller: Lena Müller.
+
+Szene 2: Im Wartezimmer
+Müller: Guten Tag. Mein Name ist Lena Müller. Ich habe um 10.30 Uhr einen Termin. Hier ist meine Versichertenkarte.
+Sprechstundenhilfe: Guten Tag, Frau Müller. Nehmen Sie bitte im Wartezimmer einen Moment Platz.
+Lorenz: Hallo, haben wir uns nicht schon mal gesehen?
+Müller: 
