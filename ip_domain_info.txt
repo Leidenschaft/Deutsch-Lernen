@@ -1,0 +1,2 @@
+site for debug, use Egria's pc:http://112.74.58.79:8000/Word_edit/
+site for release, with ∞¢¿Ô‘∆ server :http://112.74.58.79:8000/Word_edit/

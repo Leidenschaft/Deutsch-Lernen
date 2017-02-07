@@ -21,9 +21,9 @@
     <h1>
       <span id="stich_wort"><xsl:value-of select="Stichwort"/>
       </span>&#160;
-  <!--    <span>
-        <button type="button" id="edit_btn">编辑</button>
-      </span>-->
+      <span>
+        <button type="button" id="edit_btn" hidden="hidden">编辑</button>
+      </span>
 			</h1>	
 	<!--<br/>-->
       <xsl:if test="count(Stichwort/@link)">
@@ -68,7 +68,7 @@
     </table>
 	 <xsl:for-each select="BeispielSammlung/Beispiel">
 	 <ex><font color="#2F4F4F"><xsl:value-of select="Satz"/></font></ex><br/>
-	 <ex><font color="#59C945" face="仿宋"><xsl:value-of select="Übersetzung"/></font></ex><br/>
+	 <ex><font color="#209403" face="仿宋"><xsl:value-of select="Übersetzung"/></font></ex><br/>
 	 </xsl:for-each>
 	 </xsl:for-each>
     <xsl:if test="count(Stichwort/@Bild)">

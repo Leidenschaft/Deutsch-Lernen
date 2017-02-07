@@ -118,5 +118,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
-
-STATIC_URL = '/static/'
+STATICFILES_FINDERS=['django.contrib.staticfiles.finders.FileSystemFinder',]
+STATICFILES_DIRS=['E:/DeutschLernen/Deutsch-Lernen/Deutsch-Lernen/css/',]
+STATIC_ROOT='./static111/'
+STATIC_URL = '/static111/'

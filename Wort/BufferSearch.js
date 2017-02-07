@@ -11,6 +11,10 @@ $(document).ready(function () {
     else {
         BrowsersType = "IE";
     }
+    var url_current = this.location.pathname;
+    if (url_current.indexOf("static") > 0) {//hide edit button
+        $("#edit_btn").removeAttr("hidden");
+    }
     //add support for mobile here
     $("#audioImg").on("click", function () {
         var wordform = $("#stich_wort").html();        //from <h1> to get the wordform
@@ -28,11 +32,11 @@ $(document).ready(function () {
     });
     $("#edit_btn").on("click", function () {
         if (this.innerHTML == '编辑') {
-            if ($("form").length < 1) {//reload editting_interface
-                self.parent.frames["editing_frame"].location = 'client_form/editing_interface.html';
-            }
+ //           if ($("form").length < 1) {//reload editting_interface
+ //               self.parent.frames["editing_frame"].location = '../client_form/editing_interface.html';
+ //           }
             self.parent.frames["editing_frame"].load_xml(BrowsersType);
-            self.parent.change_editing_frame("editting");
+            self.parent.change_editing_frame("editing");
             this.innerHTML = '取消编辑';
         }
         else {

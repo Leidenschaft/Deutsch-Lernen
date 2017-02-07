@@ -1,4 +1,4 @@
-var jqueryFunction;
+﻿var jqueryFunction;
 var getWord_form;
 $(document).ready(function () {
     var BrowsersType;
@@ -37,6 +37,19 @@ $(document).ready(function () {
     var availableTags = new Array();
     var xmlDoc_wordList;
     var xmlhttp = new XMLHttpRequest();
+    $("#test_button").click(function () {
+        if (this.innerHTML == 'Test your vocabulary') {//open Test interface
+            this.innerHTML = '关闭测试界面'
+            self.parent.frames["editing_frame"].location = "client_form/test_interface.html";
+            self.parent.change_editing_frame("editing");
+
+        }
+        else {
+            self.parent.frames["editing_frame"].location = 'client_form/editing_interface.html';
+            self.parent.change_editing_frame("viewing");
+            this.innerHTML = 'Test your vocabulary';
+        }
+    });
     function GetXML(xml) {
         xmlDoc_wordList = xml;
         $(xml).find("Word").each(function (i) {
