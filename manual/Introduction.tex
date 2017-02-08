@@ -11,6 +11,7 @@
 \usepackage{amsmath}
 \usepackage{makecell}
 \usepackage[lofdepth,lotdepth]{subfig}
+\DeclareMathOperator*{\argmax}{argmax}
 \setCJKmainfont[BoldFont={SimHei}]{SimSun}
 \setCJKmonofont{SimSun}
 \setmainfont{Times New Roman}
@@ -133,6 +134,36 @@ P(X_{ki}=1)=\frac{exp(\beta_k-\delta_i)}{1+exp(\beta_k-\delta_i)}
 \item{每一个用户初始化背单词能力为0，每一次背单词后保留其该次背单词能力的估计值，在下一次背单词时采用之前能力值的加权平均值，对于该平均值-单词难度>3的单词则不予考虑，在其他单词中按单词难度进行重要度抽样，样本数量为N个,作为该次背单词的测试集。每次用户的有效测试（没有中途退出和缺失值）保存到服务器的数据库用来更新单词难度。}
 \item{定期更新单词难度之前集齐一定数量的测试结果,应考虑到用户的能力变化曲线，有选择地剔除某一部分数据再用CML全局计算单词难度，将计算值与原有的频率值做平均。}
 \end{enumerate}
+\subsection{\textbf{\fontsize{12pt}{\baselineskip}{单词抽样方法}}}
+考虑到总单词数在几百左右，如果分的bins太多，每个bins内单词过少，因为难词多而被抽样的概率低，则大量的难词无法被抽到；简单词少而被抽样的概率高，则简单词几乎必然被抽到。因此在实际操作中，我们把单词分为easy,middle和difficult三类。分类的标准是假设单词难度归一化后是近似指数分布的随机变量X(我们先把单词按从易到难排序，同时用随机模拟的方法生成同样长度的指数分布的随机数，将该随机数序列从小到大排序后作为给定单词总体归一化后的难度)，$P(X<1)\approx 64\%,P(X>1 \wedge X<2) \approx 23\%,P(X>2) \approx 13\%$，基于此，我们设定简单词的采样率为
+$\frac{10}{13}$,中等词的采样率为$\frac{5}{23}$,难词的采样率为$\frac{3}{64}$,则可以算出三类词在样本中的比率为$10:5:3$，对于给定的单词总体，先将其分成三类；对于给定的样本数N,计算出在简单词类中要无放回的抽取$\frac{10}{18}$,中等词类中抽取$\frac{5}{18}$,难词类中抽取$\frac{3}{18}$.下图是从1000个单词中按上述方法抽取100个单词的模拟结果：
+\begin{figure}[!ht]
+\includegraphics[width=\linewidth]{sampling.png}
+\end{figure}
+
+上图中纵轴表示每个bins的大小，横轴是将1000个单词按难度排序，最难的序号为1000，最易的为1。由上图可以看出，
+该方法抽到的大部分样本集中在难度排名前20\%的单词,占到样本的60\%以上。
+由上面的描述可知，该方法不依赖于单词的绝对难度差异而是根据排名进行的抽样，对于规模为几百的总体，效果较好。
+该方法的局限性在于由于每类抽样比固定，对于给定的总体(len=N)，样本数量要受到限制，一个比较保守的上限是$\frac{117N}{1000}$,根据概率论\ref{A2}的知识可以计算出当N=200时临界安全概率为99.8\%,即当抽样数恰好等于上界时无放回抽样不会报错的概率为99.8\%，这对于一般的情形
+(N$\geq 200$)可认为不安全是小概率事件。
+\subsection{\textbf{\fontsize{12pt}{\baselineskip}{Score算法}}}
+Rasche Model算出的ability在测试题目给定的情况下和总分具有非线性的一一对应关系,通过极大似然的方法可以推导出person的ability代数方程
+\ref{A3},用牛顿法求解方程即得到ability参数。
+
+实际实现时发现牛顿算法在分数接近满分和接近零分时误差较大，改用优化的方法求$\beta$在[-3,3]区间的极大值则无此问题，下图是利用仿真
+数据得到的分数-能力曲线:
+\begin{figure}[!ht]
+\includegraphics[width=\linewidth]{scoring.png}
+\end{figure}
+
+上图中三组数据分别是20个难题，20个容易题，和10个难题和10个容易题的混合组，
+由上图可看出每一条曲线有如下特点:
+\begin{enumerate}
+\item{能力和分数的关系在高分和低分段斜率比较大，非线性性比较明显，而在中部接近线性。}
+\item{平均水平能力为0对应答出来一半的题目，曲线具有对称性。}
+\end{enumerate}•
+比较不同的曲线也符合直观,答出同样数量的题，对于难题组能力高，混合组能力次之，最末为简单题组。
+通过用Ability而不是score来衡量从而消除了某一次Test题目的影响而在一个统一的scale上比较。
 \appendix
 \section{First Appendix}\label{A1}
 \subsection{JML}
@@ -181,6 +212,38 @@ P(x_k|r_k,\vec{\delta})=\frac{P(x_k|\beta_k,\vec{\delta})}{P(r_k|\beta_k,\vec{\d
 \begin{equation}
 \log(\Lambda(\vec{x}|\vec{r},\vec{\delta}))=\sum_{k=1}^N \frac{exp(-x_{ki}\delta_i)}{\gamma_{r_k|\vec{\delta}}}
 \end{equation}
+\section{Second Appendix}
+\subsection{安全概率}\label{A2}
+问题可转化为$P(X>2)=0.136,Y_i i.i.d \sim Bernoulli(p=0.136)$，求$P(\displaystyle\sum_{i=1}^N Y_i >K)$
+当N较大时，可以用中心极限定理近似计算：
+\begin{equation}
+P(\frac{\sum_{i=1}^N Y_i-Np}{\sqrt{Np(1-p)}}>\frac{10K/18-Np}{\sqrt{Np(1-p)}})
+\end{equation}
+上式左边为标准正态分布的随机变量，由上式右边可以看出抽样率K/N必须小于23.4\% (这是该抽样方法最大允许的通过率),否则随着N的增大概率趋近于0.
+在实际操作中取$K=\frac{117N}{1000}$满足这个约束，代入N=100可算出概率为98\%,而且N越大安全概率越大。
+\subsection{能力参数$\beta$满足的方程}\label{A3}
+用$\beta$表示某人的能力，$\beta$的先验分布记成
+$p(\beta)$,一般是正态分布，表示在没有考试成绩的时候对其能力的估计，设此人参加了有$i=1,2,..I$个item组成的测试，得分为$x_i$,
+每道题的难度为$\delta_i$,由贝叶斯公式，对其成绩的后验估计为:
+\begin{equation}
+p(\beta|\vec{x})=\frac{p(\beta)p(\vec{x}|\beta)}{p(\vec{x})}\propto p(\beta)p(\vec{x}|\beta)
+\end{equation}
+$\beta$最有可能的取值为:
+\begin{equation}
+\argmax_{\beta} p(\beta)p(\vec{x}|\beta)
+\end{equation}
+其中$p(\vec{x}|\beta)$由Rasch Model给出:
+\begin{equation}
+p(\vec{x}|\beta)=\prod_{i=1}^I \frac{exp(x_i(\beta-\delta_i))}{1+exp(\beta-\delta_i)}
+\end{equation}
+对含先验分布的对数似然函数\\*
+$\log(p(\vec{x}|\beta))$关于$\beta$求导得:
+\begin{equation}\label{eq:score}
+\frac{p'(\beta)}{p(\beta)}+\sum_{i=1}^I x_i =\sum_{i=1}^I \frac{exp(\beta-\delta_i)}{1+exp(\beta-\delta_i)}
+\end{equation}
+上面方程的解$\beta$对各项得分的依赖仅仅通过总分$\sum_{i=1}^I x_i$的形式，因此总分是参数$\beta$的充分统计量。由于Rasch  dichotomous Model对person的能力只有一个维度的假定,在items一定的情况下，相同能力与相同总分一一对应。
+如果不加先验分布，在全对和全错两种极端情况下方程(\ref{eq:score})无解，因此适当的先验分布是必要的，有用户ability数据的情况下可以拟合正态分布的参数，在缺少用户数据的初始化阶段可以用标准正态分布代替，此时上式第一项化为$-\beta$。
+
 \begin{thebibliography}{}
 \bibitem{Bib1}双语学习型词典设计特征研究 外研社2013年出版
 

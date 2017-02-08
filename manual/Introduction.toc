@@ -7,6 +7,11 @@
 \contentsline {section}{\numberline {5}背单词}{3}{section.5}
 \contentsline {subsection}{\numberline {5.1}\textbf {\fontsize {12pt}{\baselineskip }{词汇量统计方法}}}{3}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}\textbf {\fontsize {12pt}{\baselineskip }{具体实施步骤}}}{5}{subsection.5.2}
-\contentsline {section}{\numberline {A}First Appendix}{5}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}JML}{5}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}CML}{6}{subsection.A.2}
+\contentsline {subsection}{\numberline {5.3}\textbf {\fontsize {12pt}{\baselineskip }{单词抽样方法}}}{5}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}\textbf {\fontsize {12pt}{\baselineskip }{Score算法}}}{6}{subsection.5.4}
+\contentsline {section}{\numberline {A}First Appendix}{7}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}JML}{7}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}CML}{7}{subsection.A.2}
+\contentsline {section}{\numberline {B}Second Appendix}{8}{appendix.B}
+\contentsline {subsection}{\numberline {B.1}安全概率}{8}{subsection.B.1}
+\contentsline {subsection}{\numberline {B.2}能力参数$\beta $满足的方程}{8}{subsection.B.2}
