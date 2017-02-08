@@ -147,6 +147,7 @@ $\frac{10}{13}$,中等词的采样率为$\frac{5}{23}$,难词的采样率为$\fr
 该方法的局限性在于由于每类抽样比固定，对于给定的总体(len=N)，样本数量要受到限制，一个比较保守的上限是$\frac{117N}{1000}$,根据概率论\ref{A2}的知识可以计算出当N=200时临界安全概率为99.8\%,即当抽样数恰好等于上界时无放回抽样不会报错的概率为99.8\%，这对于一般的情形
 (N$\geq 200$)可认为不安全是小概率事件。
 \subsection{\textbf{\fontsize{12pt}{\baselineskip}{Score算法}}}
+\subsubsection{算法描述}
 Rasche Model算出的ability在测试题目给定的情况下和总分具有非线性的一一对应关系,通过极大似然的方法可以推导出person的ability代数方程
 \ref{A3},用牛顿法求解方程即得到ability参数。
 
@@ -164,6 +165,17 @@ Rasche Model算出的ability在测试题目给定的情况下和总分具有非�
 \end{enumerate}•
 比较不同的曲线也符合直观,答出同样数量的题，对于难题组能力高，混合组能力次之，最末为简单题组。
 通过用Ability而不是score来衡量从而消除了某一次Test题目的影响而在一个统一的scale上比较。
+
+\subsubsection{精度分析}
+对于单次测试而言，可以用总的Fisher信息量$I(\beta)$衡量精度，一般而言,对于某一个估计的值$\hat{\beta}$,$I(\hat{\beta})$越大则表明
+估计统计量的方差越小，能力估计的精度越高。\ref{A4}
+基于MLE的方法一般都是有偏的，即估计统计量$\hat{\beta}$的均值不等于$\beta$,由于引入了先验的分布，这种偏差在两级状态会非常明显\ref{A5}，
+下图是比较两组题目bias的结果:
+\begin{figure}[!ht]
+\includegraphics[width=\linewidth]{bias.png}
+\end{figure}
+
+如果person的能力接近平均水平(ability $\approx$ 0)，则几乎没有bias,但两级的bias会比较大。由于采用了先验的正态总体假设，对于高分，会低估person的能力而对于低分则会高估person的能力。如果题目较难，高分段的bias减小而低分段的bias增大。
 \appendix
 \section{First Appendix}\label{A1}
 \subsection{JML}
@@ -229,7 +241,7 @@ $p(\beta)$,一般是正态分布，表示在没有考试成绩的时候对其能
 p(\beta|\vec{x})=\frac{p(\beta)p(\vec{x}|\beta)}{p(\vec{x})}\propto p(\beta)p(\vec{x}|\beta)
 \end{equation}
 $\beta$最有可能的取值为:
-\begin{equation}
+\begin{equation}\label{eq:map}
 \argmax_{\beta} p(\beta)p(\vec{x}|\beta)
 \end{equation}
 其中$p(\vec{x}|\beta)$由Rasch Model给出:
@@ -243,7 +255,46 @@ $\log(p(\vec{x}|\beta))$关于$\beta$求导得:
 \end{equation}
 上面方程的解$\beta$对各项得分的依赖仅仅通过总分$\sum_{i=1}^I x_i$的形式，因此总分是参数$\beta$的充分统计量。由于Rasch  dichotomous Model对person的能力只有一个维度的假定,在items一定的情况下，相同能力与相同总分一一对应。
 如果不加先验分布，在全对和全错两种极端情况下方程(\ref{eq:score})无解，因此适当的先验分布是必要的，有用户ability数据的情况下可以拟合正态分布的参数，在缺少用户数据的初始化阶段可以用标准正态分布代替，此时上式第一项化为$-\beta$。
+\subsection{Rasch模型Fisher信息量}\label{A4}
+$I(\beta)$的计算公式为:
+\begin{equation}
+I(\beta)=-E(\frac{\partial^2 \log p(\vec{x}|\beta)}{\partial \beta^2})
+\end{equation}
+对于Rasch Model,代入似然函数表达式，取先验分布为正态分布，则有
+\begin{equation}
+I(\beta)=1+\sum_{i=1}^I \frac{exp(\beta-\delta_i)}{(1+exp(\beta-\delta_i))^2}
+\end{equation}
+上式中第一项是先验分布的信息量，后面分别是每一个item的信息量(item infromation function)，它们彼此独立因而可以相加。上式的和也被称为
+Test Information Function(TIF).
+对于每一个item,其IIF有下图所示的形式:
+\begin{figure}[!ht]
+\includegraphics[width=\linewidth]{IIF.png}
+\end{figure}
 
+上图是假定item difficulty为0，当$\beta-\delta_i>3$时(题目过难或过易)，IIF已经小于0.05,在这种情况下能力估计的误差为比较大。
+由于先验分布对TIF的贡献是常数，可以在一定程度上减轻能力的极端情况造成的信息量过少的问题。
+下图是20道题的TIF结果:
+\begin{figure}[!ht]
+\includegraphics[width=\linewidth]{TIF.png}
+\end{figure}
+
+由上图可看出，对于难题组，全对的信息量要比简单题大，而全错的信息量比简单题小，这符合一般经验。
+\subsection{Rasch模型Fisher信息量}\label{A5}
+计算bias需要计算给定真实能力后计算关于估计量的期望值，在对模型没有任何了解的情况下可以采用Monte Carlo模拟，但对于
+Rasch Model由(\ref{eq:score})式得$r_I=\displaystyle\sum_{i=1}^I x_i$是$\beta$的充分统计量，于是首先计算总分$r_I$的分布，
+再由
+\begin{equation}
+E(\hat{\beta}(r_I))=\sum_{i=1}^I \hat{\beta}(i)P(r_I=i)
+\end{equation}
+计算出期望值。在上式中$\hat{\beta}(i)$可以通过对\ref{eq:map}求解极大值得到，而$r_I$的分布可以类比组合数的计算方法递推得到。
+记$A_n^k=\displaystyle\sum_{k=1}^n x_k$,则有如下递推公式:
+\begin{equation}
+A_n^k=P(x_n=1)A_{n-1}^{k-1}+P(x_n=0)A_{n-1}^k
+\end{equation}
+上式中$P(x_n=1)$为第n道题的答对概率。
+该方法计算规模为$O(n^3)$,其中n为item 数量，相比Monte Carlo模拟需要大量重复才能得到比较精确的结果在n不大时效率比较高。
+%信息量和能力估计的标准差$\sigma_{\hat{\beta}}$之间的关系很难给出理论表达式，
+%但可以用$\frac{1}{\sqrt{I(\hat{\beta})}}$近似作为标准差的下界。
 \begin{thebibliography}{}
 \bibitem{Bib1}双语学习型词典设计特征研究 外研社2013年出版
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6210) (preloaded format=xelatex 2017.1.15)  8 FEB 2017 00:43
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6210) (preloaded format=xelatex 2017.1.15)  8 FEB 2017 19:14
 entering extended mode
 **./Introduction.tex
 (Introduction.tex
@@ -1374,29 +1374,42 @@ File: sampling.png Graphic file (type QTm)
 <use  "sampling.png" > [5]
 File: scoring.png Graphic file (type QTm)
  <use  "scoring.png" > [6]
-Overfull \hbox (14.04369pt too wide) in paragraph at lines 217--219
+File: bias.png Graphic file (type QTm)
+ <use  "bias.png" >
+[7]
+Overfull \hbox (14.04369pt too wide) in paragraph at lines 229--231
 \OT1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 :\OT1/cmr/m/n/14.4 136\OML/cmm/m/it/14.4 
 ; Y[]i:i:d \OMS/cmsy/m/n/14.4 ^^X \OML/cmm/m/it/14.4 Bernoulli\OT1/cmr/m/n/14.4
  (\OML/cmm/m/it/14.4 p \OT1/cmr/m/n/14.4 = 0\OML/cmm/m/it/14.4 :\OT1/cmr/m/n/14
 .4 136)$\EU1/SimSun(0)/m/n/14.4 ，|
  []
 
-[7]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 224.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beta' on input line 224.
+(hyperref)                removing `math shift' on input line 236.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 224.
+(hyperref)                removing `\beta' on input line 236.
 
 
-Overfull \hbox (1.18802pt too wide) detected at line 243
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 236.
+
+[8]
+Overfull \hbox (1.18802pt too wide) detected at line 255
 [] \OT1/cmr/m/n/14.4 + [] \OML/cmm/m/it/14.4 x[] \OT1/cmr/m/n/14.4 = [] []
+ []
+
+File: IIF.png Graphic file (type QTm)
+<use  "IIF.png" >
+File: TIF.png Graphic file (type QTm)
+ <use  "TIF.png" > [9]
+Overfull \hbox (16.28482pt too wide) detected at line 293
+\OML/cmm/m/it/14.4 A[] \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 P\OT1/cmr/m/n/14.
+4 (\OML/cmm/m/it/14.4 x[] \OT1/cmr/m/n/14.4 = 1)\OML/cmm/m/it/14.4 A[] \OT1/cmr
+/m/n/14.4 + \OML/cmm/m/it/14.4 P\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x[] \OT1/
+cmr/m/n/14.4 = 0)\OML/cmm/m/it/14.4 A[]
  []
 
 .................................................
@@ -1414,7 +1427,7 @@ Overfull \hbox (1.18802pt too wide) detected at line 243
 . 
 . Could not resolve font SimSun/I (it probably doesn't exist).
 .................................................
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 252
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 303
 .
 (D:\MikTexPortable\texmfs\install\tex\latex\euenc\eu1lmtt.fd
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1430,34 +1443,35 @@ File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
 [][]$[][][][][] [] [] [] [][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
 [][][] [] [][][][][][][][][][][][] []
  []
 
-[8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 256.
- [9
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 256.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 307.
+[10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 307.
  (Introduction.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 256.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 256.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 256.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 307.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 307.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 307.
  )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 26181 strings out of 430313
- 485722 string characters out of 3189037
- 511777 words of memory out of 3000000
- 29245 multiletter control sequences out of 15000+200000
+ 26192 strings out of 430313
+ 485816 string characters out of 3189037
+ 511909 words of memory out of 3000000
+ 29253 multiletter control sequences out of 15000+200000
  9078 words of font info for 70 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  52i,18n,65p,10442b,470s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Introduction.pdf (9 pages).
+Output written on Introduction.pdf (10 pages).
