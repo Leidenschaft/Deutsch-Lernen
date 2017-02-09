@@ -1,4 +1,4 @@
-Im Kaufhaus
+﻿Im Kaufhaus
 Wang_Hongliang: Grüß dich, Lea.
 Lea: Hallo, Hongliang. Was machst du denn hier?
 Wang_Hongliang: Meine Freundin hat bald Geburtstag. Ich suche ein Geschenk für sie.
@@ -16,7 +16,7 @@ Lea: Zeig mal. Hm, ich glaube, mit der schwarzen Mütze sieht deine Freundin bes
 Wang_Hongliang: Sieh mal nach, wie viel sie kostet?
 Lea: 35 Euro.
 Wang_Hongliang: Was? So teuer? Gibt es keine billigeren?
-Lea: Warte ich suche mal. Nimm die schwarze hier. Sie ist auch schön und kostet nur 15 Euro.
+Lea: Warte, ich suche mal. Nimm die schwarze hier. Sie ist auch schön und kostet nur 15 Euro.
 Wang_Hongliang: O.K., die nehme ich. Wo ist denn die Kasse?
 Lea: Da vorne.
 ...

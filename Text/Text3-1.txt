@@ -1,4 +1,4 @@
-Lernen, lernen, immer lernen
+﻿Lernen, lernen, immer lernen
 Hallo, wie geht's?
 Danke, gut. Und dir?
 Auch gut. Was machst du denn hier?
@@ -7,9 +7,9 @@ Hast du täglich Unterricht?
 Ja. immer am Vormittag von acht bis Viertel vor zwölf.
 Um acht Uhr habt ihr schon Unterricht? So früh? Wann stehst du
 denn dann auf?
-Um Vienel nach sechs. Dann treibe ich Sport. Ich laufe ...
+Um Viertel nach sechs. Dann treibe ich Sport. Ich laufe ...
 So aktiv? Und nicht nur beim Sport, auch dein Deustch ist jetzt viel besser'.
-Danke. ich leme auch sehr viel. Die Lehrerin spricht im Unterricht
+Danke. ich lerne auch sehr viel. Die Lehrerin spricht im Unterricht
 nur Deutsch, Ich verstehe sie immer besser. Wohin fährst du
 jetzt?
 Ich besuche eie Vorlesung, aber erst um halb zwölf.
@@ -22,4 +22,4 @@ Und dann? Hast du am Freitag Zeit? Trinken wir zusammen Kaffee!
 Nein, das geht auch nicht. Am Freitag gibt es immer Hausaufgaben.
 Lernen, lernen, immer lernen. Du hast nie Zeit für das Leben und für die Freunde. Du liest und liest.
 Schläfst du eigentlich noch? Isst du eigentlich noch?
-Oh, wie spät ist es jetzt? Was? Schon fünf vor elf? Der Unterrricht beginnt.
+Oh, wie spät ist es jetzt? Was? Schon fünf vor elf? Der Unterricht beginnt.

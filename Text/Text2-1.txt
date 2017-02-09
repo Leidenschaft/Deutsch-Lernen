@@ -1,5 +1,5 @@
-Im Deutschunterricht
-Lehrerin: Guten Tag! Ich heiße Karin Beckmann. Und wieist Ihr Name bitte?
+﻿Im Deutschunterricht
+Lehrerin: Guten Tag! Ich heiße Karin Beckmann. Und wie ist Ihr Name bitte?
 Studentin: Mary Johnson.
 Lehrerin: Frau Johnson, woher kommen Sie?
 Studentin: Aus England, aus London.
