@@ -468,6 +468,8 @@
   <Word address="461.xml" gender="das" chinese="苏黎世（瑞士地名）">Zürich</Word>
   <Word address="462.xml" gender="der" chinese="观众">Zuschauer</Word>
   <Word address="463.xml" gender="die" chinese="期中考试">Zwischenprüfung</Word>
+  <Word address="464.xml" gender="das" chinese="晚饭">Abendessen</Word>
+
   <Word address="V1.xml" third_person_present="kommt" perfekt="ist gekommen" chinese="来">kommen</Word>
   <Word address="V2.xml" third_person_present="geht" perfekt="ist gegangen" chinese="走">gehen</Word>
   <Word address="V3.xml" third_person_present="begrüßt" perfekt="hat begrüßt" chinese="欢迎，向……问候">begrüßen</Word>

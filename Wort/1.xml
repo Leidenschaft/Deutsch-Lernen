@@ -12,7 +12,7 @@
     <KompositaCollection>
       <_K>Montagabend</_K>
       <_K>Sommerabend</_K>
-      <K_>Abendessen</K_>
+      <K_ link="464.xml">Abendessen</K_>
       <_K>Festabend</_K>
     </KompositaCollection>
     <abgeleiteteWörter/>

@@ -32,12 +32,14 @@ $(document).ready(function () {
     });
     $("#edit_btn").on("click", function () {
         if (this.innerHTML == '编辑') {
- //           if ($("form").length < 1) {//reload editting_interface
- //               self.parent.frames["editing_frame"].location = '../client_form/editing_interface.html';
- //           }
-            self.parent.frames["editing_frame"].load_xml(BrowsersType);
-            self.parent.change_editing_frame("editing");
-            this.innerHTML = '取消编辑';
+            if (self.parent.frames["editing_frame"].document.getElementById('tab_nav_1') == null) {//reload editting_interface
+                self.parent.frames["editing_frame"].location = '../client_form/editing_interface.html';
+            }
+            else {
+                self.parent.frames["editing_frame"].load_xml(BrowsersType);
+                self.parent.change_editing_frame("editing");
+                this.innerHTML = '取消编辑';
+            }
         }
         else {
             self.parent.change_editing_frame("viewing");

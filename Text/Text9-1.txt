@@ -14,7 +14,7 @@ Müller: Guten Tag. Mein Name ist Lena Müller. Ich habe um 10.30 Uhr einen Term
 Sprechstundenhilfe: Guten Tag, Frau Müller. Nehmen Sie bitte im Wartezimmer einen Moment Platz.
 Lorenz: Hallo, haben wir uns nicht schon mal gesehen?
 Müller: Ja? Meinen Sie?
-Lorenz: Haben Sie sich nicht letztes Jahr eine Wohung in der Unistraße angesehen?
+Lorenz: Haben Sie sich nicht letztes Jahr eine Wohnung in der Unistraße angesehen?
 Müller: Doch, das stimmt. Da waren Sie auch! Wir haben uns damals über unsere Kinder unterhalten. Sie sehen jetzt aber blass aus, Was ist denn los mit Ihnen?
 Lorenz: Ich haben immer Magenschmerzen. Ich kann gar nichts essen. Der Arzt ist der Meinung, dass ich für ein paar Tage ins Krankenhaus muss. 
 Müller: Tut mir Leid. Wer kümmert sich dann um Ihre zwei Kleinen?
