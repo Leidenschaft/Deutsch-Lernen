@@ -19,9 +19,9 @@ my_keys=sorted(my_fdist.keys())
 text=nltk.Text(my_words)
 example_index=nltk.text.ConcordanceIndex(my_words)
 Dic={}
-Dic['sich']=['sich','mich']
-Dic['steigen']=['steigen']
-Dic['um']=['um','Um']
+#Dic['sich']=['sich','mich']
+#Dic['steigen']=['steigen']
+#Dic['um']=['um','Um']
 def findCommon(v1,v2=[]):
     Ls=[]
     for verben in v1:
@@ -31,23 +31,37 @@ def findCommon(v1,v2=[]):
         if(len(v2)==0 or len(v2)+len(set(my_words[(i-10):(i+10)]))>len(set(my_words[(i-10):(i+10)]+v2))):
             Ls_2.append(' '.join(my_words[(i-10):(i+10)]))
     return Ls_2
-#f=open('output.txt','wb')
-#for i in my_keys:
-#    f.writelines(i+'\t'+str(my_fdist[i])+'\n')
-#f.close()
-##for i in range (1,10):
-##	f=open('Text%d-A.txt'%i,'rb')
-##	st=f.read()
-##	root[1].append(etree.Element('div'))
-##	root[1][2*(i-1)].text=st.decode('utf-8')
-##	f=open('Text%d-B.txt'%i,'rb')
-##	st=f.read()
-##	root[1].append(etree.Element('div'))
-##	root[1][2*(i-1)+1].text=st.decode('utf-8')
-##if(True):
-##    f=open('xiaokai_txt.html','wb')
-##    f.write(etree.tostring(root,encoding='utf-8',pretty_print=True))
-##    f.close()
+
+from lxml import etree
+root=etree.Element('html')
+root.append(etree.Element('head'))
+root.append(etree.Element('body'))
+
+for i in range (1,10):
+	f=open('Text%d-A.txt'%i,'rb')
+	st=f.read()
+	root[1].append(etree.Element('div'))
+	root[1][2*(i-1)].append(etree.Element('div'))
+	root[1][2*(i-1)][0].text=('Text%d-A.txt'%i)
+	root[1][2*(i-1)][0].set('style','color:red')
+	root[1][2*(i-1)].append(etree.Element('div'))
+	root[1][2*(i-1)][1].text=st.decode('utf-8').replace('\n','<br/>')
+	f=open('Text%d-B.txt'%i,'rb')
+	st=f.read()
+	root[1].append(etree.Element('div'))
+	root[1][2*(i-1)+1].append(etree.Element('div'))
+	root[1][2*(i-1)+1][0].text=('Text%d-B.txt'%i)
+	root[1][2*(i-1)+1][0].set('style','color:red')
+	root[1][2*(i-1)+1].append(etree.Element('div'))
+	root[1][2*(i-1)+1][1].text=st.decode('utf-8').replace('\n','<br/>')
+
+if(True):
+    f=open('xiaokai_txt.html','wb')
+    st=etree.tostring(root,encoding='utf-8',pretty_print=True)
+    st=st.replace(b'&lt;',b'<')
+    st=st.replace(b'&gt;'b'>')
+    f.write(st)
+    f.close()
 
 ##Adj statistic
 ##f=open('Adj.txt','rb')
@@ -85,3 +99,13 @@ def findCommon(v1,v2=[]):
 ##    cnt_tmp+=my_words.count(i+'en')
 ##    Noun_cnt_Lst.append(cnt_tmp)
 ##
+import json
+f=open('Dic_first_part.txt','rb')
+st=f.read()
+st=st[3:len(st)]
+Dic=json.loads(st.decode('utf-8'))
+def WordCount(wordfamily):
+    cnt=0
+    for i in wordfamily:
+        cnt+=my_fdist[i]
+    return cnt

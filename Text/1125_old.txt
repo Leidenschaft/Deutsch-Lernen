@@ -1,1126 +1,823 @@
-﻿A
-ab
-Abend
-Abendessen
-abends
-Abendvorlesung
-aber
-Aber
-abgemacht
-abgerufen
-Abschlussarbeit
-absolviert
-Abteilung
-Ach
-acht
-Ah
-Aha
-aktiv
-Albert
-Alkohol
-alle
-alles
-Alles
-Alltagsleben
-als
-Als
-Also
-also
-alt
-Alternative
-am
-Am
-Amazon
-an
-Anbieter
-andere
-Angebot
-Angebote
-Anna
-ansehen
-antworten
-Äpfel
-Apfelsaft
-Appetit
-Arbeit
-arbeiten
-arbeitet
-Arbeitszimmer
-Arzt
-Atmosphäre
-auch
-Auch
-auf
-Auf
-Aufführung
-Aufführungen
-Aufgaben
-aufgewachsen
-Augen
-aus
-Aus
-Ausflug
-Ausfüge
-ausgeliehen
-Auskunft
-Ausleihverbot
-Außerdem
-aussieht
-Aussprache
-Ausspracheübungen
-austragen
-ausziehen
-Auto
-B
-Bad
-Badezimmer
-Bahn
-Bahnlinie
-Bahnlinien
-Bahnstation
-bald
-Bald
-Balkon
-Basketball
-Beckmann
-beginnt
-bei
-Bei
-beide
-Beijing
-Beilage
-Beilagen
-Beim
-beim
-Beispiel
-bekommen
-Bekommt
-Benutzer
-bereitest
-Bericht
-berichten
-Berlin
-Berufsleben
-besichtigen
-besichtigt
-besonders
-besser
-bessere
-Bestell
-bestelle
-bestellen
-bestimmt
-Bestseller
-besuche
-besuchen
-besucht
-betrachtet
-beträgt
-Bett
-Bewertung
-Bewertungen
-Bibliothek
-Bier
-Biergarten
-Bild
-Bilder
-billig
-billigeren
-bin
-Bin
-bis
-Bis
-bisschen
-bist
-bitte
-Bitte
-Blattgemüse
-blaue
-bleiben
-bloß
-Bosch
-Bratkartoffeln
-brauche
-Brauchst
-brauchst
-braucht
-Braune
-breit
-Brett
-Brigitte
-bringt
-Brot
-Bruder
-Bruno
-Buch
-Bücher
-Bücherregal
-Buchmesse
-buchstabiert
-Bus
-Buslinie
-Bußgeld
-Cent
-Chemie
-Chen
-chhnjbj
-China
-Chinesen
-chinesische
-Chinesischen
-chinesischen
-com
-computer
-cool
-Cousine
-da
-Da
-Dabei
-dabei
-Dame
-Dank
-Danke
-danke
-dann
-Dann
-Dannke
-Darf
-darf
-das
-Das
-dass
-dauert
-dazu
-de
-dein
-deine
-Deine
-deinen
-dem
-den
-Den
-denn
-Denn
-der
-Der
-deshalb
-Deustch
-Deutsch
-Deutschen
-Deutschland
-Deutschunterricht
-Deutschwörterbuch
-Dialog
-Dialogübungen
-dich
-dick
-die
-Die
-Dienstag
-Diensttag
-Diese
-diese
-diesem
-diesen
-dir
-direkt
-direkten
-Discomusik
-doch
-Doch
-Donnerstag
-dort
-Dr
-Drehstuhl
-drei
-dreitägiges
-dringend
-dritte
-du
-Du
-Duden
-Durchsage
-dürfen
-Düsseldorf
-Eben
-eben
-Ecke
-eher
-eie
-eigenes
-eigentlich
-Eigentlich
-ein
-Ein
-eine
-Eine
-einem
-einen
-Einen
-einer
-einfach
-Einfach
-einfachen
-eingeschlossen
-eingnes
-einhalten
-einige
-einkaufen
-Einkaufswagen
-einladen
-einmal
-eins
-einsprachiges
-Einzelkind
-Eis
-Elektrotechnik
-elf
-Eltern
-empfehlen
-endlich
-Endlich
-Endstation
-England
-Englische
-entschuldigen
-Entschuldigung
-er
-Er
-Erdbeeren
-Erfahrungen
-Erinnerung
-Erlebnisse
-erlebt
-erst
-erste
-erstellen
-ersten
-es
-Es
-esse
-essen
-Essen
-esst
-etwa
-etwas
-euch
-eure
-Euro
-Exemplar
-Exemplare
-fahre
-fahren
-Fahrplan
-Fahrrad
-fährst
-Fahrt
-fährt
-Fährt
-Fahrten
-Fall
-Familie
-Familienfoto
-Familienname
-Fang
-fangen
-fangt
-Fantastisch
-Farbe
-Fasching
-Faschingskonzert
-fast
-Feier
-Felix
-Fenster
-Ferien
-finanzieren
-finde
-findest
-Findest
-findet
-Firma
-Fisch
-fit
-Flaschen
-Fleisch
-Flur
-Foto
-Fotoabend
-fotografiert
-Fotos
-Frage
-frage
-fragst
-Frau
-Frau_Schmidt
-frei
-freien
-Freiheit
-Freitag
-Fremdsprache
-Freund
-Freunde
-Freundin
-Freut
-Frist
-Frites
-früh
-früher
-frühstücke
-fühle
-fünf
-für
-Für
-Fuß
-g
-G
-ganz
-ganze
-gar
-gebadet
-gebe
-geben
-gebeten
-geboren
-gebrauchte
-gebrauchten
-gebrauchtes
-Geburtstag
-Geburtstagsfeier
-Geburtstagskind
-Geburtstagstorte
-gedauert
-geeignet
-gefahren
-gefällt
-Gefällt
-gefragt
-gefunden
-gegangen
-gegeben
-Gegenüber
-gehen
-Gehen
-Gehören
-gehören
-geht
-Geht
-gejobbt
-Geld
-Geldverdienen
-gelegen
-Gelegenheit
-gelernt
-gelten
-gemacht
-gemeinsam
-Gemüse
-gemütlich
-genau
-Genau
-Genauso
-gerade
-gern
-Gern
-gerne
-gesagt
-gesammelt
-geschehen
-Geschenk
-Geschichte
-geschickt
-Geschirr
-geschmeckt
-Geschwister
-gesehen
-Gesicht
-gesund
-gesurft
-Getränk
-getrennt
-gewesen
-gib
-gibst
-gibt
-Gibt
-gilt
-glaube
-gleich
-Gleichfalls
-gleichzeitig
-Gleis
-Glück
-Glückwunsch
-grau
-Greif
-groß
-große
-großen
-großes
-Grüntee
-Grüß
-Guck
-günstiges
-Günther
-Gurken
-gut
-Gut
-gute
-Gute
-gutem
-Guten
-guten
-H
-Haare
-Hab
-habe
-haben
-habt
-Habt
-haha
-halb
-halben
-Hallo
-halten
-hältst
-Hamburg
-Hammelbraten
-Hammelfleisch
-Handy
-Handykalender
-Handynummer
-hängen
-hängt
-Hangzhou
-hast
-Hast
-hat
-Hat
-hätte
-hätten
-Hauptbahnhof
-Hauptgericht
-Hauptgerichten
-Hauptspeise
-Hauptspeisen
-Haus
-Hausaufgaben
-Hause
-Hausordnung
-Haustiere
-heiße
-heißen
-heißt
-hell
-hellen
-helles
-her
-herein
-Herr
-Herrlich
-herrlich
-Herzlichen
-heute
-Hi
-hier
-Hier
-hierher
-Hilfe
-hilfreich
-hin
-hinein
-hinter
-Hm
-hm
-Hmm
-Hobby
-hoch
-Hol
-Hongliang
-Hören
-hören
-hörst
-Hörübungen
-Hui
-Hunger
-IBM
-ich
-Ich
-ID
-Idee
-ihm
-ihn
-Ihnen
-ihr
-Ihr
-Ihre
-ihre
-ihren
-Ihrer
-im
-Im
-immer
-in
-In
-Informatik
-Informatiker
-Informationen
-Ingenieur
-Inlandsversandkosten
-innerhalb
-ins
-Insel
-insgesamt
-Interessant
-Interesse
-interessiert
-Internet
-Internetanschluss
-Iss
-isst
-Isst
-ist
-Ist
-Italienisch
-Ja
-ja
-Jacken
-Jahr
-Jahre
-Japan
-Jasmintee
-jede
-jeden
-Jeder
-jeder
-jedes
-Jedesmal
-jedoch
-jetzt
-Jetzt
-Jin
-Joghurt
-Johnson
-Jonas
-Journalistin
-Julia
-Julias
-jungen
-K
-Kaffee
-Kaiser
-Kalender
-kalte
-kann
-Kann
-kannst
-Karin
-Karl
-Kartoffeln
-Kartoffelsalat
-Kasse
-Kassierer
-kaufe
-kaufen
-Kaufhaus
-kauft
-Kauft
-kein
-Kein
-keine
-keinen
-Kellner
-Kellnerin
-kenne
-Kennst
-Kilo
-klar
-Klasse
-Kleiderhaken
-Kleidung
-klein
-kleinen
-kleines
-Klick
-klingelt
-Klingt
-klingt
-Klößchen
-koche
-Kochen
-Kochst
-Koffer
-Kohl
-Komm
-komm
-komme
-kommen
-Kommen
-Kommst
-kommst
-kommt
-konkret
-können
-Könnt
-Konzert
-kostenlos
-kostet
-Kreidefelsen
-Küche
-Kuchen
-kürzer
-kurzsichtig
-laden
-lädt
-Lampe
-Land
-Landschaft
-lange
-länger
-langsam
-Langsam
-Laptop
-laufe
-laufen
-Laun
-laut
-Lea
-LeaAch
-leanst
-Leben
-leben
-Lebensgefährte
-lebt
-lecker
-Leg
-lege
-legen
-legt
-Lehmann
-Lehrerin
-leicht
-leider
-leise
-leme
-Lena
-Leoni
-lerne
-lernen
-Lernen
-lese
-Lesen
-letzten
-lieb
-lieber
-Lieblingsspeise
-liegt
-liest
-Lindbergstraße
-Ling
-Link
-links
-Liu
-London
-Lorenz
-Lucas
-lucas1993
-Luis
-Lust
-m2
-mache
-Mache
-machen
-machst
-Machst
-macht
-Macht
-Mädchen
-mag
-Mahlzeit
-mail
-Mailadresse
-mailadresse
-Mails
-mal
-Mal
-Mama
-man
-manchmal
-Manchmal
-Mann
-Maria
-Mary
-Meer
-mehr
-mehrere
-mein
-Mein
-Meine
-meine
-meinem
-meinen
-meiner
-meinst
-Meinst
-meist
-meistens
-Meistens
-Mensa
-Mensch
-Messegelände
-Meter
-mich
-miene
-Miete
-mieten
-mindestens
-Minuten
-mir
-Mir
-Mischsalat
-mit
-Mit
-Mitbewohner
-Mittag
-Mitteilung
-Mittwoch
-Möbeln
-möchsten
-möchte
-möchten
-Möchten
-Möchtest
-möchtest
-modern
-Möglichkeit
-Moment
-Monat
-Montag
-Montags
-Morgen
-morgens
-Moritz
-Möwen
-müde
-Müll
-Müller
-Musik
-Musikhochschule
-Müsli
-muss
-müssen
-musst
-Mutter
-Mütze
-Mützen
-Na
-na
-nach
-Nachbar
-Nachbarwohnung
-Nachmittag
-Nachrichten
-Nachspeise
-Nachspeisen
-nächste
-Nachtisch
-Nachttisch
-Nähe
-Näheder
-Naja
-Name
-nämlich
-Nanjing
-natürlich
-Natürlich
-näturlich
-Neben
-nehme
-Nehmen
-nehmen
-Nein
-nett
-neu
-neue
-nicht
-nichts
-nie
-Nimm
-nimmst
-noch
-Nordwesterchina
-Normalerweise
-normalerweise
-normalerwerise
-normalweise
-nötig
-Nudeln
-Nummer
-Nun
-nur
-Nur
-nützlich
-ober
-Obst
-Obsttheke
-oder
-Oder
-öffe
-öffnen
-öffnet
-oft
-Oh
-Okay
-Olaf
-Oma
-Omas
-Onkel
-online
-ordentlich
-ordentliches
-Ordnung
-organisiert
-Ostee
-Österreich
-Ostsee
-paar
-Packung
-Packungen
-Papa
-Papierwaren
-Parkplatz
-Party
-Passagier
-passt
-Passwort
-Pause
-Pech
-Pfund
-phantastisch
-Physik
-Plan
-planen
-Platz
-Pommes
-Portale
-Praktikum
-Praktisches
-Praxis
-Preise
-Prima
-pro
-Probier
-probiere
-probieren
-Problem
-Programmieren
-Prospekte
-Prost
-Prüfung
-Pudding
-putze
-putzen
-Putzplan
-Qualitätsmanagement
-R
-r
-Rad
-raucht
-Recht
-rechtzeitig
-Regal
-Reihe
-Reihenhaus
-Reis
-Reise
-Reisen
-renoviert
-Restaurant
-Richtig
-richtig
-Rindersteak
-Rita
-Rollschrank
-Rom
-Rot
-rote
-Rückgabeplan
-Rucksack
-rufe
-ruft
-Rügen
-ruhig
-rund
-S
-Sachen
-Sag
-sagen
-sagt
-Salat
-Salate
-Samstag
-Samstagabend
-sauber
-sauge
-saugen
-Säze
-scharf
-Schatz
-Schau
-schaue
-Schauen
-schenken
-Schläfst
-Schlafzimmer
-Schlafzimmern
-schlägst
-schlank
-schlecht
-schließen
-schmal
-schmeckt
-schmekt
-Schmidt
-Schmidts
-schnell
-schneller
-Schnitzel
-Schnizel
-schon
-Schon
-schön
-Schön
-schönen
-Schrank
-schreibe
-schreiben
-schreibt
-Schreibtisch
-schreibübungen
-Schubladen
-Schuhe
-Schuladen
-Schule
-Schultern
-Schulz
-schwarze
-schwarzen
-Schweinebraten
-Schwester
-science
-sechs
-Seeluft
-sehr
-Sehr
-seht
-Seid
-Seidenstraße
-sein
-seine
-Seine
-seinen
-Seinen
-Seit
-Seite
-Sekretärin
-selbst
-Selbstverständlich
-selten
-Seminarraum
-September
-setzen
-sich
-sicher
-Sie
-sie
-Sieh
-sieht
-Siemens
-sind
-Sind
-Sitzt
-sitzt
-so
-So
-Sofort
-sofort
-sogenannte
-Soll
-sollen
-sollte
-Sonderangebot
-sondern
-Sonne
-Sonntag
-Sonntagnachmittag
-sonntags
-sonst
-Sonst
-sowie
-spare
-Spaß
-spät
-später
-spätere
-spazieren
-Speise
-Speisekarte
-Spezialität
-spielen
-spielt
-Sport
-sportlich
-Sprachkurs
-Sprachpartner
-sprechen
-Sprechen
-Sprechstundenhilfe
-spricht
-spüle
-spülen
-Stadt
-Station
-Stationen
-Staub
-Steckdose
-Stecker
-steckt
-stehst
-steht
-steigen
-stellen
-stellt
-Stern
-Sterne
-Sternen
-Stimmt
-stimmt
-Straland
-Strand
-Studenden
-Student
-Studenten
-Studentenforum
-Studentenkarte
-Studentenwohnheim
-Studentenwohnheimen
-Studentin
-studiere
-studierst
-Studiert
-studiert
-Studium
-Stuhl
-Such
-suche
-suchen
-Suchinformationen
-Suchmaschine
-suchst
-sucht
-Suchwort
-Südchina
-Süden
-sund
-Super
-super
+auf	auf Auf
+links	links
+Mitteilung	Mitteilung
+können	können Könnt
+Endlich	Endlich
+Exemplar	Exemplar Exemplare
+Rita	Rita
+Joghurt	Joghurt
+rund	rund
+Moment	Moment
+Donnerstag	Donnerstag
+du	du Du dir
+gefahren	gefahren
+klar	klar
+Müller	Müller
+da	da Da
+Plan	Plan
+probieren	probiere probieren
+Papa	Papa
+Gelegenheit	Gelegenheit
+hören	hören hörst Hören
+Ling	Ling
+Studentenforum	Studenten
+Haus	Haus
+greifen	greifen Greif
+Frist	Frist
+Portale	Portale
+Bild	Bild
+Bett	Bett
+bist	bist
+Firma	Firma
+fünf	fünf
+Schnitzel	Schnitzel
+bisschen	bisschen
+Oma	Oma
+Hi	Hi
+kalte	kalte
+Lebensgefährte	Lebensgefährte lebt
+deshalb	deshalb Deustch
+Hammelfleisch	Hammelfleisch
+das	das Das
+Familie	Familie
+Studentenkarte	Studentenkarte
+Konzert	Konzert
+Hörübungen	Hörübungen
+Passagier	Passagier
+lange	lange
+kostet	kostet
+Nun	Nun
+Koffer	Koffer
+Pfund	Pfund
+gemachen	gemacht gemachen
+Hauptgericht	Hauptgericht
+Mensa	Mensa
+Müsli	Müsli muss
+Entschuldigung	Entschuldigung
+Angebot	Angebot Angebote
+sprechen	sprechen
+rauchen	rauchen raucht
+Bier	Bier
+Herr	Herr Herrlich
+Farbe	Farbe
+Hausaufgaben	Hausaufgaben
+Seite	Seite
+Guck	Guck
+Euro	Euro
+Kalender	Kalender
+geschmeckt	geschmeckt
+Regal	Regal
+Samstagabend	Samstagabend
+Lea	Lea
+Hamburg	Hamburg
+dann	dann
+Abendessen	Abendessen
+danken	danke dank Dank Danke
+Name	Name
+sowie	sowie
+Johnson	Johnson
+Fleisch	Fleisch
+sonst	sonst Sonst
+Basketball	Basketball
+Geschichte	Geschichte
+gebadet	gebadet
+Deutschwörterbuch	Deutschwörterbuch
+der	der Der
+jungen	jungen K
+September	September
+Schule	Schule
+Laptop	Laptop
+Pommes	Pommes
+frühstücken	frühstücken frühstücke
+früh	früh früher
+Süden	Süden
+Anna	Anna
+Freund	Freund Freunde Freundin
+Bibliothek	Bibliothek
+gegangen	gegangen
+sollen	sollen sollte Soll
+Blattgemüse	Blattgemüse
+Programmieren	Programmieren
+Speise	Speise
+sauber	sauber
+abgerufen	abgerufen
+ober	ober
+gesehen	gesehen
+Bratkartoffeln	Bratkartoffeln
+studieren	studiere studierst
+stellen	stellen stellt
+Erdbeeren	Erdbeeren
+andere	andere
+oft	oft
+Lena	Lena
+Lampe	Lampe
+direkten	direkten
+Nimm	Nimm
+betrachtet	betrachtet
+Mann	Mann
+Suchwort	Suchwort
+Passwort	Passwort
+Haare	Haare
+aussehen	aussieht aussehen
+Insel	Insel
+fast	fast
+laufen	laufe laufen
+Auto	Auto
+Buch	Buch Bücher
+sagen	sagen
+England	England
+Bußgeld	Bußgeld
+Seid	Seid
+Mädchen	Mädchen
+Nummer	Nummer
+hätten	hätten
+lädt	lädt
+chinesische	chinesische Chinesischen chinesischen
+mein	mein Mein Meine Meiner meiner meines meinen
+besichtigen	besichtigen besichtigt
+schließen	schließen
+Lehrerin	Lehrerin
+Flur	Flur
+gerade	gerade
+Fall	Fall
+Dienstag	Dienstag Diensttag Diese
+dabei	dabei Dabei
+Hallo	Hallo
+leise	leise
+nicht	nicht nichts
+mehr	mehr
+Station	Station
+Eis	Eis
+Okay	Okay
+nötig	nötig
+cool	cool
+arbeiten	Arbeit arbeiten arbeitet
+Student	Student Studentin
+Monat	Monat
+einhalten	einhalten
+neu	neu neue
+leicht	leicht
+Seminarraum	Seminarraum
+Bin	Bin
+Geburtstagskind	Geburtstagskind
+am	am Am
+meinst	meinst Meinst
+euch	euch
+Benutzer	Benutzer
+nämlich	nämlich
+gut	gut Gut gute Gute gutem Guten guten
+geeignet	geeignet
+steht	steht
+Stadt	Stadt
+Physik	Physik
+erleben	erleben erlebt
+Studentenwohnheimen	Studentenwohnheim
+Grüntee	Grüntee
+Beispiel	Beispiel
+bestimmt	bestimmt
+fotografiert	fotografiert Fotos
+Kleiderhaken	Kleiderhaken
+gern	gern Gern
+ganz	ganz ganze
+isst	isst Isst
+Erlebnisse	Erlebnisse
+Fisch	Fisch
+Lieblingsspeise	Lieblingsspeise
+schenken	schenken
+Nachspeisen	Nachspeisen
+eingnes	eingnes
+Prospekte	Prospekte
+alt	alt
+Prüfung	Prüfung
+dreitägiges	dreitägiges
+gerne	gerne
+besonders	besonders
+liegt	liegt
+Hui	Hui
+etwa	etwa
+gelegen	gelegen
+Hauptgerichten	Hauptgerichten
+an	an
+kurzsichtig	kurzsichtig
+Jedesmal	Jedesmal
+Messegelände	Messegelände
+hältst	hältst
+auch	auch Auch
+Problem	Problem
+Glück	Glück
+Beijing	Beijing
+Nudeln	Nudeln
+Schmidts	Schmidts
+Klasse	Klasse
+Abendvorlesung	Abendvorlesung
+Apfelsaft	Apfelsaft
+selten	selten
+halben	halben
+gemeinsam	gemeinsam
+Mützen	Mützen
+besser	besser
+Gegenüber	Gegenüber
+Endstation	Endstation
+schlägen	schlägst schlägen
+Schrank	Schrank
+Cousine	Cousine
+Stern	Stern Sterne Sternen
+Pech	Pech
+fangen	fangen fangt
+Luis	Luis
+mieten	mieten
+Rucksack	Rucksack
+jetzt	jetzt Jetzt
+mehrere	mehrere
+Biergarten	Biergarten
+Kellnerin	Kellnerin
+Sieh	Sieh
+haben	habe haben habt Habt Hat hat Hab
+gebrauchen	gebrauchte gebrauchten gebrauchtes
+schmal	schmal
+fähren	fähren fährt Fährt Fährst
+Mütze	Mütze
+lernen	lernen Lernen
+Parkplatz	Parkplatz
+Mittag	Mittag
+meistens	meistens Meistens
+dazu	dazu
+Deutsch	Deutsch
+machen	mache Mache machen machst Machst macht Macht
+einsprachiges	einsprachiges
+Appetit	Appetit
+noch	noch
+leider	leider
+Berufsleben	Berufsleben
+Erfahrungen	Erfahrungen
+ausziehen	ausziehen
+Kleidung	Kleidung
+austragen	austragen
+getrennt	getrennt
+London	London
+Familienname	Familienname
+alle	alle alles Alles
+essen	esse essen Essen esst Iss
+Seit	Seit
+lieber	lieber
+putzen	putze putzen
+Fuß	Fuß
+schreiben	schreibe
+letzten	letzten
+Kohl	Kohl
+mail	mail
+Reis	Reis Reise Reisen
+in	in In
+Pause	Pause
+erstellen	erstellen
+Link	Link
+gar	gar
+setzen	setzen
+Suchinformationen	Suchinformationen
+Hilfe	Hilfe
+beträgt	beträgt
+Laun	Laun
+her	her
+spielen	spielen spielt
+Hunger	Hunger
+Mailadresse	Mailadresse mailadresse
+billig	billig
+nächste	nächste
+Näheder	Näheder
+Praktisches	Praktisches
+stehen	stehst stehen
+Land	Land
+sie	sie
+Sonntag	Sonntag
+bald	bald Bald
+spät	spät später spätere
+mit	mit Mit
+man	man
+Selbstverständlich	Selbstverständlich
+A	A
+Karl	Karl
+als	als Als Also
+Such	Such
+Frites	Frites
+schon	schon Schon
+Österreich	Österreich
+Geld	Geld
+Berlin	Berlin
+Mischsalat	Mischsalat
+gibt	gibt Gibt
+Ferien	Ferien
+fragen	frage fragst
+Olaf	Olaf
+lieb	lieb
+Italienisch	Italienisch
+Onkel	Onkel
+Flaschen	Flaschen
+stimmen	stimmt stimmen
+heute	heute
+computer	computer
+Kassierer	Kassierer
+Abend	Abend abends
+gejobbt	gejobbt
+gib	gib
+rufe	rufe
+beide	beide
+Abteilung	Abteilung
+Meter	Meter
+Packung	Packung Packungen
+doch	doch Doch
+ja	ja
+Hause	Hause
+Rot	Rot
+Praxis	Praxis
+Dialog	Dialog
+Sprachkurs	Sprachkurs
+sicher	sicher Sie
+Bruder	Bruder
+nehmen	nehme Nehmen nehmen
+ihn	ihn
+spare	spare
+Balkon	Balkon
+Geburtstag	Geburtstag
+Spaß	Spaß
+aufgewachsen	aufgewachsen
+gleichzeitig	gleichzeitig
+mag	mag
+Interessant	Interessant
+leanst	leanst Leben
+Frau	Frau
+Geschirr	Geschirr
+hm	hm Hm
+modern	modern
+immer	immer
+rechtzeitig	rechtzeitig
+Prima	Prima
+aktiv	aktiv
+Chinesen	Chinesen
+elf	elf
+dein	dein deine Deine deinen
+gesagt	gesagt
+Doktor	Doktor Dr
+buchstabiern	buchstabieren buchstabiert
+Musikhochschule	Musikhochschule
+hier	hier Hier
+Gemüse	Gemüse
+geschehen	geschehen
+oder	oder
+Restaurant	Restaurant
+Hauptspeisen	Hauptspeisen
+Handynummer	Handynummer
+Liu	Liu
+Interesse	Interesse
+paar	paar
+drei	drei
+sitzen	sitzen Sitzt sitzt
+organisieren	organisiert organisieren
+Meer	Meer
+Schuhe	Schuhe
+Stecker	Stecker
+richtig	richtig
+Kaiser	Kaiser
+die	die Die
+Kellner	Kellner
+China	China
+dich	dich
+Obst	Obst
+legen	lege legen legt
+Rollschrank	Rollschrank
+sofort	sofort
+Eltern	Eltern
+Minuten	Minuten
+Samstag	Samstag
+Deutschen	Deutschen
+für	für Für
+Aussprache	Aussprache
+gesammelt	gesammelt
+Party	Party
+Kartoffeln	Kartoffeln
+Hobby	Hobby
+Bücherregal	Bücherregal
+Fasching	Fasching
+jedoch	jedoch
+Nachttisch	Nachttisch
+Jasmintee	Jasmintee
+gefällt	gefällt Gefällt
+Jin	Jin
+Fotoabend	Fotoabend
+liest	liest
+klingelt	klingelt Klingt
+Mahlzeit	Mahlzeit
+Reihenhaus	Reihenhaus
+rote	rote
+müde	müde
+Oder	Oder
+Nur	Nur
+Bahn	Bahn
+Schmidt	Schmidt
+Geburtstagstorte	Geburtstagstorte
+jede	jede jeden jeder
+ Jeder jedes
+Schulz	Schulz
+also	also
+Aufführungen	Aufführung Aufführungen
+Fang	Fang
+endlich	endlich
+laut	laut
+Ausspracheübungen	Ausspracheübungen
+Nachrichten	Nachrichten
+hat	hat Hat
+herein	herein
+Fahrplan	Fahrplan
+Ausleihverbot	Ausleihverbot
+halten	halten
+sogenannte	sogenannte
+scharf	scharf
+Ostee	Ostee
+absolviert	absolviert
+Badezimmer	Badezimmer
+normalerweise	normalerweise normalweise
+Aufgaben	Aufgaben
+Sonne	Sonne
+Hammelbraten	Hammelbraten
+Fenster	Fenster
+Schubladen	Schubladen
+heißen	heiße heißen heißt
+möchsten	möchsten
+Prost	Prost
+besuchen	besuche besuchen besucht
+Lust	Lust m2
+einmal	einmal
+hätte	hätte
+nett	nett
+Recht	Recht
+Beilage	Beilage
+Leg	Leg
+geboren	geboren
+Alternative	Alternative
+länger	länger
+Alltagsleben	Alltagsleben
+es	es Es
+hell	hell hellen helles
+Frage	Frage
+morgens	morgens
+Steckdose	Steckdose
+Nachtisch	Nachtisch
+Äpfel	Äpfel
+Seidenstraße	Seidenstraße
+sagt	sagt
+Sonntagnachmittag	Sonntagnachmittag sonntags
+hinter	hinter
+Brot	Brot
+Spezialität	Spezialität
+Journalistin	Journalistin Julia Julias
+Freuen	Freunde Freundin Freut
+einfach	einfach Einfach einfachen
+interessiert	interessiert
+gehen	gehen Gehen Gehören
+brauche	brauche
+aber	aber Aber
+finden	finde findest Findest findet
+Familienfoto	Familienfoto
+freien	freien
+denn	denn Denn
+Studium	Studiert studiert Studium
+Arzt	Arzt
+ab	ab
+sondern	sondern
+konkret	konkret
+ordentlich	ordentlich ordentliches
+stimmt	stimmt
+bringen	bringt
+hast	hast Hast
+Jacken	Jacken
+Hol	Hol
+Praktikum	Praktikum
+groß	groß große großen großes
+Schläfst	Schläfst
+Faschingskonzert	Faschingskonzert
+Schultern	Schultern
+Haustiere	Haustiere
+Landschaft	Landschaft
+innerhalb	innerhalb
+Informatik	Informatik
+insgesamt	insgesamt
+ersten	erstellen ersten
+sehen	sieht sehen seht
+Lorenz	Lorenz
+öffen	öffe öffen
+entschuldigen	entschuldigen
+schlecht	schlecht
+Kennst	Kennst
+frei	frei
+Hauptbahnhof	Hauptbahnhof
+Salate	Salate
+LeaAch	LeaAch
+Schauen	Schauen
+Kochen	Kochen
+Ordnung	Ordnung
+Musik	Musik
+gemütlich	gemütlich
+Ecke	Ecke
+laden	laden
+bereiten	bereiten bereitest
+dritte	dritte
+müssen	müssen musst
+ich	ich Ich mir Mir mich
+Nachmittag	Nachmittag
+Klößchen	Klößchen koche
+Schau	Schau
+kann	kann Kann kannst
+gehören	gehören
+Informatiker	Informatiker
+einkaufen	einkaufen
+blaue	blaue
+Nein	Nein
+saugen	saugen sauge
+sind	sind Sind
+einige	einige
+Dame	Dame
+hin	hin
+mal	mal Mal
+schmeckt	schmeckt
+einschließen	einschließen eingeschlossen
+Nähe	Nähe
+Strand	Strand
+kein	kein Kein keine keinen
+Müll	Müll
+bloß	bloß
+ansehen	ansehen
+kenne	kenne
+sechs	sechs
+Mails	Mails
+kürzer	kürzer
+Papierwaren	Papierwaren
+sportlich	sportlich
+gefragt	gefragt
+Sprachpartner	Sprachpartner
+fit	fit
+schmekt	schmekt
+Geburtstagsfeier	Geburtstagsfeier
+er	er Er
+Suchmaschine	Suchmaschine
+ruhig	ruhig
+Cent	Cent
+nützlich	nützlich
+etwas	etwas
+mindestens	mindestens
+geben	gebe geben gebeten
+Obsttheke	Obsttheke
+Fantastisch	Fantastisch
+Sekretärin	Sekretärin
+Ostsee	Ostsee
+Kuchen	Kuchen
+beginnt	beginnt
+Handykalender	Handykalender
+bei	bei Bei beim Beim
+de	de
+Bad	Bad
+kostenlos	kostenlos
+dem	dem
+im	im Im
+renoviert	renoviert
+Ingenieur	Ingenieur
+aus	aus Aus
+Möwen	Möwen
+bleiben	bleiben
+langsam	langsam Langsam
+Fremdsprache	Fremdsprache
+rufen	ruft ruft
+Seeluft	Seeluft
+Augen	Augen
+Alkohol	Alkohol
+Nanjing	Nanjing
+bin	bin
+Düsseldorf	Düsseldorf Eben
+Anbieter	Anbieter
+gelten	gelten
+abgemacht	abgemacht
+Stationen	Stationen
+steigen	steigen
+ins	ins
+Straland	Straland
+Mama	Mama
+Kartoffelsalat	Kartoffelsalat
+gefunden	gefunden
+Schlafzimmern	Schlafzimmern
+gilt	gilt
+ist	ist Ist
+geschickt	geschickt
+pro	pro
+Schwester	Schwester
+Rad	Rad
+eure	eure
+Braune	Brauchst brauchst braucht Braune
+Buslinie	Buslinie
+Geldverdienen	Geldverdienen
+Erinnerung	Erinnerung
+schnell	schnell schneller
+Außerdem	Außerdem
+herrlich	herrlich
+dass	dass
+dauert	dauert
+Frau_Schmidt	Frau_Schmidt
+so	so So Sofort
+Pudding	Pudding
+Platz	Platz
+Hangzhou	Hangzhou
+spülen	spüle spülen
+Bahnstation	Bahnstation
+spazieren	spazieren
+steckt	steckt
+schaue	schaue
+schreibt	schreiben schreibt
+Schreibtisch	Schreibtisch
+natürlich	natürlich Natürlich
+Bruno	Bruno
+einladen	einladen
+bitte	bitte Bitte
+schlank	schlank
+Feier	Feier
+erst	erst
+Kasse	Kasse
+Grüß	Grüß
+Einzelkind	Einzelkind
+Glückwunsch	Glückwunsch
+eins	eins
+ausgeliehen	ausgeliehen
+Sachen	Sachen
+Informationen	Informationen
+Mitbewohner	Mitbewohner
+Preise	Preise
+dringend	dringend
+gelernt	gelernt
+klein	klein kleinen kleines
+Probier	Probier
+ein	ein Ein eine Eine einem einen Einen einer
+hinein	hinein
+Sport	Sport
+fühlen	fühlen fühle
+gegeben	gegeben
+direkt	direkt
+lerne	lerne
+haha	haha
+Mensch	Mensch
+Oh	Oh
+Ihnen	Ihnen
+nie	nie
+Freitag	Freitag
+Jahr	Jahr Jahre
+Bestseller	Bestseller
+günstiges	günstiges
+Discomusik	Discomusik
+geht	geht Geht
+billigeren	billigeren
+nach	nach
+Möbeln	Möbeln
+Geschwister	Geschwister
+Herzlichen	Herzlichen
+Günther	Günther
+Geschenk	Geschenk
+Reihe	Reihe
+Küche	Küche
+Beilagen	Beilagen
+Klick	Klick
+phantastisch	phantastisch
+bestellen	bestelle
+manchmal	manchmal Manchmal
+Morgen	Morgen
+finanzieren	finanzieren
+Möglichkeit	Möglichkeit
+selbst	selbst
+suchen	suchen suchst sucht
+Elektrotechnik	Elektrotechnik
+Mutter	Mutter
+Stuhl	Stuhl
+Englische	Englische
+Bus	Bus
+Freiheit	Freiheit
+empfehlen	empfehlen
+glauben	glauben glaube
+Internet	Internet
+Foto	Foto
+nimmst	nimmst
+eben	eben
+Internetanschluss	Internetanschluss
+leben	leben
+Drehstuhl	Drehstuhl
+Rindersteak	Rindersteak
+meist	meist
+Kaufhaus	Kaufhaus kauft Kauft
+schwarze	schwarze schwarzen
+Kaffee	Kaffee
+Abschlussarbeit	Abschlussarbeit
+Japan	Japan
+kommen	komm komme kommen Kommen Kommst kommst kommt Komm
+Staub	Staub
+kaufen	kaufe kaufen
+Lindbergstraße	Lindbergstraße
+bessere	bessere
+Kochst	Kochst
+schreibübungen	schreibübungen
+Siemens	Siemens
+lecker	lecker
+gesund	gesund
+Richtig	Richtig
+öffnen	öffnen öffnet
+ihm	ihm
+Bilder	Bilder
+halb	halb
+den	den Den
+hilfreich	hilfreich
+acht	acht
+hierher	hierher
+Sag	Sag
+Nachbarwohnung	Nachbarwohnung
+Hauptspeise	Hauptspeise
+Bahnlinie	Bahnlinie Bahnlinien
+planen	planen
+Idee	Idee
+Hausordnung	Hausordnung
+Fahrrad	Fahrrad Fahrt Fahrten
+Handy	Handy
+Inlandsversandkosten	Inlandsversandkosten
+bis	bis Bis
+klingt	klingt
+Auskunft	Auskunft
+Gleichfalls	Gleichfalls
+eher	eher eie
+sehr	sehr Sehr
+Deutschland	Deutschland
+Sprechstundenhilfe	Sprechen Sprechstundenhilfe spricht
+Studenden	Studenden
+Studentenwohnheim	Studentenkarte
+Schatz	Schatz
+Arbeitszimmer	Arbeitszimmer
+Rom	Rom
+Buchmesse	Buchmesse
+sein	sein seine Seine seinen Seinen
+Nachspeise	Nachspeise
+dürfen	dürfen darf
+IBM	IBM
+berichten	berichten Bericht
+gedauert	gedauert
+fahren	fahre fahren
+bekommen	bekommen Bekommt
+Ausfüge	Ausfüge
+sund	sund
+breit	breit Brett
+Dialogübungen	Dialogübungen
+Kilo	Kilo
+Getränk	Getränk
+neben	neben Neben
+Rügen	Rügen
+hoch	hoch
+eigenes	eigenes
+gewesen	gewesen
+Speisekarte	Speisekarte
+passt	passt
+genau	genau
+Putzplan	Putzplan
+Einkaufswagen	Einkaufswagen
+Qualitätsmanagement	Qualitätsmanagement R r
+Montag	Montag Montags
+Omas	Omas
+Gurken	Gurken
+Chemie	Chemie Chen chhnjbj
+Nachbar	Nachbar
+dort	dort
+Südchina	Südchina
+grau	grau
+Salat	Salat
+dick	dick
+Schweinebraten	Schweinebraten
+Deutschunterricht	Deutschunterricht
+Ausflug	Ausflug
+diese	diese diesem diesen Diese
+
+ihr	ihr Ihr Ihre ihre ihren Ihrer
+Ach	Ach
+eigentlich	eigentlich Eigentlich
+Gleis	Gleis
+mir	mir Mir
+antworten	antworten
+gleich	gleich
+Bosch	Bosch
+Sonderangebot	Sonderangebot
+Gesicht	Gesicht
+Kreidefelsen	Kreidefelsen
+Genauso	Genau Genauso
+Atmosphäre	Atmosphäre
+hängen	hängen hängt
+nur	nur
+Duden	Duden
+Schlafzimmer	Schlafzimmer
+Schuladen	Schuladen
+lesen	lese Lesen
+surfen	surfen gesurft
+Nordwesterchina	Nordwesterchina Normalerweise
+Durchsage	Durchsage
+schön	schön Schön schönen
+Rückgabeplan	Rückgabeplan
+Bewertungen	Bewertung Bewertungen
+möchen	möchte möchten Möchten Möchtest möchtest
+Mittwoch	Mittwoch
+Miete	Miete

@@ -1,222 +1,852 @@
-﻿super
-Supermarkt
-Suppen
-süß
-süße
-süßsauer
-Szene
-Tag
-Tage
-täglich
-Tandempartner
-Tandempartnersuche
-Tante
-Taschen
-Taschenwörterbüchern
-Tee
-teilen
-Telefon
-Telefongespräch
-telefonisch
-Telefonnummer
-Termin
-Terminkalender
-teuer
-Text
-Texte
-Thema
-Tipps
-Tisch
-Tischlampe
-toll
-Toll
-Tomaten
-tragen
-Treffen
-treibe
-treibt
-Trink
-trinken
-Trinken
-Trinkst
-trinkt
-TU
-tun
-Tür
-Türen
-Turm
-Tüte
-Tüten
-üben
-über
-Über
-übermorgen
-überschritten
-übersetzt
-Übrigens
-Übungen
-Uhr
-um
-Um
-umsteigen
-unbedingt
-und
-Und
-ungefähr
-ungünstig
-Uni
-univeritätszeitung
-uns
-unter
-Unterkunft
-Unterricht
-Unterschied
-Vater
-veranstalten
-veranstaltet
-Veranstaltung
-verbracht
-verdient
-vergessen
-vergleiche
-verheiratet
-verlängern
-verloren
-Vermieterin
-Veröffentliche
-verpassen
-verschiedenen
-Versichertenkarte
-verspätet
-Verstehe
-verstehe
-Verwandte
-Videos
-viel
-viele
-Viele
-Vielen
-vielleicht
-Vielleicht
-vier
-Viertel
-vollen
-vom
-von
-Von
-vor
-Vor
-vorbeischauen
-Vorlesung
-Vormittag
-Vorname
-vorne
-Vorspeise
-vorstellen
-wählen
-wahr
-während
-Wand
-Wann
-war
-wär
-wäre
-warm
-Warmmiete
-Warte
-warten
-Wartezimmer
-Warum
-warum
-Was
-was
-Wäsche
-wäscht
-wechseln
-wechselt
-Wecker
-weg
-weil
-weiß
-weißt
-weit
-weiter
-welche
-Welche
-welcher
-Welches
-Wellen
-weltweit
-Wer
-Westprovinzen
-WG
-wichtig
-Wie
-wie
-wieder
-wievielten
-will
-Willkommen
-willst
-wir
-Wir
-wirklich
-Wirklich
-wissen
-wo
-Woche
-Wochen
-Wochenanfang
-Wochenende
-wöchentlich
-woher
-Wohin
-Wohl
-wohne
-wohnen
-Wohnheim
-wohnst
-wohnt
-Wohnung
-Wohnungsanzeige
-Wohnungsanzeigen
-Wohnzimmer
-Wollen
-wollen
-Wörterbuch
-Worum
-wünsche
-Wünschen
-Zahlen
-zahlen
-Zeig
-zeig
-zeige
-zeigen
-Zeit
-Zeitungen
-zieht
-ziemlich
-Zimmer
-zu
-zuerst
-Zuerst
-Zug
-zum
-Zum
-zur
-Zur
-zurück
-zurückgeben
-zusammen
-Zustand
-zuverlässiger
-zwar
-zwei
-zweimal
-Zwiebeln
-Zwiebelsuppe
-Zwiebelsuppen
-Zwillinge
-zwischen
-zwölf
+﻿{"Unterschied":["Unterschied"],"sich":["sich","mich"],"Wohnung":["Wohnung"],"super":["super"],"verpassen":["verpassen"],"Telefon":["Telefon"],"verschieden":["verschieden","verschiedenen"],"voll":["voll","vollen"],"Tomate":["Tomaten","Tomate"],"Termin":["Termin"],"Zeitungen":["Zeitungen"],"Tür":["Tür","Türen"],"Tipp":["Tipp","Tipps"],"Supermarkt":["Supermarkt"],"zurückgeben":["zurückgeben"],"veröffentlichen":["veröffentlichen","veröffentliche","Veröffentliche"],"verlängern":["verlängern"],"zusammen":["zusammen"],"weg":["weg"],"Zeit":["Zeit"],"teilen":["teilen"],"Turm":["Turm"],"vor":["vor","Vor"],"steigen":["steigen"],"Vorspeise":["Vorspeise"],"wie":["wie","Wie"],"Tüte":["Tüte","Tüten"],"weit":["weit","weiter"],"während":["während"],"Tandempartner":["Tandempartner"],"Telefonnummer":["Telefonnummer"],"wechseln":["wechseln","wechselt"],"üben":["üben"],"übermorgen":["übermorgen"],"ziemlich":["ziemlich"],"Zustand":["Zustand"],"verstehen":["verstehen","verstehe","Verstehen","Verstehe"],"Wörterbuch":["Wörterbuch"],"weltweit":["weltweit"],"zu":["zu","zum","Zum","zur","Zur"],"verdienen":["verdienen","verdient"],"zurück":["zurück"],"unbedingt":["unbedingt"],"Telefongespräch":["Telefongespräch"],"vergessen":["vergessen"],"telefonisch":["telefonisch"],"weiß":["weiß","weißt"],"ziehen":["ziehen","zieht"],"Unterkunft":["Unterkunft"],"Worum":["Worum"],"wissen":["wissen"],"süß":["süß","süße"],"zwar":["zwar"],"S-Bahn":["S-Bahn"],"Vermieterin":["Vermieterin"],"trinken":["Trink","trinken","Trinken","Trinkst","trinkt"],"Wochenende":["Wochenende"],"Treffen":["Treffen"],"Wann":["Wann"],"veranstalten":["veranstalten","veranstaltet","Veranstaltung"],"Taschenwörterbuch":["Taschenwörterbuch","Taschenwörterbüchern"],"viel":["viel","viele","Viele","Vielen"],"wo":["wo"],"Thema":["Thema"],"Wohnheim":["Wohnheim"],"zahlen":["Zahlen","zahlen"],"Terminkalender":["Terminkalender"],"Tisch":["Tisch"],"Uhr":["Uhr"],"Wohungsanzeige":["Wohungsanzeige","Wohungsanzeigen"],"WG":["WG"],"täglich":["täglich"],"Vorname":["Vorname"],"vorbeischauen":["vorbeischauen"],"warm":["warm"],"treiben":["treiben","treibt","treibe"],"Verwandte":["Verwandte"],"will":["will","willst"],"Tasche":["Tasche","Taschen"],"wöchentlich":["wöchentlich"],"tun":["tun"],"und":["und","Und"],"Zimmer":["Zimmer"],"Wartezimmer":["Wartezimmer"],"ungünstig":["ungünstig"],"von":["von","Von","vom"],"zwischen":["zwischen"],"ungefähr":["ungefähr"],"verbringen":["verbringen","verbracht"],"tragen":["tragen"],"über":["über","Über"],"Unterricht":["Unterricht"],"süßsauer":["süßsauer"],"teuer":["teuer"],"wahr":["wahr"],"vorne":["vorne"],"wir":["wir","Wir"],"Zwillinge":["Zwillinge"],"Viertel":["Viertel"],"univeritätszeitung":["univeritätszeitung"],"zwei":["zwei"],"zweimal":["zweimal"],"Vorlesung":["Vorlesung"],"Wohl":["Wohl"],"Z.B.":["Z.B."],"unter":["unter"],"übersetzen":["übersetzen","übersetzt"],"zwölf":["zwölf"],"wichtig":["wichtig"],"Tante":["Tante"],"Videos":["Videos"],"Tischlampe":["Tischlampe"],"was":["was","Was"],"vergleichen":["vergleichen","vergleiche"],"Vormittag":["Vormittag"],"U-Bahn":["U-Bahn"],"zeigen":["zeigen","zeige","Zeig","zeig"],"Willkommen":["Willkommen"],"Warmmiete":["Warmmiete"],"verspäten":["verspäten","verspätet"],"Westprovinzen":["Westprovinzen"],"welche":["welche","Welche","welcher","Welches"],"TU":["TU"],"Woche":["Woche","Wochen"],"waschen":["waschen","wäscht"],"Wer":["Wer"],"Versichertenkarte":["Versichertenkarte"],"wählen":["wählen"],"zuverlässig":["zuverlässig","zuverlässiger"],"warum":["warum","Warum"],"vorstellen":["vorstellen"],"Wochenanfang":["Wochenanfang"],"vielleicht":["vielleicht","Vielleicht"],"Tag":["Tag","Tage","Tagen"],"wirklich":["wirklich","Wirklich"],"wohnen":["wohnen","wohne","wohnst","wohnt"],"Uni":["Uni"],"uns":["uns"],"um":["um","Um"],"Übungen":["Übungen"],"verloren":["verloren"],"vier":["vier"],"Wohnungsanzeigen":["Wohnungsanzeigen"],"Tee":["Tee"],"wünsche":["wünsche","Wünschen"],"toll":["toll","Toll"],"umsteigen":["umsteigen"],"weil":["weil"],"warten":["warten","Warte"],"Wohnzimmer":["Wohnzimmer"],"woher":["woher"],"war":["war","wär","wäre"],"wieder":["wieder"],"Wohnungsanzeige":["Wohnungsanzeige"],"Übrigens":["Übrigens"],"Wohin":["Wohin"],"wollen":["wollen","Wollen"],"Text":["Text","Texte"],"Szene":["Szene"],"Wäsche":["Wäsche"],"Tandempartnersuche":["Tandempartnersuche"],"Zug":["Zug"],"Wand":["Wand"],"Welle":["Welle","Wellen"],"Wecker":["Wecker"],"verheiratet":["verheiratet"],"zuerst":["zuerst","Zuerst"],"Vater":["Vater"],"Suppe":["Suppe","Suppen"],"Zwiebelsuppe":["Zwiebelsuppe","Zwiebelsuppen"],"Zwiebel":["Zwiebel","Zwiebeln"],"überschreiten":["überschreiten","überschritten"],
+   "Süden" : [ "Süden" ],
+   "Maria" : [ "Maria" ],
+   "Cent" : [ "Cent" ],
+   "Ferien" : [ "Ferien" ],
+   "dreitägiges" : [ "dreitägiges" ],
+   "immer" : [ "immer" ],
+   "Bücherregal" : [ "Bücher", "Bücherregal" ],
+   "spare" : [ "spare" ],
+   "Kassierer" : [ "Kassierer" ],
+   "dem" : [ "dem" ],
+   "lecker" : [ "lecker" ],
+   "Deutschwörterbuch" : [ "Deutschwörterbuch" ],
+   "Physik" : [ "Physik" ],
+   "eben" : [ "eben" ],
+   "Link" : [ "Link" ],
+   "mag" : [ "mag" ],
+   "Reis" : [ "Reis", "Reise", "Reisen" ],
+   "noch" : [ "noch" ],
+   "gemeinsam" : [ "gemeinsam" ],
+   "Hammelfleisch" : [ "Hammelfleisch" ],
+   "hören" : [ "hören", "hörst" ],
+   "liest" : [ "liest" ],
+   "Einzelkind" : [ "Einzelkind" ],
+   "dazu" : [ "dazu" ],
+   "Guck" : [ "Guck" ],
+   "September" : [ "September" ],
+   "sehr" : [ "sehr", "Sehr" ],
+   "China" : [ "China" ],
+   "deshalb" : [ "deshalb", "Deustch" ],
+   "endlich" : [ "endlich" ],
+   "andere" : [ "andere" ],
+   "Erinnerung" : [ "Erinnerung" ],
+   "antworten" : [ "antworten" ],
+   "Musikhochschule" : [ "Musikhochschule" ],
+   "Benutzer" : [ "Benutzer", "bereitest", "Bericht" ],
+   "Felix" : [ "Felix" ],
+   "Greif" : [ "Greif" ],
+   "online" : [ "online" ],
+   "Frau" : [ "Frau" ],
+   "Seite" : [ "Seite" ],
+   "Messegelände" : [ "Messegelände" ],
+   "aufgewachsen" : [ "aufgewachsen" ],
+   "legen" : [ "lege", "legen", "legt" ],
+   "Jahr" : [ "Jahr", "Jahre" ],
+   "bestimmt" : [ "bestellen", "bestimmt" ],
+   "Amazon" : [ "Amazon" ],
+   "Studentenkarte" : [ "Studentenforum" ],
+   "Landschaft" : [ "Landschaft" ],
+   "bald" : [ "bald", "Bald" ],
+   "science" : [ "science" ],
+   "Moritz" : [ "Moritz" ],
+   "bis" : [ "bis", "Bis" ],
+   "Aufführungen" : [ "Aufführung", "Aufführungen" ],
+   "Farbe" : [ "Farbe" ],
+   "Hauptgericht" : [ "Hauptgericht" ],
+   "Frites" : [ "Frites" ],
+   "klar" : [ "klar" ],
+   "Jacken" : [ "Jacken" ],
+   "herrlich" : [ "herrlich" ],
+   "Papierwaren" : [ "Papierwaren" ],
+   "Leoni" : [ "Leoni" ],
+   "frühstücke" : [ "frühstücke" ],
+   "Mittag" : [ "Mittag" ],
+   "sich" : [ "sich" ],
+   "Prost" : [ "Prost" ],
+   "putzen" : [ "putze", "putzen" ],
+   "Bibliothek" : [ "Bibliothek" ],
+   "Schuhe" : [ "Schuhe" ],
+   "mieten" : [ "mieten" ],
+   "spazieren" : [ "spazieren" ],
+   "ruft" : [ "ruft" ],
+   "besser" : [ "besser" ],
+   "buchstabiert" : [ "buchstabiert" ],
+   "einkaufen" : [ "einkaufen" ],
+   "kurzsichtig" : [ "kurzsichtig" ],
+   "jungen" : [ "jungen", "K" ],
+   "halten" : [ "halten" ],
+   "kürzer" : [ "kürzer" ],
+   "nehmen" : [ "nehme", "Nehmen", "nehmen" ],
+   "sowie" : [ "sowie" ],
+   "Fenster" : [ "Fenster" ],
+   "Pause" : [ "Pause" ],
+   "geboren" : [ "geboren" ],
+   "Suchwort" : [ "Suchwort" ],
+   "Fahrrad" : [ "Fahrrad", "Fahrt", "Fahrten" ],
+   "hm" : [ "hm", "Hm" ],
+   "dringend" : [ "dringend" ],
+   "morgens" : [ "morgens" ],
+   "Angebot" : [ "Angebot", "Angebote" ],
+   "Kochst" : [ "Kochst" ],
+   "gefragt" : [ "gefragt" ],
+   "bloß" : [ "bloß" ],
+   "Ihnen" : [ "Ihnen" ],
+   "Glück" : [ "Glück" ],
+   "lange" : [ "lange" ],
+   "Euro" : [ "Euro" ],
+   "Handy" : [ "Handy" ],
+   "Rot" : [ "Rot" ],
+   "Informationen" : [ "Informationen" ],
+   "liegt" : [ "liegt" ],
+   "Geburtstagstorte" : [ "Geburtstagstorte" ],
+   "Rom" : [ "Rom" ],
+   "studieren" : [ "studiere", "studierst" ],
+   "Mitteilung" : [ "Mitteilung" ],
+   "Schule" : [ "Schule" ],
+   "gefällt" : [ "gefällt" ],
+   "das" : [ "das", "Das" ],
+   "Regal" : [ "Regal" ],
+   "Arzt" : [ "Arzt" ],
+   "Duden" : [ "Duden" ],
+   "jede" : [ "jede", "jeden", "jeder\r\n", "Jeder", "jedes" ],
+   "Obst" : [ "Obst" ],
+   "Atmosphäre" : [ "Atmosphäre" ],
+   "hinter" : [ "hinter" ],
+   "eins" : [ "eins" ],
+   "Bild" : [ "Bild" ],
+   "Nimm" : [ "Nimm" ],
+   "austragen" : [ "austragen" ],
+   "Anbieter" : [ "Anbieter" ],
+   "Freiheit" : [ "Freiheit" ],
+   "beginnt" : [ "beginnt" ],
+   "meinst" : [ "meinst", "Meinst" ],
+   "Gleichfalls" : [ "Gleichfalls" ],
+   "gibt" : [ "gibt", "Gibt" ],
+   "kaufen" : [ "kaufe", "kaufen" ],
+   "Rad" : [ "Rad" ],
+   "gleich" : [ "gleich" ],
+   "Mailadresse" : [ "Mailadresse", "mailadresse" ],
+   "abgemacht" : [ "abgemacht" ],
+   "innerhalb" : [ "innerhalb" ],
+   "Bin" : [ "Bin" ],
+   "danken" : [ "danke", "dank", "Dank", "Danke" ],
+   "so" : [ "so", "So", "Sofort" ],
+   "de" : [ "de" ],
+   "hoch" : [ "hoch" ],
+   "lesen" : [ "lese", "Lesen" ],
+   "computer" : [ "computer" ],
+   "da" : [ "da", "Da" ],
+   "nämlich" : [ "nämlich" ],
+   "Hi" : [ "Hi" ],
+   "gern" : [ "gern", "Gern" ],
+   "dann" : [ "dann" ],
+   "Laptop" : [ "Laptop" ],
+   "Aussprache" : [ "Aussprache" ],
+   "Nachttisch" : [ "Nachttisch" ],
+   "Haare" : [ "Haare" ],
+   "laden" : [ "laden" ],
+   "Erlebnisse" : [ "Erlebnisse" ],
+   "Drehstuhl" : [ "Drehstuhl" ],
+   "fit" : [ "fit" ],
+   "dritte" : [ "dritte" ],
+   "empfehlen" : [ "empfehlen" ],
+   "direkt" : [ "direkt" ],
+   "Getränk" : [ "Getränk" ],
+   "blaue" : [ "blaue" ],
+   "schreiben" : [ "schreibe" ],
+   "schließen" : [ "schließen" ],
+   "Aufgaben" : [ "Aufgaben" ],
+   "Haustiere" : [ "Haustiere" ],
+   "Grüntee" : [ "Grüntee" ],
+   "Praktikum" : [ "Praktikum" ],
+   "London" : [ "London" ],
+   "Klick" : [ "Klick" ],
+   "man" : [ "man" ],
+   "Fuß" : [ "Fuß" ],
+   "Hunger" : [ "Hunger" ],
+   "Seeluft" : [ "Seeluft" ],
+   "Stern" : [ "Stern", "Sterne", "Sternen" ],
+   "Konzert" : [ "Konzert" ],
+   "Alltagsleben" : [ "Alltagsleben" ],
+   "Moment" : [ "Moment" ],
+   "Rindersteak" : [ "Rindersteak" ],
+   "Dame" : [ "Dame" ],
+   "Lorenz" : [ "Lorenz" ],
+   "Kilo" : [ "Kilo" ],
+   "Staub" : [ "Staub" ],
+   "sauber" : [ "sauber" ],
+   "Geburtstag" : [ "Geburtstag" ],
+   "IBM" : [ "IBM" ],
+   "finanzieren" : [ "finanzieren" ],
+   "suchen" : [ "suche", "suchen" ],
+   "Kochen" : [ "Kochen" ],
+   "Schauen" : [ "Schauen" ],
+   "es" : [ "es", "Es" ],
+   "kostet" : [ "kostet" ],
+   "Näheder" : [ "Näheder" ],
+   "gleichzeitig" : [ "gleichzeitig" ],
+   "Buch" : [ "Buch", "Bücher" ],
+   "Entschuldigung" : [ "Entschuldigung" ],
+   "Anna" : [ "Anna" ],
+   "Speisekarte" : [ "Speisekarte" ],
+   "leise" : [ "leise" ],
+   "scharf" : [ "scharf" ],
+   "sagen" : [ "sagen" ],
+   "spielen" : [ "spielen", "spielt" ],
+   "Foto" : [ "Foto" ],
+   "Schlafzimmern" : [ "Schlafzimmern" ],
+   "Italienisch" : [ "Italienisch" ],
+   "schreibübungen" : [ "schreibübungen" ],
+   "Hause" : [ "Hause" ],
+   "Lindbergstraße" : [ "Lindbergstraße" ],
+   "A" : [ "A" ],
+   "Inlandsversandkosten" : [ "Inlandsversandkosten" ],
+   "Nanjing" : [ "Nanjing" ],
+   "ja" : [ "ja" ],
+   "Stuhl" : [ "Stuhl" ],
+   "rote" : [ "rote" ],
+   "sein" : [ "sein", "seine", "Seine", "seinen", "Seinen" ],
+   "fünf" : [ "fünf" ],
+   "gebadet" : [ "gebadet" ],
+   "berichten" : [ "berichten" ],
+   "Hallo" : [ "Hallo" ],
+   "ihm" : [ "ihm" ],
+   "Schnitzel" : [ "Schnitzel" ],
+   "Sekretärin" : [ "Sekretärin" ],
+   "interessiert" : [ "interessiert" ],
+   "kenne" : [ "kenne" ],
+   "gejobbt" : [ "gejobbt" ],
+   "früh" : [ "früh", "früher" ],
+   "müde" : [ "müde" ],
+   "freien" : [ "freien" ],
+   "Abendvorlesung" : [ "Abendvorlesung" ],
+   "Nachspeise" : [ "Nachspeise" ],
+   "sogenannte" : [ "sogenannte" ],
+   "Pfund" : [ "Pfund" ],
+   "Pech" : [ "Pech" ],
+   "dein" : [ "dein", "deine", "Deine", "deinen" ],
+   "besonders" : [ "besonders" ],
+   "kalte" : [ "kalte" ],
+   "Donnerstag" : [ "Donnerstag" ],
+   "Seminarraum" : [ "Seminarraum" ],
+   "gerade" : [ "gerade" ],
+   "Buslinie" : [ "Buslinie" ],
+   "Reihenhaus" : [ "Reihenhaus" ],
+   "Beijing" : [ "Beijing" ],
+   "Obsttheke" : [ "Obsttheke" ],
+   "stehen" : [ "stehst", "stehen" ],
+   "Beilage" : [ "Beilage" ],
+   "gelegen" : [ "gelegen" ],
+   "Kreidefelsen" : [ "Kreidefelsen" ],
+   "Österreich" : [ "Österreich" ],
+   "Miete" : [ "Miete" ],
+   "Bahn" : [ "Bahn" ],
+   "günstiges" : [ "günstiges" ],
+   "Olaf" : [ "Olaf" ],
+   "ausziehen" : [ "ausziehen" ],
+   "sprechen" : [ "sprechen" ],
+   "spülen" : [ "spüle", "spülen" ],
+   "aussehen" : [ "aussieht", "aussehen" ],
+   "Kasse" : [ "Kasse" ],
+   "lernen" : [ "lernen", "Lernen" ],
+   "sondern" : [ "sondern" ],
+   "eigenes" : [ "eigenes" ],
+   "erstellen" : [ "erstellen" ],
+   "sehen" : [ "sieht", "sehen", "seht" ],
+   "Alkohol" : [ "Alkohol" ],
+   "betrachtet" : [ "betrachtet" ],
+   "Grüß" : [ "Grüß" ],
+   "Cousine" : [ "Cousine" ],
+   "Putzplan" : [ "Putzplan" ],
+   "Kellner" : [ "Kellner" ],
+   "Ecke" : [ "Ecke" ],
+   "Frau_Schmidt" : [ "Frau_Schmidt" ],
+   "Luis" : [ "Luis" ],
+   "Beispiel" : [ "Beispiel" ],
+   "Dienstag" : [ "Dienstag", "Diensttag", "Diese" ],
+   "ersten" : [ "erstellen", "ersten" ],
+   "Nordwesterchina" : [ "Nordwesterchina", "Normalerweise" ],
+   "elf" : [ "elf" ],
+   "schwarze" : [ "schwarze", "schwarzen" ],
+   "mehr" : [ "mehr" ],
+   "Mädchen" : [ "Mädchen" ],
+   "Parkplatz" : [ "Parkplatz" ],
+   "Oma" : [ "Oma" ],
+   "lieb" : [ "lieb" ],
+   "Bier" : [ "Bier" ],
+   "Restaurant" : [ "Restaurant" ],
+   "du" : [ "du", "Du", "dir" ],
+   "schon" : [ "schon", "Schon" ],
+   "Sag" : [ "Sag" ],
+   "Freuen" : [ "Freunde", "Freundin", "Freut" ],
+   "Japan" : [ "Japan" ],
+   "Minuten" : [ "Minuten" ],
+   "dabei" : [ "dabei", "Dabei" ],
+   "Praktisches" : [ "Praktisches" ],
+   "Hörübungen" : [ "Hörübungen" ],
+   "paar" : [ "paar" ],
+   "Deutschland" : [ "Deutschland" ],
+   "haha" : [ "haha" ],
+   "Düsseldorf" : [ "Düsseldorf", "Eben" ],
+   "groß" : [ "groß", "große", "großen", "großes" ],
+   "neu" : [ "neu", "neue" ],
+   "Liu" : [ "Liu" ],
+   "Platz" : [ "Platz" ],
+   "Sprachkurs" : [ "Sprachkurs" ],
+   "heißen" : [ "heiße", "heißen", "heißt" ],
+   "Suchinformationen" : [ "Suchinformationen" ],
+   "eigentlich" : [ "eigentlich", "Eigentlich" ],
+   "leider" : [ "leider" ],
+   "mail" : [ "mail" ],
+   "im" : [ "im", "Im" ],
+   "Fremdsprache" : [ "Fremdsprache" ],
+   "Gesicht" : [ "Gesicht" ],
+   "selten" : [ "selten" ],
+   "Spezialität" : [ "Spezialität" ],
+   "Sachen" : [ "Sachen" ],
+   "natürlich" : [ "natürlich", "Natürlich" ],
+   "gib" : [ "gib" ],
+   "Schatz" : [ "Schatz" ],
+   "Geschenk" : [ "Geschenk" ],
+   "Plan" : [ "Plan" ],
+   "Deutschen" : [ "Deutschen" ],
+   "Kellnerin" : [ "Kellnerin" ],
+   "Schulz" : [ "Schulz" ],
+   "ansehen" : [ "ansehen" ],
+   "gelten" : [ "gelten" ],
+   "Klößchen" : [ "Klößchen", "koche" ],
+   "Küche" : [ "Küche" ],
+   "Handykalender" : [ "Handykalender" ],
+   "Hui" : [ "Hui" ],
+   "konkret" : [ "konkret" ],
+   "Jedesmal" : [ "Jedesmal" ],
+   "gehen" : [ "gehen", "Gehen", "Gehören" ],
+   "Ling" : [ "Ling" ],
+   "Mützen" : [ "Mützen" ],
+   "denn" : [ "denn", "Denn" ],
+   "Studentenwohnheimen" : [ "Studentenwohnheim" ],
+   "Party" : [ "Party" ],
+   "Geburtstagskind" : [ "Geburtstagskind" ],
+   "hat" : [ "hat", "Hat" ],
+   "herein" : [ "herein" ],
+   "Einkaufswagen" : [ "Einkaufswagen" ],
+   "Jin" : [ "Jin" ],
+   "gemütlich" : [ "gemütlich" ],
+   "Äpfel" : [ "Äpfel" ],
+   "Bahnlinie" : [ "Bahnlinie" ],
+   "Problem" : [ "Problem" ],
+   "Schrank" : [ "Schrank" ],
+   "möchsten" : [ "möchsten" ],
+   "Sprachpartner" : [ "Sprachpartner" ],
+   "beide" : [ "beide" ],
+   "gemachen" : [ "gemacht", "gemachen" ],
+   "schnell" : [ "schnell", "schneller" ],
+   "fast" : [ "fast" ],
+   "organisieren" : [ "organisiert", "organisieren" ],
+   "mir" : [ "mir", "Mir" ],
+   "Qualitätsmanagement" : [ "Qualitätsmanagement", "R", "r" ],
+   "rechtzeitig" : [ "rechtzeitig" ],
+   "Okay" : [ "Okay" ],
+   "Schau" : [ "Schau" ],
+   "genau" : [ "genau" ],
+   "Bilder" : [ "Bilder" ],
+   "Frage" : [ "Frage" ],
+   "Kaiser" : [ "Kaiser" ],
+   "insgesamt" : [ "insgesamt" ],
+   "leben" : [ "leben" ],
+   "Alternative" : [ "Alternative" ],
+   "ihn" : [ "ihn" ],
+   "Nachbarwohnung" : [ "Nachbarwohnung" ],
+   "öffnen" : [ "öffnen", "öffnet" ],
+   "geben" : [ "gebe", "geben", "gebeten" ],
+   "kann" : [ "kann", "Kann", "kannst" ],
+   "gewesen" : [ "gewesen" ],
+   "Beilagen" : [ "Beilagen" ],
+   "Geschwister" : [ "Geschwister" ],
+   "Herzlichen" : [ "Herzlichen" ],
+   "her" : [ "her" ],
+   "Nachtisch" : [ "Nachtisch" ],
+   "mal" : [ "mal", "Mal" ],
+   "Erfahrungen" : [ "Erfahrungen" ],
+   "Laun" : [ "Laun" ],
+   "oft" : [ "oft" ],
+   "Spaß" : [ "Spaß" ],
+   "gefunden" : [ "gefunden" ],
+   "mein" : [ "mein", "Mein", "Meine", "Meiner", "meiner", "meines", "meinen" ],
+   "Oder" : [ "Oder" ],
+   "Eis" : [ "Eis" ],
+   "nötig" : [ "nötig" ],
+   "sollen" : [ "sollen", "sollte", "Soll" ],
+   "gebrauchen" : [ "gebrauchte", "gebrauchten", "gebrauchtes" ],
+   "mehrere" : [ "mehrere" ],
+   "besichtigen" : [ "besichtigen", "besichtigt" ],
+   "Kartoffelsalat" : [ "Kartoffelsalat" ],
+   "Interesse" : [ "Interesse" ],
+   "Lehmann" : [ "Lehmann" ],
+   "Seidenstraße" : [ "Seidenstraße" ],
+   "Hmm" : [ "Hmm" ],
+   "kommen" : [ "komm", "komme", "kommen", "Kommen", "Kommst", "kommst", "kommt" ],
+   "möchen" : [ "möchte", "möchten", "Möchten", "Möchtest", "möchtest" ],
+   "Hamburg" : [ "Hamburg" ],
+   "eure" : [ "eure" ],
+   "aus" : [ "aus", "Aus" ],
+   "kein" : [ "kein", "Kein", "keine", "keinen" ],
+   "Probier" : [ "Probier" ],
+   "gerne" : [ "gerne" ],
+   "schmal" : [ "schmal" ],
+   "saugen" : [ "saugen" ],
+   "Interessant" : [ "Interessant" ],
+   "Name" : [ "Name" ],
+   "bei" : [ "bei", "Bei", "beim", "Beim" ],
+   "können" : [ "können", "Könnt" ],
+   "Nachbar" : [ "Nachbar" ],
+   "Mary" : [ "Mary" ],
+   "Apfelsaft" : [ "Apfelsaft" ],
+   "Fahrplan" : [ "Fahrplan" ],
+   "spät" : [ "spät", "später", "spätere" ],
+   "Rollschrank" : [ "Rollschrank" ],
+   "Station" : [ "Station" ],
+   "Albert" : [ "Albert" ],
+   "phantastisch" : [ "phantastisch" ],
+   "Fotoabend" : [ "Fotoabend" ],
+   "hilfreich" : [ "hilfreich" ],
+   "Ach" : [ "Ach" ],
+   "Internet" : [ "Internet" ],
+   "dauert" : [ "dauert" ],
+   "Abendessen" : [ "Abendessen" ],
+   "Informatiker" : [ "Informatiker" ],
+   "mit" : [ "mit", "Mit" ],
+   "Ah" : [ "Ah" ],
+   "Rucksack" : [ "Rucksack" ],
+   "der" : [ "der", "Der" ],
+   "erlebt" : [ "erlebt" ],
+   "Flaschen" : [ "Flaschen" ],
+   "dürfen" : [ "dürfen", "darf" ],
+   "grau" : [ "grau" ],
+   "bisschen" : [ "bisschen" ],
+   "glaube" : [ "glaube" ],
+   "Hilfe" : [ "Hilfe" ],
+   "fühle" : [ "fühle" ],
+   "Nummer" : [ "Nummer" ],
+   "Bus" : [ "Bus" ],
+   "Schweinebraten" : [ "Schweinebraten" ],
+   "Insel" : [ "Insel" ],
+   "Aha" : [ "Aha" ],
+   "eingeschlossen" : [ "eingeschlossen" ],
+   "Na" : [ "Na", "na" ],
+   "Bahnlinien" : [ "Bahnlinien" ],
+   "raucht" : [ "raucht" ],
+   "Morgen" : [ "Morgen" ],
+   "hell" : [ "hell", "hellen", "helles" ],
+   "nimmst" : [ "nimmst" ],
+   "Hongliang" : [ "Hongliang", "Hören" ],
+   "meist" : [ "meist" ],
+   "langsam" : [ "langsam", "Langsam" ],
+   "meistens" : [ "meistens", "Meistens" ],
+   "Speise" : [ "Speise" ],
+   "schaue" : [ "schaue" ],
+   "etwas" : [ "etwas" ],
+   "Ausflug" : [ "Ausflug" ],
+   "Jonas" : [ "Jonas" ],
+   "Frist" : [ "Frist" ],
+   "auf" : [ "auf", "Auf" ],
+   "Geldverdienen" : [ "Geldverdienen" ],
+   "fangt" : [ "fangt" ],
+   "steckt" : [ "steckt" ],
+   "Omas" : [ "Omas" ],
+   "Passagier" : [ "Passagier" ],
+   "Studentenwohnheim" : [ "Studentenkarte" ],
+   "ich" : [ "ich", "Ich", "mir", "Mir", "mich" ],
+   "sechs" : [ "sechs" ],
+   "acht" : [ "acht" ],
+   "Südchina" : [ "Südchina" ],
+   "Durchsage" : [ "Durchsage" ],
+   "ruhig" : [ "ruhig" ],
+   "Elektrotechnik" : [ "Elektrotechnik" ],
+   "Ausleihverbot" : [ "Ausleihverbot" ],
+   "Fasching" : [ "Fasching" ],
+   "Onkel" : [ "Onkel" ],
+   "gilt" : [ "gilt" ],
+   "Student" : [ "Student", "Studentin" ],
+   "Endstation" : [ "Endstation" ],
+   "Pudding" : [ "Pudding" ],
+   "hierher" : [ "hierher" ],
+   "ausgeliehen" : [ "ausgeliehen" ],
+   "Außerdem" : [ "Außerdem" ],
+   "stellen" : [ "stellen" ],
+   "eingnes" : [ "eingnes" ],
+   "Schreibtisch" : [ "Schreibtisch" ],
+   "in" : [ "in", "In" ],
+   "Bett" : [ "Bett" ],
+   "Exemplar" : [ "Exemplar", "Exemplare" ],
+   "Mütze" : [ "Mütze" ],
+   "probieren" : [ "probiere", "probieren" ],
+   "Seid" : [ "Seid" ],
+   "Lust" : [ "Lust", "m2" ],
+   "gesund" : [ "gesund" ],
+   "Montag" : [ "Montag", "Montags" ],
+   "nützlich" : [ "nützlich" ],
+   "Sonntagnachmittag" : [ "Sonntagnachmittag", "sonntags" ],
+   "halb" : [ "halb" ],
+   "Bewertungen" : [ "Bewertung", "Bewertungen" ],
+   "billigeren" : [ "billigeren" ],
+   "billig" : [ "billig" ],
+   "Kleidung" : [ "Kleidung" ],
+   "Monat" : [ "Monat" ],
+   "Berlin" : [ "Berlin" ],
+   "geht" : [ "geht", "Geht" ],
+   "hast" : [ "hast", "Hast" ],
+   "geschmeckt" : [ "geschmeckt" ],
+   "Gurken" : [ "Gurken" ],
+   "er" : [ "er", "Er" ],
+   "Studium" : [ "Studiert", "studiert", "Studium" ],
+   "kostenlos" : [ "kostenlos" ],
+   "Discomusik" : [ "Discomusik" ],
+   "Klasse" : [ "Klasse" ],
+   "rund" : [ "rund" ],
+   "also" : [ "also" ],
+   "dich" : [ "dich" ],
+   "Kartoffeln" : [ "Kartoffeln" ],
+   "breit" : [ "breit", "Brett" ],
+   "Internetanschluss" : [ "Internetanschluss" ],
+   "selbst" : [ "selbst" ],
+   "heute" : [ "heute" ],
+   "Familienname" : [ "Familienname" ],
+   "Fleisch" : [ "Fleisch" ],
+   "Rückgabeplan" : [ "Rückgabeplan" ],
+   "bin" : [ "bin" ],
+   "Faschingskonzert" : [ "Faschingskonzert" ],
+   "Handynummer" : [ "Handynummer" ],
+   "Balkon" : [ "Balkon" ],
+   "einfach" : [ "einfach", "Einfach", "einfachen" ],
+   "sofort" : [ "sofort" ],
+   "Strand" : [ "Strand" ],
+   "gesehen" : [ "gesehen" ],
+   "stimmt" : [ "stimmt" ],
+   "Salat" : [ "Salat" ],
+   "Schmidt" : [ "Schmidt" ],
+   "als" : [ "als", "Als", "Also" ],
+   "bleiben" : [ "bleiben" ],
+   "Müll" : [ "Müll" ],
+   "gefahren" : [ "gefahren" ],
+   "entschuldigen" : [ "entschuldigen" ],
+   "Siemens" : [ "Siemens" ],
+   "Schwester" : [ "Schwester" ],
+   "Reihe" : [ "Reihe" ],
+   "rufe" : [ "rufe" ],
+   "gegeben" : [ "gegeben" ],
+   "steht" : [ "steht" ],
+   "schenken" : [ "schenken" ],
+   "Haus" : [ "Haus" ],
+   "Sport" : [ "Sport" ],
+   "Meter" : [ "Meter" ],
+   "laut" : [ "laut" ],
+   "Kohl" : [ "Kohl", "Komm" ],
+   "oder" : [ "oder" ],
+   "Stadt" : [ "Stadt" ],
+   "schlecht" : [ "schlecht" ],
+   "ein" : [ "ein", "Ein", "eine", "Eine", "einem", "einen", "Einen", "einer" ],
+   "Sonne" : [ "Sonne" ],
+   "Mittwoch" : [ "Mittwoch" ],
+   "Nur" : [ "Nur" ],
+   "Selbstverständlich" : [ "Selbstverständlich" ],
+   "Prüfung" : [ "Prüfung" ],
+   "Steckdose" : [ "Steckdose" ],
+   "Gelegenheit" : [ "Gelegenheit" ],
+   "beträgt" : [ "beträgt" ],
+   "chinesische" : [ "chinesische", "Chinesischen", "chinesischen" ],
+   "abgerufen" : [ "abgerufen" ],
+   "dick" : [ "dick" ],
+   "schreibt" : [ "schreiben", "schreibt" ],
+   "setzen" : [ "setzen" ],
+   "besuchen" : [ "besuche", "besuchen", "besucht" ],
+   "Mitbewohner" : [ "Mitbewohner" ],
+   "bringen" : [ "bringt" ],
+   "Mann" : [ "Mann" ],
+   "Basketball" : [ "Basketball" ],
+   "modern" : [ "modern" ],
+   "eher" : [ "eher", "eie" ],
+   "erst" : [ "erst" ],
+   "Ostee" : [ "Ostee" ],
+   "hier" : [ "hier", "Hier" ],
+   "Lea" : [ "Lea" ],
+   "Passwort" : [ "Passwort" ],
+   "Firma" : [ "Firma" ],
+   "Genauso" : [ "Genau", "Genauso" ],
+   "Ausfüge" : [ "Ausfüge" ],
+   "hinein" : [ "hinein" ],
+   "Ausspracheübungen" : [ "Ausspracheübungen" ],
+   "bessere" : [ "bessere", "Bestell" ],
+   "Dialog" : [ "Dialog" ],
+   "isst" : [ "isst", "Isst" ],
+   "Schlafzimmer" : [ "Schlafzimmer" ],
+   "Sieh" : [ "Sieh" ],
+   "für" : [ "für", "Für" ],
+   "Möbeln" : [ "Möbeln" ],
+   "Freitag" : [ "Freitag" ],
+   "Nähe" : [ "Nähe" ],
+   "Dialogübungen" : [ "Dialogübungen" ],
+   "steigen" : [ "steigen" ],
+   "Sprechstundenhilfe" : [ "Sprechen", "Sprechstundenhilfe", "spricht" ],
+   "Bruno" : [ "Bruno" ],
+   "Lena" : [ "Lena" ],
+   "Kuchen" : [ "Kuchen" ],
+   "Pommes" : [ "Pommes" ],
+   "sund" : [ "sund" ],
+   "Mails" : [ "Mails" ],
+   "Hauptspeisen" : [ "Hauptspeisen" ],
+   "Arbeitszimmer" : [ "Arbeitszimmer" ],
+   "Glückwunsch" : [ "Glückwunsch" ],
+   "Johnson" : [ "Johnson" ],
+   "Bestseller" : [ "Bestseller" ],
+   "laufen" : [ "laufe", "laufen" ],
+   "Prima" : [ "Prima" ],
+   "Prospekte" : [ "Prospekte" ],
+   "Appetit" : [ "Appetit" ],
+   "Hausordnung" : [ "Hausordnung" ],
+   "schmeckt" : [ "schmeckt" ],
+   "Ordnung" : [ "Ordnung" ],
+   "gut" : [ "gut", "Gut", "gute", "Gute", "gutem", "Guten", "guten" ],
+   "Informatik" : [ "Informatik" ],
+   "Müller" : [ "Müller" ],
+   "gegangen" : [ "gegangen" ],
+   "passt" : [ "passt" ],
+   "Fantastisch" : [ "Fantastisch" ],
+   "Endlich" : [ "Endlich" ],
+   "Chemie" : [ "Chemie", "Chen", "chhnjbj" ],
+   "Familienfoto" : [ "Familienfoto" ],
+   "klingelt" : [ "klingelt", "Klingt" ],
+   "renoviert" : [ "renoviert" ],
+   "nicht" : [ "nicht", "nichts" ],
+   "planen" : [ "planen" ],
+   "arbeiten" : [ "Arbeit", "arbeiten", "arbeitet" ],
+   "Kaffee" : [ "Kaffee" ],
+   "Nachspeisen" : [ "Nachspeisen" ],
+   "Günther" : [ "Günther" ],
+   "Ingenieur" : [ "Ingenieur" ],
+   "Sonderangebot" : [ "Sonderangebot" ],
+   "einsprachiges" : [ "einsprachiges" ],
+   "hängen" : [ "hängen", "hängt" ],
+   "gesagt" : [ "gesagt" ],
+   "absolviert" : [ "absolviert" ],
+   "sonst" : [ "sonst", "Sonst" ],
+   "Buchmesse" : [ "Buchmesse" ],
+   "klingt" : [ "klingt" ],
+   "brauche" : [ "brauche" ],
+   "haben" : [ "habe", "haben", "habt", "Habt", "Hat", "hat" ],
+   "miene" : [ "miene" ],
+   "Berufsleben" : [ "Berufsleben" ],
+   "Mama" : [ "Mama" ],
+   "geschehen" : [ "geschehen" ],
+   "Programmieren" : [ "Programmieren" ],
+   "manchmal" : [ "manchmal", "Manchmal" ],
+   "Brigitte" : [ "Brigitte" ],
+   "Praxis" : [ "Praxis" ],
+   "fangen" : [ "fangen" ],
+   "Land" : [ "Land" ],
+   "Fisch" : [ "Fisch" ],
+   "Koffer" : [ "Koffer" ],
+   "gehören" : [ "gehören" ],
+   "Abteilung" : [ "Abteilung" ],
+   "Gleis" : [ "Gleis" ],
+   "gesurft" : [ "gesurft" ],
+   "Mischsalat" : [ "Mischsalat" ],
+   "Geschichte" : [ "Geschichte" ],
+   "Fall" : [ "Fall" ],
+   "Blattgemüse" : [ "Blattgemüse" ],
+   "stellt" : [ "stellt" ],
+   "Jasmintee" : [ "Jasmintee" ],
+   "ID" : [ "ID" ],
+   "ihr" : [ "ihr", "Ihr", "Ihre", "ihre", "ihren", "Ihrer" ],
+   "Neben" : [ "Neben" ],
+   "Gefällt" : [ "Gefällt" ],
+   "Familie" : [ "Familie" ],
+   "Naja" : [ "Naja" ],
+   "Beckmann" : [ "Beckmann" ],
+   "dass" : [ "dass" ],
+   "Papa" : [ "Papa" ],
+   "Joghurt" : [ "Joghurt" ],
+   "Schultern" : [ "Schultern" ],
+   "Kalender" : [ "Kalender" ],
+   "ins" : [ "ins" ],
+   "leanst" : [ "leanst", "Leben" ],
+   "Fang" : [ "Fang" ],
+   "Feier" : [ "Feier" ],
+   "auch" : [ "auch", "Auch" ],
+   "Lieblingsspeise" : [ "Lieblingsspeise" ],
+   "nur" : [ "nur" ],
+   "jetzt" : [ "jetzt", "Jetzt" ],
+   "am" : [ "am", "Am" ],
+   "Gegenüber" : [ "Gegenüber" ],
+   "jedoch" : [ "jedoch" ],
+   "geschickt" : [ "geschickt" ],
+   "Ostsee" : [ "Ostsee" ],
+   "Journalistin" : [ "Journalistin", "Julia", "Julias" ],
+   "Geschirr" : [ "Geschirr" ],
+   "Eltern" : [ "Eltern" ],
+   "Nein" : [ "Nein" ],
+   "Schuladen" : [ "Schuladen" ],
+   "ganz" : [ "ganz", "ganze" ],
+   "Recht" : [ "Recht" ],
+   "Englische" : [ "Englische" ],
+   "nächste" : [ "nächste" ],
+   "Augen" : [ "Augen" ],
+   "sagt" : [ "sagt" ],
+   "Rügen" : [ "Rügen" ],
+   "Biergarten" : [ "Biergarten" ],
+   "direkten" : [ "direkten" ],
+   "klein" : [ "klein", "kleinen", "kleines" ],
+   "Chinesen" : [ "Chinesen" ],
+   "frei" : [ "frei" ],
+   "hätten" : [ "hätten" ],
+   "ab" : [ "ab" ],
+   "doch" : [ "doch", "Doch" ],
+   "Auskunft" : [ "Auskunft" ],
+   "die" : [ "die", "Die" ],
+   "leicht" : [ "leicht" ],
+   "gar" : [ "gar" ],
+   "Schmidts" : [ "Schmidts" ],
+   "Bruder" : [ "Bruder" ],
+   "ordentlich" : [ "ordentlich", "ordentliches" ],
+   "Bad" : [ "Bad" ],
+   "Deutschunterricht" : [ "Deutschunterricht" ],
+   "Stationen" : [ "Stationen" ],
+   "Schläfst" : [ "Schläfst" ],
+   "Hauptgerichten" : [ "Hauptgerichten" ],
+   "sie" : [ "sie" ],
+   "pro" : [ "pro" ],
+   "Badezimmer" : [ "Badezimmer" ],
+   "Salate" : [ "Salate" ],
+   "halben" : [ "halben" ],
+   "den" : [ "den", "Den" ],
+   "bitte" : [ "bitte", "Bitte" ],
+   "nett" : [ "nett" ],
+   "Portale" : [ "Portale" ],
+   "Kleiderhaken" : [ "Kleiderhaken" ],
+   "nie" : [ "nie" ],
+   "hältst" : [ "hältst" ],
+   "Studentenforum" : [ "Studenten" ],
+   "Leg" : [ "Leg" ],
+   "links" : [ "links" ],
+   "euch" : [ "euch" ],
+   "Lebensgefährte" : [ "Lebensgefährte", "lebt" ],
+   "müssen" : [ "müssen", "musst" ],
+   "alt" : [ "alt" ],
+   "Flur" : [ "Flur" ],
+   "Straland" : [ "Straland" ],
+   "hätte" : [ "hätte" ],
+   "diese" : [ "diese", "diesem", "diesen", "Diese\r\n" ],
+   "finden" : [ "finde", "findest", "Findest", "findet" ],
+   "Abschlussarbeit" : [ "Abschlussarbeit" ],
+   "ober" : [ "ober" ],
+   "Packung" : [ "Packung", "Packungen" ],
+   "Freund" : [ "Freund", "Freunde", "Freundin" ],
+   "Nudeln" : [ "Nudeln" ],
+   "England" : [ "England" ],
+   "länger" : [ "länger" ],
+   "aktiv" : [ "aktiv" ],
+   "Sonntag" : [ "Sonntag" ],
+   "Samstag" : [ "Samstag" ],
+   "Schubladen" : [ "Schubladen" ],
+   "Samstagabend" : [ "Samstagabend" ],
+   "gedauert" : [ "gedauert" ],
+   "Müsli" : [ "Müsli", "muss" ],
+   "Oh" : [ "Oh" ],
+   "Gemüse" : [ "Gemüse" ],
+   "Abend" : [ "Abend", "abends" ],
+   "Deutsch" : [ "Deutsch" ],
+   "Rita" : [ "Rita" ],
+   "bist" : [ "bist" ],
+   "alle" : [ "alle", "alles", "Alles" ],
+   "LeaAch" : [ "LeaAch" ],
+   "dort" : [ "dort", "Dr" ],
+   "Säze" : [ "Säze" ],
+   "Hauptspeise" : [ "Hauptspeise" ],
+   "gelernt" : [ "gelernt" ],
+   "einmal" : [ "einmal" ],
+   "sicher" : [ "sicher", "Sie" ],
+   "Brot" : [ "Brot" ],
+   "Nachmittag" : [ "Nachmittag" ],
+   "Kaufhaus" : [ "Kaufhaus", "kauft", "Kauft" ],
+   "Bratkartoffeln" : [ "Bratkartoffeln" ],
+   "Bosch" : [ "Bosch" ],
+   "Nun" : [ "Nun" ],
+   "Auto" : [ "Auto" ],
+   "geeignet" : [ "geeignet" ],
+   "Hol" : [ "Hol" ],
+   "Preise" : [ "Preise" ],
+   "fotografiert" : [ "fotografiert", "Fotos" ],
+   "Bußgeld" : [ "Bußgeld" ],
+   "schlank" : [ "schlank" ],
+   "ist" : [ "ist", "Ist" ],
+   "lädt" : [ "lädt" ],
+   "drei" : [ "drei" ],
+   "Studenden" : [ "Studenden" ],
+   "letzten" : [ "letzten" ],
+   "schön" : [ "schön", "Schön", "schönen" ],
+   "mindestens" : [ "mindestens" ],
+   "Möglichkeit" : [ "Möglichkeit" ],
+   "Geburtstagsfeier" : [ "Geburtstagsfeier" ],
+   "Lampe" : [ "Lampe" ],
+   "Musik" : [ "Musik" ],
+   "Mensa" : [ "Mensa" ],
+   "richtig" : [ "richtig" ],
+   "Möwen" : [ "Möwen" ],
+   "machen" : [ "mache", "Mache", "machen", "machst", "Machst", "macht", "Macht" ],
+   "Idee" : [ "Idee" ],
+   "Hauptbahnhof" : [ "Hauptbahnhof" ],
+   "bestellen" : [ "bestelle" ],
+   "Hammelbraten" : [ "Hammelbraten" ],
+   "cool" : [ "cool" ],
+   "Lehrerin" : [ "Lehrerin" ],
+   "lerne" : [ "lerne" ],
+   "Geld" : [ "Geld" ],
+   "Braune" : [ "Brauchst", "brauchst", "braucht", "Braune" ],
+   "einladen" : [ "einladen" ],
+   "sitzt" : [ "sitzt" ],
+   "Nachrichten" : [ "Nachrichten" ],
+   "Hobby" : [ "Hobby" ],
+   "Seit" : [ "Seit" ],
+   "Stecker" : [ "Stecker" ],
+   "Erdbeeren" : [ "Erdbeeren" ],
+   "sind" : [ "sind", "Sind", "Sitzt" ],
+   "nach" : [ "nach" ],
+   "Mensch" : [ "Mensch" ],
+   "gesammelt" : [ "gesammelt" ],
+   "Mutter" : [ "Mutter" ],
+   "sportlich" : [ "sportlich" ],
+   "Herr" : [ "Herr", "Herrlich" ],
+   "Mahlzeit" : [ "Mahlzeit" ],
+   "einige" : [ "einige" ],
+   "fahren" : [ "fahre", "fahren" ],
+   "an" : [ "an" ],
+   "Suchmaschine" : [ "Suchmaschine", "suchst", "sucht" ],
+   "einhalten" : [ "einhalten" ],
+   "leme" : [ "leme" ],
+   "Kennst" : [ "Kennst" ],
+   "sauge" : [ "sauge" ],
+   "etwa" : [ "etwa" ],
+   "hin" : [ "hin" ],
+   "fragen" : [ "frage", "fragst" ],
+   "Hausaufgaben" : [ "Hausaufgaben" ],
+   "Bahnstation" : [ "Bahnstation" ],
+   "Karl" : [ "Karl" ],
+   "lieber" : [ "lieber" ],
+   "normalerweise" : [ "normalerweise", "normalerwerise", "normalweise" ],
+   "Richtig" : [ "Richtig" ],
+   "Hangzhou" : [ "Hangzhou" ],
+   "Meer" : [ "Meer" ],
+   "getrennt" : [ "getrennt" ],
+   "bekommen" : [ "bekommen", "Bekommt" ],
+   "schmekt" : [ "schmekt" ],
+   "aber" : [ "aber", "Aber" ],
+   "essen" : [ "esse", "essen", "Essen", "esst", "Iss" ],
+   "Such" : [ "Such" ],
+   "schlägen" : [ "schlägst", "schlägen" ],
+   "fähren" : [ "fähren", "fährt", "Fährt", "Fährst" ],
+   "Hab" : [ "Hab" ],
+   "stimmen" : [ "stimmt", "stimmen" ],
+   "Lucas" : [ "Lucas" ],
+   "öffen" : [ "öffe", "öffen" ]
+}
