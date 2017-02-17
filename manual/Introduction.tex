@@ -11,6 +11,7 @@
 \usepackage{amsmath}
 \usepackage{makecell}
 \usepackage[lofdepth,lotdepth]{subfig}
+\bibliographystyle{plain}
 \DeclareMathOperator*{\argmax}{argmax}
 \setCJKmainfont[BoldFont={SimHei}]{SimSun}
 \setCJKmonofont{SimSun}
@@ -26,7 +27,7 @@
 \renewcommand{\abstractname}{摘要}
 \renewcommand*\contentsname{目录}
 \begin{abstract}
-在国内外语学习的热潮下双语词典的编纂一直是为人们所忽视的主题，传统词典一直由少数专家把关，编一部词典的周期长，门槛高；现代信息技术的进步为使用计算机网络技术进行协作式编辑，充分考虑用户需求，缩短编辑周期和提高实用性方面提供了可能。本次项目试图以用户型德语初学者词典为突破口探索这种可能性。目前已经实现了词典的浏览和在线编辑模块。
+在国内外语学习的热潮下双语词典的编纂一直是为人们所忽视的主题，传统词典一直由少数专家把关，编一部词典的周期长，门槛高；现代信息技术的进步为使用计算机网络技术进行协作式编辑，充分考虑用户需求，缩短编辑周期和提高实用性方面提供了可能。本次项目试图以用户型德语初学者词典为突破口探索这种可能性。目前已经实现了词典的浏览和在线编辑模块,背单词模块已经完成理论上的初步分析。
 \end{abstract}
 \tableofcontents
 \large
@@ -44,45 +45,38 @@
 
 \section{设计目标描述}
 	电子词典的核心功能是单词查询的浏览功能。
-	电子词典的界面设计一方面要继承纸制词典的风格，另一方面在不同的媒介下有一定的发挥空间。
+	电子词典的界面设计一方面要继承纸制词典的风格，另一方面又要发挥出新媒介的优势。考虑到外语学习者的实际需求,我们在词典数据的基础上设计了背单词的模块，希望利用计算机辅助测试和数据分析的方法
+	帮助学习者更好地入门。
 	
-	为实现上述设计目标，我们以网页为平台开发了Klick Auf Deutsch Hilfer。
-	在开发过程中，为了提高编辑工作效率，我们设计了用户编辑模块。
+	为实现上述设计目标，我们以网页为平台开发了Klick Auf \\*
+	Deutsch Hilfer(点击德语助手)。
+目前点击德语助手包含以下三个模块:单词查询,用户编辑和背单词，关于该项目的所有源代码可以从附录\cite{Bib3}给的链接进行下载，下面的部分是对各模块的简要综述。
 \section{单词查询}
 
 \subsection{\textbf{\fontsize{12pt}{\baselineskip}{数据视角}}}
-	我们设计词典抛弃了一般电子词典采用的急键值加表项的方式，而采用超文本标记语言xml组织每一个词项。单独的xml文件以词条的编号命名，如1.xml表示名词类中的第一个,词项是Abend;V100.xml表示动词类中的第100个，词项是wissen.
+	我们设计词典抛弃了一般电子词典采用的急键值加表项的方式，而采用超文本标记语言xml组织每一个词项。单独的xml文件以词条的编号命名，如1.xml表示名词类中的第一个,词项是Abend(晚上);V100.xml表示动词类中的第100个，词项是wissen(知道)。
 	
-	xml可以自定义元素和属性，为此我们采用了文档类型定义dtd的方法，考虑到不同词性的词有不同的属性，每一个词性我们单独定义了一个dtd文件，在xml文档的头部，显示指明了它被哪一个dtd所约束，如NounModel.dtd。虽然不同词性的词有不同的dtd,但其大致结构相同。具体说来，每一个合法的xml首先都要有一个根元素名为Entry.Entry下必须依次出现元素Stichwort，Einheit/Anteil,zusammengesetzteWörter,
-Synonymegruppe,Antonymegruppe,
-Kollokationen,AllgemeineErläuterungen.
-
-这里有的子元素结构比较简单，比如Stichwort下只包含了词形的信息。
-Einheit/Anteil元素是适配考虑到清华大学德语教学正在使用的教材为每个单词提供的其所在单元和所在单元具体模块的信息。
-zusammengesetzteWörter元素提供德语中的和该词有关的复合词的信息，
-由于德语中复合词数量更多，相应的我们在zusammengesetzteWörter
-下设了KompositaCollection和abgeleiteteWörter两个子元素，
-分别包含合成词类和派生词类。在合成词类下，为支持后期多种检索方式，我们将其主要分为K\_和 \_K型,分别表示这个词项在该合成词的位置
-是在前面还是后面，派生词类下对每个由该词项派生的词必须注明它的词性，否则按照dtd的语法检查规则，整篇文档就是不合法的。
-
-对于Entry下接下来的三个元素，分别表示同义词集合、反义词集合和词组集合，其中我们在编辑的过程中发现，同反义词集合具有稀疏性。
-
-整个词条中最重要的部分是AllgemeineErläuterungen，其结构也最复杂。考虑到一词多义的可能性，该“一般性释义”下设若干个Eintrag,
-至少要有一个Eintrag.每一个Eintrag有Chinesisch和BeispielSammlung
-两个子元素，分别是汉语释义和例句集，每一个例句集是由若干个
-Beispiel组成的，而每一个Beipiel由Satz和Übersetzung组成。该部分对
-整个文档树的深度贡献最大。
-
-同时，我们考虑到单词之间错综复杂的语义关系，在Eintrag的相关子元素下设置了link属性，其值为相对应单词的文件名称，如essen词项下<\_K link=''1.xml''>Abendessen<\/K>就表示Abendessen可以链接到Abend.这种方法不仅为展示数据提供了统一个接口，还为用网络的方法做关联分析提供了数据基础。
-\subsection{\textbf{\fontsize{12pt}{\baselineskip}{界面视角}}}
+	xml可以自定义元素和属性，为此我们采用了文档类型定义dtd的方法，考虑到不同词性的词有不同的属性，每一个词性我们单独定义了一个dtd文件，在xml文档的头部，显示指明了它被哪一个dtd所约束，如NounModel.dtd。虽然不同词性的词有不同的dtd,但其大致结构相同,关于我们设计的词项的具体结构，见附录[\ref{A_F_1}]。
+	
+	考虑到目前大多数在线的外语词典都支持例句查询功能，我们也尝试了通过提前对单词在语料库中的位置建立索引，使得用户可以用一个词查找它出现的上下文,这在语料库分析中叫concordance,但由于自然语言十分复杂，一个词有多种不同的形式以及语义，因此能否对简单匹配词形的concordance进行改进是我们下一步研究的一个内容。
+%\subsection{\textbf{\fontsize{12pt}{\baselineskip}{界面视角}}}
 \section{用户编辑}
+%此段是为了赶工作量临时写的，很多地方凭个人感觉，没有出处，待完善。
+世界上最大的百科全书维基百科是以多人协作的方式积少成多发展起来的，维基百科的成功使得在线编辑引擎wiki十分流行，相比于维基百科,维基词典y虽然知名度不是那么高，但也是利用wiki发展起来的多语词典。wiki也可以看成一种赋码语言，可以看成html的简化版。但对于一般文职人员来说，学习wiki的语法仍有一定难度，而维基百科或者维基词典本身在线编辑的界面就是提交wiki代码的一个TextArea,这种设计在一定程度上限制了一些想参与但不是很懂wikis代码的人的参与。
+目前已经有一些相当成熟的wiki可视化编辑器，但一方面需要用户下载安装，另一方面对于特定需求来说，编辑效率不如掌握wiki语法后直接写的效率高。
+
+针对这两个问题，我们尝试在我们设计的xml词条格式框架下开发用户在线编辑词条的功能，设计的目标是让用户无需了解技术背景也能轻松地在线编辑词条。具体实现细节可以参考[(\ref{A_F_2})]。
 
 \section{背单词}
 我们打算基于已有的词典内容开发背单词的模块，传统的背单词往往基于简单的随机因子和分数累加，在开发之前，我们仔细学习了Item Response
-Theory,并以此理论为基础，建立单词测试的数学模型，用统计学中分析数据的方法，在数据库和CS架构的技术基础上尝试实现背单词模块，目前该
-模块正在开发过程中。
+Theory,并以此理论为基础，建立单词测试的数学模型，用统计学中分析数据的方法，在数据库和客户端-服务器架构的技术基础上尝试实现背单词模块，但由于时间所限，目前该模块只完成了初步的理论分析，主要结果由下文内容给出。
 \subsection{\textbf{\fontsize{12pt}{\baselineskip}{词汇量统计方法}}}
-\cite{Bib4}中给出了估计正常人遇到的词汇量的基本方法，首先统计出Alphabetical Type（N)与语料库规模(M)的关系，Herdan's Law指出N是M的幂函数且幂指数小于1，其次通过抽样调查的方法统计某一特定人群在一段时间内exposed to 语言输入的tokens，对这些tokens进行统计去重再外推即得到encountered AT值。
+%\cite{Bib4}中给出了估计正常人遇到的词汇量的基本方法，首先统计出Alphabetical Type（N)与语料库规模(M)的关系，Herdan's Law指出N是M的幂函数且幂指数小于1，其次通过抽样调查的方法统计某一特定人群在一段时间内exposed to 语言输入的tokens，对这些tokens进行统计去重再外推即得到encountered AT值。
+\cite{Bib4}指出词汇统计应该基于word family 而不是对lemma (词项)统计，word family是把一些在词形上有派生关系的词也归为一类，比如Lehrer和Lehrerin(男老师和女老师)属于同一个word family，但却是两个lemma。
+
+基于word family的统计思想和语料库tokenization的初步处理，我们尝试通过人工的方法建立一个wordfamily的资料库，考虑到数据传输和处理的简易
+性，这个资料库使用了json的数据结构。
+\subsection{\textbf{\fontsize{12pt}{\baselineskip}{用户词汇量测量方法}}}
 传统的词汇测量方法是基于Classical Test Theory对于每个test item,一般结果是二值的，即只有对和错两个result，累加后的结果可以作为observed score。CTT认为X=T+E,T是true score,E是error.
 CTT还有三个基本假设：
 \begin{enumerate}
@@ -115,10 +109,11 @@ IRF函数有多种不同的建模方式，一般常用的有Logistic model:
 p_i(\theta)=c_i+\frac{1-c_i}{1+exp(-a_i(\theta-b_i))}
 \end{equation}
 上式中i表示被试者的编号，a,b,c是item的参数，分别表征discrimination,difficulty和pseudo guessing,可以从下图(ICC曲线,item characteristic curve)形象地说明这三个参数
-\begin{figure}
+\begin{figure}[!ht]
 \caption{三个参数的IRF}
 \includegraphics[width=\linewidth]{3PL_IRF.png}
 \end{figure}
+
 由上图可以看出$\theta=-3$时被试者仍有概率c答对，对4选1的multiple choice,c=$\frac{1}{4}$,b是$p(\theta)=\frac{c+1}{2}$的点,即最大值1和最小值c的平均值的点，同时也是LRF曲线最陡的点，可以衡量difficulty.a和p'(b)成正比，a越大曲线两级分化越严重，即ability $\theta$小于某一个阈值答对的正确率为c,大于此阈值答对的正确率为1.
 此外LRF曲线还可以从标准正态分布的cdf建模。
 三个参数的IRF虽然精确，但实际中估计参数比较繁琐，一般常用的是1个参数(b)的Rasch Model,其可以简化表述为第k个person在第i个item上答对的概率为
@@ -174,11 +169,42 @@ Rasche Model算出的ability在测试题目给定的情况下和总分具有非�
 \begin{figure}[!ht]
 \includegraphics[width=\linewidth]{bias.png}
 \end{figure}
-
 如果person的能力接近平均水平(ability $\approx$ 0)，则几乎没有bias,但两级的bias会比较大。由于采用了先验的正态总体假设，对于高分，会低估person的能力而对于低分则会高估person的能力。如果题目较难，高分段的bias减小而低分段的bias增大。
+
 \appendix
-\section{First Appendix}\label{A1}
-\subsection{JML}
+\section{First Appendix}
+\subsection{DTD结构简要介绍}\label{A_F_1}
+每一个合法的xml首先都有一个根元素名为Entry。
+Entry下必须依次出现元素Stichwort，Einheit,Anteil,zusammengesetzteWörter,
+Synonymegruppe,Antonymegruppe,\\*
+Kollokationen,AllgemeineErläuterungen.
+
+这里有的子元素结构比较简单，比如Stichwort下只包含了词形的信息。
+Einheit/Anteil元素是适配考虑到清华大学德语教学正在使用的教材为每个单词提供的其所在单元和所在单元具体模块的信息。
+zusammengesetzteWörter元素提供德语中的和该词有关的复合词的信息，
+由于德语中复合词数量更多，相应的我们在zusammengesetzteWörter
+下设了KompositaCollection和abgeleiteteWörter两个子元素，
+分别包含合成词类和派生词类。在合成词类下，为支持后期多种检索方式，我们将其主要分为K\_和 \_K型,分别表示这个词项在该合成词的位置
+是在前面还是后面，派生词类下对每个由该词项派生的词必须注明它的词性，否则按照dtd的语法检查规则，整篇文档就是不合法的。
+
+对于Entry下接下来的三个元素，分别表示同义词集合、反义词集合和词组集合，其中我们在编辑的过程中发现，同反义词集合具有稀疏性。
+
+整个词条中最重要的部分是AllgemeineErläuterungen，其结构也最复杂。考虑到一词多义的可能性，该“一般性释义”下设若干个Eintrag,
+至少要有一个Eintrag.每一个Eintrag有Chinesisch和BeispielSammlung
+两个子元素，分别是汉语释义和例句集，每一个例句集是由若干个
+Beispiel组成的，而每一个Beipiel由Satz和Übersetzung组成。该部分对
+整个文档树的深度贡献最大。
+
+同时，我们考虑到单词之间错综复杂的语义关系，在Eintrag的相关子元素下设置了link属性，其值为相对应单词的文件名称，如essen词项下<\_K link=''1.xml''> \\*Abendessen 
+<\/K>就表示Abendessen可以链接到Abend.这种方法不仅为展示数据提供了统一个接口，还为用网络的方法做关联分析提供了数据基础。
+\subsection{在线编辑词条功能的实现细节}\label{A_F_2}
+当用户点击编辑按钮后，词条的xml代码被转成html的inputBox, radioButton等控件，用户只需点击按钮即可添加或删除某一个特定的子条目，并在相应的输入框中填写子条目相应的信息。当编辑完成后，
+用户提交后便可以直接看到已经排版过的编辑结果，但最终在服务器端是否修改相应的词条版本需要管理员再确认。
+
+wiki有一套成熟的历史版本管理机制，由于我们的代码(包含xml)使用的是git版本控制系统，所以每一个词条编辑的历史记录可以直接作为版本控制的一部分被记录下来。
+
+\section{Second Appendix}
+\subsection{JML}\label{A1}
 首先讨论JML(joint maximum likelihood)的方法,observed data matrix联合概率似然函数为
 \begin{equation}
 \begin{split}
@@ -192,7 +218,7 @@ $s_i=\displaystyle\sum_{k=1}^N x_{ki}$,表示第i个item的总分。
 $\delta_i$的非线性方程组为
 \begin{eqnarray}\label{eq:JML}
 s_i=\sum_{k=1}^N p_{ki},i=1,..I\\
-r_k=\sum_{i1}^I p_{ki},k=1,..N
+r_k=\sum_{i=1}^I p_{ki},k=1,..N
 \end{eqnarray}•
 上式中$p_{ki}$即为(\ref{eq:Rasch})
 \subsection{CML}
@@ -224,7 +250,6 @@ P(x_k|r_k,\vec{\delta})=\frac{P(x_k|\beta_k,\vec{\delta})}{P(r_k|\beta_k,\vec{\d
 \begin{equation}
 \log(\Lambda(\vec{x}|\vec{r},\vec{\delta}))=\sum_{k=1}^N \frac{exp(-x_{ki}\delta_i)}{\gamma_{r_k|\vec{\delta}}}
 \end{equation}
-\section{Second Appendix}
 \subsection{安全概率}\label{A2}
 问题可转化为$P(X>2)=0.136,Y_i i.i.d \sim Bernoulli(p=0.136)$，求$P(\displaystyle\sum_{i=1}^N Y_i >K)$
 当N较大时，可以用中心极限定理近似计算：
@@ -279,14 +304,14 @@ Test Information Function(TIF).
 \end{figure}
 
 由上图可看出，对于难题组，全对的信息量要比简单题大，而全错的信息量比简单题小，这符合一般经验。
-\subsection{Rasch模型Fisher信息量}\label{A5}
+\subsection{Rasch模型Bias数值计算}\label{A5}
 计算bias需要计算给定真实能力后计算关于估计量的期望值，在对模型没有任何了解的情况下可以采用Monte Carlo模拟，但对于
 Rasch Model由(\ref{eq:score})式得$r_I=\displaystyle\sum_{i=1}^I x_i$是$\beta$的充分统计量，于是首先计算总分$r_I$的分布，
 再由
 \begin{equation}
 E(\hat{\beta}(r_I))=\sum_{i=1}^I \hat{\beta}(i)P(r_I=i)
 \end{equation}
-计算出期望值。在上式中$\hat{\beta}(i)$可以通过对\ref{eq:map}求解极大值得到，而$r_I$的分布可以类比组合数的计算方法递推得到。
+计算出期望值。在上式中$\hat{\beta}(i)$可以通过对(\ref{eq:map})求解极大值得到，而$r_I$的分布可以类比组合数的计算方法递推得到。
 记$A_n^k=\displaystyle\sum_{k=1}^n x_k$,则有如下递推公式:
 \begin{equation}
 A_n^k=P(x_n=1)A_{n-1}^{k-1}+P(x_n=0)A_{n-1}^k
@@ -296,12 +321,17 @@ A_n^k=P(x_n=1)A_{n-1}^{k-1}+P(x_n=0)A_{n-1}^k
 %信息量和能力估计的标准差$\sigma_{\hat{\beta}}$之间的关系很难给出理论表达式，
 %但可以用$\frac{1}{\sqrt{I(\hat{\beta})}}$近似作为标准差的下界。
 \begin{thebibliography}{}
-\bibitem{Bib1}双语学习型词典设计特征研究 外研社2013年出版
+\bibitem{Bib1} 双语学习型词典设计特征研究
+ 外研社 
+ 2013年版
 
-\bibitem{Bib2} 计算词典学 上海辞书出版社2011年版
+\bibitem{Bib2} 计算词典学 
+上海辞书出版社 
+2011年版
 
 \bibitem{Bib3} \url{https://github.com/Leidenschaft/Deutsch-Lernen}
 \bibitem{Bib4} How Many Words Do We Know? Practical Estimates Of
-Vocabulary Size Depedenent on Word Definition, the Degree of Language Input and the Participant's Age		frontiers in Psychology
+Vocabulary Size Depedenent on Word Definition, the Degree of Language Input and the Participant's Age,		
+frontiers in Psychology, 2016,V7,Article 1116
 \end{thebibliography}
 \end{document}

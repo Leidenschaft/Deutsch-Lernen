@@ -1,21 +1,23 @@
-\contentsline {section}{\numberline {1}问题背景}{2}{section.1}
-\contentsline {section}{\numberline {2}设计目标描述}{2}{section.2}
-\contentsline {section}{\numberline {3}单词查询}{2}{section.3}
-\contentsline {subsection}{\numberline {3.1}\textbf {\fontsize {12pt}{\baselineskip }{数据视角}}}{2}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}\textbf {\fontsize {12pt}{\baselineskip }{界面视角}}}{3}{subsection.3.2}
-\contentsline {section}{\numberline {4}用户编辑}{3}{section.4}
-\contentsline {section}{\numberline {5}背单词}{3}{section.5}
-\contentsline {subsection}{\numberline {5.1}\textbf {\fontsize {12pt}{\baselineskip }{词汇量统计方法}}}{3}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}\textbf {\fontsize {12pt}{\baselineskip }{具体实施步骤}}}{5}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}\textbf {\fontsize {12pt}{\baselineskip }{单词抽样方法}}}{5}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}\textbf {\fontsize {12pt}{\baselineskip }{Score算法}}}{6}{subsection.5.4}
-\contentsline {subsubsection}{\numberline {5.4.1}算法描述}{6}{subsubsection.5.4.1}
-\contentsline {subsubsection}{\numberline {5.4.2}精度分析}{7}{subsubsection.5.4.2}
-\contentsline {section}{\numberline {A}First Appendix}{7}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}JML}{7}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}CML}{7}{subsection.A.2}
-\contentsline {section}{\numberline {B}Second Appendix}{8}{appendix.B}
-\contentsline {subsection}{\numberline {B.1}安全概率}{8}{subsection.B.1}
-\contentsline {subsection}{\numberline {B.2}能力参数$\beta $满足的方程}{8}{subsection.B.2}
-\contentsline {subsection}{\numberline {B.3}Rasch模型Fisher信息量}{9}{subsection.B.3}
-\contentsline {subsection}{\numberline {B.4}Rasch模型Fisher信息量}{10}{subsection.B.4}
+\contentsline {section}{\numberline {1}问题背景}{3}{section.1}
+\contentsline {section}{\numberline {2}设计目标描述}{3}{section.2}
+\contentsline {section}{\numberline {3}单词查询}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}\textbf {\fontsize {12pt}{\baselineskip }{数据视角}}}{3}{subsection.3.1}
+\contentsline {section}{\numberline {4}用户编辑}{4}{section.4}
+\contentsline {section}{\numberline {5}背单词}{4}{section.5}
+\contentsline {subsection}{\numberline {5.1}\textbf {\fontsize {12pt}{\baselineskip }{词汇量统计方法}}}{4}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}\textbf {\fontsize {12pt}{\baselineskip }{用户词汇量测量方法}}}{4}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}\textbf {\fontsize {12pt}{\baselineskip }{具体实施步骤}}}{6}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}\textbf {\fontsize {12pt}{\baselineskip }{单词抽样方法}}}{6}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}\textbf {\fontsize {12pt}{\baselineskip }{Score算法}}}{7}{subsection.5.5}
+\contentsline {subsubsection}{\numberline {5.5.1}算法描述}{7}{subsubsection.5.5.1}
+\contentsline {subsubsection}{\numberline {5.5.2}精度分析}{8}{subsubsection.5.5.2}
+\contentsline {section}{\numberline {A}First Appendix}{8}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}DTD结构简要介绍}{8}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}在线编辑词条功能的实现细节}{9}{subsection.A.2}
+\contentsline {section}{\numberline {B}Second Appendix}{9}{appendix.B}
+\contentsline {subsection}{\numberline {B.1}JML}{9}{subsection.B.1}
+\contentsline {subsection}{\numberline {B.2}CML}{9}{subsection.B.2}
+\contentsline {subsection}{\numberline {B.3}安全概率}{10}{subsection.B.3}
+\contentsline {subsection}{\numberline {B.4}能力参数$\beta $满足的方程}{10}{subsection.B.4}
+\contentsline {subsection}{\numberline {B.5}Rasch模型Fisher信息量}{11}{subsection.B.5}
+\contentsline {subsection}{\numberline {B.6}Rasch模型Bias数值计算}{11}{subsection.B.6}
