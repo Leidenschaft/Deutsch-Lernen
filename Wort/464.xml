@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Entry SYSTEM "NounModel.dtd">
+<?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?>
+<Entry category="Substantiv">
+  <Stichwort>Abendessen</Stichwort>
+  <Einheit>5</Einheit>
+  <Anteil>Text</Anteil>
+  <Genus>das</Genus>
+  <Pluralform>o.Pl.</Pluralform>
+  <GenitivSingular>Abendessens</GenitivSingular>
+  <zusammengesetzteWörter>
+    <KompositaCollection>
+    </KompositaCollection>
+    <abgeleiteteWörter/>
+  </zusammengesetzteWörter>
+  <Synonymegruppe/>
+  <Antonymegruppe>
+  </Antonymegruppe>
+  <Kollokationen>
+    <K>zum Abendessen</K>
+    <K>nach dem Abendessen</K>
+  </Kollokationen>
+  <AllgemeineErläuterungen>
+    <Eintrag>
+      <Chinesisch>晚饭</Chinesisch>
+      <BeispielSammlung>
+        <Beispiel>
+          <Satz>Geschirr spüle ich jeden Tag nach dem Abendessen</Satz>
+          <Übersetzung>我每天吃完饭洗碗。</Übersetzung>
+        </Beispiel>
+      </BeispielSammlung>
+    </Eintrag>
+  </AllgemeineErläuterungen>
+</Entry>
