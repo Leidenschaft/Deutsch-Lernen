@@ -3,6 +3,7 @@ $(document).ready(function () {
     var Stichwort_input_boolean = false;
     var Pluralform_input_boolean = false;
     var GenitivSingular_input_boolean = false;
+	
     var current_time = new Date();
     current_time.setDate(current_time.getDate() + 7);
     function getCookie(name) {
@@ -51,11 +52,19 @@ $(document).ready(function () {
         //self.parent.document.getElementById("edit_render_frameset")
 
         var word_addr;
+		var word_type;
         if (isNew) {
             word_addr = '../Wort/0.xml';//xml template
+			word_type="Substantiv";
         }
         else {
             word_addr = self.parent.frames["right_frame"].location.toString();
+			if(word_addr.search('V[0-9]+.xml')>0){
+				word_type="Verben"
+			}
+			else{
+				word_type="Substantiv";
+			}
         }
 
         //request for the xml
@@ -71,6 +80,7 @@ $(document).ready(function () {
                     alert("status: " + status + "\n errorThrown " + errorThrown);
                 },
                 success: function (xml) {
+					
                     //alert($(xml).find("Stichwort").text());
 
                     //    }
@@ -87,6 +97,11 @@ $(document).ready(function () {
                        alert("You have error " + myErr.reason);
                     } else {
                         var xmlObj = originalTree.documentElement.childNodes;*/
+					if(word_type=='Verben'){
+						$("#gender").attr("style","display:none;");
+						$("#plural").attr("style","display:none;");
+						$("#genetiv").attr("style","display:none;");
+					}
                     if ($(xml).find("Stichwort").attr("Audio"))
                         $("#StichwortAudio").val("true");
                     if ($(xml).find("Stichwort").attr("Bild"))
@@ -106,6 +121,7 @@ $(document).ready(function () {
                             break;
                         } parseInt(current_input_compound_item)
                     }
+					if(word_type=="Substantiv"){
                     var genus = $(xml).find("Genus").text();
                     var genus_option = $("input[name='Genus']");
                     genus_option.removeAttr("checked");
@@ -123,6 +139,7 @@ $(document).ready(function () {
                         $("#GenitivSingular").val($(xml).find("GenitivSingular").text());
                         GenitivSingular_input_boolean = true;
                     }
+					}
                     //   var current_compound_item = 1;
 
                     current_input_compound_item = 0;

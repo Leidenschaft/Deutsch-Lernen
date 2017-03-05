@@ -11,10 +11,15 @@
   <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
   <script type="text/javascript" src="BufferSearch.js"></script>
 	<body ondblclick="GetSelection()">
-			<h1><b>
+			<h1><span><b>
         <xsl:value-of select="Stichwort"/><!---此处为标题字体<font face=".Helvetica Neue Interface"></font>-->
         
-      </b></h1><br/>
+      </b></span>
+	        <span>
+        <button type="button" id="edit_btn" hidden="hidden">编辑</button>
+      </span>
+
+	  </h1><br/>
     
 	<table width="100%" align="center" border="0"><tr>
 	<td width="50%" style="font-family:Times New Roman">
