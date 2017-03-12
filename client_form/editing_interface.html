@@ -51,11 +51,18 @@
          <input id="Stichwort" value="请在此输入词条的名称" name="Stichwort">
                     <input id="StichwortAudio" hidden="" name="StichwortAudio">
                     <input id="StichwortPicture" hidden="" name="StichwortPicture">
-         <div id="gender">
+         <div id="Category">
+        <label><input name="category" type="radio" value="Substantiv" checked="checked">名词</label> 
+        <label><input name="category" type="radio" value="Verben">动词</label> 
+         <label><input name="category" type="radio" value="Adjektiv">形容词</label>
+        </div>
+			<div id="Noun_Specific" style="display:block">
+		<div id="gender">
         <label><input name="Genus" type="radio" value="der" checked="checked">der</label> 
         <label><input name="Genus" type="radio" value="die">die</label> 
          <label><input name="Genus" type="radio" value="das">das</label>
         </div>
+		
          <div id="plural">
          <input id="Pluralform" list="Pluralform_Prompt" value="请在此输入复数" name="Pluralform">
          <datalist id="Pluralform_Prompt"></datalist>
@@ -65,7 +72,7 @@
          <input id="GenitivSingular" list="GenitivSingular_Prompt" value="请在此输入第二格" name="GenitivSingular">
          <datalist id="GenitivSingular_Prompt"></datalist>
          </div>
-
+			</div>
          <div>
          <span>选填：</span><button type="button" id="testFocus">Collapse</button>
                       <div id="choicable" class="choicable_expand"><!--unordered list-->

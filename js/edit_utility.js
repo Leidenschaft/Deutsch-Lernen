@@ -98,9 +98,7 @@ $(document).ready(function () {
                     } else {
                         var xmlObj = originalTree.documentElement.childNodes;*/
 					if(word_type=='Verben'){
-						$("#gender").attr("style","display:none;");
-						$("#plural").attr("style","display:none;");
-						$("#genetiv").attr("style","display:none;");
+						$("input[name='category']").eq(1).click();
 					}
                     if ($(xml).find("Stichwort").attr("Audio"))
                         $("#StichwortAudio").val("true");
@@ -300,6 +298,15 @@ $(document).ready(function () {
 
         }//this is the end of else if
     }
+	$("input[name='category']").on("click",function(){
+	var chosen_category=$(this).val();
+	if(chosen_category!="Substantiv")
+		$("#Noun_Specific").attr("style","display:none");
+	else
+		$("#Noun_Specific").attr("style","display:block");
+
+		}
+		);
     $("#Stichwort").on("focus", function () {
         if ($("#Stichwort").val() == '请在此输入词条的名称') {
             $("#Stichwort").val('');
