@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>    <!DOCTYPE Entry SYSTEM "AdjModel.dtd">    <?xml-stylesheet type="text/xsl" href="AdjRenderTemplate.xslt"?><Entry category="Adjektiv">
-<Stichwort>vielfältig</Stichwort>
-<Einheit>5</Einheit>
-<Anteil>Leseverstehen</Anteil>
+<Stichwort>nie</Stichwort>
+<Einheit>3</Einheit>
+<Anteil>Text</Anteil>
 
 <zusammengesetzteWörter>
 	<KompositaCollection>
@@ -23,10 +23,10 @@
 
 <AllgemeineErläuterungen>
 	<Eintrag>
-		<Chinesisch>多样的</Chinesisch>
+		<Chinesisch>从没有，绝不</Chinesisch>
 		<BeispielSammlung>
 			<Beispiel>
-				<Satz>Das Essen in China ist vielfältig.</Satz>
+				<Satz>Du hast nie Zeit für deine Freunde.</Satz>
 				<Übersetzung/>
 			</Beispiel>
 		</BeispielSammlung>

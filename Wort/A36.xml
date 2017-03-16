@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>    <!DOCTYPE Entry SYSTEM "AdjModel.dtd">    <?xml-stylesheet type="text/xsl" href="AdjRenderTemplate.xslt"?><Entry category="Adjektiv">
-<Stichwort>vielfältig</Stichwort>
-<Einheit>5</Einheit>
+<Stichwort>gerade</Stichwort>
+<Einheit>2</Einheit>
 <Anteil>Leseverstehen</Anteil>
 
 <zusammengesetzteWörter>
@@ -23,10 +23,10 @@
 
 <AllgemeineErläuterungen>
 	<Eintrag>
-		<Chinesisch>多样的</Chinesisch>
+		<Chinesisch>直的，水平的</Chinesisch>
 		<BeispielSammlung>
 			<Beispiel>
-				<Satz>Das Essen in China ist vielfältig.</Satz>
+				<Satz>Ich lerne gerade Deutsch.</Satz>
 				<Übersetzung/>
 			</Beispiel>
 		</BeispielSammlung>

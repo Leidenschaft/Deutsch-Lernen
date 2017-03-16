@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>    <!DOCTYPE Entry SYSTEM "AdjModel.dtd">    <?xml-stylesheet type="text/xsl" href="AdjRenderTemplate.xslt"?><Entry category="Adjektiv">
-<Stichwort>vielfältig</Stichwort>
-<Einheit>5</Einheit>
-<Anteil>Leseverstehen</Anteil>
+<Stichwort>gut</Stichwort>
+<Einheit>1</Einheit>
+<Anteil>2</Anteil>
 
 <zusammengesetzteWörter>
 	<KompositaCollection>
@@ -23,10 +23,10 @@
 
 <AllgemeineErläuterungen>
 	<Eintrag>
-		<Chinesisch>多样的</Chinesisch>
+		<Chinesisch>好的，健康的</Chinesisch>
 		<BeispielSammlung>
 			<Beispiel>
-				<Satz>Das Essen in China ist vielfältig.</Satz>
+				<Satz>Mein Deutsch ist gut. Ich früstücke meistens sehr gut.</Satz>
 				<Übersetzung/>
 			</Beispiel>
 		</BeispielSammlung>
