@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{45C9DC92-B8AD-4566-A59D-ECF11FEB08A2}"
+	ProjectSection(SolutionItems) = preProject
+		js\get_search_word.js = js\get_search_word.js
+		hover_translation.html = hover_translation.html
+		manifest.json = manifest.json
+		options.html = options.html
+		js\options.js = js\options.js
+		js\status.js = js\status.js
+		css\style.css = css\style.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
