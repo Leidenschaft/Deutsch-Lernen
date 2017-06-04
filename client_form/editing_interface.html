@@ -2,6 +2,15 @@
         <meta charset="utf-8">
         <title>Wort Edit</title>
      <style type="text/css">
+		 form{
+		 text-align:center;
+		 }
+		 fieldset{
+		 text-align:left;
+		 }
+		 input[type="reset"],input[type="submit"]{
+		 padding:10px;
+		 }
          .choicable_expand {
              display: block;
          }
@@ -18,24 +27,22 @@
             display: none;  
          }
          .tab_nav_main {
-             background-color:yellow;
+             background-color:#369;
+			 color:#fff;
          }
          .tab_nav_sub {
-             background-color:gray;
+             background-color:#9488E9;
          }
 
              /*#parent span:hover + ul{display: block;}
              #testFocus:focus + ul{color:#ff0000;display:block;}
              */
-            </style>
+       </style>
         
-      <!--     <script src="/static/Word_edit/jquery-1.9.1.min.js"></script>
-        <script src="/static/Word_edit/edit_utility_create_new.js"></script>-->
     <script src="../js/jquery-1.9.1.min.js"></script>
         <script src="../js/edit_utility.js"></script>
     </head>
     <body>
-    <!--a form here/Word_edit/results/zhaofeng-shu33/-->
      <form method="post" action="../../Word_edit/create_new_word">
         <div>
             <div>
@@ -48,6 +55,7 @@
             </div>
             <div>
                 <div class="tab_css" id="tab_content_1" style="display: block;">
+				<fieldset><legend>Required</legend>
          <input id="Stichwort" value="请在此输入词条的名称" name="Stichwort">
                     <input id="StichwortAudio" hidden="" name="StichwortAudio">
                     <input id="StichwortPicture" hidden="" name="StichwortPicture">
@@ -73,8 +81,8 @@
          <datalist id="GenitivSingular_Prompt"></datalist>
          </div>
 			</div>
-         <div>
-         <span>选填：</span><button type="button" id="testFocus">Collapse</button>
+         <div></fieldset><fieldset><legend>
+         <span>选填：</span><button type="button" id="testFocus">Collapse</button></legend>
                       <div id="choicable" class="choicable_expand"><!--unordered list-->
         <!--the default is expand,use cookie to save the default setting-->
         <label for="unittype">单元:</label>
@@ -101,10 +109,11 @@
         <option value="6">Leseverstehen</option>
         </select><br>
          </div>
-
+		</fieldset>
         </div>
         </div>
                 <div class="tab_css" id="tab_content_2">
+				<fieldset><legend>例句</legend>
                     <dl id="definition_list">
                 <dt><button type="button" id="edit_definition" disabled="">点击添加词的义项</button>
                     </dt>
@@ -121,16 +130,17 @@
                       </dl>
                   </dd>
                        
-                        </dl>
+                        </dl></fieldset><fieldset><legend>短语</legend>
                         <dl id="collocation_list">
                             <dt><button type="button" id="edit_collocation" disabled="">点击添加短语</button></dt>
                             <dd><input id="collocation_1" value="请在此输入第1个短语" name="collocation_1" class="collocation">
                             </dd>
                            <!-- <dd><input id="Sym_2" value='请在此输入第2个同义词' name="Sym_2" class="Sym"/></dd>-->
-                        </dl>
+                        </dl></fieldset>
 
                 </div>
                 <div class="tab_css" id="tab_content_3">
+				<fieldset><legend>同义词</legend>
                         <dl id="Sym_List">
                             <dt><button type="button" id="edit_Sym" disabled="">点击添加同义词</button></dt>
                             <dd><input id="Sym_1" value="请在此输入第1个同义词" name="Sym_1" class="Sym">
@@ -138,14 +148,14 @@
                                 <span style="display:none"><label for="Sym_Link_1">WordLink</label><input id="Sym_Link_1" name="Sym_Link_1"></span>
                             </dd>
                            <!-- <dd><input id="Sym_2" value='请在此输入第2个同义词' name="Sym_2" class="Sym"/></dd>-->
-                        </dl>
+                        </dl></fieldset><fieldset><legend>反义词</legend>
                         <dl id="Anm_List">
                             <dt><button type="button" id="edit_Anm" disabled="">点击添加反义词</button></dt>
                             <dd><input id="Anm_1" value="请在此输入第1个反义词" name="Anm_1" class="Anm">
                                 <button type="button" class="show_link" disabled="" id="show_link_Anm_1">编辑超链接</button><br>
                                 <span style="display:none"><label for="Anm_Link_1">WordLink</label><input id="Anm_Link_1" name="Anm_Link_1"></span>
                             </dd>
-                        </dl>
+                        </dl></fieldset><fieldset><legend>派生词</legend>
                         <dl id="derivative_list">
                             <dt><button type="button" id="edit_derivative" disabled="">点击添加派生词</button></dt>
                             <dd><input id="derivative_1" value="请在此输入第1个派生词" name="derivative_1" class="derivative"><br>
@@ -157,7 +167,7 @@
                                 <button type="button" class="show_link" disabled="" id="show_link_derivative_1">编辑超链接</button><br>
                                 <span style="display:none"><label for="derivative_Link_1">WordLink</label><input id="derivative_Link_1" name="derivative_Link_1"></span>
                             </dd>             
-                        </dl>
+                        </dl></fieldset><fieldset><legend>合成词</legend>
 
                         <dl id="compound_list">
                             <dt><button type="button" id="edit_compound" disabled="">点击添加合成词</button></dt>
@@ -166,27 +176,19 @@
                                 <span style="display:none"><label for="compound_Link_1">WordLink</label><input id="compound_Link_1" name="compound_Link_1"></span>
                             </dd>             
                         </dl>
-
+						</fieldset>
                  </div>
 
 
             </div>
         </div>  
          <!--attribute editor here -->
-                 <label for="UserName">用户名</label>
-                          <select id="UserName" name="UserName">
-                              <option value="赵丰">赵丰</option>
-                              <option value="赵凯">赵凯</option>
-                              <option value="牛行知">牛行知</option>
-                              <option value="">匿名</option>
-                          </select><br>
-                  <label for="password">学号</label>
-         <input type="password" name="password" id="password" value="2013012178" style="width: 79px;">
          <input type="text" name="isCreated" value="true" hidden />
-          <input value="提交" type="submit" id="submit_button">
+         <input id="wordAddr" type="text" name="wordAddr" value="" hidden />
+		 <input value="提交" type="submit" id="submit_button">
+		  <input type="reset" value="reset">
                  <p id="errorMessage"></p>
 
          <!--another button to render the xml-->
         </form>
-         <button id="clear_button">Clear</button>
                    </body></html>

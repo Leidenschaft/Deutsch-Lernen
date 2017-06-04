@@ -469,6 +469,7 @@
   <Word address="462.xml" gender="der" chinese="观众">Zuschauer</Word>
   <Word address="463.xml" gender="die" chinese="期中考试">Zwischenprüfung</Word>
   <Word address="464.xml" gender="das" chinese="晚饭">Abendessen</Word>
+  <Word address="465.xml">Eingabe</Word>
 
   <Word address="V1.xml" third_person_present="kommt" perfekt="ist gekommen" chinese="来">kommen</Word>
   <Word address="V2.xml" third_person_present="geht" perfekt="ist gegangen" chinese="走">gehen</Word>

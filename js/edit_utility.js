@@ -59,6 +59,7 @@ $(document).ready(function () {
         }
         else {
             word_addr = self.parent.frames["right_frame"].location.toString();
+			$("#wordAddr").val(word_addr);
 			if(word_addr.search('V[0-9]+.xml')>0){
 				word_type="Verben"
 			}
@@ -508,67 +509,6 @@ $(document).ready(function () {
         new_span.appendTo(new_dd);
         new_dd.appendTo($("#Sym_List"));
     }
-    $("#clear_button").on('click', function () {
-        $("#Stichwort").val('请在此输入词条的名称');
-        Stichwort_input_boolean = false;
-        $("#Pluralform").val('请在此输入复数');
-        Pluralform_input_boolean = false;
-        $("#GenitivSingular").val('请在此输入第二格');
-        GenitivSingular_input_boolean = false;
-        current_input_compound_item = 0;
-        while (current_compound_item > 1) {
-            $("#compound_" + current_compound_item.toString()).parent().remove();
-            current_compound_item -= 1;
-        }
-        $("#compound_1").val('请在此输入第1个合成词');
-        $("#compound_Link_1").val('');
-        current_input_derivative_item = 0;
-        while (current_derivative_item > 1) {
-            $("#derivative_" + current_derivative_item.toString()).parent().remove();
-            current_derivative_item -= 1;
-        }
-        $("#derivative_1").val('请在此输入第1个派生词');
-        $("#derivative_Link_1").val('');
-        current_input_Sym_item = 0;
-
-        while (current_Sym_item > 1) {
-            $("#Sym_" + current_Sym_item.toString()).parent().remove();
-            current_Sym_item -= 1;
-        }
-        $("#Sym_1").val('请在此输入第1个同义词');
-        $("#Sym_Link_1").val('');
-        current_input_Anm_item=0;
-        while (current_Anm_item > 1) {
-            $("#Anm_" + current_Anm_item.toString()).parent().remove();
-            current_Anm_item -= 1;
-        }
-        $("#Anm_1").val('请在此输入第1个反义词');
-        $("#Anm_Link_1").val('');
-        current_input_collocation_item=0;
-        while (current_collocation_item > 1) {
-            $("#collocation_" + current_collocation_item.toString()).parent().remove();
-            current_collocation_item -= 1;
-        }
-        $("#collocation_1").val('请在此输入第1个短语');
-        current_input_definition_item = 0;
-        while (current_definition_item > 1) {
-            $("#explanation_" + current_definition_item.toString()).parent().next().remove();
-            $("#explanation_" + current_definition_item.toString()).parent().remove();
-            current_definition_item -= 1;//array quit stack
-            current_example_item.pop();
-            current_input_example_item.pop();
-        }
-        current_input_example_item[0] = 0;
-        while (current_example_item[0] > 1) {
-            $("#example_1_" + current_example_item[0].toString()).parent().remove();
-            current_example_item[0] -= 1;
-        }
-        $("#explanation_1").val("请在此输入词条的第1条汉语意思");
-        $("#original_1_1").val("请在此输入第1条例句");
-        $("#translation_1_1").val("请在此输入第1条例句的汉语翻译");
-     
-
-    });
     $("#edit_Sym").on('click', function () {
         if (this.innerHTML == '点击添加同义词') {
             add_Sym();

@@ -6,7 +6,7 @@ Wir wollen eine Software, die als ein Wörterbuch oder ein Übersetzer funktioni
 
 Currently, we have finished client side code using jquery and halfly server side code with Django.
 We also develop a Chrome extension application which can help web readers to search german words quickly.
-First you need enable the extension, then on the addressbar(Shortcut: CTRL+L) type "de" to enter search word mode, and search the german words as you link.
+First you need enable the extension, then on the addressbar(Shortcut: CTRL+L) type "de" plus a "Space" to enter search word mode, and search the german words as you link.
 ![screenshot](/images/screenshot.png)
 Or you can just select the word and a notification pops up:
 

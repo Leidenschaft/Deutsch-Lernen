@@ -8,9 +8,9 @@
       <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
   
     </head>
-		<body>
+		<body><ul>
       <xsl:for-each select="Word">
-        <xsl:sort select="."/><!--notice here we sort the wordlist!-->
+        <xsl:sort select="."/><!--notice here we sort the wordlist!--><li>
         <a>
           <xsl:attribute name="href">
             Wort/<xsl:value-of select="@address"/>
@@ -20,11 +20,10 @@
           </xsl:attribute>
           <xsl:attribute name="target">right_frame</xsl:attribute>
           <xsl:value-of select="."/>
-        </a>
-        <br/>
+        </a></li>
 
       </xsl:for-each>
-		
+			</ul>
 		</body>
 	</html>
 </xsl:template>
