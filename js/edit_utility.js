@@ -31,7 +31,7 @@ $(document).ready(function () {
     $("#password").width(10 + textWidth($("#password").val()));
     $("#password").val('');
     $('form').on('submit', function (e) {
-        if (Stichwort_input_boolean && Pluralform_input_boolean && GenitivSingular_input_boolean) {
+        if (Stichwort_input_boolean) {// && Pluralform_input_boolean && GenitivSingular_input_boolean
             $("#errorMessage").html();
             document.cookie = "userName=" + escape($("#UserName").val()) + ";expires=" + current_time.toGMTString();
             self.parent.change_editing_frame("viewing");
@@ -59,7 +59,6 @@ $(document).ready(function () {
         }
         else {
             word_addr = self.parent.frames["right_frame"].location.toString();
-			$("#wordAddr").val(word_addr);
 			if(word_addr.search('V[0-9]+.xml')>0){
 				word_type="Verben"
 			}
@@ -81,7 +80,10 @@ $(document).ready(function () {
                     alert("status: " + status + "\n errorThrown " + errorThrown);
                 },
                 success: function (xml) {
-					
+					word_addr = self.parent.frames["right_frame"].location.toString();
+					word_addr=word_addr.substr(word_addr.indexOf('static')+6,word_addr.length);
+					$("#wordAddr").val(word_addr);
+					$("#isCreated").val('');
                     //alert($(xml).find("Stichwort").text());
 
                     //    }

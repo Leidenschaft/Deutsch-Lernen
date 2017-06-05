@@ -33,7 +33,7 @@ $(document).ready(function () {
     $("#edit_btn").on("click", function () {
         if (this.innerHTML == '编辑') {
             if (self.parent.frames["editing_frame"].document.getElementById('tab_nav_1') == null) {//reload editting_interface
-                self.parent.frames["editing_frame"].location = '../client_form/editing_interface.html';
+                self.parent.frames["editing_frame"].location = '../../Word_edit/create_new_word';
             }
             else {
                 self.parent.frames["editing_frame"].load_xml(BrowsersType);
