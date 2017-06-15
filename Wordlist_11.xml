@@ -734,4 +734,16 @@
   <Word address="A98.xml" chinese="迫切的">dringend</Word>
   <Word address="A99.xml" chinese="温暖的，热的">warm</Word>
 
-<Word address="466.xml" gender="die" chinese="提醒">Mahnung</Word><Word address="467.xml" gender="der" chinese="和平">Friede</Word><Word address="468.xml" gender="die" chinese="道德">Tugend</Word><Word address="469.xml" gender="die" chinese="洞察力">Einsicht</Word><Word address="470.xml" gender="die" chinese="负荷">Bürde</Word><Word address="471.xml" gender="das" chinese="职务">Amt</Word><Word address="472.xml" gender="die" chinese="危胁">Bedrohung</Word><Word address="473.xml" gender="die" chinese="浪费">Verschwendung</Word><Word address="474.xml" gender="die" chinese="节俭">Sparsamkeit</Word><Word address="475.xml" gender="die" chinese="树冠">Krone</Word><Word address="476.xml" gender="der" chinese="意图">Absicht</Word><Word address="477.xml" gender="die" chinese="轻视">Verachtung</Word></Wordlist>
+<Word address="466.xml" gender="die" chinese="提醒">Mahnung</Word>
+<Word address="467.xml" gender="der" chinese="和平">Friede</Word>
+<Word address="468.xml" gender="die" chinese="道德">Tugend</Word>
+<Word address="469.xml" gender="die" chinese="洞察力">Einsicht</Word>
+<Word address="470.xml" gender="die" chinese="负荷">Bürde</Word>
+<Word address="471.xml" gender="das" chinese="职务">Amt</Word>
+<Word address="472.xml" gender="die" chinese="危胁">Bedrohung</Word>
+<Word address="473.xml" gender="die" chinese="浪费">Verschwendung</Word>
+<Word address="474.xml" gender="die" chinese="节俭">Sparsamkeit</Word>
+<Word address="475.xml" gender="die" chinese="树冠">Krone</Word>
+<Word address="476.xml" gender="der" chinese="意图">Absicht</Word>
+<Word address="477.xml" gender="die" chinese="轻视">Verachtung</Word>
+<Word address="478.xml" gender="der" chinese="领导人">Lenker</Word></Wordlist>

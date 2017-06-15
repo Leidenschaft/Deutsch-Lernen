@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben">
-	<Stichwort>übersetzen</Stichwort>
-	<Einheit>8</Einheit>
-	<Anteil>Text</Anteil>
-	<Konjugation>
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Entry SYSTEM "VerbenModel.dtd"><?xml-stylesheet type="text/xsl" href="VerbRenderTemplate.xslt"?><Entry category="Verben"><Stichwort>übersetzen</Stichwort><Einheit>8</Einheit><Anteil>1</Anteil><Konjugation>
 				<Präsen>
 					<ich>übersetze</ich>
 					<du>übersetzt</du>
@@ -27,38 +23,4 @@
 					<ihr>habt übersetzt</ihr>
 					<sie_Sie>haben übersetzt</sie_Sie>
 				</Perfekt>
-	</Konjugation>
-			
-			
-	<zusammengesetzteWörter>
-			<KompositaCollection>
-			</KompositaCollection>
-			<abgeleiteteWörter>
-			</abgeleiteteWörter>
-	</zusammengesetzteWörter>
-		<Synonymegruppe>
-			<Sym/>
-		</Synonymegruppe>
-		<Antonymegruppe>
-			<Anm/>
-		</Antonymegruppe>
-
-		<Kollokationen>
-		<K/>
-		</Kollokationen>
-		<AllgemeineErläuterungen>
-				<Eintrag transitiv="">
-					
-					<Chinesisch>翻译，笔译</Chinesisch>
-					<BeispielSammlung>
-					<Beispiel>
-					<Satz>Können Sie den Prospekt übersetzen?</Satz>
-					<Übersetzung/>
-					</Beispiel>
-					</BeispielSammlung>
-					
-   				</Eintrag>
-			</AllgemeineErläuterungen>
-	
-	
-</Entry>
+	</Konjugation><zusammengesetzteWörter><KompositaCollection></KompositaCollection><abgeleiteteWörter></abgeleiteteWörter></zusammengesetzteWörter><Synonymegruppe></Synonymegruppe><Antonymegruppe></Antonymegruppe><Kollokationen></Kollokationen><AllgemeineErläuterungen><Eintrag><Chinesisch>翻译，笔译</Chinesisch><BeispielSammlung><Beispiel><Satz>Können Sie den Prospekt übersetzen?</Satz><Übersetzung></Übersetzung></Beispiel></BeispielSammlung></Eintrag></AllgemeineErläuterungen></Entry>
