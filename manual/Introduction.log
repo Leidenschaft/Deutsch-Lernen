@@ -1,56 +1,120 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6210) (preloaded format=xelatex 2017.1.15)  16 JUN 2017 03:12
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6210) (preloaded format=xelatex 2017.1.15)  16 JUN 2017 14:43
 entering extended mode
 **./Introduction.dtx
 (Introduction.dtx
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
-(D:\MikTexPortable\texmfs\install\tex\generic\ifxetex\ifxetex.sty
+(D:\MikTexPortable\texmfs\install\tex\latex\base\docstrip.tex
+\blockLevel=\count79
+\emptyLines=\count80
+\processedLines=\count81
+\commentsRemoved=\count82
+\commentsPassed=\count83
+\codeLinesPassed=\count84
+\TotalprocessedLines=\count85
+\TotalcommentsRemoved=\count86
+\TotalcommentsPassed=\count87
+\TotalcodeLinesPassed=\count88
+\NumberOfFiles=\count89
+\inFile=\read1
+\inputcheck=\read2
+\off@0=\count90
+\off@1=\count91
+\off@2=\count92
+\off@3=\count93
+\off@4=\count94
+\off@5=\count95
+\off@6=\count96
+\off@7=\count97
+\off@8=\count98
+\off@9=\count99
+\off@10=\count100
+\off@11=\count101
+\off@12=\count102
+\off@13=\count103
+\off@14=\count104
+\off@15=\count105
+\@maxfiles=\count106
+\@maxoutfiles=\count107
 
-LaTeX Warning: You have requested package `',
-               but the package provides `ifxetex'.
+Utility: `docstrip' 2.5e <2014/09/29>
+English documentation    <2014/09/29>
 
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+**********************************************************
+* This program converts documented macro-files into fast *
+* loadable files by stripping off (nearly) all comments! *
+**********************************************************
+
+********************************************************
+* No Configuration file found, using default settings. *
+********************************************************
+
 )
+
+Generating file(s) ./NounModel.dtd ./Introduction.cfg ./VerbenModel.dtd 
+\openout0 = `./NounModel.dtd'.
+
+\openout1 = `./Introduction.cfg'.
+
+\openout2 = `./VerbenModel.dtd'.
+
+
+Processing file Introduction.dtx (NounModel.dtd) -> NounModel.dtd
+                                 (cfg) -> Introduction.cfg
+                                 (VerbenModel.dtd) -> VerbenModel.dtd
+File Introduction.dtx ended by \endinput.
+Lines  processed: 657
+Comments removed: 437
+Comments  passed: 5
+Codelines passed: 197
+
+***********************************************************
+*
+* To produce the documentation run the files ending with
+* `.dtx' through XeLaTeX.
+*
+* Happy TeXing!
+***********************************************************
 File: Introduction.dtx 2017/03/26 5.3.2 Tsinghua University
- (D:\MikTexPortable\texmfs\install\tex\latex\base\ltxdoc.cls
+(D:\MikTexPortable\texmfs\install\tex\latex\base\ltxdoc.cls
 Document Class: ltxdoc 2015/03/26 v2.0w Standard LaTeX documentation class
 (D:\MikTexPortable\texmfs\install\tex\latex\base\article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (D:\MikTexPortable\texmfs\install\tex\latex\base\size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+\c@part=\count108
+\c@section=\count109
+\c@subsection=\count110
+\c@subsubsection=\count111
+\c@paragraph=\count112
+\c@subparagraph=\count113
+\c@figure=\count114
+\c@table=\count115
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
 (D:\MikTexPortable\texmfs\install\tex\latex\base\doc.sty
 Package: doc 2016/02/15 v2.1g Standard LaTeX documentation package (FMi)
-\c@StandardModuleDepth=\count87
-\guard@level=\count88
+\c@StandardModuleDepth=\count116
+\guard@level=\count117
 \MacrocodeTopsep=\skip43
 \MacroIndent=\dimen103
-\macro@cnt=\count89
+\macro@cnt=\count118
 \MacroTopsep=\skip44
 \index@excludelist=\toks14
 
 (D:\MikTexPortable\texmfs\install\tex\latex\tools\multicol.sty
 Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
-\c@tracingmulticols=\count90
+\c@tracingmulticols=\count119
 \mult@box=\box26
 \multicol@leftmargin=\dimen104
-\c@unbalance=\count91
-\c@collectmore=\count92
-\doublecol@number=\count93
-\multicoltolerance=\count94
-\multicolpretolerance=\count95
+\c@unbalance=\count120
+\c@collectmore=\count121
+\doublecol@number=\count122
+\multicoltolerance=\count123
+\multicolpretolerance=\count124
 \full@width=\dimen105
 \page@free=\dimen106
 \premulticols=\dimen107
@@ -81,24 +145,24 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \@tempa=\box47
 \@tempa=\box48
 \@tempa=\box49
-\c@columnbadness=\count96
-\c@finalcolumnbadness=\count97
+\c@columnbadness=\count125
+\c@finalcolumnbadness=\count126
 \last@try=\dimen110
 \multicolovershoot=\dimen111
 \multicolundershoot=\dimen112
 \mult@nat@firstbox=\box50
 \colbreak@box=\box51
-\mc@col@check@num=\count98
+\mc@col@check@num=\count127
 )
 \IndexMin=\dimen113
-\c@IndexColumns=\count99
+\c@IndexColumns=\count128
 \GlossaryMin=\dimen114
-\c@GlossaryColumns=\count100
+\c@GlossaryColumns=\count129
 \l@nohyphenation=\language1
-\check@sum=\count101
-\bslash@cnt=\count102
+\check@sum=\count130
+\bslash@cnt=\count131
 \wrong@table=\toks15
-\c@CodelineNo=\count103
+\c@CodelineNo=\count132
 ))
 (D:\MikTexPortable\texmfs\install\tex\xelatex\xecjk\xeCJK.sty
 (D:\MikTexPortable\texmfs\install\tex\latex\l3kernel\expl3.sty
@@ -114,24 +178,24 @@ L3 Module: l3tl 2016/08/19 v6692 L3 Token lists
 L3 Module: l3str 2016/08/19 v6692 L3 Strings
 L3 Module: l3seq 2016/08/19 v6685 L3 Sequences and stacks
 L3 Module: l3int 2016/09/07 v6700 L3 Integers
-\c_max_int=\count104
-\l_tmpa_int=\count105
-\l_tmpb_int=\count106
-\g_tmpa_int=\count107
-\g_tmpb_int=\count108
+\c_max_int=\count133
+\l_tmpa_int=\count134
+\l_tmpb_int=\count135
+\g_tmpa_int=\count136
+\g_tmpb_int=\count137
 L3 Module: l3quark 2016/08/19 v6685 L3 Quarks
 L3 Module: l3prg 2016/08/18 v6679 L3 Control structures
-\g__prg_map_int=\count109
+\g__prg_map_int=\count138
 L3 Module: l3clist 2016/08/19 v6685 L3 Comma separated lists
 L3 Module: l3token 2016/09/01 v6695 L3 Experimental token manipulation
 L3 Module: l3prop 2016/08/19 v6685 L3 Property lists
 L3 Module: l3msg 2016/08/19 v6691 L3 Messages
 L3 Module: l3file 2016/08/19 v6685 L3 File and I/O operations
-\l_iow_line_count_int=\count110
-\l__iow_target_count_int=\count111
-\l__iow_current_line_int=\count112
-\l__iow_current_word_int=\count113
-\l__iow_current_indentation_int=\count114
+\l_iow_line_count_int=\count139
+\l__iow_target_count_int=\count140
+\l__iow_current_line_int=\count141
+\l__iow_current_word_int=\count142
+\l__iow_current_indentation_int=\count143
 L3 Module: l3skip 2016/08/19 v6692 L3 Dimensions and skips
 \c_zero_dim=\dimen115
 \c_max_dim=\dimen116
@@ -152,17 +216,17 @@ L3 Module: l3skip 2016/08/19 v6692 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip14
 \g_tmpb_muskip=\muskip15
 L3 Module: l3keys 2016/09/21 v6711 L3 Key-value interfaces
-\l_keys_choice_int=\count115
+\l_keys_choice_int=\count144
 L3 Module: l3fp 2016/11/21 v6761 L3 Floating points
-\c__fp_leading_shift_int=\count116
-\c__fp_middle_shift_int=\count117
-\c__fp_trailing_shift_int=\count118
-\c__fp_big_leading_shift_int=\count119
-\c__fp_big_middle_shift_int=\count120
-\c__fp_big_trailing_shift_int=\count121
-\c__fp_Bigg_leading_shift_int=\count122
-\c__fp_Bigg_middle_shift_int=\count123
-\c__fp_Bigg_trailing_shift_int=\count124
+\c__fp_leading_shift_int=\count145
+\c__fp_middle_shift_int=\count146
+\c__fp_trailing_shift_int=\count147
+\c__fp_big_leading_shift_int=\count148
+\c__fp_big_middle_shift_int=\count149
+\c__fp_big_trailing_shift_int=\count150
+\c__fp_Bigg_leading_shift_int=\count151
+\c__fp_Bigg_middle_shift_int=\count152
+\c__fp_Bigg_trailing_shift_int=\count153
 L3 Module: l3box 2016/08/19 v6685 L3 Experimental boxes
 \c_empty_box=\box52
 \l_tmpa_box=\box53
@@ -220,21 +284,21 @@ Package: xeCJK 2017/01/02 v3.4.5 Typesetting CJK scripts with XeLaTeX
 Package: xtemplate 2016/11/21 v6760 L3 Experimental prototype document function
 s
 \l__xtemplate_tmp_dim=\dimen146
-\l__xtemplate_tmp_int=\count125
+\l__xtemplate_tmp_int=\count154
 \l__xtemplate_tmp_muskip=\muskip16
 \l__xtemplate_tmp_skip=\skip53
 ) (D:\MikTexPortable\texmfs\install\tex\latex\l3packages\xparse\xparse.sty
 Package: xparse 2016/11/21 v6760 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count126
-\l__xparse_m_args_int=\count127
-\l__xparse_mandatory_args_int=\count128
-\l__xparse_processor_int=\count129
-\l__xparse_v_nesting_int=\count130
+\l__xparse_current_arg_int=\count155
+\l__xparse_m_args_int=\count156
+\l__xparse_mandatory_args_int=\count157
+\l__xparse_processor_int=\count158
+\l__xparse_v_nesting_int=\count159
 )
 (D:\MikTexPortable\texmfs\install\tex\latex\l3packages\l3keys2e\l3keys2e.sty
 Package: l3keys2e 2016/11/21 v6760 LaTeX2e option processing using LaTeX3 keys
 )
-\l__xeCJK_tmp_int=\count131
+\l__xeCJK_tmp_int=\count160
 \l__xeCJK_tmp_box=\box68
 \l__xeCJK_tmp_dim=\dimen147
 \l__xeCJK_tmp_skip=\skip54
@@ -243,9 +307,9 @@ Package: l3keys2e 2016/11/21 v6760 LaTeX2e option processing using LaTeX3 keys
 . 
 . Defining command \xeCJKShipoutHook with sig. '' on line 148.
 .................................................
-\g__xeCJK_spacefactor_int=\count132
-\l__xeCJK_begin_int=\count133
-\l__xeCJK_end_int=\count134
+\g__xeCJK_spacefactor_int=\count161
+\l__xeCJK_begin_int=\count162
+\l__xeCJK_end_int=\count163
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -292,7 +356,7 @@ Package: l3keys2e 2016/11/21 v6760 LaTeX2e option processing using LaTeX3 keys
 . Defining command \xeCJKResetCharClass with sig. '' on line 631.
 .................................................
 \l__xeCJK_last_skip=\skip55
-\g__xeCJK_node_int=\count135
+\g__xeCJK_node_int=\count164
 \c__xeCJK_CJK_node_dim=\dimen148
 \c__xeCJK_CJK-space_node_dim=\dimen149
 \c__xeCJK_default_node_dim=\dimen150
@@ -306,7 +370,7 @@ Package: l3keys2e 2016/11/21 v6760 LaTeX2e option processing using LaTeX3 keys
 . 
 . Defining command \xeCJKnobreak with sig. '' on line 1470.
 .................................................
-\l__xeCJK_widow_penalty_int=\count136
+\l__xeCJK_widow_penalty_int=\count165
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -375,7 +439,7 @@ Package: l3keys2e 2016/11/21 v6760 LaTeX2e option processing using LaTeX3 keys
 . 
 . Defining command \setCJKfallbackfamilyfont with sig. 'mom' on line 2528.
 .................................................
-\g__xeCJK_family_int=\count137
+\g__xeCJK_family_int=\count166
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -437,9 +501,9 @@ Package: l3keys2e 2016/11/21 v6760 LaTeX2e option processing using LaTeX3 keys
 . 
 . Defining command \setCJKmathfont with sig. 'om' on line 3275.
 .................................................
-\l__xeCJK_fam_int=\count138
-\g__xeCJK_fam_allocation_int=\count139
-\l__xeCJK_verb_case_int=\count140
+\l__xeCJK_fam_int=\count167
+\g__xeCJK_fam_allocation_int=\count168
+\l__xeCJK_verb_case_int=\count169
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -458,13 +522,13 @@ Package: fontspec 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTeX
 (D:\MikTexPortable\texmfs\install\tex\latex\fontspec\fontspec-xetex.sty
 Package: fontspec-xetex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
 X
-\l_fontspec_script_int=\count141
-\l_fontspec_language_int=\count142
-\l_fontspec_strnum_int=\count143
+\l_fontspec_script_int=\count170
+\l_fontspec_language_int=\count171
+\l_fontspec_strnum_int=\count172
 \l__fontspec_tmpa_dim=\dimen173
 \l__fontspec_tmpb_dim=\dimen174
 \l__fontspec_tmpc_dim=\dimen175
-\g__file_internal_ior=\read1
+\g__file_internal_ior=\read3
 
 (D:\MikTexPortable\texmfs\install\tex\latex\base\fontenc.sty
 Package: fontenc 2016/06/19 v1.99m Standard LaTeX package
@@ -490,7 +554,7 @@ LaTeX Font Info:    Try loading font information for EU1+lmss on input line 357
 (D:\MikTexPortable\texmfs\install\tex\latex\euenc\eu1lmss.fd
 File: eu1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
-\tipaTiiicode=\count144
+\tipaTiiicode=\count173
 \tipasavetokens=\toks16
 \tipachecktokens=\toks17
 
@@ -624,15 +688,15 @@ JK)
 . 
 . Defining command \DeclareFontsExtensions with sig. 'm' on line 599.
 .................................................
-\l__fontspec_tmp_int=\count145
+\l__fontspec_tmp_int=\count174
 
 (D:\MikTexPortable\texmfs\install\tex\latex\fontspec\fontspec.cfg)
 LaTeX Info: Redefining \itshape on input line 2705.
 LaTeX Info: Redefining \slshape on input line 2710.
 LaTeX Info: Redefining \scshape on input line 2715.
 LaTeX Info: Redefining \upshape on input line 2720.
-\l__fontspec_em_int=\count146
-\l__fontspec_emdef_int=\count147
+\l__fontspec_em_int=\count175
+\l__fontspec_emdef_int=\count176
 LaTeX Info: Redefining \em on input line 2736.
 LaTeX Info: Redefining \emph on input line 2742.
 LaTeX Info: Redefining \- on input line 2746.
@@ -878,23 +942,23 @@ File: xunicode-extra.def 2017/01/02 v3.4.5 extra definition for xunicode
 File: xeCJK.cfg 2017/01/02 v3.4.5 Configuration file for xeCJK package
 ))
 (D:\MikTexPortable\texmfs\install\tex\latex\listings\listings.sty
-\lst@mode=\count148
+\lst@mode=\count177
 \lst@gtempboxa=\box71
 \lst@token=\toks19
-\lst@length=\count149
+\lst@length=\count178
 \lst@currlwidth=\dimen178
-\lst@column=\count150
-\lst@pos=\count151
+\lst@column=\count179
+\lst@pos=\count180
 \lst@lostspace=\dimen179
 \lst@width=\dimen180
-\lst@newlines=\count152
-\lst@lineno=\count153
+\lst@newlines=\count181
+\lst@lineno=\count182
 \lst@maxwidth=\dimen181
 
 (D:\MikTexPortable\texmfs\install\tex\latex\listings\lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count154
-\lst@skipnumbers=\count155
+\c@lstnumber=\count183
+\lst@skipnumbers=\count184
 \lst@framebox=\box72
 )
 (D:\MikTexPortable\texmfs\install\tex\latex\listings\listings.cfg
@@ -915,10 +979,12 @@ Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(D:\MikTexPortable\texmfs\install\tex\generic\ifxetex\ifxetex.sty)
-\Gm@cnth=\count156
-\Gm@cntv=\count157
-\c@Gm@tempcnt=\count158
+(D:\MikTexPortable\texmfs\install\tex\generic\ifxetex\ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count185
+\Gm@cntv=\count186
+\c@Gm@tempcnt=\count187
 \Gm@bindingoffset=\dimen182
 \Gm@wd@mp=\dimen183
 \Gm@odd@mp=\dimen184
@@ -1042,24 +1108,17 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-
-LaTeX Warning: You have requested, on input line 133, version
-               `2006/08/21' of package ifxetex,
-               but only version
-               `'
-               is available.
-
 (D:\MikTexPortable\texmfs\install\tex\latex\oberdiek\auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen192
-\Hy@linkcounter=\count159
-\Hy@pagecounter=\count160
+\Hy@linkcounter=\count188
+\Hy@pagecounter=\count189
 
 (D:\MikTexPortable\texmfs\install\tex\latex\hyperref\pd1enc.def
 File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count161
+\Hy@SavedSpaceFactor=\count190
 
 (D:\MikTexPortable\texmfs\install\tex\latex\00miktex\hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1071,7 +1130,7 @@ Package hyperref Info: Plain pages OFF on input line 4501.
 Package hyperref Info: Backreferencing OFF on input line 4506.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4735.
-\c@Hy@tempcnt=\count162
+\c@Hy@tempcnt=\count191
 
 (D:\MikTexPortable\texmfs\install\tex\latex\url\url.sty
 \Urlmuskip=\muskip17
@@ -1079,7 +1138,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5088.
 \XeTeXLinkMargin=\dimen193
-\Fld@menulength=\count163
+\Fld@menulength=\count192
 \Field@Width=\dimen194
 \Fld@charsize=\dimen195
 Package hyperref Info: Hyper figures OFF on input line 6342.
@@ -1091,9 +1150,9 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6367.
 Package hyperref Info: PDF/A mode OFF on input line 6372.
 LaTeX Info: Redefining \ref on input line 6412.
 LaTeX Info: Redefining \pageref on input line 6416.
-\Hy@abspage=\count164
-\c@Item=\count165
-\c@Hfootnote=\count166
+\Hy@abspage=\count193
+\c@Item=\count194
+\c@Hfootnote=\count195
 )
 
 Package hyperref Message: Driver (autodetected): hxetex.
@@ -1109,10 +1168,10 @@ Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
 )
 )
 \pdfm@box=\box73
-\c@Hy@AnnotLevel=\count167
-\HyField@AnnotCount=\count168
-\Fld@listcount=\count169
-\c@bookmark@seq@number=\count170
+\c@Hy@AnnotLevel=\count196
+\HyField@AnnotCount=\count197
+\Fld@listcount=\count198
+\c@bookmark@seq@number=\count199
 
 (D:\MikTexPortable\texmfs\install\tex\latex\oberdiek\rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -1145,13 +1204,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (D:\MikTexPortable\texmfs\install\tex\latex\amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count171
+\inf@bad=\count266
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count172
-\leftroot@=\count173
+\uproot@=\count267
+\leftroot@=\count268
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count174
-\DOTSCASE@=\count175
+\classnum@=\count269
+\DOTSCASE@=\count270
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
@@ -1160,15 +1219,15 @@ LaTeX Info: Redefining \cdots on input line 518.
 \big@size=\dimen198
 LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
-\macc@depth=\count176
-\c@MaxMatrixCols=\count177
+\macc@depth=\count271
+\c@MaxMatrixCols=\count272
 \dotsspace@=\muskip18
-\c@parentequation=\count178
-\dspbrk@lvl=\count179
+\c@parentequation=\count273
+\dspbrk@lvl=\count274
 \tag@help=\toks23
-\row@=\count180
-\column@=\count181
-\maxfields@=\count182
+\row@=\count275
+\column@=\count276
+\maxfields@=\count277
 \andhelp@=\toks24
 \eqnshift@=\dimen199
 \alignsep@=\dimen256
@@ -1186,7 +1245,7 @@ LaTeX Info: Redefining \] on input line 2740.
 (D:\MikTexPortable\texmfs\install\tex\latex\makecell\makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen261
-\c@nlinenum=\count183
+\c@nlinenum=\count278
 \TeXr@lab=\toks27
 )
 (D:\MikTexPortable\texmfs\install\tex\latex\subfig\subfig.sty
@@ -1206,25 +1265,25 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen267
 \caption@hangindent=\dimen268
 )
-\c@ContinuedFloat=\count184
+\c@ContinuedFloat=\count279
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 )
-\c@KVtest=\count185
+\c@KVtest=\count280
 \sf@farskip=\skip65
 \sf@captopadj=\dimen269
 \sf@capskip=\skip66
 \sf@nearskip=\skip67
-\c@subfigure=\count186
-\c@subfigure@save=\count187
-\c@lofdepth=\count188
-\c@subtable=\count189
-\c@subtable@save=\count190
-\c@lotdepth=\count191
+\c@subfigure=\count281
+\c@subfigure@save=\count282
+\c@lofdepth=\count283
+\c@subtable=\count284
+\c@subtable@save=\count285
+\c@lotdepth=\count286
 \sf@top=\skip68
 \sf@bottom=\skip69
 )
-\g__fontspec_family_SimSun_int=\count192
+\g__fontspec_family_SimSun_int=\count287
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1252,7 +1311,7 @@ Package caption Info: listings package is loaded.
 . <->"SimHei/OT:script=hani;language=DFLT;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
 .................................................
-\g__fontspec_family_TimesNewRoman_int=\count193
+\g__fontspec_family_TimesNewRoman_int=\count288
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1274,37 +1333,37 @@ Package caption Info: listings package is loaded.
 
 (D:\MikTexPortable\texmfs\install\tex\xelatex\xecjk\xeCJK-listings.sty
 Package: xeCJK-listings 2017/01/02 v3.4.5 xeCJK patch file for listings
-\l__xeCJK_listings_max_char_int=\count194
-\l__xeCJK_listings_flag_int=\count195
+\l__xeCJK_listings_max_char_int=\count289
+\l__xeCJK_listings_flag_int=\count290
 )
 (Introduction.aux)
 \openout1 = `Introduction.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 105.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 105.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 103.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 103.
  (D:\MikTexPortable\texmfs\install\tex\latex\tipa\t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-Package doc Info: Made | a short reference for \verb on input line 105.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+Package doc Info: Made | a short reference for \verb on input line 103.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -1312,65 +1371,65 @@ Package doc Info: Made | a short reference for \verb on input line 105.
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 105.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 105.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 105.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 105.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 105.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 105.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 105.
-LaTeX Font Info:    Redeclaring math accent \check on input line 105.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 105.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 105.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 105.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 105.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 105.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 105.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 105.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 105.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 105.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 105.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 105.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 105.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 105.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 105.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 105.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 105.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 103.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 103.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 103.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 103.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 103.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 103.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 103.
+LaTeX Font Info:    Redeclaring math accent \check on input line 103.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 103.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 103.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 103.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 103.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 105.
+(Font)              `operators' in the math version `normal' on input line 103.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> EU1/TimesNewRoman(0)/m/n on input line 
-105.
+103.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 105.
+(Font)              `operators' in the math version `bold' on input line 103.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> EU1/TimesNewRoman(0)/m/n on input line
- 105.
+ 103.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  EU1/TimesNewRoman(0)/m/n --> EU1/TimesNewRoman(0)/m/n o
-n input line 105.
+n input line 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> EU1/TimesNewRoman(0)/m/it on input lin
-e 105.
+e 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> EU1/TimesNewRoman(0)/bx/n on input lin
-e 105.
+e 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 105.
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 105.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 103.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  EU1/TimesNewRoman(0)/m/n --> EU1/TimesNewRoman(0)/bx/n 
-on input line 105.
+on input line 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> EU1/TimesNewRoman(0)/bx/it on input l
-ine 105.
+ine 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 105.
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 105.
-\c@lstlisting=\count196
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 103.
+\c@lstlisting=\count291
 
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1406,30 +1465,30 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemargintrue
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \celsius on input line 105.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 105
+LaTeX Info: Redefining \celsius on input line 103.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 103
 .
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 105.
-Package gensymb Info: Using \Omega for \ohm on input line 105.
+LaTeX Info: Redefining \ohm on input line 103.
+Package gensymb Info: Using \Omega for \ohm on input line 103.
 
 Package gensymb Warning: Not defining \micro.
 
 \AtBeginShipoutBox=\box76
-Package hyperref Info: Link coloring OFF on input line 105.
+Package hyperref Info: Link coloring OFF on input line 103.
 (D:\MikTexPortable\texmfs\install\tex\latex\hyperref\nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (D:\MikTexPortable\texmfs\install\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count197
+\c@section@level=\count292
 )
-LaTeX Info: Redefining \ref on input line 105.
-LaTeX Info: Redefining \pageref on input line 105.
-LaTeX Info: Redefining \nameref on input line 105.
+LaTeX Info: Redefining \ref on input line 103.
+LaTeX Info: Redefining \pageref on input line 103.
+LaTeX Info: Redefining \nameref on input line 103.
 
 (Introduction.out) (Introduction.out)
 \@outlinefile=\write3
@@ -1441,7 +1500,7 @@ Package caption Info: End \AtBeginDocument code.
  (Introduction.dtx
 
 LaTeX Font Warning: Font shape `EU1/TimesNewRoman(0)/bx/sc' undefined
-(Font)              using `EU1/TimesNewRoman(0)/bx/n' instead on input line 115
+(Font)              using `EU1/TimesNewRoman(0)/bx/n' instead on input line 113
 .
 
 (Introduction.toc)
@@ -1500,7 +1559,7 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 . 
 . Could not resolve font SimSun/I (it probably doesn't exist).
 .................................................
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 147
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 145
 .
 
 (D:\MikTexPortable\texmfs\install\tex\latex\euenc\eu1lmtt.fd
@@ -1537,11 +1596,11 @@ File: bias.png Graphic file (type QTm)
 <use  "bias.png" >
 
 LaTeX Font Warning: Font shape `EU1/TimesNewRoman(0)/m/sc' undefined
-(Font)              using `EU1/TimesNewRoman(0)/m/n' instead on input line 281.
+(Font)              using `EU1/TimesNewRoman(0)/m/n' instead on input line 285.
 
 
 [5]
-Overfull \hbox (7.57843pt too wide) in paragraph at lines 284--285
+Overfull \hbox (7.57843pt too wide) in paragraph at lines 288--289
 []\EU1/SimSun(0)/m/n/12 热 烈 欢 迎 各 位 到 []\EU1/TimesNewRoman(0)/m/sc/12 Deutsch-L
 ernen Github
  []
@@ -1549,7 +1608,7 @@ ernen Github
 [6
 
 ]
-Overfull \hbox (29.54903pt too wide) in paragraph at lines 315--315
+Overfull \hbox (29.54903pt too wide) in paragraph at lines 319--319
  [][]\EU1/lmtt/m/n/9 <!ELEMENT Entry (Stichwort,Einheit,Anteil,Genus,Pluralform
 ,GenitivSingular,zusammengesetzteWörter, 
  []
@@ -1558,23 +1617,28 @@ Overfull \hbox (29.54903pt too wide) in paragraph at lines 315--315
 
 
 ]
-Overfull \hbox (1.199pt too wide) in paragraph at lines 440--440
+Overfull \hbox (1.199pt too wide) in paragraph at lines 444--444
  [][]\EU1/lmtt/m/n/9 <!ELEMENT Entry (Stichwort,Einheit,Anteil,Konjugation,zusa
 mmengesetzteWörter,Synonymegruppe, 
  []
 
-[8] [9] [10]
+[8]
+
+LaTeX Font Warning: Font shape `EU1/SimSun(1)/m/sl' undefined
+(Font)              using `EU1/SimSun(1)/m/n' instead on input line 514.
+
+[9] [10]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 572.
+(hyperref)                removing `math shift' on input line 576.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beta' on input line 572.
+(hyperref)                removing `\beta' on input line 576.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 572.
+(hyperref)                removing `math shift' on input line 576.
 
 File: IIF.png Graphic file (type QTm)
 <use  "IIF.png" >
@@ -1584,26 +1648,26 @@ File: TIF.png Graphic file (type QTm)
 LaTeX Warning: Text page 12 contains only floats.
 
 [12])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
  [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
  (Introduction.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 107.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 107.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 105.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 105.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 105.
  )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 29736 strings out of 430313
- 538546 string characters out of 3189037
- 610312 words of memory out of 3000000
- 32722 multiletter control sequences out of 15000+200000
+ 30061 strings out of 430313
+ 541794 string characters out of 3189037
+ 609521 words of memory out of 3000000
+ 33043 multiletter control sequences out of 15000+200000
  9361 words of font info for 78 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 52i,18n,75p,10442b,2224s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 52i,18n,75p,10442b,2223s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on Introduction.pdf (13 pages).
