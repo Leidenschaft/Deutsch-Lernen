@@ -2,6 +2,10 @@
         this.wordform = wordform;
         this.address = address;
     }
+    function Lemma(wordform,entry){
+        this.wordform=wordform;
+        this.entry=entry;
+    }
     function WortLessThan(wort1,wort2){return lessThan(wort1.wordform,wort2.wordform);}
     var dic = new Array();
     var availableTags = new Array();
@@ -29,7 +33,7 @@ $(document).ready(function () {//ajax request for word list(firefox and chrome) 
         }
         )
     }
-    function GetXML2() {
+   function GetXML2() {
 
         if (xmlhttp.readyState == 4) {// 4 = "loaded"
             if (xmlhttp.status == 200) {// 200 = "OK"
@@ -40,7 +44,7 @@ $(document).ready(function () {//ajax request for word list(firefox and chrome) 
             }
         }
     }
-    if (BrowsersType == "chrome" || BrowsersType == "firefox") {
+    if (true) {//BrowsersType == "chrome" || BrowsersType == "firefox"
         $.ajax({
             url: 'Wordlist_11.xml',
             type: 'GET',

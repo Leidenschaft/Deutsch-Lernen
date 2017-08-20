@@ -88,19 +88,17 @@ $(document).ready(function () {
         return GetAddress();
     }
     function GetAddress() {
-        var hasTheWord = 0;
         var wordform_queried = $("#searchField").val();
-        for (var cnt = 0; cnt < dic.length;cnt++) {
-            if (dic[cnt].wordform == wordform_queried) {
-                hasTheWord = 1;
-                break;
-            }
+        var pos=bisection(dic,wordform_queried,function(wordStr,wort){return lessThan(wordStr,wort.wordform);});
+        var hasTheWord = 0;
+        if (dic[pos-1].wordform==wordform_queried) {
+            hasTheWord = 1;
         }
         if (hasTheWord == 1) {
             LastSearchedWord = wordform_queried;
                 self.parent.frames["wordList"].document.getElementById(wordform_queried).focus();
                 //element should be focused
-            return dic[cnt].address;
+            return dic[pos-1].address;
         }
         else {
             return null;
