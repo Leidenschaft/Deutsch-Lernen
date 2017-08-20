@@ -1,0 +1,8 @@
+<script>
+document.write("search result<br/>");
+for(var index=0;index<self.parent.frames["navigation"].search_result_list.length;index++){
+    var item=self.parent.frames["navigation"].search_result_list[index];
+    document.write("<a href='"+item['href']+"'>"+item['desc']+"</a>")
+}
+
+</script>

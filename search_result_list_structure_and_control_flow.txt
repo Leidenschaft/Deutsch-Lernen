@@ -1,0 +1,13 @@
+search list entry
+type: word exactly match
+      word match variant
+      word match prefix
+      word match collocation (strip off stop-words)
+href: word xml url
+desc: short rich text description of the match
+if match variant,show the orthognal form in (Bold), variant
+in highlight italic;
+if match prefix, show the prefix in highlight;
+if match collocation,show the orthognal form in (Bold).
+
+
