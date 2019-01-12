@@ -17,20 +17,12 @@ You can locally maintain a small dictionary based on html-xml-js framework. Howe
 
 # Process
 Currently, we have finished client side code using jquery and halfly server side code with Django.
-We also develop a Chrome extension application which can help web readers to search german words quickly.
-First you need enable the extension, then on the addressbar(Shortcut: CTRL+L) type "de" plus a "Space" to enter search word mode, and search the german words as you link.
-![screenshot](/images/screenshot.png)
-Or you can just select the word and a notification pops up:
 
 
-![Uhr](/images/uhr.png)
 
 
-If you'd like to contribute to the extension, you can open the visual studio project wrapper directly.
 
 
-Because of Google online app store is blocked inland, users of mainland should download **crx** file and install the extension manually.
 
 
-The extension is being transported to **firefox** now, currently notification feature has successfully been transported.
 
