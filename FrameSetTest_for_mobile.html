@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Klick Auf Deutsch Hilfe</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+        <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+        <script src="js/jquery-1.9.1.min.js"></script>
+        <script src="js/jquery.mobile-1.4.5.min.js"></script>
+        <script src=js/add_word_list_for_mobile.js></script>
+    </head>
+    <body>
+     <div data-role="page">
+  <div data-role="header">
+          <p>Welcome to use Klick Auf Deutsch Hilfe</p>            
+				<form class="ui-filterable">
+					<input id="autocomplete-input-inner" data-type="search" placeholder="Search words...">
+				</form>
+				<ul data-role="listview" data-filter="true" data-filter-reveal="true" data-input="#autocomplete-input-inner" data-inset="true" id="index_listview">
+                </ul>
+  </div>
+
+<div role="main" class="ui-content">
+    <iframe id="entry_container" style="background-color:transparent;height:70%;border-width:0px;width:90%"></iframe>
+
+
+        </div><!-- /content -->
+
+
+</div>   
+
+         
+                   </body></html>
