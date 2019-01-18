@@ -9,15 +9,24 @@ Wir wollen eine Software, die als ein Wörterbuch oder ein Übersetzer funktioni
 * Adding new words requires familiarity with xml syntax
 
 # How to build
-Clone this project and click index.html, you are done!<br>
+Clone this project and serve all the codes to a static site. visit `index.html` and you are done!
 If you have latex installed on your operating system, then you can open manual/Introduction.dtx in an editor and typesetting the file with "xelatex".
 As a result, you will get the document Introduction.pdf and other generated codes link NounModel.dtd in the same directory.<br>
+
 # Current Usage
-You can locally maintain a small dictionary based on html-xml-js framework. However, adding new words by scraching xml codes is annoying, so we are managing to develop server side codes with Django to automate this process. The server side codes use all the client sides resources and can be found at https://github.com/zhaofeng-shu33/DeutschLernen_server.
+You can locally maintain a small dictionary based on html-xml-js framework. 
+However, adding new words by scraching xml codes is annoying, 
+so we are managing to develop server side codes with Django to automate this process. 
+The server side codes use all the client sides 
+resources and can be found at https://github.com/zhaofeng-shu33/DeutschLernen_server.
 
 # Process
 Currently, we have finished client side code using jquery and halfly server side code with Django.
 
+# About Content Copyright
+Because of copyright issues, all images and audios have been removed from this project.
+Resource requests may response with 404 for image and audio.
+Because the words and texts are collected by us manually. We share it to users.
 
 
 
