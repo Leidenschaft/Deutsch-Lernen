@@ -1,33 +1,35 @@
 var jqueryFunction;
 var getWord_form;
 var search_result_list=[];
+var search_mode = 'word_search';
 $(document).ready(function () {
     
     
-    var search_mode = 'word_search';
+    
     var url = self.parent.getURL();
-        if (url !="") {
-            var newFileName = url.match("=(.*)");
-            if (newFileName.length < 1) {
-                self.parent.frames["right_frame"].location = 'Wort/V100.xml';
-            }
-            else
-                self.parent.frames["right_frame"].location = 'Wort/' + newFileName[1];
+    if (url !="") {
+        var newFileName = url.match("=(.*)");
+        if (newFileName.length < 1) {
+            self.parent.frames["right_frame"].location = 'Wort/V100.xml';
         }
+        else
+            self.parent.frames["right_frame"].location = 'Wort/' + newFileName[1];
+    }
     
   
     
     $("#test_button").click(function () {
         if (this.innerHTML == 'Test your vocabulary') {//open Test interface
             this.innerHTML = '关闭测试界面'
+            search_mode = 'word_test'
             self.parent.frames["editing_frame"].location = "client_form/test_interface_config.html";
             self.parent.change_editing_frame("editing");
 
         }
         else {
-            self.parent.frames["editing_frame"].location = 'client_form/editing_interface.html';
             self.parent.change_editing_frame("viewing");
             this.innerHTML = 'Test your vocabulary';
+            search_mode = 'word_search'
         }
     });
  
@@ -48,7 +50,7 @@ $(document).ready(function () {
                 st.select();
             }
         }
-        else {//example search, ajax request
+        else if (search_mode == 'example_search') { //example search, ajax request
             $.ajax({
                 url: '../../corpus_service/example_search',
                 type: 'GET',
@@ -79,8 +81,6 @@ $(document).ready(function () {
                     }
                 }
             });
-
-
         }
     }
     jqueryFunction = function SearchContent(possibleWord) {
@@ -89,6 +89,8 @@ $(document).ready(function () {
     }
     function GetAddress() {
         var wordform_queried = $("#searchField").val();
+        if (wordform_queried.length == 0)
+            return false;
         var pos=bisection(dic,wordform_queried,function(wordStr,wort){return lessThan(wordStr,wort.wordform);});
         var hasTheWord = 0;
         if (dic[pos-1].wordform==wordform_queried) {
