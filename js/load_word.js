@@ -1,19 +1,21 @@
-    function Wort(wordform, address,other_info) {
-        this.wordform = wordform;
-        this.address = address;
-    }
-    function Lemma(wordform,entry){
-        this.wordform=wordform;
-        this.entry=entry;
-    }
-    function WortLessThan(wort1,wort2){return lessThan(wort1.wordform,wort2.wordform);}
-    var dic = new Array();
-    var availableTags = new Array();
+function Wort(wordform, address,other_info) {
+    this.wordform = wordform;
+    this.address = address;
+}
+function Lemma(wordform,entry){
+    this.wordform=wordform;
+    this.entry=entry;
+}
+function WortLessThan(wort1,wort2){
+    return lessThan(wort1.wordform,wort2.wordform);
+}
+var dic = new Array();
+var availableTags = new Array();
 $(document).ready(function () {//ajax request for word list(firefox and chrome) or open it directly (ie)
     var xmlDoc_wordList;
     var xmlhttp = new XMLHttpRequest();
-    var BrowsersType=detectBrowser(navigator.userAgent).name;
-   function GetXML(xml) {
+    var BrowsersType = detectBrowser(navigator.userAgent).name;
+    function GetXML(xml) {
         xmlDoc_wordList = xml;
         $(xml).find("Word").each(function (i) {
 
@@ -33,8 +35,7 @@ $(document).ready(function () {//ajax request for word list(firefox and chrome) 
         }
         )
     }
-   function GetXML2() {
-
+    function GetXML2() {
         if (xmlhttp.readyState == 4) {// 4 = "loaded"
             if (xmlhttp.status == 200) {// 200 = "OK"
                 GetXML(xmlhttp.responseText);
