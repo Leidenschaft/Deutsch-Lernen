@@ -74,7 +74,7 @@
     <xsl:if test="count(Stichwort/@Bild)">
       <img class="img_1">
         <xsl:attribute name="src">
-          ../images/<xsl:value-of select="Stichwort/@Bild"/>
+          ../pictures/<xsl:value-of select="Stichwort/@Bild"/>
         </xsl:attribute>
       </img>
     </xsl:if>
