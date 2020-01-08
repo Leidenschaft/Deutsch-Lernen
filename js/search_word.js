@@ -3,9 +3,6 @@ var getWord_form;
 var search_result_list=[];
 var search_mode = 'word_search';
 $(document).ready(function () {
-    
-    
-    
     var url = self.parent.getURL();
     if (url !="") {
         var newFileName = url.match("=(.*)");
@@ -15,9 +12,6 @@ $(document).ready(function () {
         else
             self.parent.frames["right_frame"].location = 'Wort/' + newFileName[1];
     }
-    
-  
-    
     $("#test_button").click(function () {
         if (this.innerHTML == 'Test your vocabulary') {//open Test interface
             this.innerHTML = '关闭测试界面'
@@ -32,11 +26,11 @@ $(document).ready(function () {
             search_mode = 'word_search'
         }
     });
- 
     var LastSearchedWord = '';
     $("button").click(function () {
             ChangeContent();
     });
+
     function ChangeContent() {
         if (search_mode == 'word_search') {
             var newFileName = GetAddress();
@@ -83,10 +77,12 @@ $(document).ready(function () {
             });
         }
     }
+
     jqueryFunction = function SearchContent(possibleWord) {
         $("#searchField").val(possibleWord);
         return GetAddress();
     }
+
     function GetAddress() {
         var wordform_queried = $("#searchField").val();
         if (wordform_queried.length == 0)
