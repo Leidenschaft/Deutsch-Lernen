@@ -4,7 +4,6 @@ $(document).ready(function () {
         type: 'GET',
         dataType: 'xml',
         timeout: 1000,
-        cache: false,
         error: function (xml) {//try loading xml with original javascript       
                 alert("loading xml encounters an error!");
         },
