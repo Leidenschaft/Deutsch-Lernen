@@ -1,6 +1,7 @@
 #ignore Wort/NounRenderTemplate.xslt
 .DS_Store
 Text
+Wort/*.xml
 audio
 pictures
 build
