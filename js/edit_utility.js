@@ -63,7 +63,7 @@ $(document).ready(function () {
 				word_type="Verben"
             }
             else if (word_addr.search('A[0-9]+.xml') > 0) {
-                word_type = 'Adjective';
+                word_type = 'Adjektiv';
             }
 			else{
 				word_type="Substantiv";
@@ -106,7 +106,7 @@ $(document).ready(function () {
 					if(word_type=='Verben') {
 						$("input[name='category']").eq(1).click();
                     }
-                    else if (word_type == 'Adjective') {
+                    else if (word_type == 'Adjektiv') {
 						$("input[name='category']").eq(2).click();
                     }
                     if ($(xml).find("Stichwort").attr("Audio"))
