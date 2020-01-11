@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE Entry SYSTEM "NounModel.dtd">
-<?xml-stylesheet type="text/xsl" href="NounRenderTemplate2.xslt"?>
+<?xml-stylesheet type="text/xsl" href="NounRenderTemplate.xslt"?>
 <Entry category="Substantiv">
   <Stichwort Audio="true">Abend</Stichwort>
   <Einheit>1</Einheit>
