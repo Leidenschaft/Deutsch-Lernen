@@ -5,7 +5,6 @@
 		<head>
       <META http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 			<title>Wordlist</title>
-      <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
   
     </head>
 		<body><ul>
@@ -13,7 +12,7 @@
         <xsl:sort select="."/><!--notice here we sort the wordlist!--><li>
         <a>
           <xsl:attribute name="href">
-            Wort/<xsl:value-of select="@address"/>
+              <xsl:value-of select="@address"/>
           </xsl:attribute>
           <xsl:attribute name="id">
             <xsl:value-of select="."/>

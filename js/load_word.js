@@ -47,7 +47,7 @@ $(document).ready(function () {//ajax request for word list(firefox and chrome) 
     }
     if (true) {//BrowsersType == "chrome" || BrowsersType == "firefox"
         $.ajax({
-            url: 'Wordlist_11.xml',
+            url: 'Wort/wordlist.xml',
             type: 'GET',
             dataType: 'xml',
             timeout: 1000,
@@ -55,7 +55,7 @@ $(document).ready(function () {//ajax request for word list(firefox and chrome) 
             error: function (xml) {//try loading xml with original javascript
                 if (xmlhttp != null) {
                     xmlhttp.onreadystatechange = GetXML_2;
-                    xmlhttp.open("GET", '/Wordlist_11.xml', true);
+                    xmlhttp.open("GET", 'Wort/wordlist.xml', true);
                     xmlhttp.send(null);
                 }
                 else {
@@ -68,7 +68,7 @@ $(document).ready(function () {//ajax request for word list(firefox and chrome) 
     else {//for IE,this feature is for opening Frameset without configuring the server
         var srcTree = new ActiveXObject("Msxml2.DOMDocument.6.0");
         srcTree.async = false;
-        srcTree.load('Wordlist_11.xml');
+        srcTree.load('Wort/wordlist.xml');
         var xmlObj = srcTree.documentElement.childNodes;
         for (j=0;j<xmlObj.length;j++){
             var entry = xmlObj.item(j);

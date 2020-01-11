@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $.ajax({
-        url: 'Wordlist_11.xml',
+        url: 'Wort/wordlist.xml',
         type: 'GET',
         dataType: 'xml',
         timeout: 1000,
