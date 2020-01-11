@@ -100,7 +100,6 @@
 	</font>
 	</xsl:if><br/>
 	
-	<button id="ClipBoardSearchButton" onclick="BufferSearch()">查询当前剪贴板中的单词</button>
 	</body>
 </html>
 </xsl:template>
