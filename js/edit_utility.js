@@ -59,9 +59,12 @@ $(document).ready(function () {
         }
         else {
             word_addr = self.parent.frames["right_frame"].location.toString();
-			if(word_addr.search('V[0-9]+.xml')>0){
+			if(word_addr.search('V[0-9]+.xml')>0) {
 				word_type="Verben"
-			}
+            }
+            else if (word_addr.search('A[0-9]+.xml') > 0) {
+                word_type = 'Adjective';
+            }
 			else{
 				word_type="Substantiv";
 			}
@@ -100,9 +103,12 @@ $(document).ready(function () {
                        alert("You have error " + myErr.reason);
                     } else {
                         var xmlObj = originalTree.documentElement.childNodes;*/
-					if(word_type=='Verben'){
+					if(word_type=='Verben') {
 						$("input[name='category']").eq(1).click();
-					}
+                    }
+                    else if (word_type == 'Adjective') {
+						$("input[name='category']").eq(2).click();
+                    }
                     if ($(xml).find("Stichwort").attr("Audio"))
                         $("#StichwortAudio").val("true");
                     if ($(xml).find("Stichwort").attr("Bild"))
