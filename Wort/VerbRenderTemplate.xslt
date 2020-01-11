@@ -3,7 +3,7 @@
 <xsl:template match="Entry">
 <html>
 	<head>
-    <title>Enter your title here</title>
+    <title>Verb Render Template</title>
 
     <meta charset="utf-8"/>	
 		 <link rel="stylesheet" href="style.css" type="text/css" media="screen"/>	

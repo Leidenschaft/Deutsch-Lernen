@@ -4,8 +4,8 @@
 <xsl:template match="Entry">
 <html>
 	<head>
-    <title>Enter your title here</title>
-    <meta charset="utf-8"/>		
+    <title>Noun Render Template</title>
+    <meta charset="utf-8"/>
     <style>
       .img_1
       {
@@ -35,15 +35,8 @@
         </a>
       </xsl:if>
     <b><font color="#0000D0"><xsl:value-of select="Genus"/>&#160;<xsl:value-of select="Stichwort"/>&#160;</font></b>
-    <xsl:if test="count(Stichwort/@Audio)">
-      
-        <!--<a>  
-        <xsl:attribute name="href">
-        ../audio/<xsl:value-of select="Stichwort"/>.mp3
-      </xsl:attribute> </a>-->
-        
-      <img src="snd_sfx.png" style="margin-bottom:-2px" border="0" id="audioImg"></img> <!--add img click listen here-->
-	  
+    <xsl:if test="count(Stichwort/@Audio)">        
+      <img src="snd_sfx.png" style="margin-bottom:-2px" border="0" id="audioImg"></img> 
     </xsl:if>
 	
 	 
@@ -181,7 +174,6 @@
 	</font>
 	</xsl:if><br/>
 	
-<!--	<button id="ClipBoardSearchButton" onclick="BufferSearch()">查询当前剪贴板中的单词</button>-->
 	</body>
 </html>
 </xsl:template>
