@@ -23,9 +23,6 @@ so we are managing to develop server side codes with Django to automate this pro
 The server side codes use all the client sides 
 resources and can be found at https://github.com/zhaofeng-shu33/DeutschLernen_server.
 
-# Mobile version
-The mobile friendly entrypoint is `index_mobile.html`.
-
 # About Content Copyright
 Because of copyright issues, all images, audios, words have been removed from this project.
 
