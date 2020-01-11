@@ -11,9 +11,7 @@
 	<body ondblclick="GetSelection()">
 			<h1><b><xsl:value-of select="Stichwort"/></b></h1><br/>
 	<b><font color="#0000D0">&#160;<xsl:value-of select="Stichwort"/>&#160;</font></b>
-	<a href="sound://p008__001776626.spx" >
-	 <img src="snd_sfx.png" style="margin-bottom:-2px" border="0" ></img>
-	</a>
+
 	
 	 
 	 <b><font color="#DF0101"><i><xsl:value-of select="@category"/>&#160;</i></font></b>

@@ -9,9 +9,12 @@ Wir wollen eine Software, die als ein Wörterbuch oder ein Übersetzer funktioni
 * Adding new words requires familiarity with xml syntax
 
 # How to build
-Clone this project and serve all the codes to a static site. visit `index.html` and you are done!
+See  [server-side](https://github.com/Leidenschaft/DeutschLernen_server).
+
+## Build docs
 If you have latex installed on your operating system, then you can open manual/Introduction.dtx in an editor and typesetting the file with "xelatex".
-As a result, you will get the document Introduction.pdf and other generated codes link NounModel.dtd in the same directory.<br>
+
+As a result, you will get the document Introduction.pdf and other generated codes link NounModel.dtd in the same directory.
 
 # Current Usage
 You can locally maintain a small dictionary based on html-xml-js framework. 
@@ -24,9 +27,7 @@ resources and can be found at https://github.com/zhaofeng-shu33/DeutschLernen_se
 The mobile friendly entrypoint is `index_mobile.html`.
 
 # About Content Copyright
-Because of copyright issues, all images and audios have been removed from this project.
-Resource requests may response with 404 for image and audio.
-Because the words and texts are collected by us manually. We share it to users.
+Because of copyright issues, all images, audios, words have been removed from this project.
 
 
 

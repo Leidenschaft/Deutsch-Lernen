@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>    <!DOCTYPE Entry SYSTEM "AdjModel.dtd">    <?xml-stylesheet type="text/xsl" href="AdjRenderTemplate.xslt"?><Entry category="Adjektiv">
+<Stichwort>gut</Stichwort>
+<Einheit>1</Einheit>
+<Anteil>2</Anteil>
+
+<zusammengesetzteWörter>
+	<KompositaCollection>
+		<_K/>
+		<K_/>
+	</KompositaCollection>
+	<abgeleiteteWörter/></zusammengesetzteWörter>
+
+<Synonymegruppe>
+	<Sym/>
+</Synonymegruppe>
+<Antonymegruppe>
+	<Anm/>
+</Antonymegruppe>
+
+<Kollokationen>
+<K/>
+</Kollokationen>
+
+<AllgemeineErläuterungen>
+	<Eintrag>
+		<Chinesisch>好的，健康的</Chinesisch>
+		<BeispielSammlung>
+			<Beispiel>
+				<Satz>Mein Deutsch ist gut. Ich früstücke meistens sehr gut.</Satz>
+				<Übersetzung/>
+			</Beispiel>
+		</BeispielSammlung>
+	</Eintrag>
+</AllgemeineErläuterungen>
+
+</Entry>

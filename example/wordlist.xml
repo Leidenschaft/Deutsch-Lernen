@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="navigation.xslt"?>
+
+<Wordlist>
+  <Word address="1.xml" gender="der" chinese="晚上">Abend</Word>
+  <Word address="V1.xml" third_person_present="kommt" perfekt="ist gekommen" chinese="来">kommen</Word>
+  <Word address="A1.xml" chinese="好的，健康的">gut</Word>
+</Wordlist>
