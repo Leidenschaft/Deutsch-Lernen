@@ -11,7 +11,7 @@ $(document).ready(function () {
             var word_list = $(xml).find("Wordlist").children("*");
             for (var i = 0; i < word_list.length; i++) {
                 var item_new = $("<a/>", {
-                    "href": "FrameSetTest_for_mobile.html?wordAdress=" + word_list.eq(i).attr("address"),
+                    "href": "main_view_mobile.html?wordAdress=" + word_list.eq(i).attr("address"),
                     "html": word_list.eq(i).text(),
                     "class":"ui-btn ui-btn-icon-right ui-icon-carat-r"
                 });
