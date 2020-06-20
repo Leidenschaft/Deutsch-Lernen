@@ -1,11 +1,11 @@
-<!ELEMENT Entry (Stichwort,Einheit,Anteil,Konjugation,zusammengesetzteWörter,Synonymegruppe,Antonymegruppe,
+<!ELEMENT Entry (Stichwort,Einheit,Anteil*,Konjugation*,zusammengesetzteWörter,Synonymegruppe,Antonymegruppe,
 Kollokationen,AllgemeineErläuterungen,Comment?)>
 <!ELEMENT Stichwort (#PCDATA)>
 <!ELEMENT Einheit (#PCDATA)>
 <!ELEMENT Anteil (#PCDATA)>
 <!ELEMENT zusammengesetzteWörter (KompositaCollection,abgeleiteteWörter)>
 <!ELEMENT KompositaCollection (_K|K_|_K_)*>
-<!ELEMENT Konjugation (Präsen,Präteritum,Perfekt)>
+<!ELEMENT Konjugation (Präsen*,Präteritum*,Perfekt*)>
 <!ELEMENT Präsen (ich,du,er_sie_es,wir,ihr,sie_Sie)>
 <!ELEMENT Präteritum (ich,du,er_sie_es,wir,ihr,sie_Sie)>
 <!ELEMENT Perfekt (ich,du,er_sie_es,wir,ihr,sie_Sie)>
