@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!ELEMENT Entry (Stichwort,Einheit,Anteil,zusammengesetzteWörter,Synonymegruppe,Antonymegruppe,Kollokationen,AllgemeineErläuterungen)>
+<!ELEMENT Entry (Stichwort,Einheit,Anteil*,zusammengesetzteWörter,Synonymegruppe,Antonymegruppe,Kollokationen,AllgemeineErläuterungen)>
 <!ELEMENT Stichwort (#PCDATA)>
 <!ELEMENT Einheit (#PCDATA)>
 <!ELEMENT Anteil (#PCDATA)>

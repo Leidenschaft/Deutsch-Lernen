@@ -24,8 +24,10 @@
 	 <b><font color="#DF0101"><i><xsl:value-of select="@category"/>&#160;</i></font></b>
 	  <div style='display:block;background-color:#f9f4bb;'>
 	 <span style="color: black;font-weight:bold;">&#160;Unit:&#160;<xsl:value-of select="Einheit"/></span>&#160;
-	 
-	 <span style="color: black;font-weight:bold;">&#160;Part:&#160;<xsl:value-of select="Anteil"/></span>&#160;
+
+    <xsl:if test="count(Anteil)">
+        <span style="color: black;font-weight:bold;">&#160;Part:&#160;<xsl:value-of select="Anteil"/></span>&#160;
+    </xsl:if>
 	 </div>
 	 <xsl:for-each select="AllgemeineErläuterungen/Eintrag">
 	 <table width="100%" border="1" bgcolor="#D07427" style="border-collapse:collapse;"><!--width=100%表示宽度上占满整个屏幕-->
