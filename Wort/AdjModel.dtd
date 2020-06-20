@@ -23,7 +23,7 @@
   <!ELEMENT Kollokationen (K*)>  
   <!ELEMENT K (#PCDATA)>  
   <!ATTLIST hierzu category (Substantiv | Adjektiv | Verben) "Substantiv"> <?Substantiv is the default value?>
-  <!ATTLIST Entry category (Substantiv | Adjektiv | Verben | Adverb | Konnektor | Partikel | Interjektion | Pronomen | Artikel) "Substantiv"> <?Substantiv is the default value?>
+  <!ATTLIST Entry category (Substantiv | Adjektiv | Verben | Adverb | Konnektor | Partikel | Interjektion | Pronomen | Artikel) "unspecified"> <?Substantiv is the default value?>
   <!ATTLIST _K link CDATA #IMPLIED>
   <!ATTLIST K link CDATA #IMPLIED>   
   <!ATTLIST K_ link CDATA #IMPLIED>

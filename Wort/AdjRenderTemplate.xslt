@@ -20,8 +20,10 @@
 	<b><font color="#0000D0">&#160;<xsl:value-of select="Stichwort"/>&#160;</font></b>
 
 	
-	 
+	<xsl:if test="not(@category='unspecified')">
 	 <b><font color="#DF0101"><i><xsl:value-of select="@category"/>&#160;</i></font></b>
+	</xsl:if>
+
 	  <div style='display:block;background-color:#f9f4bb;'>
 	 <span style="color: black;font-weight:bold;">&#160;Unit:&#160;<xsl:value-of select="Einheit"/></span>&#160;
 
