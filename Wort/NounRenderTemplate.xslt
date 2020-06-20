@@ -34,8 +34,10 @@
           <img src="icon16_search.png"/>
         </a>
       </xsl:if>
-    <b><font color="#0000D0"><xsl:value-of select="Genus"/>&#160;<xsl:value-of select="Stichwort"/>&#160;</font></b>
-    <xsl:if test="count(Stichwort/@Audio)">        
+    <xsl:if test="count(Genus)">
+      <b><font color="#0000D0"><xsl:value-of select="Genus"/>&#160;<xsl:value-of select="Stichwort"/>&#160;</font></b>
+    </xsl:if>
+    <xsl:if test="count(Stichwort/@Audio)">
       <img src="snd_sfx.png" style="margin-bottom:-2px" border="0" id="audioImg"></img> 
     </xsl:if>
 	
