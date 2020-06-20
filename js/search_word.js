@@ -7,7 +7,7 @@ $(document).ready(function () {
     if (url !="") {
         var newFileName = url.match("=(.*)");
         if (newFileName.length < 1) {
-            self.parent.frames["right_frame"].location = 'Wort/V100.xml';
+            self.parent.frames["right_frame"].location = 'Wort/1.xml';
         }
         else
             self.parent.frames["right_frame"].location = 'Wort/' + newFileName[1];

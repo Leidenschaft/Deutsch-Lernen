@@ -24,7 +24,7 @@ $(document).ready(function () {
         if (search_mode == 'word_search') {
             var newFileName = GetAddress();
                 if (newFileName == null) {
-                    newFileName = 'V100.xml';
+                    newFileName = '1.xml';
                 }
                 self.location = 'main_view.html?wordAddress=' + newFileName;
            
