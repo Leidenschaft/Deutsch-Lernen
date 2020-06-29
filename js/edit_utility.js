@@ -39,10 +39,9 @@ $(document).ready(function () {
         }
         else {
             html_content = '';
-            if (!Stichwort_input_boolean) html_content += "请填写词条名称<br/>";
-            if (!Pluralform_input_boolean) html_content += "请填写名词复数<br/>";
-            if (!GenitivSingular_input_boolean) html_content += "请填写名词第二格";
+            if (!Stichwort_input_boolean) html_content += "请填写词条名称";
             $("#errorMessage").text(html_content);
+            $("#errorMessage").attr("style","display:block");
             return false;
         }            
     });
