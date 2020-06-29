@@ -43,6 +43,10 @@ $(document).ready(function () {
             $("#errorMessage").html();
             if(check_first_explanation())
                 return false;
+            if ($("#Pluralform").val() == '请在此输入复数')
+                $("#Pluralform").val('');
+            if ($("#GenitivSingular").val() == '请在此输入第二格')
+                $("#GenitivSingular").val('');
             document.cookie = "userName=" + escape($("#UserName").val()) + ";expires=" + current_time.toGMTString();
             self.parent.change_editing_frame("viewing");
             self.parent.frames["right_frame"].document.getElementById("edit_btn").innerHTML = '编辑';
@@ -410,20 +414,7 @@ $(document).ready(function () {
             document.cookie = "buttonExpand=0;expires=" + current_time.toGMTString();
         }
     });
-    /*    $("#submit_button").on('click', function () {
-            if (Stichwort_input_boolean && Pluralform_input_boolean && GenitivSingular_input_boolean) {
-                $("#errorMessage").html();
-                $("form").submit();
-            }
-            else {
-                html_content = '';
-                if (!Stichwort_input_boolean) html_content += "请填写词条名称<br/>";
-                if (!Pluralform_input_boolean) html_content += "请填写名词复数<br/>";
-                if (!GenitivSingular_input_boolean) html_content += "请填写名词第二格";
-                $("#errorMessage").html(html_content);
-                return false;
-            }
-        });*/
+
     var last_tab = '1';
 
     $(".tab_nav_sub").on('click', function () {
