@@ -110,7 +110,7 @@ $(document).ready(function () {
                     originalTree.setProperty("ProhibitDTD", false);
                     originalTree.validateOnParse=false;
                     originalTree.load(word_addr);
-    
+
                     if (originalTree.parseError.errorCode != 0) {
                         var myErr = originalTree.parseError;
                        alert("You have error " + myErr.reason);
