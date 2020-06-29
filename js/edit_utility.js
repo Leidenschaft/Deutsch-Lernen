@@ -13,6 +13,14 @@ $(document).ready(function () {
         else
             return null;
     }
+    function check_first_explanation() {
+        // return true if the first explanation is empty
+        if ($("#explanation_1").val() == '请在此输入词条的第1条汉语意思') {
+            $("#errorMessage").text("请填写词条意思");
+            $("#errorMessage").attr("style","display:block");
+            return true;
+        }
+    }
     var textWidth = function (text) {
         var sensor = $('<pre>' + text + '</pre>').css({ display: 'none' });
         $('body').append(sensor);
@@ -31,8 +39,10 @@ $(document).ready(function () {
     $("#password").width(10 + textWidth($("#password").val()));
     $("#password").val('');
     $('form').on('submit', function (e) {
-        if (Stichwort_input_boolean) {// && Pluralform_input_boolean && GenitivSingular_input_boolean
+        if (Stichwort_input_boolean) {
             $("#errorMessage").html();
+            if(check_first_explanation())
+                return false;
             document.cookie = "userName=" + escape($("#UserName").val()) + ";expires=" + current_time.toGMTString();
             self.parent.change_editing_frame("viewing");
             self.parent.frames["right_frame"].document.getElementById("edit_btn").innerHTML = '编辑';
@@ -43,7 +53,7 @@ $(document).ready(function () {
             $("#errorMessage").text(html_content);
             $("#errorMessage").attr("style","display:block");
             return false;
-        }            
+        }
     });
 
     //if invoked from frameset, load the word information from right_frame code here
