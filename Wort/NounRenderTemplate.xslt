@@ -40,8 +40,9 @@
     <xsl:if test="count(Stichwort/@Audio)">
       <img src="snd_sfx.png" style="margin-bottom:-2px" border="0" id="audioImg"></img> 
     </xsl:if>
-	
-	 
+	  <xsl:if test="count(Ausspache)">
+	  <b><font color="#0000D0">&#160;<xsl:value-of select="Ausspache"/>&#160;</font></b>
+    </xsl:if>
     <b><font color="#DF0101"><i><xsl:value-of select="@category"/>&#160;</i></font></b>
 
     <xsl:if test="count(Pluralform)">
@@ -53,8 +54,9 @@
     </xsl:if>
 
 	 <div style='display:block;background-color:#f9f4bb;'>
-	 <span style="color: black;font-weight:bold;">&#160;Unit:&#160;<xsl:value-of select="Einheit"/></span>&#160;
-
+    <xsl:if test="count(Einheit)">
+      <span style="color: black;font-weight:bold;">&#160;Unit:&#160;<xsl:value-of select="Einheit"/></span>&#160;
+    </xsl:if>
     <xsl:if test="count(Anteil)">
 	      <span style="color: black;font-weight:bold;">&#160;Part:&#160;<xsl:value-of select="Anteil"/></span>&#160;
     </xsl:if>
