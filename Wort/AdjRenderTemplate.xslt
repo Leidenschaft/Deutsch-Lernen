@@ -17,7 +17,9 @@
 	        <span>
         <button type="button" id="edit_btn" hidden="hidden">编辑</button>
       </span></h1><br/>
-	<b><font color="#0000D0">&#160;<xsl:value-of select="Stichwort"/>&#160;</font></b>
+	<xsl:if test="count(Ausspache)">
+	<b><font color="#0000D0">&#160;<xsl:value-of select="Ausspache"/>&#160;</font></b>
+	</xsl:if>  
 
 	
 	<xsl:if test="not(@category='unspecified')">

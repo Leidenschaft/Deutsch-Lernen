@@ -33,13 +33,15 @@
     </xsl:if>
 
     <div style="line-height:20px"><!--调整行距-->
-	<b><font color="#0000D0">&#160;<xsl:value-of select="Stichwort"/>&#160;</font></b>
-	
+	<xsl:if test="count(Ausspache)">
+	<b><font color="#0000D0">&#160;<xsl:value-of select="Ausspache"/>&#160;</font></b>
+	</xsl:if>
 	 
 	 <b><font color="#DF0101"><i><xsl:value-of select="@category"/>&#160;</i></font></b>
 	  <div style='display:block;background-color:#f9f4bb;'>
-	 <span style="color: black;font-weight:bold;">&#160;Unit:&#160;<xsl:value-of select="Einheit"/></span>&#160;
-
+	<xsl:if test="count(Einheit)">
+	  <span style="color: black;font-weight:bold;">&#160;Unit:&#160;<xsl:value-of select="Einheit"/></span>&#160;
+	</xsl:if>
     <xsl:if test="count(Anteil)">
         <span style="color: black;font-weight:bold;">&#160;Part:&#160;<xsl:value-of select="Anteil"/></span>&#160;
     </xsl:if>

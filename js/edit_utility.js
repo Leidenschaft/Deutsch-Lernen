@@ -127,6 +127,8 @@ $(document).ready(function () {
                     if ($(xml).find("Stichwort").attr("Bild"))
                         $("#StichwortPicture").val($(xml).find("Stichwort").attr("Bild"));
                     $("#Stichwort").val($(xml).find("Stichwort").text());
+                    if ($(xml).find("Ausspache").text())
+                        $("#Ausspache").val($(xml).find("Ausspache").text());
                     Stichwort_input_boolean = true;
                     //  $("#Einheit").val(xmlObj.item(1).text);
                     $("#Einheit").val($(xml).find("Einheit").text());

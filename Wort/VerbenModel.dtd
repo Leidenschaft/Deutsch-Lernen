@@ -1,6 +1,8 @@
-<!ELEMENT Entry (Stichwort,Einheit,Anteil*,Konjugation*,zusammengesetzteWörter,Synonymegruppe,Antonymegruppe,
+<!ELEMENT Entry (Stichwort, Ausspache*, Einheit*,
+Anteil*,Konjugation*,zusammengesetzteWörter,Synonymegruppe,Antonymegruppe,
 Kollokationen,AllgemeineErläuterungen,Comment?)>
 <!ELEMENT Stichwort (#PCDATA)>
+<!ELEMENT Aussprache (#PCDATA)>
 <!ELEMENT Einheit (#PCDATA)>
 <!ELEMENT Anteil (#PCDATA)>
 <!ELEMENT zusammengesetzteWörter (KompositaCollection,abgeleiteteWörter)>
