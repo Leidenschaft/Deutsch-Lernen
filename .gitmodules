@@ -1,0 +1,3 @@
+[submodule "Wort/ja"]
+	path = Wort/ja
+	url = https://github.com/Leidenschaft/JapanischLernenWort.git

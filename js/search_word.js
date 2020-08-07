@@ -4,13 +4,14 @@ var search_result_list=[];
 var search_mode = 'word_search';
 $(document).ready(function () {
     var url = self.parent.getURL();
+    self.parent.parent.frames["wordList"].location = 'Wort/' + language + '/wordlist.xml';
     if (url !="") {
         var newFileName = url.match("=(.*)");
         if (newFileName.length < 1) {
             self.parent.frames["right_frame"].location = 'Wort/1.xml';
         }
         else
-            self.parent.frames["right_frame"].location = 'Wort/' + newFileName[1];
+            self.parent.frames["right_frame"].location = 'Wort/' + language + '/' + newFileName[1];
     }
     $("#test_button").click(function () {
         if (this.innerHTML == 'Test your vocabulary') {//open Test interface
@@ -37,7 +38,8 @@ $(document).ready(function () {
             if (newFileName) {
              //   self.parent.frames["right_frame"].location = 'Wort/' + newFileName;
                 search_result_list=[]
-                search_result_list.push({'href':'Wort/' + newFileName,'desc':$("#searchField").val()});
+                search_result_list.push({'href' : 'Wort/' + language + '/' + newFileName,
+                                        'desc' : $("#searchField").val()});
                 self.parent.frames["right_frame"].location = "search_result.html";
                 var st = $("#searchField");//prepend # select id.
                 st.focus();

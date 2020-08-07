@@ -47,7 +47,7 @@ $(document).ready(function () {//ajax request for word list(firefox and chrome) 
     }
     if (true) {//BrowsersType == "chrome" || BrowsersType == "firefox"
         $.ajax({
-            url: 'Wort/wordlist.xml',
+            url: 'Wort/' + language + '/wordlist.xml',
             type: 'GET',
             dataType: 'xml',
             timeout: 1000,

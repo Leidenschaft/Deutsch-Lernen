@@ -1,5 +1,6 @@
 #ignore Wort/NounRenderTemplate.xslt
 .DS_Store
+js/config.js
 Text
 Wort/*.xml
 audio
