@@ -142,12 +142,17 @@ $(document).ready(function () {
                     //     $("#Anteil").find("option[selected='']").removeAttr("selected");
                     var Anteil_option = $("#Anteil").children();
                     Anteil_option.removeAttr("selected");
-                    for (var i = 0; i < Anteil_option.length; i++) {
-                        if (Anteil_option.eq(i).text() == unit) {
-                            Anteil_option.eq(i).attr("selected", "");
-                            Anteil_option.eq(i).click();
-                            break;
-                        } parseInt(current_input_compound_item)
+                    if (unit.length == 1) {
+                        $("#Anteil").val($(xml).find("Anteil").text());
+                    }
+                    else {
+                        for (var i = 0; i < Anteil_option.length; i++) {
+                            if (Anteil_option.eq(i).text() == unit) {
+                                Anteil_option.eq(i).attr("selected", "");
+                                Anteil_option.eq(i).click();
+                                break;
+                            } parseInt(current_input_compound_item)
+                        }
                     }
 					if(word_type == "Substantiv"){
                     var genus = $(xml).find("Genus").text();
