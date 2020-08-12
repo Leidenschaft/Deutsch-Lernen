@@ -1,4 +1,5 @@
 ﻿var load_xml;
+var chosen_category;
 $(document).ready(function () {
     var Stichwort_input_boolean = false;
     var Pluralform_input_boolean = false;
@@ -48,8 +49,10 @@ $(document).ready(function () {
             if ($("#GenitivSingular").val() == '请在此输入第二格')
                 $("#GenitivSingular").val('');
             document.cookie = "userName=" + escape($("#UserName").val()) + ";expires=" + current_time.toGMTString();
-            self.parent.change_editing_frame("viewing");
-            self.parent.frames["right_frame"].document.getElementById("edit_btn").innerHTML = '编辑';
+            if (self.parent.change_editing_frame) {
+                self.parent.change_editing_frame("viewing");
+                self.parent.frames["right_frame"].document.getElementById("edit_btn").innerHTML = '编辑';
+            }
         }
         else {
             html_content = '';
@@ -57,6 +60,9 @@ $(document).ready(function () {
             $("#errorMessage").text(html_content);
             $("#errorMessage").attr("style","display:block");
             return false;
+        }
+        if (chosen_category != "Substantiv") {
+            $("input[name='Genus']").removeAttr("checked");
         }
     });
 
@@ -73,13 +79,13 @@ $(document).ready(function () {
         else {
             word_addr = self.parent.frames["right_frame"].location.toString();
 			if(word_addr.search('V[0-9]+.xml')>0) {
-				word_type="Verben"
+				word_type = "Verben"
             }
             else if (word_addr.search('A[0-9]+.xml') > 0) {
                 word_type = 'Adjektiv';
             }
 			else{
-				word_type="Substantiv";
+				word_type = "Substantiv";
 			}
         }
 
@@ -116,7 +122,7 @@ $(document).ready(function () {
                        alert("You have error " + myErr.reason);
                     } else {
                         var xmlObj = originalTree.documentElement.childNodes;*/
-					if(word_type=='Verben') {
+					if(word_type == 'Verben') {
 						$("input[name='category']").eq(1).click();
                     }
                     else if (word_type == 'Adjektiv') {
@@ -143,7 +149,7 @@ $(document).ready(function () {
                             break;
                         } parseInt(current_input_compound_item)
                     }
-					if(word_type=="Substantiv"){
+					if(word_type == "Substantiv"){
                     var genus = $(xml).find("Genus").text();
                     var genus_option = $("input[name='Genus']");
                     genus_option.removeAttr("checked");
@@ -323,14 +329,12 @@ $(document).ready(function () {
         }//this is the end of else if
     }
 	$("input[name='category']").on("click",function(){
-	var chosen_category=$(this).val();
-	if(chosen_category!="Substantiv")
-		$("#Noun_Specific").attr("style","display:none");
-	else
-		$("#Noun_Specific").attr("style","display:block");
-
-		}
-		);
+        chosen_category = $(this).val();
+        if(chosen_category != "Substantiv")
+            $("#Noun_Specific").attr("style","display:none");
+        else
+            $("#Noun_Specific").attr("style","display:block");
+    });
     $("#Stichwort").on("focus", function () {
         if ($("#Stichwort").val() == '请在此输入词条的名称') {
             $("#Stichwort").val('');
