@@ -1,3 +1,6 @@
 [submodule "Wort/ja"]
 	path = Wort/ja
 	url = https://github.com/Leidenschaft/JapanischLernenWort.git
+[submodule "Wort/de"]
+	path = Wort/de
+	url = https://github.com/Leidenschaft/DeutschLernenWort.git
