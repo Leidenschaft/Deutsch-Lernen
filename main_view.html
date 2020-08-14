@@ -3,13 +3,13 @@
 		<title>Klick Auf Deutsch Hilfe</title>
 			<script type="text/javascript">
 			    function getURL() {
-			        return this.location.search;//also return the query string afte ?name=value
+			        return this.location.search; //also return the query string afte ?name=value
 			    }
 			    function change_editing_frame(mode) {
 			        if (mode == 'editing') {
 			            document.getElementById("edit_render_frameset").setAttribute("cols", "50%,50%");
 			        }
-			        else//mode == 'viewing
+			        else //mode == 'viewing
 			        {
 			            document.getElementById("edit_render_frameset").setAttribute("cols", "0%,100%");
 			        }
