@@ -1,4 +1,5 @@
 #ignore Wort/NounRenderTemplate.xslt
+node_modules
 .DS_Store
 js/config.js
 Text
