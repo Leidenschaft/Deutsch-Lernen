@@ -9,11 +9,10 @@ Wir wollen eine Software, die als ein Wörterbuch oder ein Übersetzer funktioni
 ## Quickstart
 ```
 git clone --depth=1 https://github.com/Leidenschaft/Deutsch-Lernen.git
-cp frontend/example/*.xml frontend/Wort/
-# you can also download zip of https://github.com/Leidenschaft/DeutschLernenWort/
-# and uncompress all xml files under `Wort`
+cp js/config-example.js js/config.js
 python3 -m http.server # you can use other ways to start a static file server as well
 ```
+
 ## Requirement
 * Chrome or Firefox browser
 * Adding new words requires familiarity with xml syntax
@@ -32,11 +31,4 @@ The server side codes can be found at https://github.com/Leidenschaft/DeutschLer
 
 # About Content Copyright
 Because of copyright issues, all images and audios have been removed from this project.
-
-
-
-
-
-
-
 
