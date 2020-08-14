@@ -7,8 +7,10 @@ Wir wollen eine Software, die als ein Wörterbuch oder ein Übersetzer funktioni
 
 # How to use
 ## Quickstart
+Standalone:
 ```
 git clone --depth=1 https://github.com/Leidenschaft/Deutsch-Lernen.git
+cd Deutsch-Lernen
 cp js/config-example.js js/config.js
 python3 -m http.server # you can use other ways to start a static file server as well
 ```

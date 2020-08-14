@@ -1,1 +1,1 @@
-var language = 'de';
+var language = 'example';
