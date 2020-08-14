@@ -4,8 +4,6 @@ node_modules
 js/config.js
 Text
 Wort/*.xml
-audio
-pictures
 build
 #ignore Untracked.txt
 Untracked.txt
