@@ -7,11 +7,11 @@ var search_result_list = [];
 var search_mode = 'word_search';
 var dic;
 
-function GetAddress() {
+function getAddress() {
     var hasTheWord = 0,
         cnt,
         wordform_queried = $("#searchField").val();
-    for (cnt = 0; cnt < dic.length; cnt++) {
+    for (cnt = 0; cnt < dic.length; cnt += 1) {
         if (dic[cnt].wordform === wordform_queried) {
             hasTheWord = 1;
             break;
@@ -25,7 +25,7 @@ function GetAddress() {
 
 function ChangeContent() {
     if (search_mode === 'word_search') {
-        var newFileName = GetAddress();
+        var newFileName = getAddress();
         if (newFileName === null) {
             newFileName = '1.xml';
         }
@@ -51,7 +51,7 @@ function ChangeContent() {
                 if (my_example_list) {
                     $("#resTree").html('');
                     self.parent.document.getElementById('word_example_view').setAttribute('rows', "50%,50%");
-                    for (i = 1; i <= my_example_list.length; i++) {
+                    for (i = 1; i <= my_example_list.length; i += 1) {
                         one_item_head = $("<span/>", { 'html': i.toString() + ': ', 'style': 'color:red' });
                         one_item = $("<p/>");
                         one_item.append(one_item_head);
@@ -63,13 +63,11 @@ function ChangeContent() {
                 }
             }
         });
-
-
     }
 }
 jqueryFunction = function SearchContent(possibleWord) {
     $("#searchField").val(possibleWord);
-    return GetAddress();
+    return getAddress();
 }
 
 getWord_form = function get_word_form(wordAddr) {
