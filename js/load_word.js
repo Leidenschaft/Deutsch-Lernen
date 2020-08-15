@@ -3,6 +3,8 @@
 var $;
 var alert;
 var lessThan, bisection, language;
+var dic = [];
+
 function Wort(wordform, address) {
     this.wordform = wordform;
     this.address = address;
@@ -14,7 +16,7 @@ function Lemma(wordform, entry) {
 function WortLessThan(wort1, wort2) {
     return lessThan(wort1.wordform, wort2.wordform);
 }
-var dic = [];
+
 var availableTags = [];
 $(document).ready(function () {
     // ajax request for word list

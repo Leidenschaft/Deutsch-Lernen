@@ -1,23 +1,41 @@
-﻿var jqueryFunction;
+﻿"use strict";
+var alert;
+var $;
+var jqueryFunction;
 var getWord_form;
 var search_result_list = [];
 var search_mode = 'word_search';
+var dic;
+
+function GetAddress() {
+    var hasTheWord = 0,
+        cnt,
+        wordform_queried = $("#searchField").val();
+    for (cnt = 0; cnt < dic.length; cnt++) {
+        if (dic[cnt].wordform === wordform_queried) {
+            hasTheWord = 1;
+            break;
+        }
+    }
+    if (hasTheWord === 1) {
+        return dic[cnt].address;
+    }
+    return null;
+}
 
 function ChangeContent() {
-    if (search_mode == 'word_search') {
+    if (search_mode === 'word_search') {
         var newFileName = GetAddress();
-            if (newFileName == null) {
-                newFileName = '1.xml';
-            }
-            self.location = 'main_view.html?wordAddress=' + newFileName;
-        
-    }
-    else {//example search, ajax request
+        if (newFileName === null) {
+            newFileName = '1.xml';
+        }
+        self.location = 'main_view.html?wordAddress=' + newFileName;
+    } else { //example search, ajax request
         $.ajax({
             url: '../../corpus_service/example_search',
             type: 'GET',
-            data:{
-                queried_word:$("#searchField").val()
+            data: {
+                queried_word: $("#searchField").val()
             },
             dataType: 'json',
             timeout: 1000,
@@ -26,19 +44,21 @@ function ChangeContent() {
                 alert("status: " + status + "\n errorThrown " + errorThrown);
             },
             success: function (json_data) {
-                var my_example_list = json_data.example_list;
+                var my_example_list = json_data.example_list,
+                    i,
+                    one_item_head,
+                    one_item;
                 if (my_example_list) {
                     $("#resTree").html('');
                     self.parent.document.getElementById('word_example_view').setAttribute('rows', "50%,50%");
-                    for (var i = 1; i <= my_example_list.length; i++) {
-                        var one_item_head = $("<span/>", { 'html': i.toString() + ': ', 'style': 'color:red' });
-                        var one_item = $("<p/>");
+                    for (i = 1; i <= my_example_list.length; i++) {
+                        one_item_head = $("<span/>", { 'html': i.toString() + ': ', 'style': 'color:red' });
+                        one_item = $("<p/>");
                         one_item.append(one_item_head);
                         one_item.append($("<span/>", { 'html': my_example_list[i - 1] }));
                         $("#resTree").append(one_item);
                     }
-                }
-                else {
+                } else {
                     alert("queried word not found in corpus.");
                 }
             }
@@ -51,23 +71,7 @@ jqueryFunction = function SearchContent(possibleWord) {
     $("#searchField").val(possibleWord);
     return GetAddress();
 }
-function GetAddress() {
-    var hasTheWord = 0;
-    var wordform_queried = $("#searchField").val();
-    for (var cnt = 0; cnt < dic.length;cnt++) {
-        if (dic[cnt].wordform == wordform_queried) {
-            hasTheWord = 1;
-            break;
-        }
-    }
-    if (hasTheWord == 1) {
-        LastSearchedWord = wordform_queried;
-        return dic[cnt].address;
-    }
-    else {
-        return null;
-    }
-}
+
 getWord_form = function get_word_form(wordAddr) {
     var hasTheWord = 0;
     for (var cnt = 0; cnt < dic.length; cnt++) {
@@ -78,12 +82,11 @@ getWord_form = function get_word_form(wordAddr) {
     }
     if (hasTheWord == 1) {
         return dic[cnt].wordform;
-    }
-    else {
+    } else {
         return null;
     }
-
 }
+
 $(document).ready(function () {
     $("button").click(function () {
             ChangeContent();
