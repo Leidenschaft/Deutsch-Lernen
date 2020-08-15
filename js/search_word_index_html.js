@@ -1,11 +1,12 @@
 ﻿"use strict";
-var alert;
+var alert, self;
 var $;
 var jqueryFunction;
 var getWord_form;
 var search_result_list = [];
 var search_mode = 'word_search';
 var dic;
+var availableTags;
 
 function getAddress() {
     var hasTheWord = 0,
@@ -23,7 +24,7 @@ function getAddress() {
     return null;
 }
 
-function ChangeContent() {
+function changeContent() {
     if (search_mode === 'word_search') {
         var newFileName = getAddress();
         if (newFileName === null) {
@@ -41,6 +42,7 @@ function ChangeContent() {
             timeout: 1000,
             cache: false,
             error: function (xhr, status, errorThrown) {
+                /*jslint unparam: true*/
                 alert("status: " + status + "\n errorThrown " + errorThrown);
             },
             success: function (json_data) {
@@ -68,26 +70,26 @@ function ChangeContent() {
 jqueryFunction = function SearchContent(possibleWord) {
     $("#searchField").val(possibleWord);
     return getAddress();
-}
+};
 
 getWord_form = function get_word_form(wordAddr) {
-    var hasTheWord = 0;
-    for (var cnt = 0; cnt < dic.length; cnt++) {
-        if (dic[cnt].address == wordAddr) {
+    var hasTheWord = 0,
+        cnt;
+    for (cnt = 0; cnt < dic.length; cnt += 1) {
+        if (dic[cnt].address === wordAddr) {
             hasTheWord = 1;
             break;
         }
     }
-    if (hasTheWord == 1) {
+    if (hasTheWord === 1) {
         return dic[cnt].wordform;
-    } else {
-        return null;
     }
-}
+    return null;
+};
 
 $(document).ready(function () {
     $("button").click(function () {
-            ChangeContent();
+        changeContent();
     });
     $("#searchField").autocomplete({
         source: availableTags
@@ -102,9 +104,10 @@ $(document).ready(function () {
         $("#searchField").autocomplete({ source: availableTags });
     });
     $("#searchField").keypress(function (e) {
-            var keynum;
-            keynum = e.keyCode;
-            if (keynum == 13)
-                ChangeContent();
+        var keynum;
+        keynum = e.keyCode;
+        if (keynum === 13) {
+            changeContent();
+        }
     });
 });
