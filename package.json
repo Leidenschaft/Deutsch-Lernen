@@ -8,7 +8,7 @@
     "jslint": "^0.12.1"
   },
   "scripts": {
-    "lint": "jslint --browser js/load_word.js js/search_word_index_html.js",
+    "lint": "jslint --browser js/load_word.js js/search_word_index_html.js js/search_word.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "zhaofeng-shu33",
