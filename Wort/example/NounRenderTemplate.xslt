@@ -41,8 +41,8 @@
     <xsl:if test="count(Stichwort/@Audio)">
       <img src="snd_sfx.png" style="margin-bottom:-2px" border="0" id="audioImg"></img> 
     </xsl:if>
-	  <xsl:if test="count(Ausspache)">
-	  <b><font color="#0000D0">&#160;<xsl:value-of select="Ausspache"/>&#160;</font></b>
+	  <xsl:if test="count(Aussprache)">
+	  <b><font color="#0000D0">&#160;<xsl:value-of select="Aussprache"/>&#160;</font></b>
     </xsl:if>
     <b><font color="#DF0101"><i><xsl:value-of select="@category"/>&#160;</i></font></b>
 

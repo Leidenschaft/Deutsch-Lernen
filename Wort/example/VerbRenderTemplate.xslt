@@ -33,8 +33,8 @@
     </xsl:if>
 
     <div style="line-height:20px"><!--调整行距-->
-	<xsl:if test="count(Ausspache)">
-	<b><font color="#0000D0">&#160;<xsl:value-of select="Ausspache"/>&#160;</font></b>
+	<xsl:if test="count(Aussprache)">
+	<b><font color="#0000D0">&#160;<xsl:value-of select="Aussprache"/>&#160;</font></b>
 	</xsl:if>
 	 
 	 <b><font color="#DF0101"><i><xsl:value-of select="@category"/>&#160;</i></font></b>

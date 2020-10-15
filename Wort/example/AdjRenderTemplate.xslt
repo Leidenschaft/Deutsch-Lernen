@@ -17,8 +17,8 @@
 	        <span>
         <button type="button" id="edit_btn" hidden="hidden">编辑</button>
       </span></h1><br/>
-	<xsl:if test="count(Ausspache)">
-	<b><font color="#0000D0">&#160;<xsl:value-of select="Ausspache"/>&#160;</font></b>
+	<xsl:if test="count(Aussprache)">
+	<b><font color="#0000D0">&#160;<xsl:value-of select="Aussprache"/>&#160;</font></b>
 	</xsl:if>  
 
 	

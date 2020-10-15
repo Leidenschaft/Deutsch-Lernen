@@ -1,4 +1,4 @@
-<!ELEMENT Entry (Stichwort, Ausspache*, Einheit*,
+<!ELEMENT Entry (Stichwort, Aussprache*, Einheit*,
 Anteil*,Konjugation*,zusammengesetzteWörter,Synonymegruppe,Antonymegruppe,
 Kollokationen,AllgemeineErläuterungen,Comment?)>
 <!ELEMENT Stichwort (#PCDATA)>
